@@ -14,12 +14,42 @@
     .section { display: none !important; }
     .section.active { display: block !important; }
     #section-ace-etf.active, #section-all-etf.active { display: flex !important; flex-direction: column; }
+    /* 구성종목 패널: 기본 숨김, visible 클래스일 때만 표시 */
+    #holdings-panel { display: none !important; }
+    #holdings-panel.visible { display: block !important; }
+    /* 모바일 하단 탭바 */
+    .nav-mobile { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 6px 0 8px; gap: 2px; color: #64748b; background: none; border: none; cursor: pointer; transition: color 0.15s; }
+    .nav-mobile.active { color: #fff; }
+    .nav-mobile .tab-label { font-size: 10px; line-height: 1; }
+    @media (max-width: 767px) {
+      #section-ace-etf, #section-all-etf { height: calc(100dvh - 104px) !important; }
+      /* ETF 목록 모바일 전체 폭 */
+      #section-ace-etf .etf-list-panel { width: 100% !important; }
+      /* 홀딩스 패널: 모바일에서 전체화면 오버레이 */
+      #holdings-panel.visible {
+        position: fixed !important;
+        top: 48px; left: 0; right: 0; bottom: 56px;
+        z-index: 40;
+        background: #0f172a;
+        overflow-y: auto;
+        width: 100% !important;
+        flex: none !important;
+        border-left: none !important;
+        padding: 1.5rem;
+      }
+    }
   </style>
 </head>
-<body class="bg-[#0f172a] min-h-screen flex text-white">
+<body class="bg-[#0f172a] min-h-screen flex flex-col md:flex-row text-white">
 
-  <!-- 사이드바 -->
-  <aside id="sidebar" class="flex flex-col bg-[#1e293b] border-r border-white/5 py-6 px-3 shrink-0">
+  <!-- 모바일 상단 헤더 -->
+  <header class="md:hidden sticky top-0 z-30 bg-[#1e293b] border-b border-white/5 px-4 flex items-center shrink-0" style="height:48px">
+    <span class="text-xs text-slate-500 uppercase tracking-widest font-semibold mr-2">Dashboard</span>
+    <span class="text-sm font-bold flex-1" id="mobile-title">날씨</span>
+  </header>
+
+  <!-- 사이드바 (데스크톱) -->
+  <aside id="sidebar" class="hidden md:flex flex-col bg-[#1e293b] border-r border-white/5 py-6 px-3 shrink-0">
     <div class="px-3 mb-8">
       <p class="text-xs text-slate-500 uppercase tracking-widest font-semibold">Dashboard</p>
     </div>
@@ -38,10 +68,10 @@
   </aside>
 
   <!-- 메인 컨텐츠 -->
-  <main class="flex-1 overflow-y-auto">
+  <main class="flex-1 overflow-y-auto min-h-0">
 
     <!-- ── 날씨 섹션 ── -->
-    <div id="section-weather" class="section active weather-bg min-h-screen p-6 md:p-10">
+    <div id="section-weather" class="section active weather-bg min-h-screen p-6 md:p-10 pb-20 md:pb-10">
       <div class="max-w-xl mx-auto space-y-5">
         <div id="loading" class="text-center text-white/60 py-16">날씨 정보를 불러오는 중...</div>
         <div id="error" class="hidden text-center text-white/60 py-16"></div>
@@ -112,14 +142,14 @@
       <div class="flex flex-1 overflow-hidden">
 
         <!-- 왼쪽: ETF 목록 -->
-        <div class="w-80 shrink-0 overflow-y-auto border-r border-white/5 p-3 space-y-1">
+        <div class="etf-list-panel w-full md:w-80 shrink-0 overflow-y-auto border-r border-white/5 p-3 space-y-1">
           <div id="etf-loading" class="text-center text-slate-500 py-16 text-sm">불러오는 중...</div>
           <div id="etf-error" class="hidden text-center text-red-400 py-16 text-sm"></div>
           <div id="etf-list" class="hidden space-y-1"></div>
         </div>
 
         <!-- 오른쪽: 구성종목 -->
-        <div id="holdings-panel" class="hidden flex-1 overflow-y-auto p-6 border-l border-white/5">
+        <div id="holdings-panel" class="flex-1 overflow-y-auto p-6 border-l border-white/5">
           <div id="holdings-loading" class="hidden flex items-center justify-center h-32 text-slate-500 text-sm">
             불러오는 중...
           </div>
@@ -183,11 +213,11 @@
       </div>
 
       <!-- 테이블 -->
-      <div class="flex-1 overflow-auto px-6 py-4">
+      <div class="flex-1 overflow-auto px-4 md:px-6 py-4">
         <div id="netf-loading" class="text-center text-slate-500 py-20 text-sm">불러오는 중...</div>
         <div id="netf-error" class="hidden text-center text-red-400 py-20 text-sm"></div>
-        <div id="netf-table-wrap" class="hidden">
-          <table class="w-full text-sm">
+        <div id="netf-table-wrap" class="hidden overflow-x-auto">
+          <table class="w-full text-sm min-w-[600px]">
             <thead class="sticky top-0 bg-[#0f172a]">
               <tr class="text-left text-slate-500 border-b border-white/10 text-xs">
                 <th class="pb-2 pr-4 font-medium">종목명</th>
@@ -207,28 +237,57 @@
 
   </main>
 
+  <!-- 모바일 하단 탭바 -->
+  <nav class="md:hidden fixed bottom-0 left-0 right-0 bg-[#1e293b] border-t border-white/5 flex z-50" style="height:56px">
+    <button class="nav-mobile active" data-section="weather">
+      <span class="text-xl">🌤️</span>
+      <span class="tab-label">날씨</span>
+    </button>
+    <button class="nav-mobile" data-section="ace-etf">
+      <span class="text-xl">📊</span>
+      <span class="tab-label">ACE ETF</span>
+    </button>
+    <button class="nav-mobile" data-section="all-etf">
+      <span class="text-xl">🗂️</span>
+      <span class="tab-label">전체 ETF</span>
+    </button>
+  </nav>
+
   <script src="main.js"></script>
   <script src="etf.js"></script>
   <script src="naver-etf-section.js"></script>
   <script>
+    const sectionTitles = { weather: '날씨', 'ace-etf': 'ACE ETF', 'all-etf': '전체 ETF' };
+
+    function switchSection(target) {
+      document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+      document.getElementById(`section-${target}`).classList.add('active');
+
+      document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+      const desktopNav = document.querySelector(`.nav-item[data-section="${target}"]`);
+      if (desktopNav) desktopNav.classList.add('active');
+
+      document.querySelectorAll('.nav-mobile').forEach(n => n.classList.remove('active'));
+      const mobileNav = document.querySelector(`.nav-mobile[data-section="${target}"]`);
+      if (mobileNav) mobileNav.classList.add('active');
+
+      const mobileTitle = document.getElementById('mobile-title');
+      if (mobileTitle) mobileTitle.textContent = sectionTitles[target] || '';
+    }
+
     // ── 사이드바 네비게이션 ──
-    const navItems = document.querySelectorAll('.nav-item');
-    navItems.forEach(item => {
-      item.addEventListener('click', () => {
-        navItems.forEach(n => n.classList.remove('active'));
-        item.classList.add('active');
-        const target = item.dataset.section;
-        document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
-        document.getElementById(`section-${target}`).classList.add('active');
-      });
+    document.querySelectorAll('.nav-item').forEach(item => {
+      item.addEventListener('click', () => switchSection(item.dataset.section));
+    });
+
+    // ── 모바일 하단 탭바 ──
+    document.querySelectorAll('.nav-mobile').forEach(item => {
+      item.addEventListener('click', () => switchSection(item.dataset.section));
     });
 
     // ── URL 해시로 초기 섹션 결정 ──
     const hash = location.hash.replace('#', '');
-    if (hash) {
-      const found = document.querySelector(`[data-section="${hash}"]`);
-      if (found) found.click();
-    }
+    if (hash) switchSection(hash);
   </script>
 </body>
 </html>

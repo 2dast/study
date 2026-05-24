@@ -65,7 +65,7 @@ async function loadHoldings(fund) {
     el.classList.toggle('bg-white/10', isSelected);
   });
 
-  document.getElementById('holdings-panel').classList.remove('hidden');
+  document.getElementById('holdings-panel').classList.add('visible');
   document.getElementById('holdings-content').classList.add('hidden');
   document.getElementById('holdings-loading').classList.remove('hidden');
 
@@ -108,7 +108,7 @@ function closeHoldings() {
   document.querySelectorAll('.etf-card').forEach(el => {
     el.classList.remove('ring-1', 'ring-blue-500/50', 'bg-white/10');
   });
-  document.getElementById('holdings-panel').classList.add('hidden');
+  document.getElementById('holdings-panel').classList.remove('visible');
 }
 
 async function initEtf() {
