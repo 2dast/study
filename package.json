@@ -7,7 +7,8 @@
   },
   "packageManager": "pnpm@11.2.2",
   "scripts": {
-    "crawl": "node src/crawl.js"
+    "crawl": "node src/crawl.js",
+    "crawl:etf": "node src/crawl-etf.js"
   },
   "dependencies": {
     "puppeteer": "latest"
