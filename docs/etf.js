@@ -11,51 +11,51 @@ function fmtAum(v) {
 }
 
 function fmtRt(v) {
-  if (v == null) return '<span class="text-gray-300">-</span>';
-  const cls = v > 0 ? 'text-red-500' : v < 0 ? 'text-blue-500' : 'text-gray-400';
+  if (v == null) return '<span class="text-slate-600">-</span>';
+  const cls = v > 0 ? 'text-red-400' : v < 0 ? 'text-blue-400' : 'text-slate-500';
   return `<span class="${cls}">${v > 0 ? '+' : ''}${v.toFixed(2)}%</span>`;
 }
 
-function renderList(funds) {
-  const listEl = document.getElementById('fund-list');
-  document.getElementById('count').textContent = `${funds.length}개`;
+function renderEtfList(funds) {
+  const listEl = document.getElementById('etf-list');
+  document.getElementById('etf-count').textContent = `${funds.length}개`;
   listEl.innerHTML = '';
 
   funds.forEach(f => {
     const card = document.createElement('div');
-    card.className = 'bg-white rounded-xl border border-gray-100 p-4 hover:shadow-md transition cursor-pointer';
+    card.className = 'bg-white/5 hover:bg-white/10 border border-white/5 rounded-xl p-4 cursor-pointer transition';
     card.innerHTML = `
-      <div class="flex items-start justify-between gap-2">
+      <div class="flex items-start justify-between gap-3">
         <div class="flex-1 min-w-0">
-          <p class="font-semibold text-gray-800 text-sm leading-snug">${safe(f.fundNm)}</p>
-          <p class="text-xs text-gray-400 mt-0.5">${safe(f.stockCd?.slice(3, 9) ?? '')} · ${safe(f.type)} · AUM ${fmtAum(f.aum)}</p>
+          <p class="font-semibold text-white text-sm leading-snug">${safe(f.fundNm)}</p>
+          <p class="text-xs text-slate-500 mt-1">${safe(f.stockCd?.slice(3, 9) ?? '')} · ${safe(f.type)} · AUM ${fmtAum(f.aum)}</p>
         </div>
-        <div class="text-right text-xs shrink-0">
-          <p class="text-gray-400">1주 ${fmtRt(f.wk1)}</p>
-          <p class="text-gray-400">1개월 ${fmtRt(f.mm1)}</p>
+        <div class="text-right text-xs shrink-0 space-y-0.5">
+          <p>1주 ${fmtRt(f.wk1)}</p>
+          <p>1개월 ${fmtRt(f.mm1)}</p>
         </div>
       </div>
     `;
-    card.addEventListener('click', () => openModal(f));
+    card.addEventListener('click', () => openEtfModal(f));
     listEl.appendChild(card);
   });
 }
 
-function applyFilter() {
-  const q    = document.getElementById('search').value.trim().toLowerCase();
-  const type = document.getElementById('type-filter').value;
+function applyEtfFilter() {
+  const q    = document.getElementById('etf-search').value.trim().toLowerCase();
+  const type = document.getElementById('etf-type').value;
   const filtered = allFunds.filter(f =>
     (!q    || f.fundNm.toLowerCase().includes(q)) &&
     (!type || f.type?.includes(type))
   );
-  renderList(filtered);
+  renderEtfList(filtered);
 }
 
-async function openModal(fund) {
-  document.getElementById('modal').classList.remove('hidden');
+async function openEtfModal(fund) {
+  document.getElementById('etf-modal').classList.remove('hidden');
   document.getElementById('modal-title').textContent = fund.fundNm;
   document.getElementById('modal-date').textContent  = '';
-  document.getElementById('modal-body').innerHTML    = '<div class="text-center text-gray-400 py-8">불러오는 중...</div>';
+  document.getElementById('modal-body').innerHTML    = '<div class="text-center text-slate-500 py-8">불러오는 중...</div>';
 
   try {
     const res = await fetch(`data/etf/${fund.fundCd}.json`);
@@ -66,27 +66,27 @@ async function openModal(fund) {
 
     const body = document.getElementById('modal-body');
     if (!d.holdings?.length) {
-      body.innerHTML = '<p class="text-center text-gray-400 py-8">구성종목 데이터 없음</p>';
+      body.innerHTML = '<p class="text-center text-slate-500 py-8">구성종목 데이터 없음</p>';
       return;
     }
 
     body.innerHTML = `
       <table class="w-full text-sm">
         <thead>
-          <tr class="text-left text-gray-400 border-b text-xs">
+          <tr class="text-left text-slate-500 border-b border-white/10 text-xs">
             <th class="pb-2 pr-2">#</th>
             <th class="pb-2 pr-4">종목명</th>
             <th class="pb-2 pr-4">티커</th>
             <th class="pb-2 text-right">비중</th>
           </tr>
         </thead>
-        <tbody class="divide-y divide-gray-50">
+        <tbody class="divide-y divide-white/5">
           ${d.holdings.map(h => `
-            <tr class="hover:bg-gray-50">
-              <td class="py-2 pr-2 text-gray-300 text-xs">${h.rank}</td>
-              <td class="py-2 pr-4 font-medium text-gray-800">${safe(h.name)}</td>
-              <td class="py-2 pr-4 text-gray-500 text-xs">${safe(h.ticker)}</td>
-              <td class="py-2 text-right font-semibold ${h.weight >= 10 ? 'text-blue-600' : 'text-gray-700'}">${h.weight?.toFixed(2)}%</td>
+            <tr class="hover:bg-white/5">
+              <td class="py-2 pr-2 text-slate-600 text-xs">${h.rank}</td>
+              <td class="py-2 pr-4 text-white font-medium">${safe(h.name)}</td>
+              <td class="py-2 pr-4 text-slate-400 text-xs">${safe(h.ticker)}</td>
+              <td class="py-2 text-right font-semibold ${h.weight >= 10 ? 'text-blue-400' : 'text-slate-300'}">${h.weight?.toFixed(2)}%</td>
             </tr>
           `).join('')}
         </tbody>
@@ -94,19 +94,19 @@ async function openModal(fund) {
     `;
   } catch (err) {
     document.getElementById('modal-body').innerHTML =
-      `<p class="text-center text-red-400 py-8">데이터 로드 실패: ${safe(err.message)}</p>`;
+      `<p class="text-center text-red-400 py-8">로드 실패: ${safe(err.message)}</p>`;
   }
 }
 
-function closeModal() {
-  document.getElementById('modal').classList.add('hidden');
+function closeEtfModal() {
+  document.getElementById('etf-modal').classList.add('hidden');
 }
 
-document.getElementById('modal').addEventListener('click', e => {
-  if (e.target === document.getElementById('modal')) closeModal();
+document.getElementById('etf-modal').addEventListener('click', e => {
+  if (e.target === document.getElementById('etf-modal')) closeEtfModal();
 });
 
-async function init() {
+async function initEtf() {
   try {
     const res = await fetch('data/etf/funds.json');
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -114,22 +114,22 @@ async function init() {
     allFunds = data.funds ?? [];
 
     if (data.updatedAt) {
-      document.getElementById('updated').textContent =
+      document.getElementById('etf-updated').textContent =
         new Date(data.updatedAt).toLocaleString('ko-KR', { timeZone: 'Asia/Seoul' });
     }
 
-    document.getElementById('loading').classList.add('hidden');
-    document.getElementById('fund-list').classList.remove('hidden');
-    renderList(allFunds);
+    document.getElementById('etf-loading').classList.add('hidden');
+    document.getElementById('etf-list').classList.remove('hidden');
+    renderEtfList(allFunds);
 
-    document.getElementById('search').addEventListener('input', applyFilter);
-    document.getElementById('type-filter').addEventListener('change', applyFilter);
+    document.getElementById('etf-search').addEventListener('input', applyEtfFilter);
+    document.getElementById('etf-type').addEventListener('change', applyEtfFilter);
   } catch (err) {
-    document.getElementById('loading').classList.add('hidden');
-    const errEl = document.getElementById('error');
+    document.getElementById('etf-loading').classList.add('hidden');
+    const errEl = document.getElementById('etf-error');
     errEl.textContent = `데이터를 불러올 수 없습니다: ${err.message}`;
     errEl.classList.remove('hidden');
   }
 }
 
-init();
+initEtf();

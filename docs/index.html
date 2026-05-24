@@ -3,72 +3,162 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>네이버 날씨</title>
+  <title>대시보드</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="style.css" />
+  <style>
+    #sidebar { width: 220px; min-width: 220px; }
+    .nav-item { display: flex; align-items: center; gap: 10px; padding: 10px 16px; border-radius: 10px; cursor: pointer; font-size: 0.9rem; color: #94a3b8; transition: background 0.15s, color 0.15s; }
+    .nav-item:hover { background: rgba(255,255,255,0.07); color: #e2e8f0; }
+    .nav-item.active { background: rgba(255,255,255,0.13); color: #fff; font-weight: 600; }
+    .section { display: none; }
+    .section.active { display: block; }
+  </style>
 </head>
-<body class="weather-bg min-h-screen p-4 md:p-8">
+<body class="bg-[#0f172a] min-h-screen flex text-white">
 
-  <div class="max-w-2xl mx-auto space-y-5">
+  <!-- 사이드바 -->
+  <aside id="sidebar" class="flex flex-col bg-[#1e293b] border-r border-white/5 py-6 px-3 shrink-0">
+    <div class="px-3 mb-8">
+      <p class="text-xs text-slate-500 uppercase tracking-widest font-semibold">Dashboard</p>
+    </div>
 
-    <!-- 현재 날씨 카드 -->
-    <div id="loading" class="text-center text-white/80 py-16 text-lg">날씨 정보를 불러오는 중...</div>
-    <div id="error" class="hidden text-center text-white/80 py-16"></div>
+    <nav class="flex flex-col gap-1">
+      <div class="nav-item active" data-section="weather">
+        <span class="text-lg">🌤️</span> 날씨
+      </div>
+      <div class="nav-item" data-section="ace-etf">
+        <span class="text-lg">📊</span> ACE ETF
+      </div>
+      <div class="nav-item" data-section="all-etf">
+        <span class="text-lg">🗂️</span> 전체 ETF
+      </div>
+    </nav>
+  </aside>
 
-    <div id="weather-card" class="hidden glass rounded-3xl p-6 text-white shadow-2xl">
-      <div class="flex justify-between items-start mb-4">
+  <!-- 메인 컨텐츠 -->
+  <main class="flex-1 overflow-y-auto">
+
+    <!-- ── 날씨 섹션 ── -->
+    <div id="section-weather" class="section active weather-bg min-h-screen p-6 md:p-10">
+      <div class="max-w-xl mx-auto space-y-5">
+        <div id="loading" class="text-center text-white/60 py-16">날씨 정보를 불러오는 중...</div>
+        <div id="error" class="hidden text-center text-white/60 py-16"></div>
+
+        <div id="weather-card" class="hidden glass rounded-3xl p-6 text-white shadow-2xl">
+          <div class="flex justify-between items-start mb-4">
+            <div>
+              <h1 id="location" class="text-xl font-bold">--</h1>
+              <p id="condition" class="text-white/70 text-sm mt-0.5">--</p>
+            </div>
+            <div id="weather-icon" class="text-5xl leading-none">🌤️</div>
+          </div>
+          <div class="text-center my-5">
+            <div class="text-8xl font-thin tracking-tighter" id="temp">--</div>
+            <div class="text-white/60 text-sm mt-1">체감 <span id="feels-like">--</span>°</div>
+          </div>
+          <div class="grid grid-cols-2 gap-2 mb-5">
+            <div class="detail-box"><span class="label">습도</span><span class="value" id="humidity">--%</span></div>
+            <div class="detail-box"><span class="label">풍속</span><span class="value" id="wind">-- m/s</span></div>
+          </div>
+          <div id="forecast" class="space-y-2"></div>
+          <p class="text-center text-white/40 text-xs mt-5" id="updated"></p>
+        </div>
+
+        <div id="history-section" class="hidden glass rounded-3xl p-6 text-white shadow-2xl">
+          <h2 class="font-semibold text-lg mb-4">오늘의 기록 <span id="history-date" class="text-white/50 text-sm font-normal ml-1"></span></h2>
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm">
+              <thead>
+                <tr class="border-b border-white/20 text-white/60 text-left">
+                  <th class="pb-2 pr-4">시각</th><th class="pb-2 pr-4">기온</th><th class="pb-2 pr-4">체감</th>
+                  <th class="pb-2 pr-4">날씨</th><th class="pb-2 pr-4">습도</th><th class="pb-2">풍속</th>
+                </tr>
+              </thead>
+              <tbody id="history-body" class="divide-y divide-white/10"></tbody>
+            </table>
+          </div>
+          <p id="history-empty" class="hidden text-center text-white/40 py-4 text-sm">오늘 기록이 없습니다.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── ACE ETF 섹션 ── -->
+    <div id="section-ace-etf" class="section min-h-screen bg-[#0f172a]">
+      <div class="sticky top-0 bg-[#0f172a]/95 backdrop-blur border-b border-white/5 px-6 py-3 flex items-center gap-3 z-10">
+        <h1 class="text-base font-bold flex-1">ACE ETF 종목리스트</h1>
+        <span id="etf-updated" class="text-xs text-slate-500"></span>
+      </div>
+
+      <div class="px-6 py-4 flex gap-2 flex-wrap">
+        <input id="etf-search" type="text" placeholder="ETF명 검색..."
+          class="bg-white/5 border border-white/10 rounded-lg px-3 py-2 text-sm flex-1 min-w-48 text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500/40" />
+        <select id="etf-type" class="bg-white/5 border border-white/10 rounded-lg px-3 py-2 text-sm text-white focus:outline-none">
+          <option value="">전체 유형</option>
+          <option value="주식">주식</option>
+          <option value="채권">채권</option>
+          <option value="리츠">리츠</option>
+          <option value="원자재">원자재</option>
+          <option value="혼합">혼합</option>
+        </select>
+        <span id="etf-count" class="self-center text-sm text-slate-500"></span>
+      </div>
+
+      <div class="px-6 pb-10">
+        <div id="etf-loading" class="text-center text-slate-500 py-16">불러오는 중...</div>
+        <div id="etf-error" class="hidden text-center text-red-400 py-16"></div>
+        <div id="etf-list" class="hidden space-y-2"></div>
+      </div>
+    </div>
+
+    <!-- ── 전체 ETF 섹션 ── -->
+    <div id="section-all-etf" class="section min-h-screen bg-[#0f172a] flex items-center justify-center">
+      <div class="text-center space-y-4 text-slate-500">
+        <div class="text-6xl">🗂️</div>
+        <p class="text-xl font-semibold text-slate-300">전체 ETF</p>
+        <p class="text-sm">KRX 전체 ETF 데이터 준비 중입니다.</p>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- 구성종목 모달 -->
+  <div id="etf-modal" class="hidden fixed inset-0 bg-black/60 z-50 flex items-end md:items-center justify-center p-4">
+    <div class="bg-[#1e293b] border border-white/10 rounded-2xl w-full max-w-2xl max-h-[80vh] flex flex-col shadow-2xl">
+      <div class="flex items-center justify-between px-5 py-4 border-b border-white/10">
         <div>
-          <h1 id="location" class="text-xl font-bold tracking-wide">--</h1>
-          <p id="condition" class="text-white/70 text-sm mt-0.5">--</p>
+          <h2 id="modal-title" class="font-bold text-white"></h2>
+          <p id="modal-date" class="text-xs text-slate-400 mt-0.5"></p>
         </div>
-        <div id="weather-icon" class="text-5xl leading-none">🌤️</div>
+        <button onclick="closeEtfModal()" class="text-slate-400 hover:text-white text-2xl leading-none">&times;</button>
       </div>
-
-      <div class="text-center my-5">
-        <div class="text-8xl font-thin tracking-tighter" id="temp">--</div>
-        <div class="text-white/60 text-sm mt-1">체감 <span id="feels-like">--</span>°</div>
+      <div id="modal-body" class="overflow-y-auto p-5 flex-1 text-sm">
+        <div class="text-center text-slate-500 py-8">불러오는 중...</div>
       </div>
-
-      <div class="grid grid-cols-2 gap-2 mb-5">
-        <div class="detail-box">
-          <span class="label">습도</span>
-          <span class="value" id="humidity">--%</span>
-        </div>
-        <div class="detail-box">
-          <span class="label">풍속</span>
-          <span class="value" id="wind">-- m/s</span>
-        </div>
-      </div>
-
-      <!-- 주간 예보 -->
-      <div id="forecast" class="space-y-2"></div>
-
-      <p class="text-center text-white/40 text-xs mt-5" id="updated"></p>
     </div>
-
-    <!-- 오늘 시간별 기록 테이블 -->
-    <div id="history-section" class="hidden glass rounded-3xl p-6 text-white shadow-2xl">
-      <h2 class="font-semibold text-lg mb-4">오늘의 기록 <span id="history-date" class="text-white/50 text-sm font-normal ml-1"></span></h2>
-      <div class="overflow-x-auto">
-        <table class="w-full text-sm">
-          <thead>
-            <tr class="border-b border-white/20 text-white/60 text-left">
-              <th class="pb-2 pr-4">시각</th>
-              <th class="pb-2 pr-4">기온</th>
-              <th class="pb-2 pr-4">체감</th>
-              <th class="pb-2 pr-4">날씨</th>
-              <th class="pb-2 pr-4">습도</th>
-              <th class="pb-2">풍속</th>
-            </tr>
-          </thead>
-          <tbody id="history-body" class="divide-y divide-white/10"></tbody>
-        </table>
-      </div>
-      <p id="history-empty" class="hidden text-center text-white/40 py-4 text-sm">오늘 기록이 없습니다.</p>
-    </div>
-
   </div>
 
   <script src="main.js"></script>
+  <script src="etf.js"></script>
+  <script>
+    // ── 사이드바 네비게이션 ──
+    const navItems = document.querySelectorAll('.nav-item');
+    navItems.forEach(item => {
+      item.addEventListener('click', () => {
+        navItems.forEach(n => n.classList.remove('active'));
+        item.classList.add('active');
+        const target = item.dataset.section;
+        document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+        document.getElementById(`section-${target}`).classList.add('active');
+      });
+    });
+
+    // ── URL 해시로 초기 섹션 결정 ──
+    const hash = location.hash.replace('#', '');
+    if (hash) {
+      const found = document.querySelector(`[data-section="${hash}"]`);
+      if (found) found.click();
+    }
+  </script>
 </body>
 </html>
