@@ -112,8 +112,6 @@ function closeHoldings() {
   document.getElementById('holdings-empty').classList.remove('hidden');
 }
 
-document.getElementById('holdings-close').addEventListener('click', closeHoldings);
-
 async function initEtf() {
   try {
     const res = await fetch('data/etf/funds.json');

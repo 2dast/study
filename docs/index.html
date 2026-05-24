@@ -11,8 +11,9 @@
     .nav-item { display: flex; align-items: center; gap: 10px; padding: 10px 16px; border-radius: 10px; cursor: pointer; font-size: 0.9rem; color: #94a3b8; transition: background 0.15s, color 0.15s; }
     .nav-item:hover { background: rgba(255,255,255,0.07); color: #e2e8f0; }
     .nav-item.active { background: rgba(255,255,255,0.13); color: #fff; font-weight: 600; }
-    .section { display: none; }
-    .section.active { display: block; }
+    .section { display: none !important; }
+    .section.active { display: block !important; }
+    #section-ace-etf.active, #section-all-etf.active { display: flex !important; flex-direction: column; }
   </style>
 </head>
 <body class="bg-[#0f172a] min-h-screen flex text-white">
@@ -131,7 +132,7 @@
                 <h2 id="holdings-title" class="text-lg font-bold text-white"></h2>
                 <p id="holdings-date" class="text-xs text-slate-500 mt-0.5"></p>
               </div>
-              <button id="holdings-close" class="text-slate-500 hover:text-white text-xl leading-none ml-4 shrink-0" title="닫기">&times;</button>
+              <button id="holdings-close" onclick="closeHoldings()" class="text-slate-500 hover:text-white text-2xl leading-none ml-4 px-1 shrink-0" title="닫기">&times;</button>
             </div>
             <table class="w-full text-sm">
               <thead>
