@@ -103,6 +103,15 @@ async function loadHoldings(fund) {
   }
 }
 
+function closeHoldings() {
+  selectedFundCd = null;
+  document.querySelectorAll('.etf-card').forEach(el => {
+    el.classList.remove('ring-1', 'ring-blue-500/50', 'bg-white/10');
+  });
+  document.getElementById('holdings-content').classList.add('hidden');
+  document.getElementById('holdings-empty').classList.remove('hidden');
+}
+
 async function initEtf() {
   try {
     const res = await fetch('data/etf/funds.json');
@@ -121,6 +130,7 @@ async function initEtf() {
 
     document.getElementById('etf-search').addEventListener('input', applyEtfFilter);
     document.getElementById('etf-type').addEventListener('change', applyEtfFilter);
+    document.getElementById('holdings-close').addEventListener('click', closeHoldings);
   } catch (err) {
     document.getElementById('etf-loading').classList.add('hidden');
     const errEl = document.getElementById('etf-error');
