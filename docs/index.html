@@ -119,14 +119,11 @@
         </div>
 
         <!-- 오른쪽: 구성종목 -->
-        <div class="flex-1 overflow-y-auto p-6">
-          <div id="holdings-empty" class="flex items-center justify-center h-full text-slate-600 text-sm">
-            왼쪽에서 ETF를 선택하세요
-          </div>
-          <div id="holdings-loading" class="hidden flex items-center justify-center h-full text-slate-500 text-sm">
+        <div id="holdings-panel" class="hidden flex-1 overflow-y-auto p-6 border-l border-white/5">
+          <div id="holdings-loading" class="hidden flex items-center justify-center h-32 text-slate-500 text-sm">
             불러오는 중...
           </div>
-          <div id="holdings-content" class="hidden">
+          <div id="holdings-content">
             <div class="flex items-start justify-between mb-4">
               <div>
                 <h2 id="holdings-title" class="text-lg font-bold text-white"></h2>
