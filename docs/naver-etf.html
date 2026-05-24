@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>전체 ETF 시세</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 min-h-screen">
+
+  <!-- 헤더 -->
+  <header class="bg-white border-b sticky top-0 z-10 px-4 py-3">
+    <div class="max-w-6xl mx-auto flex items-center gap-3">
+      <nav class="flex gap-3 text-sm text-gray-400">
+        <a href="index.html" class="hover:text-gray-600">날씨</a>
+        <span class="text-gray-200">|</span>
+        <a href="etf.html" class="hover:text-gray-600">ACE ETF</a>
+        <span class="text-gray-200">|</span>
+        <span class="text-gray-700 font-semibold">전체 ETF</span>
+      </nav>
+      <div class="flex-1"></div>
+      <span id="updated" class="text-xs text-gray-400"></span>
+      <span id="count" class="text-xs text-gray-500 font-medium"></span>
+    </div>
+  </header>
+
+  <!-- 필터 바 -->
+  <div class="max-w-6xl mx-auto px-4 py-3 flex gap-2 flex-wrap items-center">
+    <input id="search" type="text" placeholder="ETF명 또는 코드 검색..."
+      class="border rounded-lg px-3 py-2 text-sm flex-1 min-w-52 focus:outline-none focus:ring-2 focus:ring-blue-300" />
+
+    <select id="sort" class="border rounded-lg px-3 py-2 text-sm focus:outline-none">
+      <option value="name">이름순</option>
+      <option value="changeRate_desc">등락률 ↓</option>
+      <option value="changeRate_asc">등락률 ↑</option>
+      <option value="return3m_desc">3개월수익 ↓</option>
+      <option value="return3m_asc">3개월수익 ↑</option>
+      <option value="aum_desc">자산 큰 순</option>
+      <option value="volume_desc">거래량 많은 순</option>
+    </select>
+
+    <!-- CSV 날짜 선택 (이력 조회) -->
+    <div class="flex items-center gap-1 text-sm text-gray-500">
+      <span>이력:</span>
+      <select id="month-select" class="border rounded-lg px-2 py-2 text-sm focus:outline-none">
+        <option value="">-- 월 선택 --</option>
+      </select>
+      <select id="date-select" class="border rounded-lg px-2 py-2 text-sm focus:outline-none" disabled>
+        <option value="">-- 날짜 --</option>
+      </select>
+      <button id="load-history" class="px-3 py-2 bg-blue-50 text-blue-600 rounded-lg hover:bg-blue-100 disabled:opacity-40" disabled>조회</button>
+    </div>
+
+    <button id="clear-history" class="hidden px-3 py-2 bg-gray-100 text-gray-600 rounded-lg hover:bg-gray-200 text-sm">최신 데이터로</button>
+  </div>
+
+  <!-- 테이블 영역 -->
+  <main class="max-w-6xl mx-auto px-4 pb-10">
+    <div id="loading" class="text-center text-gray-400 py-20">불러오는 중...</div>
+    <div id="error" class="hidden text-center text-red-400 py-20"></div>
+
+    <!-- 데스크톱 테이블 -->
+    <div id="table-wrap" class="hidden overflow-x-auto rounded-xl border bg-white shadow-sm">
+      <table class="w-full text-sm">
+        <thead class="bg-gray-50 border-b">
+          <tr class="text-left text-gray-500 text-xs">
+            <th class="px-4 py-3 font-medium">종목명</th>
+            <th class="px-3 py-3 font-medium text-right cursor-pointer hover:text-gray-800" data-sort="price">현재가</th>
+            <th class="px-3 py-3 font-medium text-right cursor-pointer hover:text-gray-800" data-sort="changeRate">등락률</th>
+            <th class="px-3 py-3 font-medium text-right cursor-pointer hover:text-gray-800" data-sort="nav">NAV</th>
+            <th class="px-3 py-3 font-medium text-right cursor-pointer hover:text-gray-800" data-sort="return3m">3개월수익</th>
+            <th class="px-3 py-3 font-medium text-right cursor-pointer hover:text-gray-800" data-sort="volume">거래량</th>
+            <th class="px-3 py-3 font-medium text-right cursor-pointer hover:text-gray-800" data-sort="aum">자산총계</th>
+          </tr>
+        </thead>
+        <tbody id="etf-tbody" class="divide-y divide-gray-50"></tbody>
+      </table>
+    </div>
+  </main>
+
+  <script src="naver-etf.js"></script>
+</body>
+</html>
