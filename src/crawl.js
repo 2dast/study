@@ -43,32 +43,29 @@ async function fetchWeather() {
 
     const weather = await page.evaluate(() => {
       const txt = sel => document.querySelector(sel)?.textContent?.trim() ?? '--';
-      const attr = (sel, a) => document.querySelector(sel)?.getAttribute(a)?.trim() ?? '--';
 
       // 현재 기온
-      const tempRaw = txt('.temperature_text strong') || txt('.today_area .temperature');
-      const temp = tempRaw.replace(/[^0-9\-]/g, '') || '--';
+      const tempRaw = txt('.card_now_temperature');
+      const temp = tempRaw.replace(/[^0-9.\-]/g, '') || '--';
 
-      // 날씨 상태
-      const condition = txt('p.description')
-        || txt('.weather_area .weather_text')
-        || txt('.summary')
-        || '--';
+      // 날씨 상태 (첫 줄만 추출)
+      const condRaw = txt('.card_detail_date');
+      const condition = condRaw.split('\n')[0].trim() || '--';
 
-      // 체감온도
-      const feelsRaw = txt('[class*="feel"]') || txt('[class*="feels"]');
-      const feelsLike = feelsRaw.replace(/[^0-9\-]/g, '') || '--';
+      // title → data 맵 생성 (체감/풍속/습도 등)
+      const detailMap = {};
+      document.querySelectorAll('.card_description_title').forEach(title => {
+        const data = title.nextElementSibling;
+        if (data?.classList.contains('card_description_data')) {
+          detailMap[title.textContent.trim()] = data.textContent.trim();
+        }
+      });
 
-      // 습도
-      const humRaw = document.querySelector('[class*="humidity"] em')?.textContent?.trim()
-        || document.querySelector('.humidity')?.textContent?.trim() || '--';
-      const humidity = humRaw.replace(/[^0-9]/g, '') || '--';
-
-      // 풍속
-      const windRaw = document.querySelector('[class*="wind_speed"]')?.textContent?.trim()
-        || document.querySelector('[class*="windspeed"]')?.textContent?.trim()
-        || document.querySelector('.wind_area em')?.textContent?.trim() || '--';
-      const wind = windRaw.replace(/[^0-9.]/g, '') || '--';
+      const feelsLike = (detailMap['체감'] || '--').replace(/[^0-9.\-]/g, '') || '--';
+      const humidity  = (detailMap['습도'] || '--').replace(/[^0-9]/g, '') || '--';
+      // 풍향 키("서풍","북풍" 등)에서 속도만 추출
+      const windEntry = Object.entries(detailMap).find(([k]) => k.includes('풍'));
+      const wind = windEntry ? windEntry[1].replace(/[^0-9.]/g, '') || '--' : '--';
 
       // 위치
       const location = txt('.location_name') || txt('.select_box .option_current') || '서울';
@@ -76,11 +73,11 @@ async function fetchWeather() {
       // 주간 예보
       const forecast = [];
       document.querySelectorAll('.week_item').forEach(el => {
-        const day       = el.querySelector('.day')?.textContent?.trim() ?? '';
-        const cond      = el.querySelector('.weather_text')?.textContent?.trim()
+        const day  = el.querySelector('.day')?.textContent?.trim() ?? '';
+        const cond = el.querySelector('.weather_text')?.textContent?.trim()
           || el.querySelector('.weather_icon')?.getAttribute('title') || '';
-        const low       = (el.querySelector('[class*="low"]')?.textContent?.trim() ?? '').replace(/[^0-9\-]/g, '');
-        const high      = (el.querySelector('[class*="high"]')?.textContent?.trim() ?? '').replace(/[^0-9\-]/g, '');
+        const low  = (el.querySelector('[class*="low"]')?.textContent?.trim() ?? '').replace(/[^0-9\-]/g, '');
+        const high = (el.querySelector('[class*="high"]')?.textContent?.trim() ?? '').replace(/[^0-9\-]/g, '');
         if (day) forecast.push({ day, condition: cond, low, high });
       });
 

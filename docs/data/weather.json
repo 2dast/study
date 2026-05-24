@@ -1,12 +1,73 @@
 {
-  "updatedAt": "2026-05-24T09:04:23.403Z",
-  "location": "서울",
+  "updatedAt": "2026-05-24T09:21:48.566Z",
+  "location": "노원구 공릉2동",
   "current": {
-    "temp": "--",
-    "feelsLike": "--",
-    "condition": "--",
-    "humidity": "--",
-    "wind": "--"
+    "temp": "29.3",
+    "feelsLike": "27.9",
+    "condition": "맑음",
+    "humidity": "40",
+    "wind": "0.1"
   },
-  "forecast": []
+  "forecast": [
+    {
+      "day": "오늘",
+      "condition": "맑음",
+      "low": "16",
+      "high": "29"
+    },
+    {
+      "day": "내일",
+      "condition": "구름많음",
+      "low": "18",
+      "high": "30"
+    },
+    {
+      "day": "화",
+      "condition": "흐리고 한때 비",
+      "low": "20",
+      "high": "24"
+    },
+    {
+      "day": "수",
+      "condition": "구름많고 한때 비",
+      "low": "20",
+      "high": "28"
+    },
+    {
+      "day": "목",
+      "condition": "구름많음",
+      "low": "18",
+      "high": "25"
+    },
+    {
+      "day": "금",
+      "condition": "맑음",
+      "low": "17",
+      "high": "26"
+    },
+    {
+      "day": "토",
+      "condition": "맑음",
+      "low": "16",
+      "high": "27"
+    },
+    {
+      "day": "일",
+      "condition": "맑음",
+      "low": "15",
+      "high": "27"
+    },
+    {
+      "day": "월",
+      "condition": "맑음",
+      "low": "16",
+      "high": "28"
+    },
+    {
+      "day": "화",
+      "condition": "맑음",
+      "low": "16",
+      "high": "27"
+    }
+  ]
 }
