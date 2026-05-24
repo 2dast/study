@@ -108,6 +108,7 @@ function closeHoldings() {
   document.querySelectorAll('.etf-card').forEach(el => {
     el.classList.remove('ring-1', 'ring-blue-500/50', 'bg-white/10');
   });
+  document.getElementById('holdings-loading').classList.add('hidden');
   document.getElementById('holdings-content').classList.add('hidden');
   document.getElementById('holdings-empty').classList.remove('hidden');
 }
