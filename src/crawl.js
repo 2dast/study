@@ -1,121 +1,140 @@
-import axios from 'axios';
-import * as cheerio from 'cheerio';
+import puppeteer from 'puppeteer';
 import { writeFileSync, appendFileSync, existsSync, mkdirSync } from 'fs';
 import { resolve, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const DATA_DIR   = resolve(__dirname, '../docs/data');
+const DATA_DIR = resolve(__dirname, '../docs/data');
 const TARGET_URL = 'https://weather.naver.com/';
 
-// KST 기준 날짜 문자열 반환
-function kstDateStr(date = new Date()) {
-  return new Date(date.getTime() + 9 * 60 * 60 * 1000)
-    .toISOString()
-    .slice(0, 10); // YYYY-MM-DD
-}
-
-function kstMonthStr(date = new Date()) {
-  return kstDateStr(date).slice(0, 7); // YYYY-MM
+function getKST() {
+  const kst = new Date(Date.now() + 9 * 60 * 60 * 1000);
+  const pad = n => String(n).padStart(2, '0');
+  const y = kst.getUTCFullYear();
+  const m = pad(kst.getUTCMonth() + 1);
+  const d = pad(kst.getUTCDate());
+  return {
+    dateHyphen: `${y}-${m}-${d}`,
+    monthHyphen: `${y}-${m}`,
+  };
 }
 
 async function fetchWeather() {
-  console.log(`날씨 수집 시작: ${TARGET_URL}`);
+  console.log(`브라우저 시작 → ${TARGET_URL}`);
 
-  const { data: html } = await axios.get(TARGET_URL, {
-    headers: {
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
-      'Accept-Language': 'ko-KR,ko;q=0.9',
-      'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-    },
-    timeout: 15000,
+  const browser = await puppeteer.launch({
+    args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'],
+    headless: true,
   });
 
-  const $ = cheerio.load(html);
+  try {
+    const page = await browser.newPage();
+    await page.setUserAgent(
+      'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36'
+    );
+    await page.setExtraHTTPHeaders({ 'Accept-Language': 'ko-KR,ko;q=0.9' });
 
-  const weather = {
-    updatedAt: new Date().toISOString(),
-    location: '서울',
-    current: { temp: '--', feelsLike: '--', condition: '--', humidity: '--', wind: '--' },
-    forecast: [],
-  };
+    await page.goto(TARGET_URL, { waitUntil: 'networkidle2', timeout: 30000 });
 
-  const locationText = $('.location_name').first().text().trim()
-    || $('.select_box .option_current').first().text().trim();
-  if (locationText) weather.location = locationText;
+    // 기온 로드 대기
+    await page.waitForSelector('.temperature_text', { timeout: 15000 }).catch(() => {});
 
-  const tempRaw = $('.temperature_text strong').first().text().trim()
-    || $('.today_area .temperature').first().text().trim();
-  weather.current.temp = tempRaw.replace(/[^0-9\-]/g, '') || '--';
+    const weather = await page.evaluate(() => {
+      const txt = sel => document.querySelector(sel)?.textContent?.trim() ?? '--';
+      const attr = (sel, a) => document.querySelector(sel)?.getAttribute(a)?.trim() ?? '--';
 
-  const condRaw = $('p.description').first().text().trim()
-    || $('.weather_area .weather_text').first().text().trim()
-    || $('.summary').first().text().trim();
-  if (condRaw) weather.current.condition = condRaw;
+      // 현재 기온
+      const tempRaw = txt('.temperature_text strong') || txt('.today_area .temperature');
+      const temp = tempRaw.replace(/[^0-9\-]/g, '') || '--';
 
-  const feelsRaw = $('[class*="feels"], [class*="feel"]').first().text().trim()
-    || $('.temperature_info .temperature').eq(1).text().trim();
-  weather.current.feelsLike = feelsRaw.replace(/[^0-9\-]/g, '') || '--';
+      // 날씨 상태
+      const condition = txt('p.description')
+        || txt('.weather_area .weather_text')
+        || txt('.summary')
+        || '--';
 
-  const humRaw = $('[class*="humidity"] em, .humidity').first().text().trim();
-  weather.current.humidity = humRaw.replace(/[^0-9]/g, '') || '--';
+      // 체감온도
+      const feelsRaw = txt('[class*="feel"]') || txt('[class*="feels"]');
+      const feelsLike = feelsRaw.replace(/[^0-9\-]/g, '') || '--';
 
-  const windRaw = $('[class*="wind_speed"], [class*="windspeed"]').first().text().trim()
-    || $('.wind_area em').first().text().trim();
-  weather.current.wind = windRaw.replace(/[^0-9.]/g, '') || '--';
+      // 습도
+      const humRaw = document.querySelector('[class*="humidity"] em')?.textContent?.trim()
+        || document.querySelector('.humidity')?.textContent?.trim() || '--';
+      const humidity = humRaw.replace(/[^0-9]/g, '') || '--';
 
-  $('.week_item').each((_, el) => {
-    const day       = $(el).find('.day').text().trim() || $(el).find('[class*="date"]').first().text().trim();
-    const condition = $(el).find('.weather_text').text().trim() || $(el).find('.weather_icon').attr('title') || '';
-    const low       = $(el).find('[class*="low"]').text().trim().replace(/[^0-9\-]/g, '');
-    const high      = $(el).find('[class*="high"]').text().trim().replace(/[^0-9\-]/g, '');
-    if (day) weather.forecast.push({ day, condition, low, high });
-  });
+      // 풍속
+      const windRaw = document.querySelector('[class*="wind_speed"]')?.textContent?.trim()
+        || document.querySelector('[class*="windspeed"]')?.textContent?.trim()
+        || document.querySelector('.wind_area em')?.textContent?.trim() || '--';
+      const wind = windRaw.replace(/[^0-9.]/g, '') || '--';
 
-  return weather;
-}
+      // 위치
+      const location = txt('.location_name') || txt('.select_box .option_current') || '서울';
 
-function saveLatestJson(weather) {
-  mkdirSync(DATA_DIR, { recursive: true });
-  writeFileSync(`${DATA_DIR}/weather.json`, JSON.stringify(weather, null, 2), 'utf-8');
-}
+      // 주간 예보
+      const forecast = [];
+      document.querySelectorAll('.week_item').forEach(el => {
+        const day       = el.querySelector('.day')?.textContent?.trim() ?? '';
+        const cond      = el.querySelector('.weather_text')?.textContent?.trim()
+          || el.querySelector('.weather_icon')?.getAttribute('title') || '';
+        const low       = (el.querySelector('[class*="low"]')?.textContent?.trim() ?? '').replace(/[^0-9\-]/g, '');
+        const high      = (el.querySelector('[class*="high"]')?.textContent?.trim() ?? '').replace(/[^0-9\-]/g, '');
+        if (day) forecast.push({ day, condition: cond, low, high });
+      });
 
-function appendCsv(weather) {
-  const month   = kstMonthStr();
-  const date    = kstDateStr();
-  const dir     = `${DATA_DIR}/${month}`;
-  const csvPath = `${dir}/${date}.csv`;
+      return { location, temp, feelsLike, condition, humidity, wind, forecast };
+    });
 
-  mkdirSync(dir, { recursive: true });
-
-  const header = 'time,location,temp,feelsLike,condition,humidity,wind\n';
-  if (!existsSync(csvPath)) {
-    writeFileSync(csvPath, header, 'utf-8');
+    return weather;
+  } finally {
+    await browser.close();
   }
-
-  const { temp, feelsLike, condition, humidity, wind } = weather.current;
-  const row = [
-    weather.updatedAt,
-    weather.location,
-    temp,
-    feelsLike,
-    condition,
-    humidity,
-    wind,
-  ].join(',') + '\n';
-
-  appendFileSync(csvPath, row, 'utf-8');
-  return csvPath;
 }
 
 async function main() {
   try {
-    const weather = await fetchWeather();
-    saveLatestJson(weather);
-    const csvPath = appendCsv(weather);
-    console.log(`weather.json 저장 완료`);
-    console.log(`CSV 저장 완료 → ${csvPath}`);
-    console.log(`위치: ${weather.location} | 기온: ${weather.current.temp}° | 날씨: ${weather.current.condition}`);
+    const raw = await fetchWeather();
+    const kst = getKST();
+
+    const data = {
+      updatedAt: new Date().toISOString(),
+      location: raw.location,
+      current: {
+        temp:      raw.temp,
+        feelsLike: raw.feelsLike,
+        condition: raw.condition,
+        humidity:  raw.humidity,
+        wind:      raw.wind,
+      },
+      forecast: raw.forecast,
+    };
+
+    // weather.json (최신)
+    mkdirSync(DATA_DIR, { recursive: true });
+    writeFileSync(`${DATA_DIR}/weather.json`, JSON.stringify(data, null, 2), 'utf-8');
+
+    // 월별/일별 CSV
+    const csvDir  = `${DATA_DIR}/${kst.monthHyphen}`;
+    const csvPath = `${csvDir}/${kst.dateHyphen}.csv`;
+    mkdirSync(csvDir, { recursive: true });
+
+    const header = 'time,location,temp,feelsLike,condition,humidity,wind\n';
+    if (!existsSync(csvPath)) writeFileSync(csvPath, header, 'utf-8');
+
+    const row = [
+      new Date().toISOString(),
+      data.location,
+      data.current.temp,
+      data.current.feelsLike,
+      data.current.condition,
+      data.current.humidity,
+      data.current.wind,
+    ].join(',') + '\n';
+
+    appendFileSync(csvPath, row, 'utf-8');
+
+    console.log(`완료 → weather.json + ${csvPath}`);
+    console.log(`위치: ${data.location} | 기온: ${data.current.temp}° | 날씨: ${data.current.condition}`);
   } catch (err) {
     console.error('날씨 수집 실패:', err.message);
     process.exit(1);

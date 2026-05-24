@@ -5,12 +5,11 @@
   "engines": {
     "node": ">=18"
   },
-  "packageManager": "pnpm@latest",
+  "packageManager": "pnpm@11.2.2",
   "scripts": {
     "crawl": "node src/crawl.js"
   },
   "dependencies": {
-    "axios": "latest",
-    "cheerio": "latest"
+    "puppeteer": "latest"
   }
 }
