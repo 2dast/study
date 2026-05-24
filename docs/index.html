@@ -84,13 +84,16 @@
     </div>
 
     <!-- ── ACE ETF 섹션 ── -->
-    <div id="section-ace-etf" class="section min-h-screen bg-[#0f172a]">
-      <div class="sticky top-0 bg-[#0f172a]/95 backdrop-blur border-b border-white/5 px-6 py-3 flex items-center gap-3 z-10">
+    <div id="section-ace-etf" class="section bg-[#0f172a] flex flex-col" style="height:100vh;">
+
+      <!-- 헤더 -->
+      <div class="shrink-0 bg-[#0f172a]/95 backdrop-blur border-b border-white/5 px-6 py-3 flex items-center gap-3">
         <h1 class="text-base font-bold flex-1">ACE ETF 종목리스트</h1>
         <span id="etf-updated" class="text-xs text-slate-500"></span>
       </div>
 
-      <div class="px-6 py-4 flex gap-2 flex-wrap">
+      <!-- 검색 바 -->
+      <div class="shrink-0 px-6 py-3 flex gap-2 flex-wrap border-b border-white/5">
         <input id="etf-search" type="text" placeholder="ETF명 검색..."
           class="bg-white/5 border border-white/10 rounded-lg px-3 py-2 text-sm flex-1 min-w-48 text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500/40" />
         <select id="etf-type" class="bg-white/5 border border-white/10 rounded-lg px-3 py-2 text-sm text-white focus:outline-none">
@@ -104,42 +107,108 @@
         <span id="etf-count" class="self-center text-sm text-slate-500"></span>
       </div>
 
-      <div class="px-6 pb-10">
-        <div id="etf-loading" class="text-center text-slate-500 py-16">불러오는 중...</div>
-        <div id="etf-error" class="hidden text-center text-red-400 py-16"></div>
-        <div id="etf-list" class="hidden space-y-2"></div>
+      <!-- 2컬럼 본문 -->
+      <div class="flex flex-1 overflow-hidden">
+
+        <!-- 왼쪽: ETF 목록 -->
+        <div class="w-80 shrink-0 overflow-y-auto border-r border-white/5 p-3 space-y-1">
+          <div id="etf-loading" class="text-center text-slate-500 py-16 text-sm">불러오는 중...</div>
+          <div id="etf-error" class="hidden text-center text-red-400 py-16 text-sm"></div>
+          <div id="etf-list" class="hidden space-y-1"></div>
+        </div>
+
+        <!-- 오른쪽: 구성종목 -->
+        <div class="flex-1 overflow-y-auto p-6">
+          <div id="holdings-empty" class="flex items-center justify-center h-full text-slate-600 text-sm">
+            왼쪽에서 ETF를 선택하세요
+          </div>
+          <div id="holdings-loading" class="hidden flex items-center justify-center h-full text-slate-500 text-sm">
+            불러오는 중...
+          </div>
+          <div id="holdings-content" class="hidden">
+            <div class="mb-4">
+              <h2 id="holdings-title" class="text-lg font-bold text-white"></h2>
+              <p id="holdings-date" class="text-xs text-slate-500 mt-0.5"></p>
+            </div>
+            <table class="w-full text-sm">
+              <thead>
+                <tr class="text-left text-slate-500 border-b border-white/10 text-xs">
+                  <th class="pb-2 pr-3 w-8">#</th>
+                  <th class="pb-2 pr-4">종목명</th>
+                  <th class="pb-2 pr-4">티커</th>
+                  <th class="pb-2 text-right">비중</th>
+                </tr>
+              </thead>
+              <tbody id="holdings-body" class="divide-y divide-white/5"></tbody>
+            </table>
+          </div>
+        </div>
+
       </div>
     </div>
 
     <!-- ── 전체 ETF 섹션 ── -->
-    <div id="section-all-etf" class="section min-h-screen bg-[#0f172a] flex items-center justify-center">
-      <div class="text-center space-y-4 text-slate-500">
-        <div class="text-6xl">🗂️</div>
-        <p class="text-xl font-semibold text-slate-300">전체 ETF</p>
-        <p class="text-sm">KRX 전체 ETF 데이터 준비 중입니다.</p>
+    <div id="section-all-etf" class="section bg-[#0f172a] flex flex-col" style="height:100vh;">
+
+      <!-- 헤더 -->
+      <div class="shrink-0 bg-[#0f172a]/95 backdrop-blur border-b border-white/5 px-6 py-3 flex items-center gap-3">
+        <h1 class="text-base font-bold flex-1">전체 ETF 시세</h1>
+        <span id="netf-updated" class="text-xs text-slate-500"></span>
+        <span id="netf-count" class="text-xs text-slate-400 font-medium"></span>
+      </div>
+
+      <!-- 필터 바 -->
+      <div class="shrink-0 px-6 py-3 flex gap-2 flex-wrap items-center border-b border-white/5">
+        <input id="netf-search" type="text" placeholder="ETF명 또는 코드 검색..."
+          class="bg-white/5 border border-white/10 rounded-lg px-3 py-2 text-sm flex-1 min-w-52 text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500/40" />
+        <select id="netf-sort" class="bg-white/5 border border-white/10 rounded-lg px-3 py-2 text-sm text-white focus:outline-none">
+          <option value="name">이름순</option>
+          <option value="changeRate_desc">등락률 ↓</option>
+          <option value="changeRate_asc">등락률 ↑</option>
+          <option value="return3m_desc">3개월수익 ↓</option>
+          <option value="return3m_asc">3개월수익 ↑</option>
+          <option value="aum_desc">자산 큰 순</option>
+          <option value="volume_desc">거래량 많은 순</option>
+        </select>
+        <!-- 이력 조회 -->
+        <select id="netf-month" class="bg-white/5 border border-white/10 rounded-lg px-2 py-2 text-sm text-white focus:outline-none">
+          <option value="">-- 월 --</option>
+        </select>
+        <select id="netf-date" class="bg-white/5 border border-white/10 rounded-lg px-2 py-2 text-sm text-white focus:outline-none" disabled>
+          <option value="">-- 날짜 --</option>
+        </select>
+        <button id="netf-load-history" class="px-3 py-2 bg-blue-600/20 text-blue-400 rounded-lg hover:bg-blue-600/30 disabled:opacity-40 text-sm" disabled>조회</button>
+        <button id="netf-clear-history" class="hidden px-3 py-2 bg-white/5 text-slate-400 rounded-lg hover:bg-white/10 text-sm">최신으로</button>
+      </div>
+
+      <!-- 테이블 -->
+      <div class="flex-1 overflow-auto px-6 py-4">
+        <div id="netf-loading" class="text-center text-slate-500 py-20 text-sm">불러오는 중...</div>
+        <div id="netf-error" class="hidden text-center text-red-400 py-20 text-sm"></div>
+        <div id="netf-table-wrap" class="hidden">
+          <table class="w-full text-sm">
+            <thead class="sticky top-0 bg-[#0f172a]">
+              <tr class="text-left text-slate-500 border-b border-white/10 text-xs">
+                <th class="pb-2 pr-4 font-medium">종목명</th>
+                <th class="pb-2 pr-3 font-medium text-right cursor-pointer hover:text-slate-300" data-netf-sort="price">현재가</th>
+                <th class="pb-2 pr-3 font-medium text-right cursor-pointer hover:text-slate-300" data-netf-sort="changeRate">등락률</th>
+                <th class="pb-2 pr-3 font-medium text-right cursor-pointer hover:text-slate-300" data-netf-sort="nav">NAV</th>
+                <th class="pb-2 pr-3 font-medium text-right cursor-pointer hover:text-slate-300" data-netf-sort="return3m">3개월수익</th>
+                <th class="pb-2 pr-3 font-medium text-right cursor-pointer hover:text-slate-300" data-netf-sort="volume">거래량</th>
+                <th class="pb-2 font-medium text-right cursor-pointer hover:text-slate-300" data-netf-sort="aum">자산총계</th>
+              </tr>
+            </thead>
+            <tbody id="netf-tbody" class="divide-y divide-white/5"></tbody>
+          </table>
+        </div>
       </div>
     </div>
 
   </main>
 
-  <!-- 구성종목 모달 -->
-  <div id="etf-modal" class="hidden fixed inset-0 bg-black/60 z-50 flex items-end md:items-center justify-center p-4">
-    <div class="bg-[#1e293b] border border-white/10 rounded-2xl w-full max-w-2xl max-h-[80vh] flex flex-col shadow-2xl">
-      <div class="flex items-center justify-between px-5 py-4 border-b border-white/10">
-        <div>
-          <h2 id="modal-title" class="font-bold text-white"></h2>
-          <p id="modal-date" class="text-xs text-slate-400 mt-0.5"></p>
-        </div>
-        <button onclick="closeEtfModal()" class="text-slate-400 hover:text-white text-2xl leading-none">&times;</button>
-      </div>
-      <div id="modal-body" class="overflow-y-auto p-5 flex-1 text-sm">
-        <div class="text-center text-slate-500 py-8">불러오는 중...</div>
-      </div>
-    </div>
-  </div>
-
   <script src="main.js"></script>
   <script src="etf.js"></script>
+  <script src="naver-etf-section.js"></script>
   <script>
     // ── 사이드바 네비게이션 ──
     const navItems = document.querySelectorAll('.nav-item');
