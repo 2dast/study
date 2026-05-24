@@ -2,7 +2,7 @@ name: Naver Weather Crawl & Deploy
 
 on:
   schedule:
-    - cron: '0 0,3,6,9,12,15,18,21 * * *'  # 3시간마다 (KST 기준)
+    - cron: '0 0,3,6,9,12,15,18,21 * * *'
   workflow_dispatch:
 
 jobs:
@@ -20,16 +20,16 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v4
-
       - name: Install dependencies
-        run: pnpm install --no-frozen-lockfile --ignore-scripts
+        run: npm install --ignore-scripts
+        env:
+          PUPPETEER_SKIP_DOWNLOAD: 'true'
+
+      - name: Install Chrome
+        run: npx puppeteer browsers install chrome
 
       - name: Run weather crawler
-        run: pnpm crawl
-        env:
-          PUPPETEER_EXECUTABLE_PATH: /usr/bin/google-chrome-stable
+        run: node src/crawl.js
 
       - name: Commit & Push result
         run: |
