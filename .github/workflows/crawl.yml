@@ -1,9 +1,9 @@
-name: Daily Crawl
+name: Naver Weather Crawl & Deploy
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 매일 UTC 00:00 (KST 09:00)
-  workflow_dispatch:       # 수동 실행 허용
+    - cron: '0 0,3,6,9,12,15,18,21 * * *'  # 3시간마다 (KST 기준 9시~익일6시)
+  workflow_dispatch:
 
 jobs:
   crawl:
@@ -28,13 +28,13 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Run crawler
+      - name: Run weather crawler
         run: pnpm crawl
 
       - name: Commit & Push result
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/result.json
-          git diff --cached --quiet || git commit -m "chore: update crawl result [$(date -u '+%Y-%m-%d')]"
+          git add docs/data/weather.json
+          git diff --cached --quiet || git commit -m "chore: update weather [$(date -u '+%Y-%m-%d %H:%M UTC')]"
           git push
