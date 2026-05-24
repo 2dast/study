@@ -14,9 +14,6 @@
     .section { display: none !important; }
     .section.active { display: block !important; }
     #section-ace-etf.active, #section-all-etf.active { display: flex !important; flex-direction: column; }
-    /* 구성종목 패널: 기본 숨김, visible 클래스일 때만 표시 */
-    #holdings-panel { display: none !important; }
-    #holdings-panel.visible { display: block !important; }
     /* 모바일 하단 탭바 */
     .nav-mobile { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 6px 0 8px; gap: 2px; color: #64748b; background: none; border: none; cursor: pointer; transition: color 0.15s; }
     .nav-mobile.active { color: #fff; }
@@ -149,7 +146,7 @@
         </div>
 
         <!-- 오른쪽: 구성종목 -->
-        <div id="holdings-panel" class="flex-1 overflow-y-auto p-6 border-l border-white/5">
+        <div id="holdings-panel" class="flex-1 overflow-y-auto p-6 border-l border-white/5" style="display:none">
           <div id="holdings-loading" class="hidden flex items-center justify-center h-32 text-slate-500 text-sm">
             불러오는 중...
           </div>
