@@ -87,7 +87,7 @@ async function loadHoldings(fund) {
           <td class="py-2 pr-2 text-slate-600 text-xs">${h.rank}</td>
           <td class="py-2 pr-4 text-white font-medium">${safe(h.name)}</td>
           <td class="py-2 pr-4 text-slate-400 text-xs">${safe(h.ticker)}</td>
-          <td class="py-2 text-right font-semibold ${h.weight >= 10 ? 'text-blue-400' : 'text-slate-300'}">${h.weight?.toFixed(2)}%</td>
+          <td class="py-2 text-right text-slate-300">${h.weight?.toFixed(2)}%</td>
         </tr>
       `).join('');
     }
@@ -112,6 +112,8 @@ function closeHoldings() {
   document.getElementById('holdings-empty').classList.remove('hidden');
 }
 
+document.getElementById('holdings-close').addEventListener('click', closeHoldings);
+
 async function initEtf() {
   try {
     const res = await fetch('data/etf/funds.json');
@@ -130,7 +132,6 @@ async function initEtf() {
 
     document.getElementById('etf-search').addEventListener('input', applyEtfFilter);
     document.getElementById('etf-type').addEventListener('change', applyEtfFilter);
-    document.getElementById('holdings-close').addEventListener('click', closeHoldings);
   } catch (err) {
     document.getElementById('etf-loading').classList.add('hidden');
     const errEl = document.getElementById('etf-error');
