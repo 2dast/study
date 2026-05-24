@@ -22,7 +22,9 @@ function getKST() {
 async function fetchWeather() {
   console.log(`브라우저 시작 → ${TARGET_URL}`);
 
+  const executablePath = process.env.PUPPETEER_EXECUTABLE_PATH || undefined;
   const browser = await puppeteer.launch({
+    executablePath,
     args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'],
     headless: true,
   });
