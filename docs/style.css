@@ -1,0 +1,8 @@
+/* Tailwind 외 커스텀 스타일 */
+#result-list li {
+  transition: box-shadow 0.15s ease;
+}
+
+#result-list li:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}

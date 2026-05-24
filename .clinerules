@@ -1,0 +1,21 @@
+{
+  "rules": {
+    "format": {
+      "indentation": 2,
+      "trailing-comma": "always",
+      "max-len": 120
+    },
+    "stack": {
+      "package-manager": "pnpm",
+      "css": "Tailwind CSS"
+    },
+    "instructions": [
+      "응답은 한국어 경어체 사용.",
+      "에러 발생 시: 원인+해결책 설명 후 수정 제안.",
+      "파일 탐색은 필요한 파일만, 디렉토리 전체 읽기 금지.",
+      "대용량 JSON/CSV, 빌드 결과물은 분석 제외.",
+      "에러 로그는 핵심 메시지만 추출, 중복 경고/스택트레이스 생략.",
+      "작업 완료 후 컨텍스트가 길어지면 New Task 권고."
+    ]
+  }
+}

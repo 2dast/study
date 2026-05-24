@@ -1,0 +1,16 @@
+{
+  "name": "google-ai-crawler",
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "pnpm@latest",
+  "scripts": {
+    "crawl": "node src/crawl.js"
+  },
+  "dependencies": {
+    "axios": "latest",
+    "cheerio": "latest"
+  }
+}
