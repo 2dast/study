@@ -3,8 +3,8 @@ import { resolve, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const ETF_DIR = resolve(__dirname, '../docs/data/etf');
-const BASE = 'https://papi.aceetf.co.kr/api';
+const ETF_DIR   = resolve(__dirname, '../docs/data/etf');
+const BASE      = 'https://papi.aceetf.co.kr/api';
 const HEADERS = {
   'User-Agent': 'Mozilla/5.0',
   'Referer': 'https://www.aceetf.co.kr/fund',
@@ -59,21 +59,52 @@ async function fetchHoldings(fundCd) {
   }
 }
 
+function saveDailyCsv(funds, now) {
+  const yyyymm = now.toISOString().slice(0, 7);           // 2025-05
+  const yyyymmdd = now.toISOString().slice(0, 10);        // 2025-05-24
+  const monthDir = `${ETF_DIR}/${yyyymm}`;
+  mkdirSync(monthDir, { recursive: true });
+
+  const csvPath = `${monthDir}/${yyyymmdd}.csv`;
+  const header  = 'fundCd,fundNm,stockCd,type,area,aum,wk1,mm1,mm3,pension';
+  const rows    = funds.map(f => [
+    f.fundCd,
+    `"${(f.fundNm ?? '').replace(/"/g, '""')}"`,
+    f.stockCd?.slice(3, 9) ?? '',
+    `"${(f.type ?? '').replace(/"/g, '""')}"`,
+    `"${(f.area ?? '').replace(/"/g, '""')}"`,
+    f.aum ?? '',
+    f.wk1 ?? '',
+    f.mm1 ?? '',
+    f.mm3 ?? '',
+    `"${(f.pension ?? '').replace(/"/g, '""')}"`,
+  ].join(','));
+
+  const csvContent = [header, ...rows].join('\n');
+  writeFileSync(csvPath, csvContent, 'utf-8');
+  console.log(`일별 CSV 저장 → ${csvPath}`);
+}
+
 async function main() {
   console.log('ETF 데이터 수집 시작...');
   mkdirSync(ETF_DIR, { recursive: true });
+
+  const now = new Date();
 
   // 1. 펀드 목록
   const funds = await fetchFundList();
   console.log(`펀드 목록: ${funds.length}개`);
 
   writeFileSync(`${ETF_DIR}/funds.json`, JSON.stringify({
-    updatedAt: new Date().toISOString(),
+    updatedAt: now.toISOString(),
     total: funds.length,
     funds,
   }, null, 2), 'utf-8');
 
-  // 2. 개별 구성종목
+  // 2. 일별 CSV 저장
+  saveDailyCsv(funds, now);
+
+  // 3. 개별 구성종목
   let success = 0;
   for (const fund of funds) {
     const holdings = await fetchHoldings(fund.fundCd);
