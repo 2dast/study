@@ -25,7 +25,13 @@ async function fetchWeather() {
   const executablePath = process.env.PUPPETEER_EXECUTABLE_PATH || undefined;
   const browser = await puppeteer.launch({
     executablePath,
-    args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'],
+    args: [
+      '--no-sandbox',
+      '--disable-setuid-sandbox',
+      '--disable-dev-shm-usage',
+      '--disable-gpu',
+      '--no-zygote',
+    ],
     headless: true,
   });
 
@@ -36,10 +42,10 @@ async function fetchWeather() {
     );
     await page.setExtraHTTPHeaders({ 'Accept-Language': 'ko-KR,ko;q=0.9' });
 
-    await page.goto(TARGET_URL, { waitUntil: 'networkidle2', timeout: 30000 });
+    await page.goto(TARGET_URL, { waitUntil: 'domcontentloaded', timeout: 60000 });
 
     // 기온 로드 대기
-    await page.waitForSelector('.temperature_text', { timeout: 15000 }).catch(() => {});
+    await page.waitForSelector('.card_now_temperature', { timeout: 20000 }).catch(() => {});
 
     const weather = await page.evaluate(() => {
       const txt = sel => document.querySelector(sel)?.textContent?.trim() ?? '--';
