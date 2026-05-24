@@ -25,33 +25,33 @@
   </header>
 
   <!-- 필터 바 -->
-  <div class="max-w-6xl mx-auto px-4 py-3 flex gap-2 flex-wrap items-center">
-    <input id="search" type="text" placeholder="ETF명 또는 코드 검색..."
-      class="border rounded-lg px-3 py-2 text-sm flex-1 min-w-52 focus:outline-none focus:ring-2 focus:ring-blue-300" />
-
-    <select id="sort" class="border rounded-lg px-3 py-2 text-sm focus:outline-none">
-      <option value="name">이름순</option>
-      <option value="changeRate_desc">등락률 ↓</option>
-      <option value="changeRate_asc">등락률 ↑</option>
-      <option value="return3m_desc">3개월수익 ↓</option>
-      <option value="return3m_asc">3개월수익 ↑</option>
-      <option value="aum_desc">자산 큰 순</option>
-      <option value="volume_desc">거래량 많은 순</option>
-    </select>
+  <div class="max-w-6xl mx-auto px-4 py-3 flex flex-col sm:flex-row gap-2 flex-wrap items-stretch sm:items-center">
+    <div class="flex gap-2 flex-1">
+      <input id="search" type="text" placeholder="ETF명 또는 코드 검색..."
+        class="border rounded-lg px-3 py-2 text-sm flex-1 min-w-0 focus:outline-none focus:ring-2 focus:ring-blue-300" />
+      <select id="sort" class="border rounded-lg px-2 py-2 text-sm focus:outline-none shrink-0">
+        <option value="name">이름순</option>
+        <option value="changeRate_desc">등락률 ↓</option>
+        <option value="changeRate_asc">등락률 ↑</option>
+        <option value="return3m_desc">3개월수익 ↓</option>
+        <option value="return3m_asc">3개월수익 ↑</option>
+        <option value="aum_desc">자산 큰 순</option>
+        <option value="volume_desc">거래량 많은 순</option>
+      </select>
+    </div>
 
     <!-- CSV 날짜 선택 (이력 조회) -->
-    <div class="flex items-center gap-1 text-sm text-gray-500">
-      <span>이력:</span>
+    <div class="flex items-center gap-1 text-sm text-gray-500 flex-wrap">
+      <span class="shrink-0">이력:</span>
       <select id="month-select" class="border rounded-lg px-2 py-2 text-sm focus:outline-none">
-        <option value="">-- 월 선택 --</option>
+        <option value="">-- 월 --</option>
       </select>
       <select id="date-select" class="border rounded-lg px-2 py-2 text-sm focus:outline-none" disabled>
         <option value="">-- 날짜 --</option>
       </select>
       <button id="load-history" class="px-3 py-2 bg-blue-50 text-blue-600 rounded-lg hover:bg-blue-100 disabled:opacity-40" disabled>조회</button>
+      <button id="clear-history" class="hidden px-3 py-2 bg-gray-100 text-gray-600 rounded-lg hover:bg-gray-200">최신으로</button>
     </div>
-
-    <button id="clear-history" class="hidden px-3 py-2 bg-gray-100 text-gray-600 rounded-lg hover:bg-gray-200 text-sm">최신 데이터로</button>
   </div>
 
   <!-- 테이블 영역 -->
@@ -61,7 +61,7 @@
 
     <!-- 데스크톱 테이블 -->
     <div id="table-wrap" class="hidden overflow-x-auto rounded-xl border bg-white shadow-sm">
-      <table class="w-full text-sm">
+      <table class="w-full text-sm min-w-[600px]">
         <thead class="bg-gray-50 border-b">
           <tr class="text-left text-gray-500 text-xs">
             <th class="px-4 py-3 font-medium">종목명</th>

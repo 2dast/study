@@ -7,6 +7,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="style.css" />
   <style>
+    /* ── 공통 ── */
     #sidebar { width: 220px; min-width: 220px; }
     .nav-item { display: flex; align-items: center; gap: 10px; padding: 10px 16px; border-radius: 10px; cursor: pointer; font-size: 0.9rem; color: #94a3b8; transition: background 0.15s, color 0.15s; }
     .nav-item:hover { background: rgba(255,255,255,0.07); color: #e2e8f0; }
@@ -14,16 +15,36 @@
     .section { display: none !important; }
     .section.active { display: block !important; }
     #section-ace-etf.active, #section-all-etf.active { display: flex !important; flex-direction: column; }
-    /* 모바일 하단 탭바 */
-    .nav-mobile { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 6px 0 8px; gap: 2px; color: #64748b; background: none; border: none; cursor: pointer; transition: color 0.15s; }
+
+    /* ── 모바일 하단 탭바 ── */
+    .nav-mobile { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 6px 0 8px; gap: 2px; color: #64748b; background: none; border: none; cursor: pointer; transition: color 0.15s; -webkit-tap-highlight-color: transparent; }
     .nav-mobile.active { color: #fff; }
     .nav-mobile .tab-label { font-size: 10px; line-height: 1; }
+
+    /* ── 데스크톱 (768px 이상) ── */
+    @media (min-width: 768px) {
+      body { flex-direction: row !important; }
+      #sidebar { display: flex !important; }
+      #mobile-header { display: none !important; }
+      #mobile-nav { display: none !important; }
+      #section-weather { padding: 2.5rem; padding-bottom: 2.5rem; }
+    }
+
+    /* ── 모바일 (767px 이하) ── */
     @media (max-width: 767px) {
+      body { flex-direction: column !important; }
+      #sidebar { display: none !important; }
+      #mobile-header { display: flex !important; }
+      #mobile-nav { display: flex !important; }
+
+      /* 섹션 높이: 뷰포트 - 상단헤더(48px) - 하단탭바(56px) */
       #section-ace-etf, #section-all-etf { height: calc(100dvh - 104px) !important; }
-      /* ETF 목록 모바일 전체 폭 */
-      #section-ace-etf .etf-list-panel { width: 100% !important; }
-      /* 홀딩스 패널: 모바일에서 전체화면 오버레이 */
-      #holdings-panel.visible {
+
+      /* ETF 목록 전체 폭 */
+      #section-ace-etf .etf-list-panel { width: 100% !important; border-right: none !important; }
+
+      /* 홀딩스 패널: 전체화면 오버레이 */
+      #holdings-panel[style*="flex"], #holdings-panel[style*="block"] {
         position: fixed !important;
         top: 48px; left: 0; right: 0; bottom: 56px;
         z-index: 40;
@@ -34,19 +55,25 @@
         border-left: none !important;
         padding: 1.5rem;
       }
+
+      /* 날씨 섹션 하단 패딩 (탭바 높이만큼) */
+      #section-weather { padding-bottom: 72px !important; }
+
+      /* 전체 ETF 필터바 압축 */
+      #section-all-etf .shrink-0.px-6 { padding-left: 1rem; padding-right: 1rem; }
     }
   </style>
 </head>
-<body class="bg-[#0f172a] min-h-screen flex flex-col md:flex-row text-white">
+<body class="bg-[#0f172a] min-h-screen flex text-white" style="flex-direction: column;">
 
-  <!-- 모바일 상단 헤더 -->
-  <header class="md:hidden sticky top-0 z-30 bg-[#1e293b] border-b border-white/5 px-4 flex items-center shrink-0" style="height:48px">
+  <!-- 모바일 상단 헤더 (CSS로 제어) -->
+  <header id="mobile-header" class="sticky top-0 z-30 bg-[#1e293b] border-b border-white/5 px-4 items-center shrink-0" style="height:48px; display:none;">
     <span class="text-xs text-slate-500 uppercase tracking-widest font-semibold mr-2">Dashboard</span>
     <span class="text-sm font-bold flex-1" id="mobile-title">날씨</span>
   </header>
 
-  <!-- 사이드바 (데스크톱) -->
-  <aside id="sidebar" class="hidden md:flex flex-col bg-[#1e293b] border-r border-white/5 py-6 px-3 shrink-0">
+  <!-- 사이드바 (데스크톱, CSS로 제어) -->
+  <aside id="sidebar" class="flex-col bg-[#1e293b] border-r border-white/5 py-6 px-3 shrink-0" style="display:none;">
     <div class="px-3 mb-8">
       <p class="text-xs text-slate-500 uppercase tracking-widest font-semibold">Dashboard</p>
     </div>
@@ -68,7 +95,7 @@
   <main class="flex-1 overflow-y-auto min-h-0">
 
     <!-- ── 날씨 섹션 ── -->
-    <div id="section-weather" class="section active weather-bg min-h-screen p-6 md:p-10 pb-20 md:pb-10">
+    <div id="section-weather" class="section active weather-bg min-h-screen p-6">
       <div class="max-w-xl mx-auto space-y-5">
         <div id="loading" class="text-center text-white/60 py-16">날씨 정보를 불러오는 중...</div>
         <div id="error" class="hidden text-center text-white/60 py-16"></div>
@@ -123,7 +150,7 @@
       <!-- 검색 바 -->
       <div class="shrink-0 px-6 py-3 flex gap-2 flex-wrap border-b border-white/5">
         <input id="etf-search" type="text" placeholder="ETF명 검색..."
-          class="bg-white/5 border border-white/10 rounded-lg px-3 py-2 text-sm flex-1 min-w-48 text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500/40" />
+          class="bg-white/5 border border-white/10 rounded-lg px-3 py-2 text-sm flex-1 min-w-0 text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500/40" />
         <select id="etf-type" class="bg-slate-800 border border-white/10 rounded-lg px-3 py-2 text-sm text-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500/40">
           <option value="">전체 유형</option>
           <option value="주식">주식</option>
@@ -139,7 +166,7 @@
       <div class="flex flex-1 overflow-hidden">
 
         <!-- 왼쪽: ETF 목록 -->
-        <div class="etf-list-panel w-full md:w-80 shrink-0 overflow-y-auto border-r border-white/5 p-3 space-y-1">
+        <div class="etf-list-panel w-80 shrink-0 overflow-y-auto border-r border-white/5 p-3 space-y-1">
           <div id="etf-loading" class="text-center text-slate-500 py-16 text-sm">불러오는 중...</div>
           <div id="etf-error" class="hidden text-center text-red-400 py-16 text-sm"></div>
           <div id="etf-list" class="hidden space-y-1"></div>
@@ -186,10 +213,10 @@
       </div>
 
       <!-- 필터 바 -->
-      <div class="shrink-0 px-6 py-3 flex gap-2 flex-wrap items-center border-b border-white/5">
+      <div class="shrink-0 px-4 py-3 flex gap-2 flex-wrap items-center border-b border-white/5">
         <input id="netf-search" type="text" placeholder="ETF명 또는 코드 검색..."
-          class="bg-white/5 border border-white/10 rounded-lg px-3 py-2 text-sm flex-1 min-w-52 text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500/40" />
-        <select id="netf-sort" class="bg-white/5 border border-white/10 rounded-lg px-3 py-2 text-sm text-white focus:outline-none">
+          class="bg-white/5 border border-white/10 rounded-lg px-3 py-2 text-sm flex-1 min-w-0 text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500/40" />
+        <select id="netf-sort" class="bg-white/5 border border-white/10 rounded-lg px-2 py-2 text-sm text-white focus:outline-none">
           <option value="name">이름순</option>
           <option value="changeRate_desc">등락률 ↓</option>
           <option value="changeRate_asc">등락률 ↑</option>
@@ -210,7 +237,7 @@
       </div>
 
       <!-- 테이블 -->
-      <div class="flex-1 overflow-auto px-4 md:px-6 py-4">
+      <div class="flex-1 overflow-auto px-4 py-4">
         <div id="netf-loading" class="text-center text-slate-500 py-20 text-sm">불러오는 중...</div>
         <div id="netf-error" class="hidden text-center text-red-400 py-20 text-sm"></div>
         <div id="netf-table-wrap" class="hidden overflow-x-auto">
@@ -234,18 +261,18 @@
 
   </main>
 
-  <!-- 모바일 하단 탭바 -->
-  <nav class="md:hidden fixed bottom-0 left-0 right-0 bg-[#1e293b] border-t border-white/5 flex z-50" style="height:56px">
+  <!-- 모바일 하단 탭바 (CSS로 제어) -->
+  <nav id="mobile-nav" class="z-50 bg-[#1e293b] border-t border-white/5" style="position:fixed; bottom:0; left:0; right:0; height:56px; display:none;">
     <button class="nav-mobile active" data-section="weather">
-      <span class="text-xl">🌤️</span>
+      <span style="font-size:1.25rem;">🌤️</span>
       <span class="tab-label">날씨</span>
     </button>
     <button class="nav-mobile" data-section="ace-etf">
-      <span class="text-xl">📊</span>
+      <span style="font-size:1.25rem;">📊</span>
       <span class="tab-label">ACE ETF</span>
     </button>
     <button class="nav-mobile" data-section="all-etf">
-      <span class="text-xl">🗂️</span>
+      <span style="font-size:1.25rem;">🗂️</span>
       <span class="tab-label">전체 ETF</span>
     </button>
   </nav>
@@ -258,14 +285,14 @@
 
     function switchSection(target) {
       document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
-      document.getElementById(`section-${target}`).classList.add('active');
+      document.getElementById('section-' + target).classList.add('active');
 
       document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
-      const desktopNav = document.querySelector(`.nav-item[data-section="${target}"]`);
+      const desktopNav = document.querySelector('.nav-item[data-section="' + target + '"]');
       if (desktopNav) desktopNav.classList.add('active');
 
       document.querySelectorAll('.nav-mobile').forEach(n => n.classList.remove('active'));
-      const mobileNav = document.querySelector(`.nav-mobile[data-section="${target}"]`);
+      const mobileNav = document.querySelector('.nav-mobile[data-section="' + target + '"]');
       if (mobileNav) mobileNav.classList.add('active');
 
       const mobileTitle = document.getElementById('mobile-title');
@@ -273,13 +300,13 @@
     }
 
     // ── 사이드바 네비게이션 ──
-    document.querySelectorAll('.nav-item').forEach(item => {
-      item.addEventListener('click', () => switchSection(item.dataset.section));
+    document.querySelectorAll('.nav-item').forEach(function(item) {
+      item.addEventListener('click', function() { switchSection(item.dataset.section); });
     });
 
     // ── 모바일 하단 탭바 ──
-    document.querySelectorAll('.nav-mobile').forEach(item => {
-      item.addEventListener('click', () => switchSection(item.dataset.section));
+    document.querySelectorAll('.nav-mobile').forEach(function(item) {
+      item.addEventListener('click', function() { switchSection(item.dataset.section); });
     });
 
     // ── URL 해시로 초기 섹션 결정 ──
