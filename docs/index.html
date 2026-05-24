@@ -7,19 +7,15 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="style.css" />
 </head>
-<body class="min-h-screen flex items-center justify-center p-4 weather-bg">
+<body class="weather-bg min-h-screen p-4 md:p-8">
 
-  <div class="max-w-sm w-full">
+  <div class="max-w-2xl mx-auto space-y-5">
 
-    <div id="loading" class="text-center text-white/80 py-16 text-lg">
-      날씨 정보를 불러오는 중...
-    </div>
-
+    <!-- 현재 날씨 카드 -->
+    <div id="loading" class="text-center text-white/80 py-16 text-lg">날씨 정보를 불러오는 중...</div>
     <div id="error" class="hidden text-center text-white/80 py-16"></div>
 
     <div id="weather-card" class="hidden glass rounded-3xl p-6 text-white shadow-2xl">
-
-      <!-- 헤더: 위치 + 아이콘 -->
       <div class="flex justify-between items-start mb-4">
         <div>
           <h1 id="location" class="text-xl font-bold tracking-wide">--</h1>
@@ -28,13 +24,11 @@
         <div id="weather-icon" class="text-5xl leading-none">🌤️</div>
       </div>
 
-      <!-- 현재 기온 -->
-      <div class="text-center my-6">
+      <div class="text-center my-5">
         <div class="text-8xl font-thin tracking-tighter" id="temp">--</div>
         <div class="text-white/60 text-sm mt-1">체감 <span id="feels-like">--</span>°</div>
       </div>
 
-      <!-- 상세 정보 -->
       <div class="grid grid-cols-2 gap-2 mb-5">
         <div class="detail-box">
           <span class="label">습도</span>
@@ -49,9 +43,28 @@
       <!-- 주간 예보 -->
       <div id="forecast" class="space-y-2"></div>
 
-      <!-- 업데이트 시각 -->
       <p class="text-center text-white/40 text-xs mt-5" id="updated"></p>
+    </div>
 
+    <!-- 오늘 시간별 기록 테이블 -->
+    <div id="history-section" class="hidden glass rounded-3xl p-6 text-white shadow-2xl">
+      <h2 class="font-semibold text-lg mb-4">오늘의 기록 <span id="history-date" class="text-white/50 text-sm font-normal ml-1"></span></h2>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="border-b border-white/20 text-white/60 text-left">
+              <th class="pb-2 pr-4">시각</th>
+              <th class="pb-2 pr-4">기온</th>
+              <th class="pb-2 pr-4">체감</th>
+              <th class="pb-2 pr-4">날씨</th>
+              <th class="pb-2 pr-4">습도</th>
+              <th class="pb-2">풍속</th>
+            </tr>
+          </thead>
+          <tbody id="history-body" class="divide-y divide-white/10"></tbody>
+        </table>
+      </div>
+      <p id="history-empty" class="hidden text-center text-white/40 py-4 text-sm">오늘 기록이 없습니다.</p>
     </div>
 
   </div>

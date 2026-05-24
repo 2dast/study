@@ -39,3 +39,12 @@
   padding: 0.5rem 0.875rem;
   color: #fff;
 }
+
+#history-section table td,
+#history-section table th {
+  white-space: nowrap;
+}
+
+#history-section tbody tr:hover td {
+  background: rgba(255, 255, 255, 0.06);
+}

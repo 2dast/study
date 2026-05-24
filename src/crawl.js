@@ -1,12 +1,23 @@
 import axios from 'axios';
 import * as cheerio from 'cheerio';
-import { writeFileSync, mkdirSync } from 'fs';
+import { writeFileSync, appendFileSync, existsSync, mkdirSync } from 'fs';
 import { resolve, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const OUTPUT_PATH = resolve(__dirname, '../docs/data/weather.json');
+const DATA_DIR   = resolve(__dirname, '../docs/data');
 const TARGET_URL = 'https://weather.naver.com/';
+
+// KST 기준 날짜 문자열 반환
+function kstDateStr(date = new Date()) {
+  return new Date(date.getTime() + 9 * 60 * 60 * 1000)
+    .toISOString()
+    .slice(0, 10); // YYYY-MM-DD
+}
+
+function kstMonthStr(date = new Date()) {
+  return kstDateStr(date).slice(0, 7); // YYYY-MM
+}
 
 async function fetchWeather() {
   console.log(`날씨 수집 시작: ${TARGET_URL}`);
@@ -29,37 +40,30 @@ async function fetchWeather() {
     forecast: [],
   };
 
-  // 위치
   const locationText = $('.location_name').first().text().trim()
     || $('.select_box .option_current').first().text().trim();
   if (locationText) weather.location = locationText;
 
-  // 현재 기온
   const tempRaw = $('.temperature_text strong').first().text().trim()
     || $('.today_area .temperature').first().text().trim();
   weather.current.temp = tempRaw.replace(/[^0-9\-]/g, '') || '--';
 
-  // 날씨 상태 (맑음, 흐림 등)
   const condRaw = $('p.description').first().text().trim()
     || $('.weather_area .weather_text').first().text().trim()
     || $('.summary').first().text().trim();
   if (condRaw) weather.current.condition = condRaw;
 
-  // 체감 온도
   const feelsRaw = $('[class*="feels"], [class*="feel"]').first().text().trim()
     || $('.temperature_info .temperature').eq(1).text().trim();
   weather.current.feelsLike = feelsRaw.replace(/[^0-9\-]/g, '') || '--';
 
-  // 습도
   const humRaw = $('[class*="humidity"] em, .humidity').first().text().trim();
   weather.current.humidity = humRaw.replace(/[^0-9]/g, '') || '--';
 
-  // 풍속
   const windRaw = $('[class*="wind_speed"], [class*="windspeed"]').first().text().trim()
     || $('.wind_area em').first().text().trim();
   weather.current.wind = windRaw.replace(/[^0-9.]/g, '') || '--';
 
-  // 주간 예보
   $('.week_item').each((_, el) => {
     const day       = $(el).find('.day').text().trim() || $(el).find('[class*="date"]').first().text().trim();
     const condition = $(el).find('.weather_text').text().trim() || $(el).find('.weather_icon').attr('title') || '';
@@ -71,12 +75,46 @@ async function fetchWeather() {
   return weather;
 }
 
+function saveLatestJson(weather) {
+  mkdirSync(DATA_DIR, { recursive: true });
+  writeFileSync(`${DATA_DIR}/weather.json`, JSON.stringify(weather, null, 2), 'utf-8');
+}
+
+function appendCsv(weather) {
+  const month   = kstMonthStr();
+  const date    = kstDateStr();
+  const dir     = `${DATA_DIR}/${month}`;
+  const csvPath = `${dir}/${date}.csv`;
+
+  mkdirSync(dir, { recursive: true });
+
+  const header = 'time,location,temp,feelsLike,condition,humidity,wind\n';
+  if (!existsSync(csvPath)) {
+    writeFileSync(csvPath, header, 'utf-8');
+  }
+
+  const { temp, feelsLike, condition, humidity, wind } = weather.current;
+  const row = [
+    weather.updatedAt,
+    weather.location,
+    temp,
+    feelsLike,
+    condition,
+    humidity,
+    wind,
+  ].join(',') + '\n';
+
+  appendFileSync(csvPath, row, 'utf-8');
+  return csvPath;
+}
+
 async function main() {
   try {
     const weather = await fetchWeather();
-    mkdirSync(dirname(OUTPUT_PATH), { recursive: true });
-    writeFileSync(OUTPUT_PATH, JSON.stringify(weather, null, 2), 'utf-8');
-    console.log(`완료 → ${OUTPUT_PATH}`);
+    saveLatestJson(weather);
+    const csvPath = appendCsv(weather);
+    console.log(`weather.json 저장 완료`);
+    console.log(`CSV 저장 완료 → ${csvPath}`);
     console.log(`위치: ${weather.location} | 기온: ${weather.current.temp}° | 날씨: ${weather.current.condition}`);
   } catch (err) {
     console.error('날씨 수집 실패:', err.message);

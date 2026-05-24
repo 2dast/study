@@ -1,5 +1,3 @@
-const WEATHER_URL = 'data/weather.json';
-
 const ICONS = {
   '맑음':    '☀️',
   '구름조금': '🌤️',
@@ -28,13 +26,30 @@ function safe(str) {
     .replace(/"/g, '&quot;');
 }
 
+// KST 기준 YYYY-MM-DD / YYYY-MM
+function kstDate() {
+  const d = new Date(Date.now() + 9 * 60 * 60 * 1000);
+  return d.toISOString().slice(0, 10);
+}
+function kstMonth() { return kstDate().slice(0, 7); }
+
+function parseCsv(text) {
+  const lines = text.trim().split('\n').filter(Boolean);
+  if (lines.length < 2) return [];
+  const headers = lines[0].split(',');
+  return lines.slice(1).map(line => {
+    const vals = line.split(',');
+    return Object.fromEntries(headers.map((h, i) => [h.trim(), (vals[i] ?? '').trim()]));
+  });
+}
+
 async function loadWeather() {
   const loadingEl = document.getElementById('loading');
   const errorEl   = document.getElementById('error');
   const cardEl    = document.getElementById('weather-card');
 
   try {
-    const res = await fetch(WEATHER_URL);
+    const res = await fetch('data/weather.json');
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const d = await res.json();
 
@@ -74,4 +89,47 @@ async function loadWeather() {
   }
 }
 
+async function loadHistory() {
+  const section  = document.getElementById('history-section');
+  const tbody    = document.getElementById('history-body');
+  const emptyMsg = document.getElementById('history-empty');
+  const dateEl   = document.getElementById('history-date');
+
+  const date  = kstDate();
+  const month = kstMonth();
+  dateEl.textContent = date;
+
+  try {
+    const res = await fetch(`data/${month}/${date}.csv`);
+    if (!res.ok) throw new Error('no csv');
+    const text = await res.text();
+    const rows = parseCsv(text);
+
+    section.classList.remove('hidden');
+
+    if (rows.length === 0) {
+      emptyMsg.classList.remove('hidden');
+      return;
+    }
+
+    // 최신순 정렬
+    rows.reverse().forEach(row => {
+      const time = row.time ? new Date(row.time).toLocaleTimeString('ko-KR', { timeZone: 'Asia/Seoul', hour: '2-digit', minute: '2-digit' }) : '--';
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td class="py-2 pr-4 text-white/80">${safe(time)}</td>
+        <td class="py-2 pr-4 font-semibold">${safe(row.temp)}°</td>
+        <td class="py-2 pr-4 text-white/70">${safe(row.feelsLike)}°</td>
+        <td class="py-2 pr-4">${getIcon(row.condition)} ${safe(row.condition)}</td>
+        <td class="py-2 pr-4 text-white/70">${safe(row.humidity)}%</td>
+        <td class="py-2 text-white/70">${safe(row.wind)} m/s</td>
+      `;
+      tbody.appendChild(tr);
+    });
+  } catch {
+    // CSV 없으면 섹션 숨김 유지
+  }
+}
+
 loadWeather();
+loadHistory();
