@@ -24,7 +24,10 @@ async function fetchEtfs() {
     },
   });
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
-  const data = await res.json();
+  // 응답이 EUC-KR이므로 ArrayBuffer로 받아 직접 디코딩
+  const buf = await res.arrayBuffer();
+  const text = new TextDecoder('euc-kr').decode(buf);
+  const data = JSON.parse(text);
   if (data.resultCode !== 'success') throw new Error(`API 오류: ${data.resultCode}`);
   return data.result.etfItemList ?? [];
 }
