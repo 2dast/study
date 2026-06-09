@@ -1,104 +1,104 @@
 {
   "fundCd": "K55101E54012",
   "fundNm": "ACE 미국주식베스트셀러",
-  "stdDt": "2026-06-08",
+  "stdDt": "2026-06-09",
   "holdings": [
     {
       "rank": 1,
       "name": "MICROSOFT",
       "ticker": "MSFT US",
-      "weight": 22.35,
-      "value": 277359748,
+      "weight": 23.23,
+      "value": 269266737,
       "qty": 421
     },
     {
       "rank": 2,
       "name": "INTEL Corp",
       "ticker": "INTC US",
-      "weight": 17.72,
-      "value": 219867884,
+      "weight": 16.79,
+      "value": 194544764,
       "qty": 1278
     },
     {
       "rank": 3,
       "name": "Amazon.com Inc",
       "ticker": "AMZN US",
-      "weight": 15.93,
-      "value": 197647743,
+      "weight": 16.49,
+      "value": 191093961,
       "qty": 506
     },
     {
       "rank": 4,
       "name": "Lumentum Holdings Inc",
       "ticker": "LITE US",
-      "weight": 13.6,
-      "value": 168730424,
+      "weight": 13.27,
+      "value": 153783299,
       "qty": 116
     },
     {
       "rank": 5,
       "name": "Circle Internet Group Inc",
       "ticker": "CRCL US",
-      "weight": 9.09,
-      "value": 112873592,
+      "weight": 8.61,
+      "value": 99816138,
       "qty": 810
     },
     {
       "rank": 6,
-      "name": "TAIWAN SEMICONDUCTOR-SP ADR",
-      "ticker": "TSM US",
-      "weight": 4.69,
-      "value": 58205991,
-      "qty": 85
-    },
-    {
-      "rank": 7,
       "name": "Palantir Technologies Inc",
       "ticker": "PLTR US",
-      "weight": 4.62,
-      "value": 57357793,
+      "weight": 4.71,
+      "value": 54714138,
       "qty": 263
     },
     {
+      "rank": 7,
+      "name": "TAIWAN SEMICONDUCTOR-SP ADR",
+      "ticker": "TSM US",
+      "weight": 4.67,
+      "value": 54169305,
+      "qty": 85
+    },
+    {
       "rank": 8,
-      "name": "NVIDIA Corp",
-      "ticker": "NVDA US",
-      "weight": 4.09,
-      "value": 50817480,
-      "qty": 151
+      "name": "ALPHABET INC-CL A",
+      "ticker": "GOOGL US",
+      "weight": 4.14,
+      "value": 48083951,
+      "qty": 85
     },
     {
       "rank": 9,
-      "name": "TESLA MOTORS",
-      "ticker": "TSLA US",
-      "weight": 3.99,
-      "value": 49590802,
-      "qty": 77
+      "name": "NVIDIA Corp",
+      "ticker": "NVDA US",
+      "weight": 4.09,
+      "value": 47539103,
+      "qty": 151
     },
     {
       "rank": 10,
-      "name": "ALPHABET INC-CL A",
-      "ticker": "GOOGL US",
-      "weight": 3.92,
-      "value": 48691198,
-      "qty": 85
+      "name": "TESLA MOTORS",
+      "ticker": "TSLA US",
+      "weight": 3.99,
+      "value": 46214245,
+      "qty": 77
     }
   ],
   "sectors": [
     {
       "rank": 1,
       "name": "IT",
-      "weight": 76.16
+      "weight": 75.38
     },
     {
       "rank": 2,
       "name": "경기소비재",
-      "weight": 19.92
+      "weight": 20.47
     },
     {
       "rank": 3,
       "name": "커뮤니케이션서비스",
-      "weight": 3.92
+      "weight": 4.15
     }
   ]
 }

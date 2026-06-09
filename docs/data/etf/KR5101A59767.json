@@ -1,31 +1,39 @@
 {
   "fundCd": "KR5101A59767",
   "fundNm": "ACE 인버스",
-  "stdDt": "2026-06-08",
+  "stdDt": "2026-06-09",
   "holdings": [
     {
       "rank": 1,
       "name": "TIGER 인버스",
       "ticker": "123310",
       "weight": -0.11,
-      "value": 144093,
+      "value": 157638,
       "qty": 129
     },
     {
       "rank": 2,
       "name": "KODEX 인버스",
       "ticker": "114800",
-      "weight": -8.06,
-      "value": 9975936,
-      "qty": 10016
+      "weight": -10.39,
+      "value": 14301360,
+      "qty": 13242
     },
     {
       "rank": 3,
+      "name": "2026-09 코스피200지수선물",
+      "ticker": "A01690",
+      "weight": -33.85,
+      "value": -46600000,
+      "qty": -0.16
+    },
+    {
+      "rank": 4,
       "name": "2026-06 코스피200지수선물",
       "ticker": "A01660",
-      "weight": -91.83,
-      "value": -113588125,
-      "qty": -0.35
+      "weight": -55.65,
+      "value": -76586250,
+      "qty": -0.26
     }
   ],
   "sectors": []
