@@ -1,86 +1,86 @@
 {
   "fundCd": "K55101DU3912",
   "fundNm": "ACE 글로벌브랜드TOP10",
-  "stdDt": "2026-06-10",
+  "stdDt": "2026-06-11",
   "holdings": [
     {
       "rank": 1,
-      "name": "APPLE Inc",
-      "ticker": "AAPL US",
-      "weight": 11.1,
-      "value": 113077741,
-      "qty": 248
-    },
-    {
-      "rank": 2,
       "name": "ELI LILLY & CO",
       "ticker": "LLY US",
       "weight": 10.92,
-      "value": 111208301,
+      "value": 111662160,
       "qty": 64
     },
     {
-      "rank": 3,
+      "rank": 2,
       "name": "NVIDIA Corp",
       "ticker": "NVDA US",
-      "weight": 10.81,
-      "value": 110104105,
+      "weight": 10.83,
+      "value": 110745796,
       "qty": 349
+    },
+    {
+      "rank": 3,
+      "name": "APPLE Inc",
+      "ticker": "AAPL US",
+      "weight": 10.74,
+      "value": 109828364,
+      "qty": 248
     },
     {
       "rank": 4,
       "name": "NETFLIX",
       "ticker": "NFLX US",
-      "weight": 10.31,
-      "value": 105091312,
+      "weight": 10.21,
+      "value": 104355587,
       "qty": 841
     },
     {
       "rank": 5,
-      "name": "MICROSOFT",
-      "ticker": "MSFT US",
-      "weight": 10.02,
-      "value": 102105096,
-      "qty": 164
+      "name": "COCA-COLA CO/THE",
+      "ticker": "KO US",
+      "weight": 10.01,
+      "value": 102282203,
+      "qty": 825
     },
     {
       "rank": 6,
       "name": "JPMORGAN CHASE & CO",
       "ticker": "JPM US",
-      "weight": 9.79,
-      "value": 99731039,
+      "weight": 9.88,
+      "value": 101042876,
       "qty": 212
     },
     {
       "rank": 7,
-      "name": "COCA-COLA CO/THE",
-      "ticker": "KO US",
-      "weight": 9.74,
-      "value": 99224758,
-      "qty": 825
+      "name": "MICROSOFT",
+      "ticker": "MSFT US",
+      "weight": 9.86,
+      "value": 100839913,
+      "qty": 164
     },
     {
       "rank": 8,
       "name": "TESLA MOTORS",
       "ticker": "TSLA US",
-      "weight": 9.71,
-      "value": 98939727,
+      "weight": 9.46,
+      "value": 96739144,
       "qty": 160
     },
     {
       "rank": 9,
       "name": "PROCTER & GAMBLE CO/THE",
       "ticker": "PG US",
-      "weight": 9,
-      "value": 91711586,
+      "weight": 9.27,
+      "value": 94719976,
       "qty": 418
     },
     {
       "rank": 10,
       "name": "LVMH Moet Hennessy Louis Vuitton SE",
       "ticker": "MC FP",
-      "weight": 8.59,
-      "value": 87598678,
+      "weight": 8.82,
+      "value": 90168959,
       "qty": 104
     }
   ],
@@ -88,17 +88,17 @@
     {
       "rank": 1,
       "name": "IT",
-      "weight": 31.93
+      "weight": 31.44
     },
     {
       "rank": 2,
       "name": "필수소비재",
-      "weight": 18.74
+      "weight": 19.27
     },
     {
       "rank": 3,
       "name": "경기소비재",
-      "weight": 18.31
+      "weight": 18.28
     },
     {
       "rank": 4,
@@ -108,12 +108,12 @@
     {
       "rank": 5,
       "name": "커뮤니케이션서비스",
-      "weight": 10.32
+      "weight": 10.21
     },
     {
       "rank": 6,
       "name": "금융",
-      "weight": 9.79
+      "weight": 9.88
     }
   ]
 }

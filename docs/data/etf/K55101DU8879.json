@@ -1,1270 +1,1262 @@
 {
   "fundCd": "K55101DU8879",
   "fundNm": "ACE 미국나스닥100미국채혼합50액티브",
-  "stdDt": "2026-06-10",
+  "stdDt": "2026-06-11",
   "holdings": [
     {
       "rank": 1,
       "name": "ACE 미국나스닥100",
       "ticker": "367380",
-      "weight": 29.31,
-      "value": 490950471,
-      "qty": 14399.49
+      "weight": 28.31,
+      "value": 483889215,
+      "qty": 14399.32
     },
     {
       "rank": 2,
       "name": "[USD] 예금",
       "ticker": "USDZZ0000001",
-      "weight": 3.85,
-      "value": 64468015,
-      "qty": 42634.76
+      "weight": 4.27,
+      "value": 73013537,
+      "qty": 47902.86
     },
     {
       "rank": 3,
       "name": "INVESCO QQQ TRUST SERIES 1",
       "ticker": "US46090E1038",
-      "weight": 2.7,
-      "value": 45231502,
-      "qty": 41.77
+      "weight": 3.3,
+      "value": 56389856,
+      "qty": 52.27
     },
     {
       "rank": 4,
-      "name": "NVIDIA CORP",
-      "ticker": "NVDA US",
-      "weight": 1.38,
-      "value": 23049616,
-      "qty": 73.06
+      "name": "원화현금",
+      "ticker": "010010",
+      "weight": 1.58,
+      "value": -26971355,
+      "qty": -26971355
     },
     {
       "rank": 5,
+      "name": "NVIDIA CORP",
+      "ticker": "NVDA US",
+      "weight": 1.34,
+      "value": 22964838,
+      "qty": 72.37
+    },
+    {
+      "rank": 6,
       "name": "APPLE INC",
       "ticker": "AAPL US",
-      "weight": 1.2,
-      "value": 20126561,
-      "qty": 44.14
+      "weight": 1.13,
+      "value": 19363449,
+      "qty": 43.72
     },
     {
-      "rank": 6,
-      "name": "T 2 1/4 11/15/27",
-      "ticker": "US9128283F58",
-      "weight": 1.11,
-      "value": 18558463,
-      "qty": 12595.42
-    },
-    {
-      "rank": 6,
+      "rank": 7,
       "name": "T 3 1/2 10/31/27",
       "ticker": "US91282CPE56",
-      "weight": 1.11,
-      "value": 18603008,
-      "qty": 12404.58
+      "weight": 1.09,
+      "value": 18579352,
+      "qty": 12287.33
     },
     {
       "rank": 8,
-      "name": "T 3 5/8 08/31/27",
-      "ticker": "US91282CNV99",
-      "weight": 1.03,
-      "value": 17223586,
-      "qty": 11450.38
+      "name": "T 2 1/4 11/15/27",
+      "ticker": "US9128283F58",
+      "weight": 1.08,
+      "value": 18534625,
+      "qty": 12476.37
     },
     {
       "rank": 9,
-      "name": "T 3 3/4 08/15/27",
-      "ticker": "US91282CLG41",
-      "weight": 0.96,
-      "value": 16103352,
-      "qty": 10687.02
+      "name": "T 3 5/8 08/31/27",
+      "ticker": "US91282CNV99",
+      "weight": 1.01,
+      "value": 17201325,
+      "qty": 11342.16
     },
     {
       "rank": 10,
-      "name": "T 4 1/4 03/15/27",
-      "ticker": "US91282CKE02",
-      "weight": 0.9,
-      "value": 15047483,
-      "qty": 9923.66
+      "name": "T 3 3/4 08/15/27",
+      "ticker": "US91282CLG41",
+      "weight": 0.94,
+      "value": 16080645,
+      "qty": 10586.01
     },
     {
       "rank": 11,
-      "name": "T 3 7/8 12/31/27",
-      "ticker": "US91282CGC91",
+      "name": "T 4 1/4 03/15/27",
+      "ticker": "US91282CKE02",
       "weight": 0.88,
-      "value": 14661476,
-      "qty": 9732.82
+      "value": 15023676,
+      "qty": 9829.87
     },
     {
       "rank": 12,
-      "name": "KOEWPW 4 7/8 07/12/28",
-      "ticker": "XS2643259786",
-      "weight": 0.87,
-      "value": 14510056,
-      "qty": 9541.98
+      "name": "T 3 7/8 12/31/27",
+      "ticker": "US91282CGC91",
+      "weight": 0.86,
+      "value": 14641699,
+      "qty": 9640.83
     },
     {
       "rank": 13,
-      "name": "T 3 3/4 08/31/26",
-      "ticker": "US91282CLH24",
-      "weight": 0.86,
-      "value": 14428103,
-      "qty": 9541.98
-    },
-    {
-      "rank": 14,
-      "name": "T 2 1/4 02/15/27",
-      "ticker": "US912828V988",
+      "name": "KOEWPW 4 7/8 07/12/28",
+      "ticker": "XS2643259786",
       "weight": 0.85,
-      "value": 14269635,
-      "qty": 9541.98
-    },
-    {
-      "rank": 14,
-      "name": "MOMPER 4 1/8 10/22/28",
-      "ticker": "XS3202735364",
-      "weight": 0.85,
-      "value": 14265523,
-      "qty": 9541.98
+      "value": 14492865,
+      "qty": 9451.8
     },
     {
       "rank": 14,
       "name": "T 3.25 06/30/27",
       "ticker": "US91282CEW73",
-      "weight": 0.85,
-      "value": 14315864,
-      "qty": 9541.98
+      "weight": 0.84,
+      "value": 14296895,
+      "qty": 9451.8
     },
     {
       "rank": 14,
-      "name": "T 2.75 04/30/27",
-      "ticker": "US91282CEN74",
-      "weight": 0.85,
-      "value": 14278451,
-      "qty": 9541.98
+      "name": "T 3 3/4 08/31/26",
+      "ticker": "US91282CLH24",
+      "weight": 0.84,
+      "value": 14406196,
+      "qty": 9451.8
     },
     {
-      "rank": 18,
-      "name": "T 2 7/8 08/15/28",
-      "ticker": "US9128284V99",
-      "weight": 0.84,
-      "value": 14043282,
-      "qty": 9541.98
+      "rank": 16,
+      "name": "T 2 1/4 02/15/27",
+      "ticker": "US912828V988",
+      "weight": 0.83,
+      "value": 14248936,
+      "qty": 9451.8
+    },
+    {
+      "rank": 16,
+      "name": "MOMPER 4 1/8 10/22/28",
+      "ticker": "XS3202735364",
+      "weight": 0.83,
+      "value": 14250189,
+      "qty": 9451.8
+    },
+    {
+      "rank": 16,
+      "name": "T 2.75 04/30/27",
+      "ticker": "US91282CEN74",
+      "weight": 0.83,
+      "value": 14257925,
+      "qty": 9451.8
     },
     {
       "rank": 19,
-      "name": "MICROSOFT CORP",
-      "ticker": "MSFT US",
-      "weight": 0.83,
-      "value": 13900176,
-      "qty": 22.33
+      "name": "T 2 7/8 08/15/28",
+      "ticker": "US9128284V99",
+      "weight": 0.82,
+      "value": 14026443,
+      "qty": 9451.8
     },
     {
       "rank": 20,
       "name": "T 4 06/30/28",
       "ticker": "US91282CHK09",
-      "weight": 0.82,
-      "value": 13807873,
-      "qty": 9160.31
+      "weight": 0.81,
+      "value": 13791155,
+      "qty": 9073.72
     },
     {
       "rank": 21,
-      "name": "T 0 7/8 06/30/26",
-      "ticker": "US91282CCJ80",
-      "weight": 0.81,
-      "value": 13541652,
-      "qty": 8969.47
+      "name": "MICROSOFT CORP",
+      "ticker": "MSFT US",
+      "weight": 0.8,
+      "value": 13598200,
+      "qty": 22.12
     },
     {
       "rank": 22,
-      "name": "MICRON TECHNOLOGY INC",
-      "ticker": "MU US",
-      "weight": 0.8,
-      "value": 13408991,
-      "qty": 9.34
+      "name": "T 0 7/8 06/30/26",
+      "ticker": "US91282CCJ80",
+      "weight": 0.79,
+      "value": 13521647,
+      "qty": 8884.69
     },
     {
       "rank": 23,
       "name": "T 4 1/4 11/30/26",
       "ticker": "US91282CLY56",
-      "weight": 0.79,
-      "value": 13302288,
-      "qty": 8778.63
+      "weight": 0.78,
+      "value": 13282369,
+      "qty": 8695.65
     },
     {
       "rank": 24,
-      "name": "T 4 01/15/27",
-      "ticker": "US91282CJT99",
-      "weight": 0.78,
-      "value": 12998473,
-      "qty": 8587.79
+      "name": "MICRON TECHNOLOGY INC",
+      "ticker": "MU US",
+      "weight": 0.77,
+      "value": 13199680,
+      "qty": 9.25
     },
     {
       "rank": 25,
-      "name": "T 3 3/4 05/15/28",
-      "ticker": "US91282CND91",
-      "weight": 0.77,
-      "value": 12888212,
-      "qty": 8587.79
+      "name": "T 4 01/15/27",
+      "ticker": "US91282CJT99",
+      "weight": 0.76,
+      "value": 12978698,
+      "qty": 8506.62
     },
     {
       "rank": 25,
       "name": "KOLAHO 4 1/4 05/28/27",
       "ticker": "XS3053429638",
-      "weight": 0.77,
-      "value": 12961126,
-      "qty": 8587.79
+      "weight": 0.76,
+      "value": 12942912,
+      "qty": 8506.62
     },
     {
-      "rank": 25,
-      "name": "T 3 1/2 09/30/27",
-      "ticker": "US91282CPB18",
-      "weight": 0.77,
-      "value": 12890485,
-      "qty": 8587.79
-    },
-    {
-      "rank": 28,
+      "rank": 27,
       "name": "T 4 5/8 06/15/27",
       "ticker": "US91282CKV27",
-      "weight": 0.76,
-      "value": 12776645,
-      "qty": 8396.95
+      "weight": 0.75,
+      "value": 12758222,
+      "qty": 8317.58
     },
     {
-      "rank": 29,
-      "name": "T 3 3/4 04/15/28",
-      "ticker": "US91282CMW81",
+      "rank": 27,
+      "name": "T 3 1/2 09/30/27",
+      "ticker": "US91282CPB18",
       "weight": 0.75,
-      "value": 12607000,
-      "qty": 8396.95
+      "value": 12874271,
+      "qty": 8506.62
+    },
+    {
+      "rank": 27,
+      "name": "T 3 3/4 05/15/28",
+      "ticker": "US91282CND91",
+      "weight": 0.75,
+      "value": 12872365,
+      "qty": 8506.62
     },
     {
       "rank": 30,
-      "name": "AMAZON.COM INC",
-      "ticker": "AMZN US",
-      "weight": 0.71,
-      "value": 11968108,
-      "qty": 32.28
+      "name": "T 3 3/4 04/15/28",
+      "ticker": "US91282CMW81",
+      "weight": 0.74,
+      "value": 12591511,
+      "qty": 8317.58
     },
     {
       "rank": 31,
+      "name": "AMAZON.COM INC",
+      "ticker": "AMZN US",
+      "weight": 0.7,
+      "value": 11899650,
+      "qty": 31.97
+    },
+    {
+      "rank": 32,
       "name": "T 0 3/4 01/31/28",
       "ticker": "US91282CBJ99",
-      "weight": 0.7,
-      "value": 11747604,
-      "qty": 8206.11
+      "weight": 0.69,
+      "value": 11733390,
+      "qty": 8128.54
     },
     {
-      "rank": 32,
+      "rank": 33,
       "name": "T 4 1/2 04/15/27",
       "ticker": "US91282CKJ98",
-      "weight": 0.69,
-      "value": 11596063,
-      "qty": 7633.59
+      "weight": 0.68,
+      "value": 11579056,
+      "qty": 7561.44
     },
     {
-      "rank": 32,
+      "rank": 33,
       "name": "T 4 1/8 02/28/27",
       "ticker": "US91282CMP31",
-      "weight": 0.69,
-      "value": 11560650,
-      "qty": 7633.59
-    },
-    {
-      "rank": 32,
-      "name": "T 3 7/8 10/15/27",
-      "ticker": "US91282CLQ23",
-      "weight": 0.69,
-      "value": 11509677,
-      "qty": 7633.59
+      "weight": 0.68,
+      "value": 11543789,
+      "qty": 7561.44
     },
     {
       "rank": 35,
+      "name": "T 3 7/8 10/15/27",
+      "ticker": "US91282CLQ23",
+      "weight": 0.67,
+      "value": 11495107,
+      "qty": 7561.44
+    },
+    {
+      "rank": 36,
       "name": "T 2 3/8 05/15/27",
       "ticker": "US912828X885",
-      "weight": 0.68,
-      "value": 11375955,
-      "qty": 7633.59
+      "weight": 0.66,
+      "value": 11359801,
+      "qty": 7561.44
     },
     {
-      "rank": 36,
+      "rank": 37,
       "name": "T 1 1/4 04/30/28",
       "ticker": "US91282CBZ32",
-      "weight": 0.65,
-      "value": 10939385,
-      "qty": 7633.59
+      "weight": 0.64,
+      "value": 10926203,
+      "qty": 7561.44
     },
     {
-      "rank": 36,
+      "rank": 37,
       "name": "T 1 1/4 05/31/28",
       "ticker": "US91282CCE93",
-      "weight": 0.65,
-      "value": 10913310,
-      "qty": 7633.59
+      "weight": 0.64,
+      "value": 10900548,
+      "qty": 7561.44
     },
     {
-      "rank": 38,
-      "name": "ADVANCED MICRO DEVICES",
-      "ticker": "AMD US",
-      "weight": 0.6,
-      "value": 10033300,
-      "qty": 13.53
-    },
-    {
-      "rank": 38,
-      "name": "KOROIL 4.625 03/31/28 REGS",
-      "ticker": "USY4938AAQ23",
-      "weight": 0.6,
-      "value": 10117013,
-      "qty": 6679.39
-    },
-    {
-      "rank": 38,
-      "name": "T 4 1/4 12/31/26",
-      "ticker": "US91282CME83",
-      "weight": 0.6,
-      "value": 10123194,
-      "qty": 6679.39
-    },
-    {
-      "rank": 38,
-      "name": "T 3 3/8 09/15/27",
-      "ticker": "US91282CLL36",
-      "weight": 0.6,
-      "value": 10014146,
-      "qty": 6679.39
-    },
-    {
-      "rank": 38,
+      "rank": 39,
       "name": "T 4 1/8 07/31/28",
       "ticker": "US91282CHQ78",
-      "weight": 0.6,
-      "value": 10091915,
-      "qty": 6679.39
+      "weight": 0.59,
+      "value": 10078912,
+      "qty": 6616.26
+    },
+    {
+      "rank": 39,
+      "name": "KOROIL 4.625 03/31/28 REGS",
+      "ticker": "USY4938AAQ23",
+      "weight": 0.59,
+      "value": 10103276,
+      "qty": 6616.26
+    },
+    {
+      "rank": 39,
+      "name": "T 4 1/4 12/31/26",
+      "ticker": "US91282CME83",
+      "weight": 0.59,
+      "value": 10107985,
+      "qty": 6616.26
+    },
+    {
+      "rank": 39,
+      "name": "T 3 3/8 09/15/27",
+      "ticker": "US91282CLL36",
+      "weight": 0.59,
+      "value": 10000969,
+      "qty": 6616.26
     },
     {
       "rank": 43,
-      "name": "ALPHABET INC-CL A",
-      "ticker": "GOOGL US",
+      "name": "ADVANCED MICRO DEVICES",
+      "ticker": "AMD US",
       "weight": 0.57,
-      "value": 9615905,
-      "qty": 17.5
+      "value": 9715108,
+      "qty": 13.4
     },
     {
       "rank": 44,
+      "name": "ALPHABET INC-CL A",
+      "ticker": "GOOGL US",
+      "weight": 0.56,
+      "value": 9626312,
+      "qty": 17.34
+    },
+    {
+      "rank": 45,
       "name": "TESLA INC",
       "ticker": "TSLA US",
-      "weight": 0.55,
-      "value": 9279124,
-      "qty": 15.01
-    },
-    {
-      "rank": 45,
-      "name": "원화현금",
-      "ticker": "010010",
       "weight": 0.53,
-      "value": -8959098,
-      "qty": -8959098
+      "value": 8986945,
+      "qty": 14.86
     },
     {
-      "rank": 45,
+      "rank": 46,
       "name": "ALPHABET INC-CL C",
       "ticker": "GOOG US",
-      "weight": 0.53,
-      "value": 8928709,
-      "qty": 16.35
+      "weight": 0.52,
+      "value": 8942752,
+      "qty": 16.19
     },
     {
       "rank": 47,
       "name": "KDB 4 3/8 02/15/28",
       "ticker": "US500630DW55",
-      "weight": 0.52,
-      "value": 8660342,
-      "qty": 5725.19
+      "weight": 0.51,
+      "value": 8649258,
+      "qty": 5671.08
     },
     {
       "rank": 47,
       "name": "SKBTAM 4 7/8 01/23/27",
       "ticker": "XS2747557416",
-      "weight": 0.52,
-      "value": 8669605,
-      "qty": 5725.19
+      "weight": 0.51,
+      "value": 8657470,
+      "qty": 5671.08
     },
     {
       "rank": 47,
       "name": "KORELE 4 7/8 01/31/27",
       "ticker": "USY4907LAJ18",
-      "weight": 0.52,
-      "value": 8684174,
-      "qty": 5725.19
+      "weight": 0.51,
+      "value": 8671793,
+      "qty": 5671.08
     },
     {
       "rank": 47,
       "name": "KOHNPW 5 07/18/28",
       "ticker": "USY4899GGB33",
-      "weight": 0.52,
-      "value": 8748202,
-      "qty": 5725.19
+      "weight": 0.51,
+      "value": 8738160,
+      "qty": 5671.08
     },
     {
       "rank": 47,
       "name": "KHFC 4.625 02/24/28 REGS",
       "ticker": "USY4841MWD73",
-      "weight": 0.52,
-      "value": 8689196,
-      "qty": 5725.19
+      "weight": 0.51,
+      "value": 8678466,
+      "qty": 5671.08
     },
     {
       "rank": 47,
       "name": "HYUCAP 5 1/8 02/05/27",
       "ticker": "USY3815NBG52",
-      "weight": 0.52,
-      "value": 8683707,
-      "qty": 5725.19
+      "weight": 0.51,
+      "value": 8669528,
+      "qty": 5671.08
     },
     {
       "rank": 47,
       "name": "KRA 5 07/15/27",
       "ticker": "USU5010CAA54",
-      "weight": 0.52,
-      "value": 8698251,
-      "qty": 5725.19
-    },
-    {
-      "rank": 54,
-      "name": "BROADCOM INC",
-      "ticker": "AVGO US",
       "weight": 0.51,
-      "value": 8549127,
-      "qty": 14.26
+      "value": 8686306,
+      "qty": 5671.08
     },
     {
-      "rank": 54,
-      "name": "T 0 7/8 09/30/26",
-      "ticker": "US91282CCZ23",
+      "rank": 47,
+      "name": "TD 4.574 06/02/28",
+      "ticker": "US89115KAD28",
       "weight": 0.51,
-      "value": 8582064,
-      "qty": 5725.19
+      "value": 8648645,
+      "qty": 5671.08
     },
     {
-      "rank": 54,
-      "name": "KDB 2 09/12/26",
-      "ticker": "US500630CL00",
-      "weight": 0.51,
-      "value": 8605880,
-      "qty": 5725.19
-    },
-    {
-      "rank": 54,
+      "rank": 55,
       "name": "EIBKOR 3 1/4 08/12/26",
       "ticker": "US302154BN89",
-      "weight": 0.51,
-      "value": 8497845,
-      "qty": 5629.77
+      "weight": 0.5,
+      "value": 8485172,
+      "qty": 5576.56
+    },
+    {
+      "rank": 55,
+      "name": "T 0 7/8 09/30/26",
+      "ticker": "US91282CCZ23",
+      "weight": 0.5,
+      "value": 8569614,
+      "qty": 5671.08
+    },
+    {
+      "rank": 55,
+      "name": "KDB 2 09/12/26",
+      "ticker": "US500630CL00",
+      "weight": 0.5,
+      "value": 8593626,
+      "qty": 5671.08
     },
     {
       "rank": 58,
+      "name": "BROADCOM INC",
+      "ticker": "AVGO US",
+      "weight": 0.49,
+      "value": 8440489,
+      "qty": 14.12
+    },
+    {
+      "rank": 59,
       "name": "META PLATFORMS INC-CLASS A",
       "ticker": "META US",
-      "weight": 0.47,
-      "value": 7849937,
-      "qty": 8.87
+      "weight": 0.46,
+      "value": 7827182,
+      "qty": 8.78
     },
     {
-      "rank": 59,
+      "rank": 60,
       "name": "WALMART INC",
       "ticker": "WMT US",
-      "weight": 0.44,
-      "value": 7350136,
-      "qty": 40.56
+      "weight": 0.43,
+      "value": 7280744,
+      "qty": 40.18
     },
     {
-      "rank": 59,
+      "rank": 60,
       "name": "HIGHWY 5 05/14/27 REGS",
       "ticker": "USY4872AMX28",
-      "weight": 0.44,
-      "value": 7341249,
-      "qty": 4828.24
+      "weight": 0.43,
+      "value": 7330714,
+      "qty": 4782.61
     },
     {
-      "rank": 61,
+      "rank": 62,
       "name": "T 4 3/8 07/15/27",
       "ticker": "US91282CKZ31",
-      "weight": 0.43,
-      "value": 7240823,
-      "qty": 4770.99
+      "weight": 0.42,
+      "value": 7230701,
+      "qty": 4725.9
     },
     {
-      "rank": 61,
+      "rank": 62,
       "name": "KDB 4 3/4 06/26/27",
       "ticker": "XS2846982234",
-      "weight": 0.43,
-      "value": 7244632,
-      "qty": 4770.99
+      "weight": 0.42,
+      "value": 7234763,
+      "qty": 4725.9
     },
     {
-      "rank": 61,
+      "rank": 62,
       "name": "KOSOPW 5 3/8 09/21/26",
       "ticker": "XS2682195016",
-      "weight": 0.43,
-      "value": 7228970,
-      "qty": 4770.99
+      "weight": 0.42,
+      "value": 7217720,
+      "qty": 4725.9
     },
     {
-      "rank": 61,
+      "rank": 62,
       "name": "HYUNHI 3.179 03/28/27",
       "ticker": "XS2454246989",
-      "weight": 0.43,
-      "value": 7131982,
-      "qty": 4770.99
+      "weight": 0.42,
+      "value": 7121982,
+      "qty": 4725.9
     },
     {
-      "rank": 61,
+      "rank": 62,
       "name": "KORELE 5 3/8 07/31/26",
       "ticker": "USY4907LAG78",
-      "weight": 0.43,
-      "value": 7223278,
-      "qty": 4770.99
+      "weight": 0.42,
+      "value": 7212412,
+      "qty": 4725.9
     },
     {
-      "rank": 61,
+      "rank": 62,
       "name": "HWFPCO 4 3/4 04/30/28",
       "ticker": "USU3790AAA08",
-      "weight": 0.43,
-      "value": 7238868,
-      "qty": 4770.99
+      "weight": 0.42,
+      "value": 7229663,
+      "qty": 4725.9
     },
     {
-      "rank": 61,
+      "rank": 62,
       "name": "T 3 7/8 03/31/27",
       "ticker": "US91282CMV09",
-      "weight": 0.43,
-      "value": 7211988,
-      "qty": 4770.99
-    },
-    {
-      "rank": 68,
-      "name": "INTEL CORP",
-      "ticker": "INTC US",
-      "weight": 0.41,
-      "value": 6912993,
-      "qty": 41.46
+      "weight": 0.42,
+      "value": 7200922,
+      "qty": 4725.9
     },
     {
       "rank": 69,
+      "name": "INTEL CORP",
+      "ticker": "INTC US",
+      "weight": 0.4,
+      "value": 6755343,
+      "qty": 41.07
+    },
+    {
+      "rank": 70,
       "name": "CISCO SYSTEMS INC",
       "ticker": "CSCO US",
-      "weight": 0.37,
-      "value": 6154862,
-      "qty": 32.79
+      "weight": 0.35,
+      "value": 5957865,
+      "qty": 32.48
     },
     {
-      "rank": 70,
+      "rank": 71,
       "name": "HYNMTR 5.3 03/19/27",
       "ticker": "US44891CCX92",
-      "weight": 0.35,
-      "value": 5807664,
-      "qty": 3816.79
+      "weight": 0.34,
+      "value": 5800016,
+      "qty": 3780.72
     },
     {
-      "rank": 70,
+      "rank": 71,
       "name": "DAESEC 5 7/8 01/26/27",
       "ticker": "XS2739009939",
-      "weight": 0.35,
-      "value": 5812292,
-      "qty": 3816.79
-    },
-    {
-      "rank": 70,
-      "name": "KOROIL 4.875 04/03/27 REGS",
-      "ticker": "USY4938AAJ89",
-      "weight": 0.35,
-      "value": 5790252,
-      "qty": 3816.79
-    },
-    {
-      "rank": 70,
-      "name": "KHFC 4.875 08/27/27 REGS",
-      "ticker": "USY4841M6A22",
-      "weight": 0.35,
-      "value": 5807040,
-      "qty": 3816.79
-    },
-    {
-      "rank": 70,
-      "name": "T 4 5/8 09/15/26",
-      "ticker": "US91282CHY03",
-      "weight": 0.35,
-      "value": 5784746,
-      "qty": 3816.79
-    },
-    {
-      "rank": 70,
-      "name": "KOROIL 4.875 04/03/28 REGS",
-      "ticker": "US50065XAP96",
-      "weight": 0.35,
-      "value": 5805684,
-      "qty": 3816.79
-    },
-    {
-      "rank": 70,
-      "name": "INDKOR Float 09/30/27",
-      "ticker": "US45604HAR84",
-      "weight": 0.35,
-      "value": 5789432,
-      "qty": 3816.79
-    },
-    {
-      "rank": 70,
-      "name": "INDKOR 5 3/8 10/04/28",
-      "ticker": "US45604HAN70",
-      "weight": 0.35,
-      "value": 5899100,
-      "qty": 3816.79
-    },
-    {
-      "rank": 78,
-      "name": "EIBKOR 2 3/8 04/21/27",
-      "ticker": "US302154CG20",
       "weight": 0.34,
-      "value": 5679043,
-      "qty": 3816.79
+      "value": 5804193,
+      "qty": 3780.72
     },
     {
-      "rank": 78,
-      "name": "LOTCOR 4 3/8 07/14/28",
-      "ticker": "XS3108588032",
-      "weight": 0.34,
-      "value": 5733935,
-      "qty": 3816.79
-    },
-    {
-      "rank": 78,
-      "name": "KOMIPW 3 5/8 04/21/27",
-      "ticker": "XS2463548045",
-      "weight": 0.34,
-      "value": 5725283,
-      "qty": 3816.79
-    },
-    {
-      "rank": 78,
-      "name": "NHSECS 1 7/8 10/07/26",
-      "ticker": "XS2380610910",
-      "weight": 0.34,
-      "value": 5720822,
-      "qty": 3816.79
-    },
-    {
-      "rank": 78,
+      "rank": 71,
       "name": "LGCHM 1 3/8 07/07/26",
       "ticker": "USY52758AE20",
       "weight": 0.34,
-      "value": 5756420,
-      "qty": 3816.79
+      "value": 5748222,
+      "qty": 3780.72
     },
     {
-      "rank": 78,
-      "name": "KOROIL 4 09/29/28 REGS",
-      "ticker": "USY4938AAT61",
+      "rank": 71,
+      "name": "KOROIL 4.875 04/03/27 REGS",
+      "ticker": "USY4938AAJ89",
       "weight": 0.34,
-      "value": 5704685,
-      "qty": 3816.79
+      "value": 5782128,
+      "qty": 3780.72
     },
     {
-      "rank": 78,
-      "name": "KOHNPW 3 1/8 07/25/27",
-      "ticker": "USY4899GCJ05",
+      "rank": 71,
+      "name": "KHFC 4.875 08/27/27 REGS",
+      "ticker": "USY4841M6A22",
       "weight": 0.34,
-      "value": 5689172,
-      "qty": 3816.79
+      "value": 5799047,
+      "qty": 3780.72
     },
     {
-      "rank": 78,
-      "name": "KIAMTR 2 3/4 02/14/27",
-      "ticker": "USY4760JAD55",
+      "rank": 71,
+      "name": "T 4 5/8 09/15/26",
+      "ticker": "US91282CHY03",
       "weight": 0.34,
-      "value": 5702596,
-      "qty": 3816.79
+      "value": 5775899,
+      "qty": 3780.72
     },
     {
-      "rank": 78,
-      "name": "T 2.625 05/31/27",
-      "ticker": "US91282CET45",
-      "weight": 0.34,
-      "value": 5697338,
-      "qty": 3816.79
-    },
-    {
-      "rank": 78,
-      "name": "SHNHAN 1 3/8 10/21/26",
-      "ticker": "US82460EAQ35",
-      "weight": 0.34,
-      "value": 5708281,
-      "qty": 3816.79
-    },
-    {
-      "rank": 78,
+      "rank": 71,
       "name": "NACF 4 1/4 07/06/27",
       "ticker": "US65540KAJ43",
       "weight": 0.34,
-      "value": 5758578,
-      "qty": 3816.79
+      "value": 5750792,
+      "qty": 3780.72
     },
     {
-      "rank": 78,
+      "rank": 71,
       "name": "MUFG 3.677 02/22/27",
       "ticker": "US606822AN45",
       "weight": 0.34,
-      "value": 5747001,
-      "qty": 3816.79
+      "value": 5738350,
+      "qty": 3780.72
     },
     {
-      "rank": 78,
+      "rank": 71,
+      "name": "KOROIL 4.875 04/03/28 REGS",
+      "ticker": "US50065XAP96",
+      "weight": 0.34,
+      "value": 5798027,
+      "qty": 3780.72
+    },
+    {
+      "rank": 71,
+      "name": "INDKOR Float 09/30/27",
+      "ticker": "US45604HAR84",
+      "weight": 0.34,
+      "value": 5779063,
+      "qty": 3780.72
+    },
+    {
+      "rank": 71,
+      "name": "INDKOR 5 3/8 10/04/28",
+      "ticker": "US45604HAN70",
+      "weight": 0.34,
+      "value": 5891491,
+      "qty": 3780.72
+    },
+    {
+      "rank": 82,
+      "name": "EIBKOR 2 3/8 04/21/27",
+      "ticker": "US302154CG20",
+      "weight": 0.33,
+      "value": 5671199,
+      "qty": 3780.72
+    },
+    {
+      "rank": 82,
+      "name": "LOTCOR 4 3/8 07/14/28",
+      "ticker": "XS3108588032",
+      "weight": 0.33,
+      "value": 5726727,
+      "qty": 3780.72
+    },
+    {
+      "rank": 82,
+      "name": "KOMIPW 3 5/8 04/21/27",
+      "ticker": "XS2463548045",
+      "weight": 0.33,
+      "value": 5717657,
+      "qty": 3780.72
+    },
+    {
+      "rank": 82,
+      "name": "NHSECS 1 7/8 10/07/26",
+      "ticker": "XS2380610910",
+      "weight": 0.33,
+      "value": 5712666,
+      "qty": 3780.72
+    },
+    {
+      "rank": 82,
+      "name": "KOROIL 4 09/29/28 REGS",
+      "ticker": "USY4938AAT61",
+      "weight": 0.33,
+      "value": 5697084,
+      "qty": 3780.72
+    },
+    {
+      "rank": 82,
+      "name": "KOHNPW 3 1/8 07/25/27",
+      "ticker": "USY4899GCJ05",
+      "weight": 0.33,
+      "value": 5681716,
+      "qty": 3780.72
+    },
+    {
+      "rank": 82,
+      "name": "KIAMTR 2 3/4 02/14/27",
+      "ticker": "USY4760JAD55",
+      "weight": 0.33,
+      "value": 5694451,
+      "qty": 3780.72
+    },
+    {
+      "rank": 82,
+      "name": "T 2.625 05/31/27",
+      "ticker": "US91282CET45",
+      "weight": 0.33,
+      "value": 5689305,
+      "qty": 3780.72
+    },
+    {
+      "rank": 82,
+      "name": "SHNHAN 1 3/8 10/21/26",
+      "ticker": "US82460EAQ35",
+      "weight": 0.33,
+      "value": 5699925,
+      "qty": 3780.72
+    },
+    {
+      "rank": 82,
       "name": "HYNMTR 4 1/4 09/18/28",
       "ticker": "US44891CDZ32",
-      "weight": 0.34,
-      "value": 5705285,
-      "qty": 3816.79
+      "weight": 0.33,
+      "value": 5698456,
+      "qty": 3780.72
     },
     {
-      "rank": 78,
+      "rank": 82,
       "name": "EIBKOR 1 1/8 12/29/26",
       "ticker": "US302154DJ59",
-      "weight": 0.34,
-      "value": 5673162,
-      "qty": 3816.79
-    },
-    {
-      "rank": 92,
-      "name": "HYNMOT 1 5/8 07/12/26",
-      "ticker": "XS2362559481",
       "weight": 0.33,
-      "value": 5467036,
-      "qty": 3625.95
+      "value": 5665408,
+      "qty": 3780.72
     },
     {
       "rank": 93,
       "name": "COSTCO WHOLESALE CORP",
       "ticker": "COST US",
       "weight": 0.32,
-      "value": 5431540,
-      "qty": 3.69
+      "value": 5388881,
+      "qty": 3.65
     },
     {
       "rank": 93,
       "name": "SHINCA 2 1/2 01/27/27",
       "ticker": "XS2427995001",
       "weight": 0.32,
-      "value": 5411336,
-      "qty": 3625.95
+      "value": 5403958,
+      "qty": 3591.68
     },
     {
-      "rank": 95,
+      "rank": 93,
+      "name": "HYNMOT 1 5/8 07/12/26",
+      "ticker": "XS2362559481",
+      "weight": 0.32,
+      "value": 5459245,
+      "qty": 3591.68
+    },
+    {
+      "rank": 96,
       "name": "LAM RESEARCH CORP",
       "ticker": "LRCX US",
       "weight": 0.3,
-      "value": 5084832,
-      "qty": 10.36
+      "value": 5119464,
+      "qty": 10.27
     },
     {
-      "rank": 96,
+      "rank": 97,
       "name": "APPLIED MATERIALS INC",
       "ticker": "AMAT US",
       "weight": 0.29,
-      "value": 4902633,
-      "qty": 6.59
+      "value": 4965226,
+      "qty": 6.53
     },
     {
-      "rank": 96,
+      "rank": 97,
       "name": "KOROIL 5.25 11/14/26 REGS",
       "ticker": "USY4938AAG41",
       "weight": 0.29,
-      "value": 4922489,
-      "qty": 3244.27
+      "value": 4914981,
+      "qty": 3213.61
     },
     {
-      "rank": 96,
+      "rank": 97,
       "name": "EIBKOR 4 5/8 01/11/27",
       "ticker": "US302154EA32",
       "weight": 0.29,
-      "value": 4915906,
-      "qty": 3244.27
+      "value": 4908711,
+      "qty": 3213.61
     },
     {
-      "rank": 99,
+      "rank": 100,
       "name": "EIBKOR 5 01/11/28",
       "ticker": "US302154DV87",
       "weight": 0.26,
-      "value": 4371642,
-      "qty": 2862.6
+      "value": 4365795,
+      "qty": 2835.54
     },
     {
-      "rank": 99,
-      "name": "KORAIL 4 3/8 05/27/28",
-      "ticker": "XS3056037321",
-      "weight": 0.26,
-      "value": 4315367,
-      "qty": 2862.6
-    },
-    {
-      "rank": 99,
-      "name": "TD 4.568 12/17/26",
-      "ticker": "US89115A3A89",
-      "weight": 0.26,
-      "value": 4338572,
-      "qty": 2862.6
-    },
-    {
-      "rank": 99,
-      "name": "NACF 1 1/4 07/28/26",
-      "ticker": "US65540KAG04",
-      "weight": 0.26,
-      "value": 4309831,
-      "qty": 2862.6
-    },
-    {
-      "rank": 99,
-      "name": "NETFLIX INC",
-      "ticker": "NFLX US",
-      "weight": 0.26,
-      "value": 4379321,
-      "qty": 35.05
-    },
-    {
-      "rank": 99,
+      "rank": 101,
       "name": "KOROIL 2.5 10/24/26 REGS",
       "ticker": "US50066RAD89",
-      "weight": 0.26,
-      "value": 4297668,
-      "qty": 2862.6
+      "weight": 0.25,
+      "value": 4291519,
+      "qty": 2835.54
     },
     {
-      "rank": 105,
-      "name": "PALANTIR TECHNOLOGIES INC-A",
-      "ticker": "PLTR US",
-      "weight": 0.23,
-      "value": 3924690,
-      "qty": 19.02
+      "rank": 101,
+      "name": "KORAIL 4 3/8 05/27/28",
+      "ticker": "XS3056037321",
+      "weight": 0.25,
+      "value": 4310086,
+      "qty": 2835.54
+    },
+    {
+      "rank": 101,
+      "name": "TD 4.568 12/17/26",
+      "ticker": "US89115A3A89",
+      "weight": 0.25,
+      "value": 4333415,
+      "qty": 2835.54
+    },
+    {
+      "rank": 101,
+      "name": "NACF 1 1/4 07/28/26",
+      "ticker": "US65540KAG04",
+      "weight": 0.25,
+      "value": 4303633,
+      "qty": 2835.54
+    },
+    {
+      "rank": 101,
+      "name": "NETFLIX INC",
+      "ticker": "NFLX US",
+      "weight": 0.25,
+      "value": 4307552,
+      "qty": 34.71
     },
     {
       "rank": 106,
-      "name": "KLA CORP",
-      "ticker": "KLAC US",
-      "weight": 0.21,
-      "value": 3467149,
-      "qty": 1.09
+      "name": "PALANTIR TECHNOLOGIES INC-A",
+      "ticker": "PLTR US",
+      "weight": 0.22,
+      "value": 3792371,
+      "qty": 18.84
     },
     {
       "rank": 107,
-      "name": "TEXAS INSTRUMENTS INC",
-      "ticker": "TXN US",
-      "weight": 0.2,
-      "value": 3313275,
-      "qty": 7.53
+      "name": "KLA CORP",
+      "ticker": "KLAC US",
+      "weight": 0.21,
+      "value": 3513541,
+      "qty": 1.08
     },
     {
       "rank": 108,
-      "name": "MARVELL TECHNOLOGY INC",
-      "ticker": "MRVL US",
+      "name": "TEXAS INSTRUMENTS INC",
+      "ticker": "TXN US",
       "weight": 0.19,
-      "value": 3158240,
-      "qty": 7.23
+      "value": 3282404,
+      "qty": 7.46
+    },
+    {
+      "rank": 109,
+      "name": "LINDE PLC",
+      "ticker": "LIN US",
+      "weight": 0.18,
+      "value": 2993349,
+      "qty": 3.81
     },
     {
       "rank": 109,
       "name": "SANDISK CORP",
       "ticker": "SNDK US",
       "weight": 0.18,
-      "value": 3041761,
-      "qty": 1.23
+      "value": 3045718,
+      "qty": 1.21
     },
     {
-      "rank": 110,
-      "name": "LINDE PLC",
-      "ticker": "LIN US",
-      "weight": 0.17,
-      "value": 2918478,
-      "qty": 3.85
-    },
-    {
-      "rank": 110,
-      "name": "NHSECS 4 5/8 07/10/28",
-      "ticker": "XS3109629702",
-      "weight": 0.17,
-      "value": 2875817,
-      "qty": 1908.4
-    },
-    {
-      "rank": 110,
-      "name": "KORWAT 4 3/8 05/21/27",
-      "ticker": "XS3037640037",
-      "weight": 0.17,
-      "value": 2883211,
-      "qty": 1908.4
-    },
-    {
-      "rank": 110,
-      "name": "KOMIPW 1 1/4 08/09/26",
-      "ticker": "XS2367816076",
-      "weight": 0.17,
-      "value": 2870493,
-      "qty": 1908.4
-    },
-    {
-      "rank": 110,
-      "name": "KOREAT 1 3/8 01/21/27",
-      "ticker": "XS2357433536",
-      "weight": 0.17,
-      "value": 2831135,
-      "qty": 1908.4
-    },
-    {
-      "rank": 110,
-      "name": "LGENSO 5 5/8 09/25/26",
-      "ticker": "USY5S5CGAA01",
-      "weight": 0.17,
-      "value": 2893446,
-      "qty": 1908.4
-    },
-    {
-      "rank": 110,
-      "name": "WOORIB 2 01/20/27",
-      "ticker": "US98105GAL68",
-      "weight": 0.17,
-      "value": 2843509,
-      "qty": 1908.4
-    },
-    {
-      "rank": 110,
-      "name": "QUALCOMM INC",
-      "ticker": "QCOM US",
-      "weight": 0.17,
-      "value": 2916455,
-      "qty": 8.86
-    },
-    {
-      "rank": 110,
-      "name": "KORGAS 1.125 07/13/26 REGS",
-      "ticker": "US50066CAQ24",
-      "weight": 0.17,
-      "value": 2877177,
-      "qty": 1908.4
-    },
-    {
-      "rank": 110,
-      "name": "KORGAS 3 1/2 07/02/26",
-      "ticker": "US50066CAH25",
-      "weight": 0.17,
-      "value": 2884154,
-      "qty": 1908.4
-    },
-    {
-      "rank": 110,
+      "rank": 111,
       "name": "EIBKOR 4.25 09/15/27",
       "ticker": "US302154DR75",
       "weight": 0.17,
-      "value": 2882884,
-      "qty": 1908.4
+      "value": 2878899,
+      "qty": 1890.36
+    },
+    {
+      "rank": 111,
+      "name": "NHSECS 4 5/8 07/10/28",
+      "ticker": "XS3109629702",
+      "weight": 0.17,
+      "value": 2872220,
+      "qty": 1890.36
+    },
+    {
+      "rank": 111,
+      "name": "KORWAT 4 3/8 05/21/27",
+      "ticker": "XS3037640037",
+      "weight": 0.17,
+      "value": 2879153,
+      "qty": 1890.36
+    },
+    {
+      "rank": 111,
+      "name": "KOMIPW 1 1/4 08/09/26",
+      "ticker": "XS2367816076",
+      "weight": 0.17,
+      "value": 2866374,
+      "qty": 1890.36
+    },
+    {
+      "rank": 111,
+      "name": "KOREAT 1 3/8 01/21/27",
+      "ticker": "XS2357433536",
+      "weight": 0.17,
+      "value": 2827344,
+      "qty": 1890.36
+    },
+    {
+      "rank": 111,
+      "name": "LGENSO 5 5/8 09/25/26",
+      "ticker": "USY5S5CGAA01",
+      "weight": 0.17,
+      "value": 2889087,
+      "qty": 1890.36
+    },
+    {
+      "rank": 111,
+      "name": "WOORIB 2 01/20/27",
+      "ticker": "US98105GAL68",
+      "weight": 0.17,
+      "value": 2839570,
+      "qty": 1890.36
+    },
+    {
+      "rank": 111,
+      "name": "MARVELL TECHNOLOGY INC",
+      "ticker": "MRVL US",
+      "weight": 0.17,
+      "value": 2913550,
+      "qty": 7.16
+    },
+    {
+      "rank": 111,
+      "name": "KORGAS 1.125 07/13/26 REGS",
+      "ticker": "US50066CAQ24",
+      "weight": 0.17,
+      "value": 2873088,
+      "qty": 1890.36
+    },
+    {
+      "rank": 111,
+      "name": "KORGAS 3 1/2 07/02/26",
+      "ticker": "US50066CAH25",
+      "weight": 0.17,
+      "value": 2879821,
+      "qty": 1890.36
     },
     {
       "rank": 121,
       "name": "PALO ALTO NETWORKS INC",
       "ticker": "PANW US",
       "weight": 0.16,
-      "value": 2727565,
-      "qty": 6.77
+      "value": 2663961,
+      "qty": 6.71
     },
     {
-      "rank": 122,
-      "name": "ANALOG DEVICES INC",
-      "ticker": "ADI US",
-      "weight": 0.15,
-      "value": 2474340,
-      "qty": 4.05
+      "rank": 121,
+      "name": "QUALCOMM INC",
+      "ticker": "QCOM US",
+      "weight": 0.16,
+      "value": 2746867,
+      "qty": 8.77
     },
     {
-      "rank": 122,
-      "name": "T-MOBILE US INC",
-      "ticker": "TMUS US",
-      "weight": 0.15,
-      "value": 2467357,
-      "qty": 9.15
-    },
-    {
-      "rank": 124,
+      "rank": 123,
       "name": "SEAGATE TECHNOLOGY HOLDINGS",
       "ticker": "STX US",
       "weight": 0.14,
-      "value": 2398439,
-      "qty": 1.81
+      "value": 2310763,
+      "qty": 1.79
     },
     {
-      "rank": 124,
+      "rank": 123,
       "name": "KIAMTR 1 3/4 10/16/26",
       "ticker": "USY4760JAA17",
       "weight": 0.14,
-      "value": 2362894,
-      "qty": 1578.24
+      "value": 2359788,
+      "qty": 1563.33
     },
     {
-      "rank": 124,
+      "rank": 123,
+      "name": "T-MOBILE US INC",
+      "ticker": "TMUS US",
+      "weight": 0.14,
+      "value": 2477825,
+      "qty": 9.06
+    },
+    {
+      "rank": 123,
       "name": "PEPSICO INC",
       "ticker": "PEP US",
       "weight": 0.14,
-      "value": 2413014,
-      "qty": 11.34
+      "value": 2445281,
+      "qty": 11.24
     },
     {
-      "rank": 124,
-      "name": "KORGAS 2 1/4 07/18/26",
-      "ticker": "US50066CAL37",
+      "rank": 123,
+      "name": "ANALOG DEVICES INC",
+      "ticker": "ADI US",
       "weight": 0.14,
-      "value": 2303433,
-      "qty": 1526.72
+      "value": 2475027,
+      "qty": 4.01
     },
     {
-      "rank": 124,
+      "rank": 123,
       "name": "AMGEN INC",
       "ticker": "AMGN US",
       "weight": 0.14,
-      "value": 2339485,
-      "qty": 4.48
+      "value": 2328044,
+      "qty": 4.43
     },
     {
       "rank": 129,
-      "name": "APPLOVIN CORP-CLASS A",
-      "ticker": "APP US",
+      "name": "KORGAS 2 1/4 07/18/26",
+      "ticker": "US50066CAL37",
       "weight": 0.13,
-      "value": 2173165,
-      "qty": 2.55
+      "value": 2300037,
+      "qty": 1512.29
     },
     {
       "rank": 129,
       "name": "WESTERN DIGITAL CORP",
       "ticker": "WDC US",
       "weight": 0.13,
-      "value": 2242750,
-      "qty": 2.81
+      "value": 2200193,
+      "qty": 2.79
+    },
+    {
+      "rank": 131,
+      "name": "APPLOVIN CORP-CLASS A",
+      "ticker": "APP US",
+      "weight": 0.12,
+      "value": 2004904,
+      "qty": 2.53
     },
     {
       "rank": 131,
       "name": "CROWDSTRIKE HOLDINGS INC - A",
       "ticker": "CRWD US",
       "weight": 0.12,
-      "value": 2083560,
-      "qty": 2.09
+      "value": 2036584,
+      "qty": 2.07
     },
     {
-      "rank": 131,
-      "name": "ASML HOLDING NV-NY REG SHS",
-      "ticker": "ASML US",
-      "weight": 0.12,
-      "value": 1928003,
-      "qty": 0.73
-    },
-    {
-      "rank": 131,
+      "rank": 133,
       "name": "GILEAD SCIENCES INC",
       "ticker": "GILD US",
-      "weight": 0.12,
-      "value": 1995768,
-      "qty": 10.3
+      "weight": 0.11,
+      "value": 1952276,
+      "qty": 10.21
     },
     {
-      "rank": 134,
+      "rank": 133,
+      "name": "ASML HOLDING NV-NY REG SHS",
+      "ticker": "ASML US",
+      "weight": 0.11,
+      "value": 1956657,
+      "qty": 0.72
+    },
+    {
+      "rank": 133,
       "name": "INTUITIVE SURGICAL INC",
       "ticker": "ISRG US",
       "weight": 0.11,
-      "value": 1866278,
-      "qty": 2.95
+      "value": 1899087,
+      "qty": 2.92
     },
     {
-      "rank": 135,
+      "rank": 136,
       "name": "SHOPIFY INC - CLASS A",
       "ticker": "SHOP US",
       "weight": 0.1,
-      "value": 1704820,
-      "qty": 10.18
+      "value": 1696687,
+      "qty": 10.08
     },
     {
-      "rank": 135,
+      "rank": 136,
       "name": "KOREAT 2 1/2 07/18/26",
       "ticker": "USY49915AZ70",
       "weight": 0.1,
-      "value": 1727821,
-      "qty": 1145.04
+      "value": 1725244,
+      "qty": 1134.22
     },
     {
-      "rank": 135,
+      "rank": 136,
       "name": "HYNMTR 1.65 09/17/26",
       "ticker": "US44891CBZ59",
       "weight": 0.1,
-      "value": 1718828,
-      "qty": 1145.04
+      "value": 1716502,
+      "qty": 1134.22
     },
     {
-      "rank": 135,
+      "rank": 136,
       "name": "HONEYWELL INTERNATIONAL INC",
       "ticker": "HON US",
       "weight": 0.1,
-      "value": 1689930,
-      "qty": 5.28
+      "value": 1718414,
+      "qty": 5.23
     },
     {
-      "rank": 135,
+      "rank": 136,
       "name": "BOOKING HOLDINGS INC",
       "ticker": "BKNG US",
       "weight": 0.1,
-      "value": 1615780,
-      "qty": 6.58
+      "value": 1630122,
+      "qty": 6.52
     },
     {
-      "rank": 140,
-      "name": "EIBKOR 4 1/8 10/17/27",
-      "ticker": "US302154EG02",
-      "weight": 0.09,
-      "value": 1438587,
-      "qty": 954.2
-    },
-    {
-      "rank": 140,
-      "name": "SKONKR 4 3/8 05/07/29",
-      "ticker": "XS3361215315",
-      "weight": 0.09,
-      "value": 1432195,
-      "qty": 954.2
-    },
-    {
-      "rank": 142,
+      "rank": 141,
       "name": "CADENCE DESIGN SYS INC",
       "ticker": "CDNS US",
       "weight": 0.08,
-      "value": 1366271,
-      "qty": 2.29
+      "value": 1352666,
+      "qty": 2.27
     },
     {
-      "rank": 142,
+      "rank": 141,
+      "name": "SKONKR 4 3/8 05/07/29",
+      "ticker": "XS3361215315",
+      "weight": 0.08,
+      "value": 1430536,
+      "qty": 945.18
+    },
+    {
+      "rank": 141,
       "name": "VERTEX PHARMACEUTICALS INC",
       "ticker": "VRTX US",
       "weight": 0.08,
-      "value": 1412406,
-      "qty": 2.11
+      "value": 1419219,
+      "qty": 2.09
     },
     {
-      "rank": 142,
+      "rank": 141,
       "name": "STARBUCKS CORP",
       "ticker": "SBUX US",
       "weight": 0.08,
-      "value": 1355790,
-      "qty": 9.46
+      "value": 1390695,
+      "qty": 9.37
     },
     {
-      "rank": 142,
+      "rank": 141,
       "name": "MARRIOTT INTERNATIONAL -CL A",
       "ticker": "MAR US",
       "weight": 0.08,
-      "value": 1302283,
-      "qty": 2.2
+      "value": 1307570,
+      "qty": 2.18
     },
     {
-      "rank": 142,
+      "rank": 141,
       "name": "FORTINET INC",
       "ticker": "FTNT US",
       "weight": 0.08,
-      "value": 1328284,
-      "qty": 6.14
+      "value": 1283132,
+      "qty": 6.08
     },
     {
-      "rank": 147,
+      "rank": 141,
+      "name": "EIBKOR 4 1/8 10/17/27",
+      "ticker": "US302154EG02",
+      "weight": 0.08,
+      "value": 1436700,
+      "qty": 945.18
+    },
+    {
+      "rank": 148,
       "name": "ADOBE INC",
       "ticker": "ADBE US",
       "weight": 0.07,
-      "value": 1253415,
-      "qty": 3.38
+      "value": 1215212,
+      "qty": 3.35
     },
     {
-      "rank": 147,
+      "rank": 148,
       "name": "SYNOPSYS INC",
       "ticker": "SNPS US",
       "weight": 0.07,
-      "value": 1138072,
-      "qty": 1.59
+      "value": 1116650,
+      "qty": 1.57
     },
     {
-      "rank": 147,
+      "rank": 148,
       "name": "CONSTELLATION ENERGY",
       "ticker": "CEG US",
       "weight": 0.07,
-      "value": 1138554,
-      "qty": 3
+      "value": 1141259,
+      "qty": 2.98
     },
     {
-      "rank": 147,
-      "name": "CSX CORP",
-      "ticker": "CSX US",
-      "weight": 0.07,
-      "value": 1099519,
-      "qty": 15.44
-    },
-    {
-      "rank": 147,
+      "rank": 148,
       "name": "AUTOMATIC DATA PROCESSING",
       "ticker": "ADP US",
       "weight": 0.07,
-      "value": 1157477,
-      "qty": 3.34
+      "value": 1166276,
+      "qty": 3.31
     },
     {
       "rank": 152,
       "name": "NXP SEMICONDUCTORS NV",
       "ticker": "NXPI US",
       "weight": 0.06,
-      "value": 955013,
-      "qty": 2.1
-    },
-    {
-      "rank": 152,
-      "name": "ROSS STORES INC",
-      "ticker": "ROST US",
-      "weight": 0.06,
-      "value": 923356,
-      "qty": 2.69
+      "value": 941756,
+      "qty": 2.08
     },
     {
       "rank": 152,
       "name": "OREILLY AUTOMOTIVE INC",
       "ticker": "ORLY US",
       "weight": 0.06,
-      "value": 936852,
-      "qty": 6.96
+      "value": 940359,
+      "qty": 6.89
     },
     {
       "rank": 152,
       "name": "MONSTER BEVERAGE CORP",
       "ticker": "MNST US",
       "weight": 0.06,
-      "value": 1086283,
-      "qty": 8.12
+      "value": 1105216,
+      "qty": 8.04
     },
     {
       "rank": 152,
       "name": "MONOLITHIC POWER SYSTEMS INC",
       "ticker": "MPWR US",
       "weight": 0.06,
-      "value": 962622,
-      "qty": 0.41
+      "value": 944525,
+      "qty": 0.4
     },
     {
       "rank": 152,
       "name": "MONDELEZ INTERNATIONAL INC-A",
       "ticker": "MDLZ US",
       "weight": 0.06,
-      "value": 991001,
-      "qty": 10.64
+      "value": 1010850,
+      "qty": 10.54
     },
     {
       "rank": 152,
       "name": "MERCADOLIBRE INC",
       "ticker": "MELI US",
       "weight": 0.06,
-      "value": 1027889,
+      "value": 1044858,
       "qty": 0.42
     },
     {
@@ -1272,359 +1264,375 @@
       "name": "INTUIT INC",
       "ticker": "INTU US",
       "weight": 0.06,
-      "value": 1060571,
-      "qty": 2.3
-    },
-    {
-      "rank": 152,
-      "name": "DATADOG INC - CLASS A",
-      "ticker": "DDOG US",
-      "weight": 0.06,
-      "value": 955331,
-      "qty": 2.73
+      "value": 1018295,
+      "qty": 2.27
     },
     {
       "rank": 152,
       "name": "COMCAST CORP-CLASS A",
       "ticker": "CMCSA US",
       "weight": 0.06,
-      "value": 1070075,
-      "qty": 29.78
+      "value": 1072490,
+      "qty": 29.5
     },
     {
-      "rank": 162,
+      "rank": 152,
+      "name": "CSX CORP",
+      "ticker": "CSX US",
+      "weight": 0.06,
+      "value": 1101803,
+      "qty": 15.29
+    },
+    {
+      "rank": 161,
       "name": "AMERICAN ELECTRIC POWER",
       "ticker": "AEP US",
       "weight": 0.05,
-      "value": 860395,
-      "qty": 4.49
+      "value": 865797,
+      "qty": 4.45
     },
     {
-      "rank": 162,
+      "rank": 161,
       "name": "WARNER BROS DISCOVERY INC",
       "ticker": "WBD US",
       "weight": 0.05,
-      "value": 823876,
-      "qty": 20.58
+      "value": 825419,
+      "qty": 20.39
     },
     {
-      "rank": 162,
+      "rank": 161,
+      "name": "ROSS STORES INC",
+      "ticker": "ROST US",
+      "weight": 0.05,
+      "value": 930170,
+      "qty": 2.66
+    },
+    {
+      "rank": 161,
       "name": "REGENERON PHARMACEUTICALS",
       "ticker": "REGN US",
       "weight": 0.05,
-      "value": 797301,
-      "qty": 0.86
+      "value": 802436,
+      "qty": 0.85
     },
     {
-      "rank": 162,
+      "rank": 161,
       "name": "PACCAR INC",
       "ticker": "PCAR US",
       "weight": 0.05,
-      "value": 781651,
-      "qty": 4.36
+      "value": 788687,
+      "qty": 4.32
     },
     {
-      "rank": 162,
-      "name": "LUMENTUM HOLDINGS INC",
-      "ticker": "LITE US",
-      "weight": 0.05,
-      "value": 803560,
-      "qty": 0.59
-    },
-    {
-      "rank": 162,
+      "rank": 161,
       "name": "DOORDASH INC - A",
       "ticker": "DASH US",
       "weight": 0.05,
-      "value": 784571,
-      "qty": 3.4
+      "value": 799725,
+      "qty": 3.37
     },
     {
-      "rank": 162,
+      "rank": 161,
+      "name": "DATADOG INC - CLASS A",
+      "ticker": "DDOG US",
+      "weight": 0.05,
+      "value": 936031,
+      "qty": 2.7
+    },
+    {
+      "rank": 161,
       "name": "CINTAS CORP",
       "ticker": "CTAS US",
       "weight": 0.05,
-      "value": 871386,
-      "qty": 3.32
+      "value": 901239,
+      "qty": 3.29
     },
     {
-      "rank": 162,
+      "rank": 161,
       "name": "BAKER HUGHES CO",
       "ticker": "BKR US",
       "weight": 0.05,
-      "value": 804181,
-      "qty": 8.2
-    },
-    {
-      "rank": 170,
-      "name": "FERROVIAL NV",
-      "ticker": "NL0015001FS8",
-      "weight": 0.04,
-      "value": 596107,
-      "qty": 5.97
-    },
-    {
-      "rank": 170,
-      "name": "XCEL ENERGY INC",
-      "ticker": "XEL US",
-      "weight": 0.04,
-      "value": 607667,
-      "qty": 5.18
-    },
-    {
-      "rank": 170,
-      "name": "PDD HOLDINGS INC",
-      "ticker": "PDD US",
-      "weight": 0.04,
-      "value": 692585,
-      "qty": 5.54
-    },
-    {
-      "rank": 170,
-      "name": "OLD DOMINION FREIGHT LINE",
-      "ticker": "ODFL US",
-      "weight": 0.04,
-      "value": 646497,
-      "qty": 1.73
-    },
-    {
-      "rank": 170,
-      "name": "MICROCHIP TECHNOLOGY INC",
-      "ticker": "MCHP US",
-      "weight": 0.04,
-      "value": 620658,
-      "qty": 4.49
-    },
-    {
-      "rank": 170,
-      "name": "FASTENAL CO",
-      "ticker": "FAST US",
-      "weight": 0.04,
-      "value": 663041,
-      "qty": 9.53
-    },
-    {
-      "rank": 170,
-      "name": "ELECTRONIC ARTS INC",
-      "ticker": "EA US",
-      "weight": 0.04,
-      "value": 637961,
-      "qty": 2.08
-    },
-    {
-      "rank": 170,
-      "name": "DIAMONDBACK ENERGY INC",
-      "ticker": "FANG US",
-      "weight": 0.04,
-      "value": 701755,
-      "qty": 2.34
-    },
-    {
-      "rank": 170,
-      "name": "AUTODESK INC",
-      "ticker": "ADSK US",
-      "weight": 0.04,
-      "value": 598727,
-      "qty": 1.76
-    },
-    {
-      "rank": 170,
-      "name": "ARM HOLDINGS PLC-ADR",
-      "ticker": "ARM US",
-      "weight": 0.04,
-      "value": 606690,
-      "qty": 1.16
+      "value": 786982,
+      "qty": 8.12
     },
     {
       "rank": 170,
       "name": "AIRBNB INC-CLASS A",
       "ticker": "ABNB US",
       "weight": 0.04,
-      "value": 714540,
-      "qty": 3.52
+      "value": 697109,
+      "qty": 3.48
     },
     {
-      "rank": 181,
+      "rank": 170,
+      "name": "XCEL ENERGY INC",
+      "ticker": "XEL US",
+      "weight": 0.04,
+      "value": 608698,
+      "qty": 5.13
+    },
+    {
+      "rank": 170,
+      "name": "PDD HOLDINGS INC",
+      "ticker": "PDD US",
+      "weight": 0.04,
+      "value": 685753,
+      "qty": 5.49
+    },
+    {
+      "rank": 170,
+      "name": "OLD DOMINION FREIGHT LINE",
+      "ticker": "ODFL US",
+      "weight": 0.04,
+      "value": 649991,
+      "qty": 1.71
+    },
+    {
+      "rank": 170,
+      "name": "MICROCHIP TECHNOLOGY INC",
+      "ticker": "MCHP US",
+      "weight": 0.04,
+      "value": 620398,
+      "qty": 4.45
+    },
+    {
+      "rank": 170,
+      "name": "LUMENTUM HOLDINGS INC",
+      "ticker": "LITE US",
+      "weight": 0.04,
+      "value": 736360,
+      "qty": 0.59
+    },
+    {
+      "rank": 170,
+      "name": "FASTENAL CO",
+      "ticker": "FAST US",
+      "weight": 0.04,
+      "value": 670377,
+      "qty": 9.44
+    },
+    {
+      "rank": 170,
+      "name": "ELECTRONIC ARTS INC",
+      "ticker": "EA US",
+      "weight": 0.04,
+      "value": 634738,
+      "qty": 2.06
+    },
+    {
+      "rank": 170,
+      "name": "DIAMONDBACK ENERGY INC",
+      "ticker": "FANG US",
+      "weight": 0.04,
+      "value": 686682,
+      "qty": 2.32
+    },
+    {
+      "rank": 179,
       "name": "THOMSON REUTERS CORP",
       "ticker": "CA8849038812",
       "weight": 0.03,
-      "value": 457247,
-      "qty": 3.64
+      "value": 451837,
+      "qty": 3.6
     },
     {
-      "rank": 181,
+      "rank": 179,
       "name": "TAKE-TWO INTERACTIVE SOFTWRE",
       "ticker": "TTWO US",
       "weight": 0.03,
-      "value": 493729,
-      "qty": 1.54
+      "value": 491823,
+      "qty": 1.52
     },
     {
-      "rank": 181,
+      "rank": 179,
       "name": "ROPER TECHNOLOGIES INC",
       "ticker": "ROP US",
       "weight": 0.03,
-      "value": 431436,
+      "value": 432859,
       "qty": 0.85
     },
     {
-      "rank": 181,
+      "rank": 179,
       "name": "PAYPAL HOLDINGS INC",
       "ticker": "PYPL US",
       "weight": 0.03,
-      "value": 476728,
-      "qty": 7.64
+      "value": 478304,
+      "qty": 7.57
     },
     {
-      "rank": 181,
+      "rank": 179,
       "name": "PAYCHEX INC",
       "ticker": "PAYX US",
       "weight": 0.03,
-      "value": 445589,
-      "qty": 2.98
+      "value": 451020,
+      "qty": 2.95
     },
     {
-      "rank": 181,
+      "rank": 179,
       "name": "STRATEGY INC",
       "ticker": "MSTR US",
       "weight": 0.03,
-      "value": 501389,
-      "qty": 2.61
+      "value": 460566,
+      "qty": 2.58
     },
     {
-      "rank": 181,
+      "rank": 179,
       "name": "KEURIG DR PEPPER INC",
       "ticker": "KDP US",
       "weight": 0.03,
-      "value": 524333,
-      "qty": 11.28
+      "value": 535961,
+      "qty": 11.17
     },
     {
-      "rank": 181,
+      "rank": 179,
       "name": "IDEXX LABORATORIES INC",
       "ticker": "IDXX US",
       "weight": 0.03,
-      "value": 560294,
-      "qty": 0.66
+      "value": 577053,
+      "qty": 0.65
     },
     {
-      "rank": 181,
+      "rank": 179,
       "name": "EXELON CORP",
       "ticker": "EXC US",
       "weight": 0.03,
-      "value": 575157,
-      "qty": 8.49
+      "value": 581077,
+      "qty": 8.41
     },
     {
-      "rank": 181,
+      "rank": 179,
       "name": "AXON ENTERPRISE INC",
       "ticker": "AXON US",
       "weight": 0.03,
-      "value": 475738,
-      "qty": 0.67
+      "value": 456315,
+      "qty": 0.66
     },
     {
-      "rank": 181,
-      "name": "ALNYLAM PHARMACEUTICALS INC",
-      "ticker": "ALNY US",
+      "rank": 179,
+      "name": "AUTODESK INC",
+      "ticker": "ADSK US",
       "weight": 0.03,
-      "value": 486438,
-      "qty": 1.1
+      "value": 595274,
+      "qty": 1.74
     },
     {
-      "rank": 181,
-      "name": "COCA-COLA EUROPACIFIC PARTNE",
-      "ticker": "CCEP US",
+      "rank": 179,
+      "name": "ARM HOLDINGS PLC-ADR",
+      "ticker": "ARM US",
       "weight": 0.03,
-      "value": 547794,
-      "qty": 3.8
-    },
-    {
-      "rank": 193,
-      "name": "COGNIZANT TECH SOLUTIONS-A",
-      "ticker": "CTSH US",
-      "weight": 0.02,
-      "value": 318052,
-      "qty": 3.97
-    },
-    {
-      "rank": 193,
-      "name": "ZSCALER INC",
-      "ticker": "ZS US",
-      "weight": 0.02,
-      "value": 260695,
-      "qty": 1.33
-    },
-    {
-      "rank": 193,
-      "name": "WORKDAY INC-CLASS A",
-      "ticker": "WDAY US",
-      "weight": 0.02,
-      "value": 384131,
-      "qty": 1.77
-    },
-    {
-      "rank": 193,
-      "name": "VERISK ANALYTICS INC",
-      "ticker": "VRSK US",
-      "weight": 0.02,
-      "value": 309860,
+      "value": 568136,
       "qty": 1.15
     },
     {
-      "rank": 193,
+      "rank": 179,
+      "name": "ALNYLAM PHARMACEUTICALS INC",
+      "ticker": "ALNY US",
+      "weight": 0.03,
+      "value": 494893,
+      "qty": 1.09
+    },
+    {
+      "rank": 179,
+      "name": "FERROVIAL NV",
+      "ticker": "NL0015001FS8",
+      "weight": 0.03,
+      "value": 593309,
+      "qty": 5.91
+    },
+    {
+      "rank": 179,
+      "name": "COCA-COLA EUROPACIFIC PARTNE",
+      "ticker": "CCEP US",
+      "weight": 0.03,
+      "value": 556253,
+      "qty": 3.77
+    },
+    {
+      "rank": 194,
+      "name": "COGNIZANT TECH SOLUTIONS-A",
+      "ticker": "CTSH US",
+      "weight": 0.02,
+      "value": 317269,
+      "qty": 3.93
+    },
+    {
+      "rank": 194,
+      "name": "WORKDAY INC-CLASS A",
+      "ticker": "WDAY US",
+      "weight": 0.02,
+      "value": 374127,
+      "qty": 1.75
+    },
+    {
+      "rank": 194,
+      "name": "VERISK ANALYTICS INC",
+      "ticker": "VRSK US",
+      "weight": 0.02,
+      "value": 315582,
+      "qty": 1.13
+    },
+    {
+      "rank": 194,
       "name": "KRAFT HEINZ CO/THE",
       "ticker": "KHC US",
       "weight": 0.02,
-      "value": 346942,
-      "qty": 9.83
+      "value": 347599,
+      "qty": 9.73
     },
     {
-      "rank": 193,
+      "rank": 194,
       "name": "INSMED INC",
       "ticker": "INSM US",
       "weight": 0.02,
-      "value": 254886,
-      "qty": 1.79
+      "value": 267661,
+      "qty": 1.77
     },
     {
-      "rank": 193,
+      "rank": 194,
       "name": "GE HEALTHCARE TECHNOLOGY",
       "ticker": "GEHC US",
       "weight": 0.02,
-      "value": 369871,
-      "qty": 3.78
+      "value": 376954,
+      "qty": 3.75
     },
     {
-      "rank": 193,
+      "rank": 194,
       "name": "DEXCOM INC",
       "ticker": "DXCM US",
       "weight": 0.02,
-      "value": 370117,
-      "qty": 3.19
+      "value": 377124,
+      "qty": 3.16
     },
     {
-      "rank": 193,
+      "rank": 194,
       "name": "COPART INC",
       "ticker": "CPRT US",
       "weight": 0.02,
-      "value": 374907,
-      "qty": 8.03
+      "value": 379796,
+      "qty": 7.96
     },
     {
       "rank": 202,
       "name": "CHARTER COMMUNICATIONS INC-A",
       "ticker": "CHTR US",
       "weight": 0.01,
-      "value": 210194,
-      "qty": 1.05
+      "value": 214893,
+      "qty": 1.04
     },
     {
-      "rank": 203,
+      "rank": 202,
+      "name": "ZSCALER INC",
+      "ticker": "ZS US",
+      "weight": 0.01,
+      "value": 253432,
+      "qty": 1.32
+    },
+    {
+      "rank": 204,
       "name": "설정현금액",
       "ticker": "CASH00000001",
       "weight": 0,
-      "value": 1656910250,
+      "value": 1655590498,
       "qty": 0
     }
   ],
@@ -1632,42 +1640,42 @@
     {
       "rank": 1,
       "name": "IT",
-      "weight": 58.9
+      "weight": 58.44
     },
     {
       "rank": 2,
       "name": "커뮤니케이션서비스",
-      "weight": 13.16
+      "weight": 13.31
     },
     {
       "rank": 3,
       "name": "경기소비재",
-      "weight": 11.04
+      "weight": 11.08
     },
     {
       "rank": 4,
       "name": "필수소비재",
-      "weight": 6.75
+      "weight": 6.82
     },
     {
       "rank": 5,
       "name": "헬스케어",
-      "weight": 3.77
+      "weight": 3.84
     },
     {
       "rank": 6,
       "name": "산업재",
-      "weight": 3.45
+      "weight": 3.53
     },
     {
       "rank": 7,
       "name": "유틸리티",
-      "weight": 1.15
+      "weight": 1.17
     },
     {
       "rank": 8,
       "name": "소재",
-      "weight": 1.05
+      "weight": 1.09
     },
     {
       "rank": 9,

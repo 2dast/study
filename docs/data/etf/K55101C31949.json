@@ -1,7 +1,24 @@
 {
   "fundCd": "K55101C31949",
   "fundNm": "ACE MSCI멕시코(합성)",
-  "stdDt": "",
-  "holdings": [],
+  "stdDt": "2026-06-11",
+  "holdings": [
+    {
+      "rank": 1,
+      "name": "스왑(삼성증권)",
+      "ticker": "SWAP00000009",
+      "weight": 95.93,
+      "value": -32301481,
+      "qty": -32301481
+    },
+    {
+      "rank": 2,
+      "name": "스왑(NH투자증권)",
+      "ticker": "SWAP00000004",
+      "weight": 4.07,
+      "value": 1367297,
+      "qty": 1367297
+    }
+  ],
   "sectors": []
 }
