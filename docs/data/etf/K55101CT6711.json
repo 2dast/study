@@ -1,546 +1,562 @@
 {
   "fundCd": "K55101CT6711",
   "fundNm": "ACE 200TR",
-  "stdDt": "2026-06-11",
+  "stdDt": "2026-06-12",
   "holdings": [
     {
       "rank": 1,
       "name": "삼성전자",
       "ticker": "005930",
-      "weight": 34.01,
-      "value": 2788445000,
-      "qty": 9218
+      "weight": 33.86,
+      "value": 2791165000,
+      "qty": 9335
     },
     {
       "rank": 2,
       "name": "SK하이닉스",
       "ticker": "000660",
-      "weight": 27.35,
-      "value": 2242560000,
-      "qty": 1095
+      "weight": 28.26,
+      "value": 2330009000,
+      "qty": 1109
     },
     {
       "rank": 3,
       "name": "SK스퀘어",
       "ticker": "402340",
-      "weight": 2.62,
-      "value": 215306000,
-      "qty": 182
+      "weight": 2.74,
+      "value": 225952000,
+      "qty": 184
     },
     {
       "rank": 4,
       "name": "삼성전기",
       "ticker": "009150",
-      "weight": 2.42,
-      "value": 198550000,
-      "qty": 110
+      "weight": 2.44,
+      "value": 202160000,
+      "qty": 112
     },
     {
       "rank": 5,
-      "name": "2026-09 코스피200지수선물",
-      "ticker": "A01690",
-      "weight": 1.99,
-      "value": 163922375,
-      "qty": 0.53
-    },
-    {
-      "rank": 6,
       "name": "현대차",
       "ticker": "005380",
       "weight": 1.97,
-      "value": 161938000,
-      "qty": 269
+      "value": 162981000,
+      "qty": 273
+    },
+    {
+      "rank": 6,
+      "name": "KB금융",
+      "ticker": "105560",
+      "weight": 1.11,
+      "value": 92263500,
+      "qty": 609
     },
     {
       "rank": 7,
-      "name": "KB금융",
-      "ticker": "105560",
-      "weight": 1.12,
-      "value": 92708000,
-      "qty": 602
-    },
-    {
-      "rank": 8,
-      "name": "신한지주",
-      "ticker": "055550",
-      "weight": 0.97,
-      "value": 79934800,
-      "qty": 814
-    },
-    {
-      "rank": 9,
       "name": "삼성물산",
       "ticker": "028260",
-      "weight": 0.94,
-      "value": 77832500,
-      "qty": 191
+      "weight": 0.96,
+      "value": 79130000,
+      "qty": 193
+    },
+    {
+      "rank": 7,
+      "name": "신한지주",
+      "ticker": "055550",
+      "weight": 0.96,
+      "value": 79845600,
+      "qty": 824
     },
     {
       "rank": 9,
       "name": "두산에너빌리티",
       "ticker": "034020",
-      "weight": 0.94,
-      "value": 77890500,
-      "qty": 855
+      "weight": 0.93,
+      "value": 76816200,
+      "qty": 867
+    },
+    {
+      "rank": 10,
+      "name": "기아",
+      "ticker": "000270",
+      "weight": 0.92,
+      "value": 76284000,
+      "qty": 489
     },
     {
       "rank": 11,
-      "name": "기아",
-      "ticker": "000270",
-      "weight": 0.93,
-      "value": 76975400,
-      "qty": 482
+      "name": "현대모비스",
+      "ticker": "012330",
+      "weight": 0.87,
+      "value": 72000000,
+      "qty": 125
     },
     {
       "rank": 12,
-      "name": "현대모비스",
-      "ticker": "012330",
-      "weight": 0.85,
-      "value": 70110000,
-      "qty": 123
-    },
-    {
-      "rank": 13,
       "name": "한화에어로스페이스",
       "ticker": "012450",
       "weight": 0.81,
-      "value": 67015000,
-      "qty": 65
+      "value": 66924000,
+      "qty": 66
     },
     {
-      "rank": 14,
+      "rank": 13,
       "name": "삼성생명",
       "ticker": "032830",
       "weight": 0.75,
-      "value": 61456000,
-      "qty": 167
+      "value": 62050000,
+      "qty": 170
     },
     {
-      "rank": 14,
+      "rank": 13,
       "name": "NAVER",
       "ticker": "035420",
       "weight": 0.75,
-      "value": 61744000,
-      "qty": 272
+      "value": 61824000,
+      "qty": 276
+    },
+    {
+      "rank": 15,
+      "name": "삼성SDI",
+      "ticker": "006400",
+      "weight": 0.74,
+      "value": 60817000,
+      "qty": 122
     },
     {
       "rank": 16,
-      "name": "삼성SDI",
-      "ticker": "006400",
-      "weight": 0.72,
-      "value": 59580000,
-      "qty": 120
+      "name": "하나금융지주",
+      "ticker": "086790",
+      "weight": 0.69,
+      "value": 57285200,
+      "qty": 499
     },
     {
       "rank": 17,
-      "name": "하나금융지주",
-      "ticker": "086790",
-      "weight": 0.71,
-      "value": 58124700,
-      "qty": 493
-    },
-    {
-      "rank": 18,
       "name": "셀트리온",
       "ticker": "068270",
       "weight": 0.63,
-      "value": 52030300,
-      "qty": 311
+      "value": 52353000,
+      "qty": 315
     },
     {
-      "rank": 19,
+      "rank": 18,
       "name": "POSCO홀딩스",
       "ticker": "005490",
-      "weight": 0.6,
-      "value": 49005000,
-      "qty": 135
+      "weight": 0.59,
+      "value": 48688000,
+      "qty": 136
+    },
+    {
+      "rank": 18,
+      "name": "LG전자",
+      "ticker": "066570",
+      "weight": 0.59,
+      "value": 49042000,
+      "qty": 217
     },
     {
       "rank": 20,
-      "name": "LG전자",
-      "ticker": "066570",
-      "weight": 0.58,
-      "value": 47936000,
-      "qty": 214
-    },
-    {
-      "rank": 21,
       "name": "HD현대일렉트릭",
       "ticker": "267260",
-      "weight": 0.54,
-      "value": 44370000,
+      "weight": 0.56,
+      "value": 46485000,
       "qty": 45
     },
     {
-      "rank": 22,
+      "rank": 21,
       "name": "HD현대중공업",
       "ticker": "329180",
       "weight": 0.51,
-      "value": 41665000,
-      "qty": 65
+      "value": 42636000,
+      "qty": 66
+    },
+    {
+      "rank": 22,
+      "name": "SK",
+      "ticker": "034730",
+      "weight": 0.49,
+      "value": 41400000,
+      "qty": 72
     },
     {
       "rank": 23,
-      "name": "SK",
-      "ticker": "034730",
-      "weight": 0.5,
-      "value": 41109000,
-      "qty": 71
+      "name": "2026-09 코스피200지수선물",
+      "ticker": "A01690",
+      "weight": 0.48,
+      "value": 40171625,
+      "qty": 0.13
     },
     {
-      "rank": 24,
+      "rank": 23,
       "name": "우리금융지주",
       "ticker": "316140",
       "weight": 0.48,
-      "value": 39663800,
-      "qty": 1331
+      "value": 40672350,
+      "qty": 1349
     },
     {
       "rank": 25,
-      "name": "LG에너지솔루션",
-      "ticker": "373220",
-      "weight": 0.46,
-      "value": 37779000,
-      "qty": 98
-    },
-    {
-      "rank": 26,
-      "name": "LS ELECTRIC",
-      "ticker": "010120",
-      "weight": 0.45,
-      "value": 36580000,
-      "qty": 155
-    },
-    {
-      "rank": 27,
       "name": "삼성화재",
       "ticker": "000810",
-      "weight": 0.44,
-      "value": 36344000,
+      "weight": 0.47,
+      "value": 39117000,
       "qty": 59
     },
     {
+      "rank": 26,
+      "name": "LG에너지솔루션",
+      "ticker": "373220",
+      "weight": 0.45,
+      "value": 38065500,
+      "qty": 99
+    },
+    {
       "rank": 27,
+      "name": "LS ELECTRIC",
+      "ticker": "010120",
+      "weight": 0.43,
+      "value": 36031500,
+      "qty": 157
+    },
+    {
+      "rank": 28,
       "name": "HD한국조선해양",
       "ticker": "009540",
-      "weight": 0.44,
-      "value": 35851500,
-      "qty": 93
+      "weight": 0.42,
+      "value": 35297000,
+      "qty": 94
     },
     {
       "rank": 29,
       "name": "삼성중공업",
       "ticker": "010140",
-      "weight": 0.41,
-      "value": 34190000,
-      "qty": 1315
+      "weight": 0.4,
+      "value": 33724900,
+      "qty": 1333
     },
     {
       "rank": 29,
-      "name": "효성중공업",
-      "ticker": "298040",
-      "weight": 0.41,
-      "value": 34370000,
-      "qty": 10
+      "name": "KT&G",
+      "ticker": "033780",
+      "weight": 0.4,
+      "value": 33318000,
+      "qty": 180
     },
     {
       "rank": 31,
-      "name": "SK텔레콤",
-      "ticker": "017670",
-      "weight": 0.37,
-      "value": 31181500,
-      "qty": 295
+      "name": "효성중공업",
+      "ticker": "298040",
+      "weight": 0.39,
+      "value": 32460000,
+      "qty": 10
     },
     {
       "rank": 32,
       "name": "LG이노텍",
       "ticker": "011070",
-      "weight": 0.36,
-      "value": 30520000,
-      "qty": 28
+      "weight": 0.37,
+      "value": 31088000,
+      "qty": 29
     },
     {
       "rank": 33,
-      "name": "KT&G",
-      "ticker": "033780",
+      "name": "SK텔레콤",
+      "ticker": "017670",
       "weight": 0.35,
-      "value": 29245800,
-      "qty": 158
+      "value": 29900000,
+      "qty": 299
     },
     {
       "rank": 33,
       "name": "LG화학",
       "ticker": "051910",
       "weight": 0.35,
-      "value": 29393000,
-      "qty": 91
+      "value": 29434500,
+      "qty": 93
+    },
+    {
+      "rank": 35,
+      "name": "미래에셋증권",
+      "ticker": "006800",
+      "weight": 0.33,
+      "value": 27696200,
+      "qty": 542
+    },
+    {
+      "rank": 35,
+      "name": "현대로템",
+      "ticker": "064350",
+      "weight": 0.33,
+      "value": 27883200,
+      "qty": 148
     },
     {
       "rank": 35,
       "name": "한화오션",
       "ticker": "042660",
-      "weight": 0.34,
-      "value": 28982600,
-      "qty": 263
+      "weight": 0.33,
+      "value": 27797000,
+      "qty": 266
     },
     {
-      "rank": 36,
-      "name": "미래에셋증권",
-      "ticker": "006800",
-      "weight": 0.33,
-      "value": 27545600,
-      "qty": 538
-    },
-    {
-      "rank": 36,
-      "name": "현대로템",
-      "ticker": "064350",
-      "weight": 0.33,
-      "value": 27652400,
-      "qty": 146
+      "rank": 38,
+      "name": "카카오",
+      "ticker": "035720",
+      "weight": 0.32,
+      "value": 26645400,
+      "qty": 678
     },
     {
       "rank": 38,
       "name": "삼성바이오로직스",
       "ticker": "207940",
-      "weight": 0.31,
-      "value": 25960000,
-      "qty": 20
-    },
-    {
-      "rank": 39,
-      "name": "카카오",
-      "ticker": "035720",
-      "weight": 0.3,
-      "value": 25560500,
-      "qty": 670
+      "weight": 0.32,
+      "value": 27006000,
+      "qty": 21
     },
     {
       "rank": 40,
       "name": "KT",
       "ticker": "030200",
-      "weight": 0.29,
-      "value": 24428300,
-      "qty": 437
-    },
-    {
-      "rank": 41,
-      "name": "한국전력",
-      "ticker": "015760",
-      "weight": 0.27,
-      "value": 22822800,
-      "qty": 627
+      "weight": 0.31,
+      "value": 26580000,
+      "qty": 443
     },
     {
       "rank": 41,
       "name": "한미반도체",
       "ticker": "042700",
-      "weight": 0.27,
-      "value": 22680000,
-      "qty": 84
+      "weight": 0.29,
+      "value": 24735000,
+      "qty": 85
     },
     {
-      "rank": 43,
+      "rank": 42,
       "name": "두산",
       "ticker": "000150",
-      "weight": 0.26,
-      "value": 22176000,
+      "weight": 0.27,
+      "value": 22694000,
       "qty": 14
     },
     {
-      "rank": 43,
+      "rank": 42,
+      "name": "한국전력",
+      "ticker": "015760",
+      "weight": 0.27,
+      "value": 22796500,
+      "qty": 635
+    },
+    {
+      "rank": 44,
       "name": "HD현대",
       "ticker": "267250",
       "weight": 0.26,
-      "value": 21825000,
-      "qty": 90
+      "value": 22340500,
+      "qty": 91
+    },
+    {
+      "rank": 45,
+      "name": "한국항공우주",
+      "ticker": "047810",
+      "weight": 0.24,
+      "value": 20149800,
+      "qty": 142
+    },
+    {
+      "rank": 45,
+      "name": "에이피알",
+      "ticker": "278470",
+      "weight": 0.24,
+      "value": 20114500,
+      "qty": 49
     },
     {
       "rank": 45,
       "name": "LIG디펜스앤에어로스페이스",
       "ticker": "079550",
-      "weight": 0.25,
-      "value": 21330000,
+      "weight": 0.24,
+      "value": 20628000,
       "qty": 27
     },
     {
-      "rank": 46,
+      "rank": 48,
       "name": "LG",
       "ticker": "003550",
       "weight": 0.23,
-      "value": 19674700,
-      "qty": 181
-    },
-    {
-      "rank": 46,
-      "name": "에이피알",
-      "ticker": "278470",
-      "weight": 0.23,
-      "value": 19704000,
-      "qty": 48
-    },
-    {
-      "rank": 46,
-      "name": "한국항공우주",
-      "ticker": "047810",
-      "weight": 0.23,
-      "value": 19264000,
-      "qty": 140
-    },
-    {
-      "rank": 49,
-      "name": "현대건설",
-      "ticker": "000720",
-      "weight": 0.22,
-      "value": 19023800,
-      "qty": 146
+      "value": 19350000,
+      "qty": 180
     },
     {
       "rank": 49,
       "name": "한국금융지주",
       "ticker": "071050",
       "weight": 0.22,
-      "value": 18549000,
-      "qty": 81
+      "value": 18860000,
+      "qty": 82
     },
     {
-      "rank": 51,
-      "name": "2026-07 카카오뱅크개별선물",
-      "ticker": "AF6670",
+      "rank": 50,
+      "name": "현대건설",
+      "ticker": "000720",
       "weight": 0.21,
-      "value": 17510000,
-      "qty": 68
+      "value": 18159600,
+      "qty": 148
     },
     {
-      "rank": 51,
+      "rank": 50,
+      "name": "삼성에스디에스",
+      "ticker": "018260",
+      "weight": 0.21,
+      "value": 17671500,
+      "qty": 77
+    },
+    {
+      "rank": 52,
       "name": "고려아연",
       "ticker": "010130",
-      "weight": 0.21,
-      "value": 17790000,
+      "weight": 0.2,
+      "value": 17460000,
       "qty": 15
     },
     {
       "rank": 53,
-      "name": "삼성에스디에스",
-      "ticker": "018260",
-      "weight": 0.2,
-      "value": 17100000,
-      "qty": 76
+      "name": "2026-07 카카오뱅크개별선물",
+      "ticker": "AF6670",
+      "weight": 0.18,
+      "value": 15640000,
+      "qty": 68
     },
     {
-      "rank": 54,
+      "rank": 53,
       "name": "메리츠금융지주",
       "ticker": "138040",
-      "weight": 0.19,
-      "value": 16121800,
+      "weight": 0.18,
+      "value": 15794000,
       "qty": 149
     },
     {
-      "rank": 55,
+      "rank": 53,
       "name": "SK이노베이션",
       "ticker": "096770",
       "weight": 0.18,
-      "value": 15347600,
-      "qty": 148
+      "value": 15480000,
+      "qty": 150
     },
     {
       "rank": 56,
       "name": "삼성E&A",
       "ticker": "028050",
       "weight": 0.17,
-      "value": 14804900,
-      "qty": 313
+      "value": 14439350,
+      "qty": 317
     },
     {
       "rank": 56,
       "name": "현대글로비스",
       "ticker": "086280",
       "weight": 0.17,
-      "value": 14249600,
-      "qty": 73
+      "value": 14489200,
+      "qty": 74
     },
     {
       "rank": 58,
-      "name": "포스코퓨처엠",
-      "ticker": "003670",
+      "name": "이수페타시스",
+      "ticker": "007660",
       "weight": 0.16,
-      "value": 13319600,
-      "qty": 71
-    },
-    {
-      "rank": 58,
-      "name": "크래프톤",
-      "ticker": "259960",
-      "weight": 0.16,
-      "value": 13456000,
-      "qty": 58
+      "value": 13552000,
+      "qty": 110
     },
     {
       "rank": 58,
       "name": "삼성증권",
       "ticker": "016360",
       "weight": 0.16,
-      "value": 13576200,
-      "qty": 121
+      "value": 13751400,
+      "qty": 123
     },
     {
-      "rank": 61,
+      "rank": 60,
       "name": "대한항공",
       "ticker": "003490",
       "weight": 0.15,
-      "value": 12877700,
-      "qty": 506
+      "value": 12722400,
+      "qty": 513
     },
     {
-      "rank": 61,
+      "rank": 60,
       "name": "한화시스템",
       "ticker": "272210",
       "weight": 0.15,
-      "value": 12732400,
-      "qty": 139
+      "value": 12492600,
+      "qty": 141
     },
     {
-      "rank": 61,
+      "rank": 60,
+      "name": "크래프톤",
+      "ticker": "259960",
+      "weight": 0.15,
+      "value": 13281000,
+      "qty": 57
+    },
+    {
+      "rank": 60,
+      "name": "포스코퓨처엠",
+      "ticker": "003670",
+      "weight": 0.15,
+      "value": 13298400,
+      "qty": 72
+    },
+    {
+      "rank": 64,
       "name": "LS",
       "ticker": "006260",
-      "weight": 0.15,
-      "value": 12870000,
+      "weight": 0.14,
+      "value": 12325500,
       "qty": 33
     },
     {
       "rank": 64,
-      "name": "DB손해보험",
-      "ticker": "005830",
+      "name": "HMM",
+      "ticker": "011200",
       "weight": 0.14,
-      "value": 11685000,
-      "qty": 82
-    },
-    {
-      "rank": 64,
-      "name": "이수페타시스",
-      "ticker": "007660",
-      "weight": 0.14,
-      "value": 12204000,
-      "qty": 108
+      "value": 11837800,
+      "qty": 628
     },
     {
       "rank": 66,
-      "name": "HMM",
-      "ticker": "011200",
+      "name": "DB손해보험",
+      "ticker": "005830",
       "weight": 0.13,
-      "value": 11395600,
-      "qty": 620
+      "value": 11480000,
+      "qty": 82
+    },
+    {
+      "rank": 66,
+      "name": "하이브",
+      "ticker": "352820",
+      "weight": 0.13,
+      "value": 10900000,
+      "qty": 50
+    },
+    {
+      "rank": 66,
+      "name": "한진칼",
+      "ticker": "180640",
+      "weight": 0.13,
+      "value": 11129600,
+      "qty": 94
     },
     {
       "rank": 66,
       "name": "기업은행",
       "ticker": "024110",
       "weight": 0.13,
-      "value": 11286000,
-      "qty": 540
+      "value": 11459650,
+      "qty": 547
     },
     {
-      "rank": 68,
+      "rank": 70,
       "name": "코웨이",
       "ticker": "021240",
       "weight": 0.12,
@@ -548,1059 +564,1043 @@
       "qty": 109
     },
     {
-      "rank": 68,
-      "name": "한진칼",
-      "ticker": "180640",
-      "weight": 0.12,
-      "value": 10750800,
-      "qty": 93
-    },
-    {
-      "rank": 68,
+      "rank": 70,
       "name": "한국타이어앤테크놀로지",
       "ticker": "161390",
       "weight": 0.12,
-      "value": 10095800,
-      "qty": 143
+      "value": 10309500,
+      "qty": 145
     },
     {
-      "rank": 71,
+      "rank": 70,
+      "name": "키움증권",
+      "ticker": "039490",
+      "weight": 0.12,
+      "value": 10586500,
+      "qty": 31
+    },
+    {
+      "rank": 73,
       "name": "유한양행",
       "ticker": "000100",
       "weight": 0.11,
-      "value": 9228000,
-      "qty": 120
+      "value": 9244400,
+      "qty": 121
     },
     {
-      "rank": 71,
-      "name": "키움증권",
-      "ticker": "039490",
-      "weight": 0.11,
-      "value": 9590000,
-      "qty": 28
-    },
-    {
-      "rank": 71,
-      "name": "S-Oil",
-      "ticker": "010950",
-      "weight": 0.11,
-      "value": 9196400,
-      "qty": 83
-    },
-    {
-      "rank": 74,
-      "name": "대한전선",
-      "ticker": "001440",
-      "weight": 0.1,
-      "value": 8763300,
-      "qty": 234
-    },
-    {
-      "rank": 74,
-      "name": "하이브",
-      "ticker": "352820",
-      "weight": 0.1,
-      "value": 8610000,
-      "qty": 42
-    },
-    {
-      "rank": 74,
-      "name": "현대오토에버",
-      "ticker": "307950",
-      "weight": 0.1,
-      "value": 8879000,
-      "qty": 13
-    },
-    {
-      "rank": 74,
-      "name": "BNK금융지주",
-      "ticker": "138930",
-      "weight": 0.1,
-      "value": 8619780,
-      "qty": 514
-    },
-    {
-      "rank": 74,
-      "name": "LG씨엔에스",
-      "ticker": "064400",
-      "weight": 0.1,
-      "value": 8911000,
-      "qty": 95
-    },
-    {
-      "rank": 74,
-      "name": "NC",
-      "ticker": "036570",
-      "weight": 0.1,
-      "value": 8738000,
-      "qty": 34
-    },
-    {
-      "rank": 74,
-      "name": "NH투자증권",
-      "ticker": "005940",
-      "weight": 0.1,
-      "value": 8875500,
-      "qty": 291
-    },
-    {
-      "rank": 74,
-      "name": "신세계",
-      "ticker": "004170",
-      "weight": 0.1,
-      "value": 8905000,
-      "qty": 13
-    },
-    {
-      "rank": 74,
-      "name": "삼양식품",
-      "ticker": "003230",
-      "weight": 0.1,
-      "value": 9088000,
-      "qty": 8
-    },
-    {
-      "rank": 83,
-      "name": "한화솔루션",
-      "ticker": "009830",
-      "weight": 0.09,
-      "value": 7905600,
-      "qty": 216
-    },
-    {
-      "rank": 83,
-      "name": "JB금융지주",
-      "ticker": "175330",
-      "weight": 0.09,
-      "value": 8007000,
-      "qty": 314
-    },
-    {
-      "rank": 83,
-      "name": "대우건설",
-      "ticker": "047040",
-      "weight": 0.09,
-      "value": 8258500,
-      "qty": 398
-    },
-    {
-      "rank": 83,
-      "name": "LG유플러스",
-      "ticker": "032640",
-      "weight": 0.09,
-      "value": 8072040,
-      "qty": 548
-    },
-    {
-      "rank": 87,
-      "name": "OCI홀딩스",
-      "ticker": "010060",
-      "weight": 0.08,
-      "value": 6851000,
-      "qty": 26
-    },
-    {
-      "rank": 87,
+      "rank": 73,
       "name": "HD현대마린솔루션",
       "ticker": "443060",
-      "weight": 0.08,
-      "value": 6641000,
-      "qty": 29
-    },
-    {
-      "rank": 87,
-      "name": "아모레퍼시픽",
-      "ticker": "090430",
-      "weight": 0.08,
-      "value": 6931600,
-      "qty": 62
-    },
-    {
-      "rank": 87,
-      "name": "엘앤에프",
-      "ticker": "066970",
-      "weight": 0.08,
-      "value": 6952000,
-      "qty": 55
-    },
-    {
-      "rank": 87,
-      "name": "LG디스플레이",
-      "ticker": "034220",
-      "weight": 0.08,
-      "value": 7461980,
-      "qty": 578
-    },
-    {
-      "rank": 92,
-      "name": "한화",
-      "ticker": "000880",
-      "weight": 0.07,
-      "value": 6556000,
-      "qty": 55
-    },
-    {
-      "rank": 92,
-      "name": "두산밥캣",
-      "ticker": "241560",
-      "weight": 0.07,
-      "value": 6519900,
-      "qty": 103
-    },
-    {
-      "rank": 92,
-      "name": "GS",
-      "ticker": "078930",
-      "weight": 0.07,
-      "value": 6461400,
-      "qty": 89
-    },
-    {
-      "rank": 92,
-      "name": "산일전기",
-      "ticker": "062040",
-      "weight": 0.07,
-      "value": 5899500,
-      "qty": 27
-    },
-    {
-      "rank": 92,
-      "name": "SKC",
-      "ticker": "011790",
-      "weight": 0.07,
-      "value": 6453200,
-      "qty": 52
-    },
-    {
-      "rank": 97,
-      "name": "현대제철",
-      "ticker": "004020",
-      "weight": 0.06,
-      "value": 5586000,
-      "qty": 168
-    },
-    {
-      "rank": 97,
-      "name": "오리온",
-      "ticker": "271560",
-      "weight": 0.06,
-      "value": 5697500,
-      "qty": 43
-    },
-    {
-      "rank": 97,
-      "name": "한미약품",
-      "ticker": "128940",
-      "weight": 0.06,
-      "value": 5349500,
-      "qty": 13
-    },
-    {
-      "rank": 97,
-      "name": "한화엔진",
-      "ticker": "082740",
-      "weight": 0.06,
-      "value": 5734800,
-      "qty": 108
-    },
-    {
-      "rank": 97,
-      "name": "포스코인터내셔널",
-      "ticker": "047050",
-      "weight": 0.06,
-      "value": 5305300,
-      "qty": 91
-    },
-    {
-      "rank": 102,
-      "name": "CJ",
-      "ticker": "001040",
-      "weight": 0.05,
-      "value": 4595400,
-      "qty": 27
-    },
-    {
-      "rank": 102,
-      "name": "두산로보틱스",
-      "ticker": "454910",
-      "weight": 0.05,
-      "value": 4157400,
+      "weight": 0.11,
+      "value": 9574500,
       "qty": 39
     },
     {
-      "rank": 102,
-      "name": "DL이앤씨",
-      "ticker": "375500",
-      "weight": 0.05,
-      "value": 4153600,
-      "qty": 59
+      "rank": 73,
+      "name": "현대오토에버",
+      "ticker": "307950",
+      "weight": 0.11,
+      "value": 9230000,
+      "qty": 13
     },
     {
-      "rank": 102,
-      "name": "SK바이오팜",
-      "ticker": "326030",
-      "weight": 0.05,
-      "value": 4752000,
-      "qty": 55
+      "rank": 73,
+      "name": "BNK금융지주",
+      "ticker": "138930",
+      "weight": 0.11,
+      "value": 9166900,
+      "qty": 545
     },
     {
-      "rank": 102,
-      "name": "iM금융지주",
-      "ticker": "139130",
-      "weight": 0.05,
-      "value": 4809400,
-      "qty": 278
+      "rank": 73,
+      "name": "S-Oil",
+      "ticker": "010950",
+      "weight": 0.11,
+      "value": 9500400,
+      "qty": 84
     },
     {
-      "rank": 102,
-      "name": "한전기술",
-      "ticker": "052690",
-      "weight": 0.05,
-      "value": 4391900,
-      "qty": 37
+      "rank": 73,
+      "name": "NH투자증권",
+      "ticker": "005940",
+      "weight": 0.11,
+      "value": 9204000,
+      "qty": 295
     },
     {
-      "rank": 102,
-      "name": "LG생활건강",
-      "ticker": "051900",
-      "weight": 0.05,
-      "value": 4221000,
-      "qty": 18
+      "rank": 73,
+      "name": "신세계",
+      "ticker": "004170",
+      "weight": 0.11,
+      "value": 9282000,
+      "qty": 13
     },
     {
-      "rank": 102,
-      "name": "한솔케미칼",
-      "ticker": "014680",
-      "weight": 0.05,
-      "value": 4716000,
-      "qty": 18
-    },
-    {
-      "rank": 102,
-      "name": "삼성에피스홀딩스",
-      "ticker": "0126Z0",
-      "weight": 0.05,
-      "value": 4609000,
-      "qty": 11
-    },
-    {
-      "rank": 102,
-      "name": "현대해상",
-      "ticker": "001450",
-      "weight": 0.05,
-      "value": 4468450,
-      "qty": 119
-    },
-    {
-      "rank": 112,
-      "name": "KCC",
-      "ticker": "002380",
-      "weight": 0.04,
-      "value": 3908000,
+      "rank": 73,
+      "name": "삼양식품",
+      "ticker": "003230",
+      "weight": 0.11,
+      "value": 9408000,
       "qty": 8
     },
     {
-      "rank": 112,
-      "name": "이마트",
-      "ticker": "139480",
-      "weight": 0.04,
-      "value": 3500000,
-      "qty": 40
-    },
-    {
-      "rank": 112,
-      "name": "영원무역",
-      "ticker": "111770",
-      "weight": 0.04,
-      "value": 3358300,
-      "qty": 43
-    },
-    {
-      "rank": 112,
-      "name": "현대백화점",
-      "ticker": "069960",
-      "weight": 0.04,
-      "value": 4101600,
-      "qty": 24
-    },
-    {
-      "rank": 112,
-      "name": "강원랜드",
-      "ticker": "035250",
-      "weight": 0.04,
-      "value": 3394520,
-      "qty": 226
-    },
-    {
-      "rank": 112,
-      "name": "롯데쇼핑",
-      "ticker": "023530",
-      "weight": 0.04,
-      "value": 3910000,
-      "qty": 20
-    },
-    {
-      "rank": 112,
-      "name": "현대엘리베이터",
-      "ticker": "017800",
-      "weight": 0.04,
-      "value": 3881100,
-      "qty": 51
-    },
-    {
-      "rank": 112,
-      "name": "에스원",
-      "ticker": "012750",
-      "weight": 0.04,
-      "value": 3436800,
-      "qty": 48
-    },
-    {
-      "rank": 112,
-      "name": "금호석유화학",
-      "ticker": "011780",
-      "weight": 0.04,
-      "value": 3600000,
-      "qty": 30
-    },
-    {
-      "rank": 112,
-      "name": "한올바이오파마",
-      "ticker": "009420",
-      "weight": 0.04,
-      "value": 3557100,
-      "qty": 71
-    },
-    {
-      "rank": 112,
-      "name": "호텔신라",
-      "ticker": "008770",
-      "weight": 0.04,
-      "value": 3422100,
+      "rank": 73,
+      "name": "DB하이텍",
+      "ticker": "000990",
+      "weight": 0.11,
+      "value": 9467200,
       "qty": 61
     },
     {
-      "rank": 112,
-      "name": "GS건설",
-      "ticker": "006360",
-      "weight": 0.04,
-      "value": 3430400,
-      "qty": 128
+      "rank": 82,
+      "name": "대한전선",
+      "ticker": "001440",
+      "weight": 0.1,
+      "value": 8757150,
+      "qty": 237
     },
     {
-      "rank": 124,
-      "name": "롯데케미칼",
-      "ticker": "011170",
-      "weight": 0.03,
-      "value": 2696400,
-      "qty": 36
+      "rank": 82,
+      "name": "LG씨엔에스",
+      "ticker": "064400",
+      "weight": 0.1,
+      "value": 8928000,
+      "qty": 96
     },
     {
-      "rank": 124,
-      "name": "이수스페셜티케미컬",
-      "ticker": "457190",
-      "weight": 0.03,
-      "value": 3168000,
-      "qty": 40
-    },
-    {
-      "rank": 124,
-      "name": "에코프로머티",
-      "ticker": "450080",
-      "weight": 0.03,
-      "value": 2692800,
-      "qty": 51
-    },
-    {
-      "rank": 124,
-      "name": "넷마블",
-      "ticker": "251270",
-      "weight": 0.03,
-      "value": 2520000,
-      "qty": 63
-    },
-    {
-      "rank": 124,
-      "name": "HL만도",
-      "ticker": "204320",
-      "weight": 0.03,
-      "value": 3269500,
-      "qty": 65
-    },
-    {
-      "rank": 124,
-      "name": "코스맥스",
-      "ticker": "192820",
-      "weight": 0.03,
-      "value": 2625600,
-      "qty": 16
-    },
-    {
-      "rank": 124,
-      "name": "한국콜마",
-      "ticker": "161890",
-      "weight": 0.03,
-      "value": 2822000,
+      "rank": 82,
+      "name": "NC",
+      "ticker": "036570",
+      "weight": 0.1,
+      "value": 8840000,
       "qty": 34
     },
     {
-      "rank": 124,
-      "name": "CJ제일제당",
-      "ticker": "097950",
-      "weight": 0.03,
-      "value": 3113600,
-      "qty": 16
+      "rank": 82,
+      "name": "LG유플러스",
+      "ticker": "032640",
+      "weight": 0.1,
+      "value": 8433720,
+      "qty": 548
     },
     {
-      "rank": 124,
-      "name": "한화생명",
-      "ticker": "088350",
-      "weight": 0.03,
-      "value": 3148530,
-      "qty": 658
+      "rank": 86,
+      "name": "한화솔루션",
+      "ticker": "009830",
+      "weight": 0.09,
+      "value": 8092050,
+      "qty": 219
     },
     {
-      "rank": 124,
-      "name": "HD현대마린엔진",
-      "ticker": "071970",
-      "weight": 0.03,
-      "value": 2857500,
-      "qty": 45
-    },
-    {
-      "rank": 124,
-      "name": "한국가스공사",
-      "ticker": "036460",
-      "weight": 0.03,
-      "value": 2601100,
-      "qty": 74
-    },
-    {
-      "rank": 124,
-      "name": "제일기획",
-      "ticker": "030000",
-      "weight": 0.03,
-      "value": 2541960,
-      "qty": 138
-    },
-    {
-      "rank": 124,
-      "name": "포스코DX",
-      "ticker": "022100",
-      "weight": 0.03,
-      "value": 2585000,
-      "qty": 100
-    },
-    {
-      "rank": 137,
-      "name": "CJ대한통운",
-      "ticker": "000120",
-      "weight": 0.02,
-      "value": 1766600,
-      "qty": 22
-    },
-    {
-      "rank": 137,
-      "name": "F&F",
-      "ticker": "383220",
-      "weight": 0.02,
-      "value": 2133000,
-      "qty": 27
-    },
-    {
-      "rank": 137,
-      "name": "카카오페이",
-      "ticker": "377300",
-      "weight": 0.02,
-      "value": 2422500,
+      "rank": 86,
+      "name": "HD건설기계",
+      "ticker": "267270",
+      "weight": 0.09,
+      "value": 8156700,
       "qty": 57
     },
     {
-      "rank": 137,
-      "name": "SK바이오사이언스",
-      "ticker": "302440",
-      "weight": 0.02,
-      "value": 2007200,
-      "qty": 52
-    },
-    {
-      "rank": 137,
-      "name": "BGF리테일",
-      "ticker": "282330",
-      "weight": 0.02,
-      "value": 2081600,
-      "qty": 16
-    },
-    {
-      "rank": 137,
-      "name": "코오롱인더",
-      "ticker": "120110",
-      "weight": 0.02,
-      "value": 2484000,
-      "qty": 36
-    },
-    {
-      "rank": 137,
-      "name": "씨에스윈드",
-      "ticker": "112610",
-      "weight": 0.02,
-      "value": 1984800,
-      "qty": 48
-    },
-    {
-      "rank": 137,
-      "name": "풍산",
-      "ticker": "103140",
-      "weight": 0.02,
-      "value": 2383400,
-      "qty": 34
-    },
-    {
-      "rank": 137,
-      "name": "후성",
-      "ticker": "093370",
-      "weight": 0.02,
-      "value": 1770160,
-      "qty": 109
-    },
-    {
-      "rank": 137,
-      "name": "미스토홀딩스",
-      "ticker": "081660",
-      "weight": 0.02,
-      "value": 2421000,
-      "qty": 60
-    },
-    {
-      "rank": 137,
-      "name": "한전KPS",
-      "ticker": "051600",
-      "weight": 0.02,
-      "value": 2061400,
-      "qty": 44
-    },
-    {
-      "rank": 137,
-      "name": "삼성카드",
-      "ticker": "029780",
-      "weight": 0.02,
-      "value": 2448600,
-      "qty": 53
-    },
-    {
-      "rank": 137,
-      "name": "팬오션",
-      "ticker": "028670",
-      "weight": 0.02,
-      "value": 2302720,
-      "qty": 448
-    },
-    {
-      "rank": 137,
-      "name": "한온시스템",
-      "ticker": "018880",
-      "weight": 0.02,
-      "value": 2121120,
-      "qty": 491
-    },
-    {
-      "rank": 137,
-      "name": "한국카본",
-      "ticker": "017960",
-      "weight": 0.02,
-      "value": 1977600,
-      "qty": 64
-    },
-    {
-      "rank": 137,
-      "name": "현대위아",
-      "ticker": "011210",
-      "weight": 0.02,
-      "value": 2250600,
-      "qty": 31
-    },
-    {
-      "rank": 137,
-      "name": "영원무역홀딩스",
-      "ticker": "009970",
-      "weight": 0.02,
-      "value": 1855000,
-      "qty": 10
-    },
-    {
-      "rank": 137,
-      "name": "에스엘",
-      "ticker": "005850",
-      "weight": 0.02,
-      "value": 1968500,
-      "qty": 31
-    },
-    {
-      "rank": 137,
-      "name": "농심",
-      "ticker": "004370",
-      "weight": 0.02,
-      "value": 2175000,
-      "qty": 6
-    },
-    {
-      "rank": 156,
-      "name": "하이트진로",
-      "ticker": "000080",
-      "weight": 0.01,
-      "value": 985800,
-      "qty": 62
-    },
-    {
-      "rank": 156,
-      "name": "SK아이이테크놀로지",
-      "ticker": "361610",
-      "weight": 0.01,
-      "value": 1267500,
-      "qty": 75
-    },
-    {
-      "rank": 156,
-      "name": "HS효성첨단소재",
-      "ticker": "298050",
-      "weight": 0.01,
-      "value": 951000,
-      "qty": 5
-    },
-    {
-      "rank": 156,
-      "name": "효성티앤씨",
-      "ticker": "298020",
-      "weight": 0.01,
-      "value": 1640000,
-      "qty": 5
-    },
-    {
-      "rank": 156,
-      "name": "더블유게임즈",
-      "ticker": "192080",
-      "weight": 0.01,
-      "value": 1474200,
-      "qty": 21
-    },
-    {
-      "rank": 156,
-      "name": "종근당",
-      "ticker": "185750",
-      "weight": 0.01,
-      "value": 1128000,
-      "qty": 16
-    },
-    {
-      "rank": 156,
-      "name": "금호타이어",
-      "ticker": "073240",
-      "weight": 0.01,
-      "value": 1444275,
+      "rank": 86,
+      "name": "JB금융지주",
+      "ticker": "175330",
+      "weight": 0.09,
+      "value": 8190000,
       "qty": 315
     },
     {
-      "rank": 156,
-      "name": "대웅제약",
-      "ticker": "069620",
-      "weight": 0.01,
-      "value": 1088100,
-      "qty": 9
+      "rank": 86,
+      "name": "엘앤에프",
+      "ticker": "066970",
+      "weight": 0.09,
+      "value": 7673800,
+      "qty": 61
     },
     {
-      "rank": 156,
-      "name": "파라다이스",
-      "ticker": "034230",
-      "weight": 0.01,
-      "value": 1315440,
-      "qty": 87
+      "rank": 86,
+      "name": "대우건설",
+      "ticker": "047040",
+      "weight": 0.09,
+      "value": 8139100,
+      "qty": 398
     },
     {
-      "rank": 156,
-      "name": "동서",
-      "ticker": "026960",
-      "weight": 0.01,
-      "value": 1553100,
-      "qty": 62
+      "rank": 86,
+      "name": "LG디스플레이",
+      "ticker": "034220",
+      "weight": 0.09,
+      "value": 8172600,
+      "qty": 636
     },
     {
-      "rank": 156,
-      "name": "한미사이언스",
-      "ticker": "008930",
-      "weight": 0.01,
-      "value": 1652000,
-      "qty": 56
+      "rank": 86,
+      "name": "OCI홀딩스",
+      "ticker": "010060",
+      "weight": 0.09,
+      "value": 7654500,
+      "qty": 27
     },
     {
-      "rank": 156,
-      "name": "DN오토모티브",
-      "ticker": "007340",
-      "weight": 0.01,
-      "value": 1625650,
-      "qty": 41
+      "rank": 93,
+      "name": "SKC",
+      "ticker": "011790",
+      "weight": 0.08,
+      "value": 7280000,
+      "qty": 52
     },
     {
-      "rank": 156,
-      "name": "오뚜기",
-      "ticker": "007310",
-      "weight": 0.01,
-      "value": 949500,
-      "qty": 3
-    },
-    {
-      "rank": 156,
-      "name": "GS리테일",
-      "ticker": "007070",
-      "weight": 0.01,
-      "value": 1561100,
+      "rank": 93,
+      "name": "두산로보틱스",
+      "ticker": "454910",
+      "weight": 0.08,
+      "value": 7323100,
       "qty": 67
     },
     {
-      "rank": 156,
-      "name": "대한유화",
-      "ticker": "006650",
-      "weight": 0.01,
-      "value": 837200,
-      "qty": 7
+      "rank": 93,
+      "name": "SK바이오팜",
+      "ticker": "326030",
+      "weight": 0.08,
+      "value": 6991500,
+      "qty": 79
     },
     {
-      "rank": 156,
-      "name": "녹십자",
-      "ticker": "006280",
-      "weight": 0.01,
-      "value": 1343100,
-      "qty": 11
+      "rank": 93,
+      "name": "두산밥캣",
+      "ticker": "241560",
+      "weight": 0.08,
+      "value": 6762000,
+      "qty": 105
     },
     {
-      "rank": 156,
-      "name": "롯데지주",
-      "ticker": "004990",
-      "weight": 0.01,
-      "value": 1516300,
-      "qty": 59
+      "rank": 93,
+      "name": "아모레퍼시픽",
+      "ticker": "090430",
+      "weight": 0.08,
+      "value": 7043400,
+      "qty": 63
     },
     {
-      "rank": 156,
-      "name": "세방전지",
-      "ticker": "004490",
-      "weight": 0.01,
-      "value": 840000,
-      "qty": 16
+      "rank": 93,
+      "name": "산일전기",
+      "ticker": "062040",
+      "weight": 0.08,
+      "value": 7242000,
+      "qty": 34
     },
     {
-      "rank": 156,
-      "name": "롯데정밀화학",
-      "ticker": "004000",
-      "weight": 0.01,
-      "value": 1349950,
-      "qty": 29
+      "rank": 99,
+      "name": "한화",
+      "ticker": "000880",
+      "weight": 0.07,
+      "value": 6232800,
+      "qty": 53
     },
     {
-      "rank": 156,
-      "name": "아모레퍼시픽홀딩스",
-      "ticker": "002790",
-      "weight": 0.01,
-      "value": 1180650,
-      "qty": 51
-    },
-    {
-      "rank": 156,
-      "name": "오리온홀딩스",
-      "ticker": "001800",
-      "weight": 0.01,
-      "value": 1037300,
-      "qty": 41
-    },
-    {
-      "rank": 156,
-      "name": "세아베스틸지주",
-      "ticker": "001430",
-      "weight": 0.01,
-      "value": 1107600,
-      "qty": 24
-    },
-    {
-      "rank": 156,
-      "name": "DL",
-      "ticker": "000210",
-      "weight": 0.01,
-      "value": 999600,
-      "qty": 21
-    },
-    {
-      "rank": 156,
-      "name": "한국앤컴퍼니",
-      "ticker": "000240",
-      "weight": 0.01,
-      "value": 1214950,
-      "qty": 47
-    },
-    {
-      "rank": 180,
-      "name": "영풍",
-      "ticker": "000670",
-      "weight": 0,
-      "value": 455500,
-      "qty": 10
-    },
-    {
-      "rank": 180,
-      "name": "대상",
-      "ticker": "001680",
-      "weight": 0,
-      "value": 680960,
-      "qty": 38
-    },
-    {
-      "rank": 180,
-      "name": "아세아",
-      "ticker": "002030",
-      "weight": 0,
-      "value": 354000,
-      "qty": 2
-    },
-    {
-      "rank": 180,
-      "name": "미원상사",
-      "ticker": "002840",
-      "weight": 0,
-      "value": 238400,
-      "qty": 2
-    },
-    {
-      "rank": 180,
-      "name": "세아제강지주",
-      "ticker": "003030",
-      "weight": 0,
-      "value": 406800,
-      "qty": 3
-    },
-    {
-      "rank": 180,
-      "name": "대웅",
-      "ticker": "003090",
-      "weight": 0,
-      "value": 649420,
-      "qty": 38
-    },
-    {
-      "rank": 180,
-      "name": "녹십자홀딩스",
-      "ticker": "005250",
-      "weight": 0,
-      "value": 447920,
+      "rank": 99,
+      "name": "오리온",
+      "ticker": "271560",
+      "weight": 0.07,
+      "value": 6076400,
       "qty": 44
     },
     {
-      "rank": 180,
-      "name": "롯데칠성",
-      "ticker": "005300",
-      "weight": 0,
-      "value": 714000,
-      "qty": 7
+      "rank": 99,
+      "name": "GS",
+      "ticker": "078930",
+      "weight": 0.07,
+      "value": 6453000,
+      "qty": 90
     },
     {
-      "rank": 180,
-      "name": "코스모화학",
-      "ticker": "005420",
-      "weight": 0,
-      "value": 583440,
-      "qty": 51
+      "rank": 99,
+      "name": "한솔케미칼",
+      "ticker": "014680",
+      "weight": 0.07,
+      "value": 5920000,
+      "qty": 20
     },
     {
-      "rank": 180,
-      "name": "동원산업",
-      "ticker": "006040",
-      "weight": 0,
-      "value": 615600,
+      "rank": 103,
+      "name": "현대제철",
+      "ticker": "004020",
+      "weight": 0.06,
+      "value": 5465500,
+      "qty": 170
+    },
+    {
+      "rank": 103,
+      "name": "iM금융지주",
+      "ticker": "139130",
+      "weight": 0.06,
+      "value": 5111280,
+      "qty": 279
+    },
+    {
+      "rank": 103,
+      "name": "한미약품",
+      "ticker": "128940",
+      "weight": 0.06,
+      "value": 5343000,
+      "qty": 13
+    },
+    {
+      "rank": 103,
+      "name": "한화엔진",
+      "ticker": "082740",
+      "weight": 0.06,
+      "value": 5511000,
+      "qty": 110
+    },
+    {
+      "rank": 103,
+      "name": "포스코인터내셔널",
+      "ticker": "047050",
+      "weight": 0.06,
+      "value": 5345200,
+      "qty": 92
+    },
+    {
+      "rank": 108,
+      "name": "CJ",
+      "ticker": "001040",
+      "weight": 0.05,
+      "value": 4844000,
+      "qty": 28
+    },
+    {
+      "rank": 108,
+      "name": "달바글로벌",
+      "ticker": "483650",
+      "weight": 0.05,
+      "value": 4220000,
+      "qty": 20
+    },
+    {
+      "rank": 108,
+      "name": "현대백화점",
+      "ticker": "069960",
+      "weight": 0.05,
+      "value": 4490400,
+      "qty": 24
+    },
+    {
+      "rank": 108,
+      "name": "한전기술",
+      "ticker": "052690",
+      "weight": 0.05,
+      "value": 4423200,
+      "qty": 38
+    },
+    {
+      "rank": 108,
+      "name": "LG생활건강",
+      "ticker": "051900",
+      "weight": 0.05,
+      "value": 4531500,
       "qty": 19
     },
     {
-      "rank": 180,
-      "name": "율촌화학",
-      "ticker": "008730",
-      "weight": 0,
-      "value": 362460,
+      "rank": 108,
+      "name": "롯데쇼핑",
+      "ticker": "023530",
+      "weight": 0.05,
+      "value": 4242000,
       "qty": 21
     },
     {
-      "rank": 180,
-      "name": "한샘",
-      "ticker": "009240",
-      "weight": 0,
-      "value": 515200,
-      "qty": 16
-    },
-    {
-      "rank": 180,
-      "name": "동원시스템즈",
-      "ticker": "014820",
-      "weight": 0,
-      "value": 221650,
+      "rank": 108,
+      "name": "삼성에피스홀딩스",
+      "ticker": "0126Z0",
+      "weight": 0.05,
+      "value": 4774000,
       "qty": 11
     },
     {
-      "rank": 180,
+      "rank": 108,
+      "name": "현대해상",
+      "ticker": "001450",
+      "weight": 0.05,
+      "value": 4347000,
+      "qty": 115
+    },
+    {
+      "rank": 116,
+      "name": "KCC",
+      "ticker": "002380",
+      "weight": 0.04,
+      "value": 3924000,
+      "qty": 8
+    },
+    {
+      "rank": 116,
+      "name": "에코프로머티",
+      "ticker": "450080",
+      "weight": 0.04,
+      "value": 4057900,
+      "qty": 77
+    },
+    {
+      "rank": 116,
+      "name": "DL이앤씨",
+      "ticker": "375500",
+      "weight": 0.04,
+      "value": 4141800,
+      "qty": 59
+    },
+    {
+      "rank": 116,
+      "name": "이마트",
+      "ticker": "139480",
+      "weight": 0.04,
+      "value": 3536000,
+      "qty": 40
+    },
+    {
+      "rank": 116,
+      "name": "영원무역",
+      "ticker": "111770",
+      "weight": 0.04,
+      "value": 3555200,
+      "qty": 44
+    },
+    {
+      "rank": 116,
+      "name": "강원랜드",
+      "ticker": "035250",
+      "weight": 0.04,
+      "value": 3572400,
+      "qty": 229
+    },
+    {
+      "rank": 116,
+      "name": "현대엘리베이터",
+      "ticker": "017800",
+      "weight": 0.04,
+      "value": 4049400,
+      "qty": 51
+    },
+    {
+      "rank": 116,
+      "name": "에스원",
+      "ticker": "012750",
+      "weight": 0.04,
+      "value": 3758300,
+      "qty": 49
+    },
+    {
+      "rank": 116,
+      "name": "금호석유화학",
+      "ticker": "011780",
+      "weight": 0.04,
+      "value": 3471300,
+      "qty": 29
+    },
+    {
+      "rank": 116,
+      "name": "한올바이오파마",
+      "ticker": "009420",
+      "weight": 0.04,
+      "value": 3816000,
+      "qty": 72
+    },
+    {
+      "rank": 116,
+      "name": "호텔신라",
+      "ticker": "008770",
+      "weight": 0.04,
+      "value": 3453400,
+      "qty": 62
+    },
+    {
+      "rank": 127,
+      "name": "롯데케미칼",
+      "ticker": "011170",
+      "weight": 0.03,
+      "value": 2736000,
+      "qty": 36
+    },
+    {
+      "rank": 127,
+      "name": "이수스페셜티케미컬",
+      "ticker": "457190",
+      "weight": 0.03,
+      "value": 3247200,
+      "qty": 41
+    },
+    {
+      "rank": 127,
+      "name": "카카오페이",
+      "ticker": "377300",
+      "weight": 0.03,
+      "value": 3315200,
+      "qty": 74
+    },
+    {
+      "rank": 127,
+      "name": "넷마블",
+      "ticker": "251270",
+      "weight": 0.03,
+      "value": 2626050,
+      "qty": 61
+    },
+    {
+      "rank": 127,
+      "name": "HL만도",
+      "ticker": "204320",
+      "weight": 0.03,
+      "value": 3250000,
+      "qty": 65
+    },
+    {
+      "rank": 127,
+      "name": "코스맥스",
+      "ticker": "192820",
+      "weight": 0.03,
+      "value": 2654400,
+      "qty": 16
+    },
+    {
+      "rank": 127,
+      "name": "한국콜마",
+      "ticker": "161890",
+      "weight": 0.03,
+      "value": 2927400,
+      "qty": 34
+    },
+    {
+      "rank": 127,
+      "name": "코오롱인더",
+      "ticker": "120110",
+      "weight": 0.03,
+      "value": 2876000,
+      "qty": 40
+    },
+    {
+      "rank": 127,
+      "name": "CJ제일제당",
+      "ticker": "097950",
+      "weight": 0.03,
+      "value": 3115200,
+      "qty": 16
+    },
+    {
+      "rank": 127,
+      "name": "한화생명",
+      "ticker": "088350",
+      "weight": 0.03,
+      "value": 3163500,
+      "qty": 666
+    },
+    {
+      "rank": 127,
+      "name": "미스토홀딩스",
+      "ticker": "081660",
+      "weight": 0.03,
+      "value": 2677900,
+      "qty": 61
+    },
+    {
+      "rank": 127,
+      "name": "HD현대마린엔진",
+      "ticker": "071970",
+      "weight": 0.03,
+      "value": 2803500,
+      "qty": 45
+    },
+    {
+      "rank": 127,
+      "name": "한국가스공사",
+      "ticker": "036460",
+      "weight": 0.03,
+      "value": 2681250,
+      "qty": 75
+    },
+    {
+      "rank": 127,
+      "name": "제일기획",
+      "ticker": "030000",
+      "weight": 0.03,
+      "value": 2684090,
+      "qty": 139
+    },
+    {
+      "rank": 127,
+      "name": "삼성카드",
+      "ticker": "029780",
+      "weight": 0.03,
+      "value": 2546100,
+      "qty": 54
+    },
+    {
+      "rank": 127,
+      "name": "포스코DX",
+      "ticker": "022100",
+      "weight": 0.03,
+      "value": 2737100,
+      "qty": 101
+    },
+    {
+      "rank": 127,
+      "name": "한온시스템",
+      "ticker": "018880",
+      "weight": 0.03,
+      "value": 2977920,
+      "qty": 704
+    },
+    {
+      "rank": 144,
+      "name": "CJ대한통운",
+      "ticker": "000120",
+      "weight": 0.02,
+      "value": 1755600,
+      "qty": 22
+    },
+    {
+      "rank": 144,
+      "name": "F&F",
+      "ticker": "383220",
+      "weight": 0.02,
+      "value": 2329600,
+      "qty": 28
+    },
+    {
+      "rank": 144,
+      "name": "SK바이오사이언스",
+      "ticker": "302440",
+      "weight": 0.02,
+      "value": 2046200,
+      "qty": 52
+    },
+    {
+      "rank": 144,
+      "name": "BGF리테일",
+      "ticker": "282330",
+      "weight": 0.02,
+      "value": 2304000,
+      "qty": 18
+    },
+    {
+      "rank": 144,
+      "name": "씨에스윈드",
+      "ticker": "112610",
+      "weight": 0.02,
+      "value": 1986950,
+      "qty": 49
+    },
+    {
+      "rank": 144,
+      "name": "풍산",
+      "ticker": "103140",
+      "weight": 0.02,
+      "value": 2376600,
+      "qty": 34
+    },
+    {
+      "rank": 144,
+      "name": "후성",
+      "ticker": "093370",
+      "weight": 0.02,
+      "value": 1734700,
+      "qty": 110
+    },
+    {
+      "rank": 144,
+      "name": "한전KPS",
+      "ticker": "051600",
+      "weight": 0.02,
+      "value": 2218500,
+      "qty": 45
+    },
+    {
+      "rank": 144,
+      "name": "팬오션",
+      "ticker": "028670",
+      "weight": 0.02,
+      "value": 2262735,
+      "qty": 453
+    },
+    {
+      "rank": 144,
+      "name": "한국카본",
+      "ticker": "017960",
+      "weight": 0.02,
+      "value": 2031250,
+      "qty": 65
+    },
+    {
+      "rank": 144,
+      "name": "현대위아",
+      "ticker": "011210",
+      "weight": 0.02,
+      "value": 2219600,
+      "qty": 31
+    },
+    {
+      "rank": 144,
+      "name": "영원무역홀딩스",
+      "ticker": "009970",
+      "weight": 0.02,
+      "value": 1853000,
+      "qty": 10
+    },
+    {
+      "rank": 144,
+      "name": "한미사이언스",
+      "ticker": "008930",
+      "weight": 0.02,
+      "value": 1698600,
+      "qty": 57
+    },
+    {
+      "rank": 144,
+      "name": "에스엘",
+      "ticker": "005850",
+      "weight": 0.02,
+      "value": 2076800,
+      "qty": 32
+    },
+    {
+      "rank": 144,
+      "name": "농심",
+      "ticker": "004370",
+      "weight": 0.02,
+      "value": 2250000,
+      "qty": 6
+    },
+    {
+      "rank": 159,
+      "name": "하이트진로",
+      "ticker": "000080",
+      "weight": 0.01,
+      "value": 1018660,
+      "qty": 62
+    },
+    {
+      "rank": 159,
+      "name": "OCI",
+      "ticker": "456040",
+      "weight": 0.01,
+      "value": 1061000,
+      "qty": 10
+    },
+    {
+      "rank": 159,
+      "name": "SK아이이테크놀로지",
+      "ticker": "361610",
+      "weight": 0.01,
+      "value": 1558000,
+      "qty": 76
+    },
+    {
+      "rank": 159,
+      "name": "효성티앤씨",
+      "ticker": "298020",
+      "weight": 0.01,
+      "value": 1622500,
+      "qty": 5
+    },
+    {
+      "rank": 159,
+      "name": "SK케미칼",
+      "ticker": "285130",
+      "weight": 0.01,
+      "value": 891000,
+      "qty": 20
+    },
+    {
+      "rank": 159,
+      "name": "더블유게임즈",
+      "ticker": "192080",
+      "weight": 0.01,
+      "value": 1566600,
+      "qty": 21
+    },
+    {
+      "rank": 159,
+      "name": "종근당",
+      "ticker": "185750",
+      "weight": 0.01,
+      "value": 1116800,
+      "qty": 16
+    },
+    {
+      "rank": 159,
+      "name": "금호타이어",
+      "ticker": "073240",
+      "weight": 0.01,
+      "value": 1021520,
+      "qty": 226
+    },
+    {
+      "rank": 159,
+      "name": "대웅제약",
+      "ticker": "069620",
+      "weight": 0.01,
+      "value": 1082700,
+      "qty": 9
+    },
+    {
+      "rank": 159,
+      "name": "파라다이스",
+      "ticker": "034230",
+      "weight": 0.01,
+      "value": 1298880,
+      "qty": 88
+    },
+    {
+      "rank": 159,
+      "name": "동서",
+      "ticker": "026960",
+      "weight": 0.01,
+      "value": 1577900,
+      "qty": 62
+    },
+    {
+      "rank": 159,
+      "name": "DN오토모티브",
+      "ticker": "007340",
+      "weight": 0.01,
+      "value": 1637950,
+      "qty": 41
+    },
+    {
+      "rank": 159,
+      "name": "오뚜기",
+      "ticker": "007310",
+      "weight": 0.01,
+      "value": 1020000,
+      "qty": 3
+    },
+    {
+      "rank": 159,
+      "name": "GS리테일",
+      "ticker": "007070",
+      "weight": 0.01,
+      "value": 1615000,
+      "qty": 68
+    },
+    {
+      "rank": 159,
+      "name": "대한유화",
+      "ticker": "006650",
+      "weight": 0.01,
+      "value": 846300,
+      "qty": 7
+    },
+    {
+      "rank": 159,
+      "name": "녹십자",
+      "ticker": "006280",
+      "weight": 0.01,
+      "value": 1366200,
+      "qty": 11
+    },
+    {
+      "rank": 159,
+      "name": "롯데지주",
+      "ticker": "004990",
+      "weight": 0.01,
+      "value": 1492400,
+      "qty": 56
+    },
+    {
+      "rank": 159,
+      "name": "롯데정밀화학",
+      "ticker": "004000",
+      "weight": 0.01,
+      "value": 1416650,
+      "qty": 29
+    },
+    {
+      "rank": 159,
+      "name": "아모레퍼시픽홀딩스",
+      "ticker": "002790",
+      "weight": 0.01,
+      "value": 1202950,
+      "qty": 49
+    },
+    {
+      "rank": 159,
+      "name": "오리온홀딩스",
+      "ticker": "001800",
+      "weight": 0.01,
+      "value": 1173900,
+      "qty": 42
+    },
+    {
+      "rank": 159,
+      "name": "세아베스틸지주",
+      "ticker": "001430",
+      "weight": 0.01,
+      "value": 1158750,
+      "qty": 25
+    },
+    {
+      "rank": 159,
+      "name": "DL",
+      "ticker": "000210",
+      "weight": 0.01,
+      "value": 1144000,
+      "qty": 22
+    },
+    {
+      "rank": 159,
+      "name": "한국앤컴퍼니",
+      "ticker": "000240",
+      "weight": 0.01,
+      "value": 1240800,
+      "qty": 48
+    },
+    {
+      "rank": 182,
+      "name": "영풍",
+      "ticker": "000670",
+      "weight": 0,
+      "value": 466000,
+      "qty": 10
+    },
+    {
+      "rank": 182,
+      "name": "대상",
+      "ticker": "001680",
+      "weight": 0,
+      "value": 676780,
+      "qty": 38
+    },
+    {
+      "rank": 182,
+      "name": "아세아",
+      "ticker": "002030",
+      "weight": 0,
+      "value": 386600,
+      "qty": 2
+    },
+    {
+      "rank": 182,
+      "name": "미원상사",
+      "ticker": "002840",
+      "weight": 0,
+      "value": 254800,
+      "qty": 2
+    },
+    {
+      "rank": 182,
+      "name": "세아제강지주",
+      "ticker": "003030",
+      "weight": 0,
+      "value": 402000,
+      "qty": 3
+    },
+    {
+      "rank": 182,
+      "name": "대웅",
+      "ticker": "003090",
+      "weight": 0,
+      "value": 703950,
+      "qty": 39
+    },
+    {
+      "rank": 182,
+      "name": "롯데칠성",
+      "ticker": "005300",
+      "weight": 0,
+      "value": 709800,
+      "qty": 7
+    },
+    {
+      "rank": 182,
+      "name": "코스모화학",
+      "ticker": "005420",
+      "weight": 0,
+      "value": 625770,
+      "qty": 51
+    },
+    {
+      "rank": 182,
+      "name": "동원산업",
+      "ticker": "006040",
+      "weight": 0,
+      "value": 646000,
+      "qty": 20
+    },
+    {
+      "rank": 182,
+      "name": "율촌화학",
+      "ticker": "008730",
+      "weight": 0,
+      "value": 371700,
+      "qty": 21
+    },
+    {
+      "rank": 182,
+      "name": "한샘",
+      "ticker": "009240",
+      "weight": 0,
+      "value": 549100,
+      "qty": 17
+    },
+    {
+      "rank": 182,
+      "name": "동원시스템즈",
+      "ticker": "014820",
+      "weight": 0,
+      "value": 235950,
+      "qty": 11
+    },
+    {
+      "rank": 182,
       "name": "TKG휴켐스",
       "ticker": "069260",
       "weight": 0,
-      "value": 654030,
-      "qty": 43
+      "value": 706640,
+      "qty": 44
     },
     {
-      "rank": 180,
+      "rank": 182,
       "name": "지역난방공사",
       "ticker": "071320",
       "weight": 0,
-      "value": 343000,
+      "value": 350500,
       "qty": 5
     },
     {
-      "rank": 180,
-      "name": "GKL",
-      "ticker": "114090",
-      "weight": 0,
-      "value": 724200,
-      "qty": 60
-    },
-    {
-      "rank": 180,
+      "rank": 182,
       "name": "에스디바이오센서",
       "ticker": "137310",
       "weight": 0,
-      "value": 497700,
-      "qty": 70
+      "value": 506940,
+      "qty": 71
     },
     {
-      "rank": 180,
+      "rank": 182,
       "name": "미원에스씨",
       "ticker": "268280",
       "weight": 0,
-      "value": 98300,
+      "value": 104900,
       "qty": 1
     },
     {
-      "rank": 180,
+      "rank": 182,
       "name": "롯데웰푸드",
       "ticker": "280360",
       "weight": 0,
-      "value": 516000,
+      "value": 525000,
       "qty": 5
     },
     {
-      "rank": 180,
-      "name": "SK케미칼",
-      "ticker": "285130",
+      "rank": 182,
+      "name": "HS효성첨단소재",
+      "ticker": "298050",
       "weight": 0,
-      "value": 774250,
-      "qty": 19
+      "value": 777600,
+      "qty": 4
     },
     {
-      "rank": 180,
+      "rank": 182,
       "name": "한일시멘트",
       "ticker": "300720",
       "weight": 0,
-      "value": 612750,
+      "value": 598990,
       "qty": 43
     }
   ],
@@ -1608,42 +1608,42 @@
     {
       "rank": 1,
       "name": "IT",
-      "weight": 66.66
+      "weight": 66.62
     },
     {
       "rank": 2,
       "name": "산업재",
-      "weight": 13.65
+      "weight": 13.66
     },
     {
       "rank": 3,
       "name": "금융",
-      "weight": 6.41
+      "weight": 6.36
     },
     {
       "rank": 4,
       "name": "경기소비재",
-      "weight": 5.43
+      "weight": 5.38
     },
     {
       "rank": 5,
       "name": "커뮤니케이션서비스",
-      "weight": 2.31
+      "weight": 2.32
     },
     {
       "rank": 6,
       "name": "소재",
-      "weight": 1.99
+      "weight": 2
     },
     {
       "rank": 7,
       "name": "헬스케어",
-      "weight": 1.41
+      "weight": 1.43
     },
     {
       "rank": 8,
       "name": "필수소비재",
-      "weight": 1.25
+      "weight": 1.35
     },
     {
       "rank": 9,
@@ -1653,7 +1653,7 @@
     {
       "rank": 10,
       "name": "유틸리티",
-      "weight": 0.32
+      "weight": 0.31
     }
   ]
 }
