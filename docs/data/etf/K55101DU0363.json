@@ -1,99 +1,112 @@
 {
   "fundCd": "K55101DU0363",
   "fundNm": "ACE 원자력TOP10",
-  "stdDt": "2026-06-12",
+  "stdDt": "2026-06-15",
   "holdings": [
     {
       "rank": 1,
       "name": "HD현대일렉트릭",
       "ticker": "267260",
-      "weight": 22.04,
-      "value": 1435870000,
-      "qty": 1390
+      "weight": 18.1,
+      "value": 1254300000,
+      "qty": 1110
+    },
+    {
+      "rank": 2,
+      "name": "현대건설",
+      "ticker": "000720",
+      "weight": 17.52,
+      "value": 1214482500,
+      "qty": 7711
     },
     {
       "rank": 2,
       "name": "두산에너빌리티",
       "ticker": "034020",
-      "weight": 22,
-      "value": 1433370800,
-      "qty": 16178
-    },
-    {
-      "rank": 3,
-      "name": "LS ELECTRIC",
-      "ticker": "010120",
-      "weight": 14.03,
-      "value": 913869000,
-      "qty": 3982
+      "weight": 17.52,
+      "value": 1214768800,
+      "qty": 13048
     },
     {
       "rank": 4,
-      "name": "한국전력",
-      "ticker": "015760",
-      "weight": 13.73,
-      "value": 894197200,
-      "qty": 24908
+      "name": "두산",
+      "ticker": "000150",
+      "weight": 11.16,
+      "value": 773568000,
+      "qty": 408
     },
     {
       "rank": 5,
-      "name": "현대건설",
-      "ticker": "000720",
-      "weight": 11.18,
-      "value": 728838000,
-      "qty": 5940
+      "name": "대우건설",
+      "ticker": "047040",
+      "weight": 10.06,
+      "value": 696905750,
+      "qty": 31895
     },
     {
       "rank": 6,
-      "name": "대우건설",
-      "ticker": "047040",
-      "weight": 8.42,
-      "value": 549164300,
-      "qty": 26854
+      "name": "우리기술",
+      "ticker": "032820",
+      "weight": 6.73,
+      "value": 466834900,
+      "qty": 26570
     },
     {
       "rank": 7,
       "name": "한전기술",
       "ticker": "052690",
-      "weight": 2.46,
-      "value": 160399200,
-      "qty": 1378
+      "weight": 6.69,
+      "value": 463734500,
+      "qty": 3065
     },
     {
       "rank": 8,
       "name": "비에이치아이",
       "ticker": "083650",
-      "weight": 2.31,
-      "value": 150350000,
-      "qty": 2425
+      "weight": 5.62,
+      "value": 389378600,
+      "qty": 4831
     },
     {
       "rank": 9,
       "name": "한전KPS",
       "ticker": "051600",
-      "weight": 2.11,
-      "value": 137793500,
-      "qty": 2795
+      "weight": 3.75,
+      "value": 260328600,
+      "qty": 4074
     },
     {
       "rank": 10,
-      "name": "효성중공업",
-      "ticker": "298040",
-      "weight": 1.73,
-      "value": 113610000,
-      "qty": 35
+      "name": "삼성물산",
+      "ticker": "028260",
+      "weight": 1.49,
+      "value": 103680000,
+      "qty": 240
+    },
+    {
+      "rank": 11,
+      "name": "한국전력",
+      "ticker": "015760",
+      "weight": 1.37,
+      "value": 95329800,
+      "qty": 2532
     }
   ],
   "sectors": [
     {
       "rank": 1,
       "name": "산업재",
-      "weight": 86.28
+      "weight": 91.89
     },
     {
       "rank": 2,
+      "name": "IT",
+      "weight": 6.73
+    },
+    {
+      "rank": 3,
       "name": "유틸리티",
-      "weight": 13.72
+      "weight": 1.37
     }
   ]
 }

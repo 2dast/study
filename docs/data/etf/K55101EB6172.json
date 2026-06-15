@@ -1,142 +1,134 @@
 {
   "fundCd": "K55101EB6172",
   "fundNm": "ACE 엔비디아밸류체인액티브",
-  "stdDt": "2026-06-12",
+  "stdDt": "2026-06-15",
   "holdings": [
     {
       "rank": 1,
       "name": "NVIDIA Corp",
       "ticker": "NVDA US",
-      "weight": 23.09,
-      "value": 320211134,
+      "weight": 22.57,
+      "value": 325372690,
       "qty": 1045
     },
     {
       "rank": 2,
       "name": "TAIWAN SEMICONDUCTOR-SP ADR",
       "ticker": "TSM US",
-      "weight": 15.77,
-      "value": 218728256,
+      "weight": 15.54,
+      "value": 223979765,
       "qty": 350
     },
     {
       "rank": 3,
-      "name": "2026-07 SK하이닉스개별선물",
-      "ticker": "A50670",
-      "weight": 7.64,
-      "value": 106050000,
-      "qty": 5
+      "name": "삼성전자",
+      "ticker": "005930",
+      "weight": 7.49,
+      "value": 108037500,
+      "qty": 335
     },
     {
       "rank": 4,
-      "name": "삼성전자",
-      "ticker": "005930",
-      "weight": 7.22,
-      "value": 100165000,
-      "qty": 335
+      "name": "2026-07 SK하이닉스개별선물",
+      "ticker": "A50670",
+      "weight": 7.43,
+      "value": 107150000,
+      "qty": 5
     },
     {
       "rank": 5,
       "name": "MICRON TECH",
       "ticker": "MU US",
-      "weight": 4.13,
-      "value": 57271003,
+      "weight": 4.41,
+      "value": 63567975,
       "qty": 42
     },
     {
       "rank": 6,
       "name": "MARVELL TECHNOLOGY INC",
       "ticker": "MRVL US",
-      "weight": 4.06,
-      "value": 56382988,
+      "weight": 4.32,
+      "value": 62286966,
       "qty": 146
     },
     {
       "rank": 7,
       "name": "ARM Holdings PLC",
       "ticker": "ARM US",
-      "weight": 3.93,
-      "value": 54523448,
+      "weight": 4.18,
+      "value": 60334053,
       "qty": 116
     },
     {
       "rank": 8,
       "name": "삼성전기",
       "ticker": "009150",
-      "weight": 3.9,
-      "value": 54150000,
+      "weight": 3.56,
+      "value": 51420000,
       "qty": 30
     },
     {
       "rank": 9,
       "name": "INTEL Corp",
       "ticker": "INTC US",
-      "weight": 3.37,
-      "value": 46804888,
+      "weight": 3.52,
+      "value": 50838161,
       "qty": 286
     },
     {
       "rank": 10,
       "name": "Coherent Corp",
       "ticker": "COHR US",
-      "weight": 3.32,
-      "value": 46104667,
+      "weight": 3.25,
+      "value": 46968355,
       "qty": 85
     },
     {
       "rank": 11,
-      "name": "Akamai Technologies Inc",
-      "ticker": "AKAM US",
-      "weight": 3.18,
-      "value": 44113871,
-      "qty": 222
+      "name": "VERTIV HOLDINGS CL A ORD",
+      "ticker": "VRT US",
+      "weight": 3.14,
+      "value": 45271802,
+      "qty": 100
     },
     {
       "rank": 12,
-      "name": "VERTIV HOLDINGS CL A ORD",
-      "ticker": "VRT US",
-      "weight": 3.09,
-      "value": 42959032,
-      "qty": 100
+      "name": "Akamai Technologies Inc",
+      "ticker": "AKAM US",
+      "weight": 3.1,
+      "value": 44691421,
+      "qty": 222
     },
     {
       "rank": 13,
       "name": "Dell Technologies Inc",
       "ticker": "DELL US",
-      "weight": 3.05,
-      "value": 42407481,
+      "weight": 3.09,
+      "value": 44619428,
       "qty": 75
     },
     {
       "rank": 14,
       "name": "ASE Technology Holding Co Ltd",
       "ticker": "ASX US",
-      "weight": 2.93,
-      "value": 40694425,
+      "weight": 3.01,
+      "value": 43400624,
       "qty": 776
     },
     {
       "rank": 15,
       "name": "TERADYNE INC",
       "ticker": "TER US",
-      "weight": 2.79,
-      "value": 38794415,
+      "weight": 2.93,
+      "value": 42314575,
       "qty": 73
     },
     {
       "rank": 16,
-      "name": "ORACLE",
-      "ticker": "ORCL US",
-      "weight": 2.75,
-      "value": 38155595,
-      "qty": 124
-    },
-    {
-      "rank": 17,
       "name": "Credo Technology Holding Ltd",
       "ticker": "CRDO US",
-      "weight": 2.72,
-      "value": 37792451,
+      "weight": 2.9,
+      "value": 41847753,
       "qty": 104
     },
     {
@@ -144,44 +136,52 @@
       "name": "Lumentum Holdings Inc",
       "ticker": "LITE US",
       "weight": 2.72,
-      "value": 37831927,
+      "value": 39207967,
       "qty": 29
     },
     {
+      "rank": 18,
+      "name": "원화현금",
+      "ticker": "010010",
+      "weight": 2.61,
+      "value": 37753260,
+      "qty": 37753260
+    },
+    {
       "rank": 19,
-      "name": "CoreWeave Inc",
-      "ticker": "CRWV US",
-      "weight": 2.68,
-      "value": 37275422,
-      "qty": 255
+      "name": "Nebius Group NV",
+      "ticker": "NBIS US",
+      "weight": 2.6,
+      "value": 37491399,
+      "qty": 111
     },
     {
       "rank": 20,
-      "name": "원화현금",
-      "ticker": "010010",
-      "weight": 2.62,
-      "value": 36394243,
-      "qty": 36394243
+      "name": "CoreWeave Inc",
+      "ticker": "CRWV US",
+      "weight": 2.57,
+      "value": 37103941,
+      "qty": 255
     },
     {
       "rank": 21,
-      "name": "Nebius Group NV",
-      "ticker": "NBIS US",
-      "weight": 2.59,
-      "value": 35925465,
-      "qty": 111
+      "name": "ORACLE",
+      "ticker": "ORCL US",
+      "weight": 2.4,
+      "value": 34694602,
+      "qty": 124
     }
   ],
   "sectors": [
     {
       "rank": 1,
       "name": "IT",
-      "weight": 96.82
+      "weight": 96.77
     },
     {
       "rank": 2,
       "name": "산업재",
-      "weight": 3.18
+      "weight": 3.23
     }
   ]
 }
