@@ -1,86 +1,86 @@
 {
   "fundCd": "K55101DU3912",
   "fundNm": "ACE 글로벌브랜드TOP10",
-  "stdDt": "2026-06-17",
+  "stdDt": "2026-06-18",
   "holdings": [
     {
       "rank": 1,
-      "name": "ELI LILLY & CO",
-      "ticker": "LLY US",
-      "weight": 10.99,
-      "value": 109256029,
-      "qty": 64
-    },
-    {
-      "rank": 2,
       "name": "LVMH Moet Hennessy Louis Vuitton SE",
       "ticker": "MC FP",
-      "weight": 10.92,
-      "value": 108598251,
+      "weight": 11.13,
+      "value": 110584629,
       "qty": 121
     },
     {
+      "rank": 2,
+      "name": "JPMORGAN CHASE & CO",
+      "ticker": "JPM US",
+      "weight": 10.99,
+      "value": 109250106,
+      "qty": 218
+    },
+    {
       "rank": 3,
-      "name": "PROCTER & GAMBLE CO/THE",
-      "ticker": "PG US",
-      "weight": 10.75,
-      "value": 106894607,
-      "qty": 470
+      "name": "ELI LILLY & CO",
+      "ticker": "LLY US",
+      "weight": 10.94,
+      "value": 108722656,
+      "qty": 64
     },
     {
       "rank": 4,
-      "name": "JPMORGAN CHASE & CO",
-      "ticker": "JPM US",
-      "weight": 10.59,
-      "value": 105251498,
-      "qty": 218
+      "name": "PROCTER & GAMBLE CO/THE",
+      "ticker": "PG US",
+      "weight": 10.92,
+      "value": 108465832,
+      "qty": 470
     },
     {
       "rank": 5,
       "name": "COCA-COLA CO/THE",
       "ticker": "KO US",
-      "weight": 10.09,
-      "value": 100288915,
+      "weight": 10.02,
+      "value": 99626516,
       "qty": 820
     },
     {
       "rank": 6,
-      "name": "TESLA MOTORS",
-      "ticker": "TSLA US",
-      "weight": 9.5,
-      "value": 94467139,
-      "qty": 152
+      "name": "APPLE Inc",
+      "ticker": "AAPL US",
+      "weight": 9.52,
+      "value": 94649791,
+      "qty": 209
     },
     {
       "rank": 7,
-      "name": "NVIDIA Corp",
-      "ticker": "NVDA US",
-      "weight": 9.43,
-      "value": 93772710,
-      "qty": 292
+      "name": "TESLA MOTORS",
+      "ticker": "TSLA US",
+      "weight": 9.37,
+      "value": 93086691,
+      "qty": 152
     },
     {
       "rank": 8,
-      "name": "APPLE Inc",
-      "ticker": "AAPL US",
-      "weight": 9.42,
-      "value": 93646310,
-      "qty": 209
+      "name": "NVIDIA Corp",
+      "ticker": "NVDA US",
+      "weight": 9.22,
+      "value": 91657133,
+      "qty": 292
     },
     {
       "rank": 9,
       "name": "MICROSOFT",
       "ticker": "MSFT US",
-      "weight": 9.23,
-      "value": 91850136,
+      "weight": 9.12,
+      "value": 90595392,
       "qty": 152
     },
     {
       "rank": 10,
       "name": "NETFLIX",
       "ticker": "NFLX US",
-      "weight": 9.08,
-      "value": 90243683,
+      "weight": 8.76,
+      "value": 87087573,
       "qty": 731
     }
   ],
@@ -88,32 +88,32 @@
     {
       "rank": 1,
       "name": "IT",
-      "weight": 28.09
+      "weight": 27.87
     },
     {
       "rank": 2,
       "name": "필수소비재",
-      "weight": 20.84
+      "weight": 20.94
     },
     {
       "rank": 3,
       "name": "경기소비재",
-      "weight": 20.42
+      "weight": 20.5
     },
     {
       "rank": 4,
-      "name": "헬스케어",
+      "name": "금융",
       "weight": 10.99
     },
     {
       "rank": 5,
-      "name": "금융",
-      "weight": 10.59
+      "name": "헬스케어",
+      "weight": 10.94
     },
     {
       "rank": 6,
       "name": "커뮤니케이션서비스",
-      "weight": 9.08
+      "weight": 8.76
     }
   ]
 }
