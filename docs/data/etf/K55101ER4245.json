@@ -1,104 +1,104 @@
 {
   "fundCd": "K55101ER4245",
   "fundNm": "ACE 미국SMR원자력TOP10",
-  "stdDt": "2026-06-19",
+  "stdDt": "2026-06-22",
   "holdings": [
     {
       "rank": 1,
-      "name": "Oklo Inc",
-      "ticker": "OKLO US",
-      "weight": 20.15,
-      "value": 86410709,
-      "qty": 962
-    },
-    {
-      "rank": 2,
       "name": "NUSCALE POWER CORP",
       "ticker": "SMR US",
-      "weight": 19.93,
-      "value": 85504008,
+      "weight": 21.22,
+      "value": 97074596,
       "qty": 5415
     },
     {
+      "rank": 2,
+      "name": "Oklo Inc",
+      "ticker": "OKLO US",
+      "weight": 19.65,
+      "value": 89857139,
+      "qty": 962
+    },
+    {
       "rank": 3,
-      "name": "Cameco Corp",
-      "ticker": "CA13321L1085",
-      "weight": 14.48,
-      "value": 62126932,
-      "qty": 385
+      "name": "Centrus Energy Corp",
+      "ticker": "LEU US",
+      "weight": 14.63,
+      "value": 66925829,
+      "qty": 229
     },
     {
       "rank": 4,
-      "name": "Centrus Energy Corp",
-      "ticker": "LEU US",
-      "weight": 13.88,
-      "value": 59558411,
-      "qty": 229
+      "name": "Cameco Corp",
+      "ticker": "CA13321L1085",
+      "weight": 13.69,
+      "value": 62604938,
+      "qty": 385
     },
     {
       "rank": 5,
       "name": "GE Vernova Inc",
       "ticker": "GEV US",
-      "weight": 11.95,
-      "value": 51254851,
+      "weight": 11.86,
+      "value": 54225846,
       "qty": 32
     },
     {
       "rank": 6,
       "name": "CONSTELLATION ENERGY",
       "ticker": "CEG US",
-      "weight": 9.79,
-      "value": 42023516,
+      "weight": 9.43,
+      "value": 43104430,
       "qty": 103
     },
     {
       "rank": 7,
       "name": "VISTRA ENERGY CORP",
       "ticker": "VST US",
-      "weight": 6.1,
-      "value": 26195323,
+      "weight": 5.9,
+      "value": 27004995,
       "qty": 108
     },
     {
       "rank": 8,
       "name": "BWX Technologies Inc",
       "ticker": "BWXT US",
-      "weight": 2.09,
-      "value": 8993137,
+      "weight": 1.98,
+      "value": 9095728,
       "qty": 29
+    },
+    {
+      "rank": 9,
+      "name": "Energy Fuels Inc/Canada",
+      "ticker": "UUUU US",
+      "weight": 0.82,
+      "value": 3742493,
+      "qty": 148
     },
     {
       "rank": 9,
       "name": "Uranium Energy Corp",
       "ticker": "UEC US",
-      "weight": 0.83,
-      "value": 3557654,
+      "weight": 0.82,
+      "value": 3741211,
       "qty": 204
-    },
-    {
-      "rank": 10,
-      "name": "Energy Fuels Inc/Canada",
-      "ticker": "UUUU US",
-      "weight": 0.8,
-      "value": 3457965,
-      "qty": 148
     }
   ],
   "sectors": [
     {
       "rank": 1,
-      "name": "유틸리티",
-      "weight": 36.04
+      "name": "산업재",
+      "weight": 35.07
     },
     {
       "rank": 2,
-      "name": "산업재",
-      "weight": 33.97
+      "name": "유틸리티",
+      "weight": 34.97
     },
     {
       "rank": 3,
       "name": "에너지",
-      "weight": 29.99
+      "weight": 29.96
     }
   ]
 }
