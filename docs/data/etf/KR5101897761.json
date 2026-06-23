@@ -1,14 +1,14 @@
 {
   "fundCd": "KR5101897761",
   "fundNm": "ACE 삼성그룹섹터가중",
-  "stdDt": "2026-06-22",
+  "stdDt": "2026-06-23",
   "holdings": [
     {
       "rank": 1,
       "name": "삼성전자",
       "ticker": "005930",
-      "weight": 26.1,
-      "value": 1295286000,
+      "weight": 26.54,
+      "value": 1293456500,
       "qty": 3659
     },
     {
@@ -16,71 +16,71 @@
       "name": "삼성전기",
       "ticker": "009150",
       "weight": 17.42,
-      "value": 864870000,
+      "value": 848868000,
       "qty": 381
     },
     {
       "rank": 3,
       "name": "삼성중공업",
       "ticker": "010140",
-      "weight": 9.67,
-      "value": 480058750,
+      "weight": 9.37,
+      "value": 456535000,
       "qty": 17425
     },
     {
       "rank": 4,
-      "name": "에스원",
-      "ticker": "012750",
-      "weight": 8.78,
-      "value": 435478500,
-      "qty": 6177
+      "name": "삼성물산",
+      "ticker": "028260",
+      "weight": 8.93,
+      "value": 435240000,
+      "qty": 837
     },
     {
       "rank": 5,
-      "name": "삼성물산",
-      "ticker": "028260",
-      "weight": 8.28,
-      "value": 411385500,
-      "qty": 837
+      "name": "에스원",
+      "ticker": "012750",
+      "weight": 8.81,
+      "value": 429301500,
+      "qty": 6177
     },
     {
       "rank": 6,
       "name": "삼성SDI",
       "ticker": "006400",
-      "weight": 7.03,
-      "value": 349095000,
+      "weight": 6.87,
+      "value": 335257000,
       "qty": 629
     },
     {
       "rank": 7,
       "name": "삼성생명",
       "ticker": "032830",
-      "weight": 5.61,
-      "value": 278320000,
+      "weight": 5.18,
+      "value": 252280000,
       "qty": 560
     },
     {
       "rank": 8,
       "name": "삼성증권",
       "ticker": "016360",
-      "weight": 4.9,
-      "value": 243388300,
+      "weight": 4.79,
+      "value": 233358000,
       "qty": 2047
     },
     {
       "rank": 9,
       "name": "삼성바이오로직스",
       "ticker": "207940",
-      "weight": 3.95,
-      "value": 196482000,
+      "weight": 3.79,
+      "value": 185185000,
       "qty": 143
     },
     {
       "rank": 10,
       "name": "삼성E&A",
       "ticker": "028050",
-      "weight": 2.53,
-      "value": 125565650,
+      "weight": 2.64,
+      "value": 128791900,
       "qty": 2581
     },
     {
@@ -88,7 +88,7 @@
       "name": "삼성화재",
       "ticker": "000810",
       "weight": 1.76,
-      "value": 87500000,
+      "value": 85625000,
       "qty": 125
     },
     {
@@ -96,39 +96,39 @@
       "name": "삼성에스디에스",
       "ticker": "018260",
       "weight": 1.69,
-      "value": 83740000,
+      "value": 82357500,
       "qty": 395
     },
     {
       "rank": 13,
       "name": "호텔신라",
       "ticker": "008770",
-      "weight": 0.67,
-      "value": 33660000,
+      "weight": 0.65,
+      "value": 32130000,
       "qty": 612
     },
     {
-      "rank": 14,
-      "name": "삼성에피스홀딩스",
-      "ticker": "0126Z0",
-      "weight": 0.66,
-      "value": 33033000,
-      "qty": 77
-    },
-    {
-      "rank": 14,
+      "rank": 13,
       "name": "제일기획",
       "ticker": "030000",
-      "weight": 0.66,
-      "value": 33161600,
+      "weight": 0.65,
+      "value": 32078000,
       "qty": 1720
+    },
+    {
+      "rank": 15,
+      "name": "삼성에피스홀딩스",
+      "ticker": "0126Z0",
+      "weight": 0.64,
+      "value": 31762500,
+      "qty": 77
     },
     {
       "rank": 16,
       "name": "삼성카드",
       "ticker": "029780",
-      "weight": 0.29,
-      "value": 14567700,
+      "weight": 0.28,
+      "value": 13803300,
       "qty": 294
     }
   ],
@@ -136,32 +136,32 @@
     {
       "rank": 1,
       "name": "IT",
-      "weight": 52.22
+      "weight": 52.5
     },
     {
       "rank": 2,
       "name": "산업재",
-      "weight": 29.25
+      "weight": 29.73
     },
     {
       "rank": 3,
       "name": "금융",
-      "weight": 12.56
+      "weight": 12
     },
     {
       "rank": 4,
       "name": "헬스케어",
-      "weight": 4.62
+      "weight": 4.45
     },
     {
       "rank": 5,
       "name": "경기소비재",
-      "weight": 0.68
+      "weight": 0.66
     },
     {
       "rank": 6,
       "name": "커뮤니케이션서비스",
-      "weight": 0.67
+      "weight": 0.66
     }
   ]
 }

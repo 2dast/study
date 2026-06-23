@@ -1,102 +1,102 @@
 {
   "fundCd": "K55101E91790",
   "fundNm": "ACE 미국30년국채엔화노출액티브(H)",
-  "stdDt": "2026-06-22",
+  "stdDt": "2026-06-23",
   "holdings": [
     {
       "rank": 1,
-      "name": "[JPY] 예금",
-      "ticker": "JPYZZ0000001",
-      "weight": 20.33,
-      "value": 175011671,
-      "qty": 18491966.75
-    },
-    {
-      "rank": 2,
       "name": "ISHARES 20+ US TR BD JPY HED",
       "ticker": "JP3049130002",
-      "weight": 20.12,
-      "value": 173245820,
+      "weight": 20.07,
+      "value": 173202932,
       "qty": 17269.23
     },
     {
-      "rank": 3,
+      "rank": 2,
       "name": "[USD] 예금",
       "ticker": "USDZZ0000001",
-      "weight": 17.55,
-      "value": 151108301,
-      "qty": 98957.63
+      "weight": 19.59,
+      "value": 169061800,
+      "qty": 109994.67
+    },
+    {
+      "rank": 3,
+      "name": "[JPY] 예금",
+      "ticker": "JPYZZ0000001",
+      "weight": 12.55,
+      "value": 108322775,
+      "qty": 11394361.44
     },
     {
       "rank": 4,
       "name": "SP 0 08/15/55",
       "ticker": "US912803HN68",
-      "weight": 6.85,
-      "value": 59007537,
+      "weight": 6.84,
+      "value": 59081146,
       "qty": 160256.41
     },
     {
       "rank": 5,
       "name": "T 4 5/8 11/15/55",
       "ticker": "US912810UP11",
-      "weight": 6.35,
-      "value": 54708059,
-      "qty": 37463.52
+      "weight": 6.37,
+      "value": 55050704,
+      "qty": 37577.53
     },
     {
       "rank": 6,
-      "name": "SP 0 05/15/55",
-      "ticker": "US912803HL03",
-      "weight": 5.93,
-      "value": 51047960,
-      "qty": 137179.49
-    },
-    {
-      "rank": 7,
       "name": "ISHARES 25+ YR TREAS STRIPS",
       "ticker": "US46438T2006",
-      "weight": 5.36,
-      "value": 46202022,
+      "weight": 5.38,
+      "value": 46504589,
       "qty": 817.31
     },
     {
+      "rank": 7,
+      "name": "SP 0 05/15/55",
+      "ticker": "US912803HL03",
+      "weight": 5.36,
+      "value": 46326157,
+      "qty": 124358.97
+    },
+    {
       "rank": 8,
-      "name": "SP 0 11/15/55",
-      "ticker": "US912803HQ99",
-      "weight": 5.15,
-      "value": 44394353,
-      "qty": 121794.87
+      "name": "VANGUARD EXTENDED DUR TREAS",
+      "ticker": "US9219107094",
+      "weight": 5.16,
+      "value": 44596636,
+      "qty": 442.31
     },
     {
       "rank": 9,
-      "name": "VANGUARD EXTENDED DUR TREAS",
-      "ticker": "US9219107094",
-      "weight": 5.14,
-      "value": 44306483,
-      "qty": 442.31
+      "name": "SP 0 11/15/55",
+      "ticker": "US912803HQ99",
+      "weight": 5.15,
+      "value": 44447527,
+      "qty": 121794.87
     },
     {
       "rank": 10,
       "name": "SP 0 02/15/55",
       "ticker": "US912803HH90",
-      "weight": 5.03,
-      "value": 43333088,
+      "weight": 5.02,
+      "value": 43388800,
       "qty": 115384.62
     },
     {
       "rank": 11,
       "name": "ISHARES 20+ YEAR TREASURY BD",
       "ticker": "US4642874329",
-      "weight": 4.43,
-      "value": 38211701,
+      "weight": 4.45,
+      "value": 38461941,
       "qty": 288.46
     },
     {
       "rank": 12,
       "name": "PIMCO 25+ YR ZERO CPN US TIF",
       "ticker": "US72201R8824",
-      "weight": 3.83,
-      "value": 32993376,
+      "weight": 3.84,
+      "value": 33209443,
       "qty": 333.33
     },
     {
@@ -104,7 +104,7 @@
       "name": "T 1 7/8 02/15/51",
       "ticker": "US912810SU34",
       "weight": 1.27,
-      "value": 10945496,
+      "value": 10974751,
       "qty": 12820.51
     },
     {
@@ -112,7 +112,7 @@
       "name": "T 4 3/4 11/15/53",
       "ticker": "US912810TV08",
       "weight": 0.88,
-      "value": 7617968,
+      "value": 7641711,
       "qty": 5128.21
     },
     {
@@ -120,7 +120,7 @@
       "name": "T 4 1/8 08/15/53",
       "ticker": "US912810TT51",
       "weight": 0.79,
-      "value": 6878375,
+      "value": 6899750,
       "qty": 5128.21
     },
     {
@@ -128,7 +128,7 @@
       "name": "T 4 3/4 08/15/55",
       "ticker": "US912810UM89",
       "weight": 0.66,
-      "value": 5729027,
+      "value": 5747374,
       "qty": 3846.15
     },
     {
@@ -136,7 +136,7 @@
       "name": "T 4 1/4 02/15/54",
       "ticker": "US912810TX63",
       "weight": 0.61,
-      "value": 5269841,
+      "value": 5285878,
       "qty": 3846.15
     },
     {
@@ -144,7 +144,7 @@
       "name": "T 4 1/4 08/15/54",
       "ticker": "US912810UC08",
       "weight": 0.61,
-      "value": 5271756,
+      "value": 5287877,
       "qty": 3846.15
     },
     {
@@ -152,7 +152,7 @@
       "name": "T 4 3/4 05/15/55",
       "ticker": "US912810UK24",
       "weight": 0.22,
-      "value": 1908898,
+      "value": 1914963,
       "qty": 1282.05
     },
     {
@@ -160,7 +160,7 @@
       "name": "T 4 5/8 05/15/54",
       "ticker": "US912810UA42",
       "weight": 0.21,
-      "value": 1869341,
+      "value": 1875019,
       "qty": 1282.05
     },
     {
@@ -168,7 +168,7 @@
       "name": "T 4 1/2 11/15/54",
       "ticker": "US912810UE63",
       "weight": 0.21,
-      "value": 1832309,
+      "value": 1837790,
       "qty": 1282.05
     },
     {
@@ -176,7 +176,7 @@
       "name": "T 4 5/8 02/15/55",
       "ticker": "US912810UG12",
       "weight": 0.21,
-      "value": 1870535,
+      "value": 1876310,
       "qty": 1282.05
     }
   ],
