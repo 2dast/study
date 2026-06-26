@@ -1,86 +1,86 @@
 {
   "fundCd": "K55101E52479",
   "fundNm": "ACE 미국빅테크TOP7 Plus",
-  "stdDt": "2026-06-25",
+  "stdDt": "2026-06-26",
   "holdings": [
     {
       "rank": 1,
       "name": "APPLE Inc",
       "ticker": "AAPL US",
-      "weight": 15.94,
-      "value": 195113248,
+      "weight": 15.97,
+      "value": 194417841,
       "qty": 430
+    },
+    {
+      "rank": 2,
+      "name": "ALPHABET INC-CL A",
+      "ticker": "GOOGL US",
+      "weight": 15.35,
+      "value": 186970287,
+      "qty": 351
     },
     {
       "rank": 2,
       "name": "NVIDIA Corp",
       "ticker": "NVDA US",
       "weight": 15.35,
-      "value": 187828798,
+      "value": 186961355,
       "qty": 609
     },
     {
-      "rank": 3,
-      "name": "ALPHABET INC-CL A",
-      "ticker": "GOOGL US",
-      "weight": 15.31,
-      "value": 187315795,
-      "qty": 351
-    },
-    {
       "rank": 4,
-      "name": "MICROSOFT",
-      "ticker": "MSFT US",
-      "weight": 14.13,
-      "value": 172962207,
-      "qty": 300
+      "name": "Amazon.com Inc",
+      "ticker": "AMZN US",
+      "weight": 14.22,
+      "value": 173114589,
+      "qty": 479
     },
     {
       "rank": 5,
-      "name": "Amazon.com Inc",
-      "ticker": "AMZN US",
-      "weight": 14.12,
-      "value": 172895432,
-      "qty": 479
+      "name": "MICROSOFT",
+      "ticker": "MSFT US",
+      "weight": 13.89,
+      "value": 169138542,
+      "qty": 300
     },
     {
       "rank": 6,
       "name": "BROADCOM LTD",
       "ticker": "AVGO US",
-      "weight": 10.05,
-      "value": 123084206,
+      "weight": 10.17,
+      "value": 123778071,
       "qty": 210
     },
     {
       "rank": 7,
       "name": "Meta Platforms Inc-CL A",
       "ticker": "META US",
-      "weight": 8.42,
-      "value": 103149195,
+      "weight": 8.4,
+      "value": 102377783,
       "qty": 119
     },
     {
       "rank": 8,
       "name": "MICRON TECH",
       "ticker": "MU US",
-      "weight": 3.84,
-      "value": 47026950,
+      "weight": 3.85,
+      "value": 46908554,
       "qty": 29
     },
     {
       "rank": 9,
       "name": "TESLA MOTORS",
       "ticker": "TSLA US",
-      "weight": 1.72,
-      "value": 21181186,
+      "weight": 1.7,
+      "value": 20855884,
       "qty": 36
     },
     {
       "rank": 10,
       "name": "NETFLIX",
       "ticker": "NFLX US",
-      "weight": 1.11,
-      "value": 13697412,
+      "weight": 1.1,
+      "value": 13520963,
       "qty": 122
     }
   ],
@@ -88,17 +88,17 @@
     {
       "rank": 1,
       "name": "IT",
-      "weight": 59.3
+      "weight": 59.21
     },
     {
       "rank": 2,
       "name": "커뮤니케이션서비스",
-      "weight": 24.84
+      "weight": 24.87
     },
     {
       "rank": 3,
       "name": "경기소비재",
-      "weight": 15.85
+      "weight": 15.92
     }
   ]
 }
