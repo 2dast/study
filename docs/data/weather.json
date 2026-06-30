@@ -1,28 +1,22 @@
 {
-  "updatedAt": "2026-06-30T14:30:34.146Z",
+  "updatedAt": "2026-06-30T17:08:49.848Z",
   "location": "중구 을지로1가",
   "current": {
-    "temp": "25.6",
-    "feelsLike": "25.6",
-    "condition": "흐림",
-    "humidity": "54",
-    "wind": "2.8"
+    "temp": "24.2",
+    "feelsLike": "24.8",
+    "condition": "구름많음",
+    "humidity": "61",
+    "wind": "1"
   },
   "forecast": [
     {
       "day": "오늘",
-      "condition": "구름많음",
-      "low": "22",
-      "high": "33"
-    },
-    {
-      "day": "내일",
       "condition": "흐림",
       "low": "22",
       "high": "33"
     },
     {
-      "day": "목",
+      "day": "내일",
       "condition": "흐림",
       "low": "22",
       "high": "31"
@@ -68,6 +62,12 @@
       "condition": "흐리고 비",
       "low": "23",
       "high": "30"
+    },
+    {
+      "day": "금",
+      "condition": "흐림",
+      "low": "24",
+      "high": "29"
     }
   ]
 }
