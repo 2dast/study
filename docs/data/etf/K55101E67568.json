@@ -1,53 +1,53 @@
 {
   "fundCd": "K55101E67568",
   "fundNm": "ACE 포스코그룹포커스",
-  "stdDt": "2026-07-01",
+  "stdDt": "2026-07-02",
   "holdings": [
     {
       "rank": 1,
       "name": "포스코퓨처엠",
       "ticker": "003670",
-      "weight": 26.91,
-      "value": 75508000,
+      "weight": 25.86,
+      "value": 73186000,
       "qty": 430
     },
     {
       "rank": 2,
-      "name": "POSCO홀딩스",
-      "ticker": "005490",
-      "weight": 25.08,
-      "value": 70374000,
-      "qty": 222
+      "name": "포스코인터내셔널",
+      "ticker": "047050",
+      "weight": 24.77,
+      "value": 70127100,
+      "qty": 1367
     },
     {
       "rank": 3,
-      "name": "포스코인터내셔널",
-      "ticker": "047050",
-      "weight": 23.94,
-      "value": 67188050,
-      "qty": 1367
+      "name": "POSCO홀딩스",
+      "ticker": "005490",
+      "weight": 24.7,
+      "value": 69930000,
+      "qty": 222
     },
     {
       "rank": 4,
       "name": "포스코DX",
       "ticker": "022100",
-      "weight": 13.81,
-      "value": 38753500,
+      "weight": 14.36,
+      "value": 40633000,
       "qty": 1790
     },
     {
       "rank": 5,
       "name": "포스코엠텍",
       "ticker": "009520",
-      "weight": 3.29,
-      "value": 9252880,
+      "weight": 3.28,
+      "value": 9296560,
       "qty": 728
     },
     {
       "rank": 6,
       "name": "포스코스틸리온",
       "ticker": "058430",
-      "weight": 1.68,
+      "weight": 1.67,
       "value": 4738000,
       "qty": 920
     },
@@ -55,50 +55,50 @@
       "rank": 7,
       "name": "삼성E&A",
       "ticker": "028050",
-      "weight": 1.47,
-      "value": 4141200,
+      "weight": 1.58,
+      "value": 4497900,
       "qty": 87
     },
     {
       "rank": 8,
       "name": "LX인터내셔널",
       "ticker": "001120",
-      "weight": 1.29,
-      "value": 3643200,
+      "weight": 1.31,
+      "value": 3742200,
       "qty": 99
     },
     {
       "rank": 9,
-      "name": "LG에너지솔루션",
-      "ticker": "373220",
-      "weight": 1.28,
-      "value": 3620000,
-      "qty": 10
-    },
-    {
-      "rank": 10,
       "name": "현대제철",
       "ticker": "004020",
       "weight": 1.23,
-      "value": 3484400,
+      "value": 3515400,
       "qty": 124
+    },
+    {
+      "rank": 10,
+      "name": "LG에너지솔루션",
+      "ticker": "373220",
+      "weight": 1.22,
+      "value": 3480000,
+      "qty": 10
     }
   ],
   "sectors": [
     {
       "rank": 1,
       "name": "산업재",
-      "weight": 54.9
+      "weight": 54.75
     },
     {
       "rank": 2,
       "name": "소재",
-      "weight": 31.3
+      "weight": 30.9
     },
     {
       "rank": 3,
       "name": "IT",
-      "weight": 13.81
+      "weight": 14.35
     }
   ]
 }
