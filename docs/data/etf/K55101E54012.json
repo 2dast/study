@@ -1,86 +1,86 @@
 {
   "fundCd": "K55101E54012",
   "fundNm": "ACE 미국주식베스트셀러",
-  "stdDt": "2026-07-02",
+  "stdDt": "2026-07-03",
   "holdings": [
     {
       "rank": 1,
       "name": "MICRON TECH",
       "ticker": "MU US",
-      "weight": 21.39,
-      "value": 254862383,
+      "weight": 20.22,
+      "value": 228055013,
       "qty": 142
     },
     {
       "rank": 2,
-      "name": "INTEL Corp",
-      "ticker": "INTC US",
-      "weight": 17.86,
-      "value": 212768473,
-      "qty": 980
+      "name": "ALPHABET INC-CL A",
+      "ticker": "GOOGL US",
+      "weight": 18.29,
+      "value": 206243180,
+      "qty": 367
     },
     {
       "rank": 3,
-      "name": "ALPHABET INC-CL A",
-      "ticker": "GOOGL US",
-      "weight": 17.12,
-      "value": 203932582,
-      "qty": 367
+      "name": "INTEL Corp",
+      "ticker": "INTC US",
+      "weight": 17.17,
+      "value": 193665361,
+      "qty": 980
     },
     {
       "rank": 4,
       "name": "MARVELL TECHNOLOGY INC",
       "ticker": "MRVL US",
-      "weight": 13.96,
-      "value": 166284908,
+      "weight": 13.47,
+      "value": 151948685,
       "qty": 359
     },
     {
       "rank": 5,
       "name": "TESLA MOTORS",
       "ticker": "TSLA US",
-      "weight": 12.35,
-      "value": 147147961,
+      "weight": 13.19,
+      "value": 148878391,
       "qty": 225
     },
     {
       "rank": 6,
-      "name": "Nebius Group NV",
-      "ticker": "NBIS US",
-      "weight": 3.81,
-      "value": 45518173,
-      "qty": 106
-    },
-    {
-      "rank": 7,
       "name": "NVIDIA Corp",
       "ticker": "NVDA US",
-      "weight": 3.78,
-      "value": 45112391,
+      "weight": 3.95,
+      "value": 44572269,
       "qty": 145
     },
     {
-      "rank": 8,
+      "rank": 7,
       "name": "Palantir Technologies Inc",
       "ticker": "PLTR US",
-      "weight": 3.45,
-      "value": 41180111,
+      "weight": 3.93,
+      "value": 44403636,
       "qty": 227
+    },
+    {
+      "rank": 8,
+      "name": "Nebius Group NV",
+      "ticker": "NBIS US",
+      "weight": 3.35,
+      "value": 37795173,
+      "qty": 106
     },
     {
       "rank": 9,
       "name": "ARM Holdings PLC",
       "ticker": "ARM US",
-      "weight": 3.28,
-      "value": 39143783,
+      "weight": 3.3,
+      "value": 37277543,
       "qty": 71
     },
     {
       "rank": 10,
       "name": "Circle Internet Group Inc",
       "ticker": "CRCL US",
-      "weight": 3,
-      "value": 35837086,
+      "weight": 3.14,
+      "value": 35468506,
       "qty": 368
     }
   ],
@@ -88,17 +88,17 @@
     {
       "rank": 1,
       "name": "IT",
-      "weight": 70.54
+      "weight": 68.53
     },
     {
       "rank": 2,
       "name": "커뮤니케이션서비스",
-      "weight": 17.11
+      "weight": 18.28
     },
     {
       "rank": 3,
       "name": "경기소비재",
-      "weight": 12.35
+      "weight": 13.19
     }
   ]
 }

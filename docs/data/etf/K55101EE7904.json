@@ -1,142 +1,190 @@
 {
   "fundCd": "K55101EE7904",
   "fundNm": "ACE 라이프자산주주가치액티브",
-  "stdDt": "2026-07-02",
+  "stdDt": "2026-07-03",
   "holdings": [
     {
       "rank": 1,
       "name": "삼성전자",
       "ticker": "005930",
-      "weight": 41.63,
-      "value": 447219000,
-      "qty": 1422
+      "weight": 25.97,
+      "value": 284856000,
+      "qty": 996
     },
     {
       "rank": 2,
-      "name": "SK스퀘어",
-      "ticker": "402340",
-      "weight": 15.04,
-      "value": 161644000,
-      "qty": 92
+      "name": "한국전력",
+      "ticker": "015760",
+      "weight": 6.25,
+      "value": 68708150,
+      "qty": 1801
     },
     {
       "rank": 3,
       "name": "SK하이닉스",
       "ticker": "000660",
-      "weight": 12.39,
-      "value": 133120000,
-      "qty": 52
+      "weight": 5.97,
+      "value": 65610000,
+      "qty": 30
     },
     {
       "rank": 4,
       "name": "한국금융지주",
       "ticker": "071050",
-      "weight": 6.08,
-      "value": 65436000,
+      "weight": 5.9,
+      "value": 64718500,
       "qty": 287
     },
     {
       "rank": 5,
       "name": "BNK금융지주",
       "ticker": "138930",
-      "weight": 3.23,
-      "value": 34761240,
-      "qty": 2007
+      "weight": 5.65,
+      "value": 62040860,
+      "qty": 3422
     },
     {
       "rank": 6,
-      "name": "코리안리",
-      "ticker": "003690",
-      "weight": 2.76,
-      "value": 29756320,
-      "qty": 2332
+      "name": "GS",
+      "ticker": "078930",
+      "weight": 4.87,
+      "value": 53522400,
+      "qty": 696
     },
     {
       "rank": 7,
-      "name": "GS",
-      "ticker": "078930",
-      "weight": 2.41,
-      "value": 26061000,
-      "qty": 357
+      "name": "올릭스",
+      "ticker": "226950",
+      "weight": 4.34,
+      "value": 47667200,
+      "qty": 304
     },
     {
       "rank": 8,
-      "name": "우리금융지주",
-      "ticker": "316140",
-      "weight": 2.32,
-      "value": 24976850,
-      "qty": 851
+      "name": "코리안리",
+      "ticker": "003690",
+      "weight": 4.22,
+      "value": 46328190,
+      "qty": 3583
     },
     {
       "rank": 9,
-      "name": "한국전력",
-      "ticker": "015760",
-      "weight": 2.1,
-      "value": 22522400,
-      "qty": 599
+      "name": "우리금융지주",
+      "ticker": "316140",
+      "weight": 3.91,
+      "value": 43035000,
+      "qty": 1425
     },
     {
       "rank": 10,
-      "name": "DN오토모티브",
-      "ticker": "007340",
-      "weight": 2.08,
-      "value": 22364700,
-      "qty": 587
+      "name": "에이비엘바이오",
+      "ticker": "298380",
+      "weight": 3.68,
+      "value": 40449000,
+      "qty": 417
     },
     {
       "rank": 11,
-      "name": "팬오션",
-      "ticker": "028670",
-      "weight": 2.06,
-      "value": 22180800,
-      "qty": 4621
+      "name": "DN오토모티브",
+      "ticker": "007340",
+      "weight": 3.54,
+      "value": 39023350,
+      "qty": 1031
     },
     {
       "rank": 12,
-      "name": "LX인터내셔널",
-      "ticker": "001120",
-      "weight": 1.86,
-      "value": 20071800,
-      "qty": 531
+      "name": "SK스퀘어",
+      "ticker": "402340",
+      "weight": 3.32,
+      "value": 36600000,
+      "qty": 24
     },
     {
       "rank": 13,
-      "name": "HD현대",
-      "ticker": "267250",
-      "weight": 1.64,
-      "value": 17640000,
-      "qty": 84
+      "name": "한올바이오파마",
+      "ticker": "009420",
+      "weight": 3.12,
+      "value": 34320000,
+      "qty": 550
     },
     {
       "rank": 14,
-      "name": "삼양사",
-      "ticker": "145990",
-      "weight": 1.28,
-      "value": 13728000,
-      "qty": 312
+      "name": "팬오션",
+      "ticker": "028670",
+      "weight": 2.88,
+      "value": 31733450,
+      "qty": 6385
     },
     {
       "rank": 15,
-      "name": "세아제강",
-      "ticker": "306200",
-      "weight": 1.12,
-      "value": 12067200,
-      "qty": 96
+      "name": "LX인터내셔널",
+      "ticker": "001120",
+      "weight": 2.54,
+      "value": 28049250,
+      "qty": 753
     },
     {
       "rank": 16,
-      "name": "동아쏘시오홀딩스",
-      "ticker": "000640",
-      "weight": 1.04,
-      "value": 11342400,
-      "qty": 139
+      "name": "CJ제일제당",
+      "ticker": "097950",
+      "weight": 2.41,
+      "value": 26500500,
+      "qty": 135
     },
     {
       "rank": 17,
+      "name": "동원산업",
+      "ticker": "006040",
+      "weight": 2.34,
+      "value": 25689600,
+      "qty": 768
+    },
+    {
+      "rank": 18,
+      "name": "삼양사",
+      "ticker": "145990",
+      "weight": 2.06,
+      "value": 22654800,
+      "qty": 504
+    },
+    {
+      "rank": 19,
       "name": "CJ대한통운",
       "ticker": "000120",
-      "weight": 0.96,
-      "value": 10466700,
+      "weight": 1.74,
+      "value": 19177200,
+      "qty": 252
+    },
+    {
+      "rank": 20,
+      "name": "HD현대",
+      "ticker": "267250",
+      "weight": 1.59,
+      "value": 17430000,
+      "qty": 84
+    },
+    {
+      "rank": 21,
+      "name": "대한항공",
+      "ticker": "003490",
+      "weight": 1.57,
+      "value": 17386950,
+      "qty": 609
+    },
+    {
+      "rank": 22,
+      "name": "세아제강",
+      "ticker": "306200",
+      "weight": 1.09,
+      "value": 11971200,
+      "qty": 96
+    },
+    {
+      "rank": 23,
+      "name": "동아쏘시오홀딩스",
+      "ticker": "000640",
+      "weight": 1.03,
+      "value": 11411900,
       "qty": 139
     }
   ],
@@ -144,47 +192,47 @@
     {
       "rank": 1,
       "name": "IT",
-      "weight": 53.97
+      "weight": 31.89
     },
     {
       "rank": 2,
-      "name": "산업재",
-      "weight": 22.36
+      "name": "금융",
+      "weight": 19.67
     },
     {
       "rank": 3,
-      "name": "금융",
-      "weight": 14.41
+      "name": "산업재",
+      "weight": 16.97
     },
     {
       "rank": 4,
-      "name": "유틸리티",
-      "weight": 2.09
+      "name": "헬스케어",
+      "weight": 12.18
     },
     {
       "rank": 5,
-      "name": "경기소비재",
-      "weight": 2.08
+      "name": "필수소비재",
+      "weight": 6.81
     },
     {
       "rank": 6,
-      "name": "에너지",
-      "weight": 1.64
+      "name": "유틸리티",
+      "weight": 6.25
     },
     {
       "rank": 7,
-      "name": "필수소비재",
-      "weight": 1.28
+      "name": "경기소비재",
+      "weight": 3.55
     },
     {
       "rank": 8,
-      "name": "소재",
-      "weight": 1.12
+      "name": "에너지",
+      "weight": 1.59
     },
     {
       "rank": 9,
-      "name": "헬스케어",
-      "weight": 1.05
+      "name": "소재",
+      "weight": 1.09
     }
   ]
 }
