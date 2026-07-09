@@ -1,94 +1,94 @@
 {
   "fundCd": "K55101EO4453",
   "fundNm": "ACE 미국AI테크핵심산업액티브",
-  "stdDt": "2026-07-08",
+  "stdDt": "2026-07-09",
   "holdings": [
     {
       "rank": 1,
-      "name": "TESLA MOTORS",
-      "ticker": "TSLA US",
-      "weight": 8.88,
-      "value": 44904475,
-      "qty": 70
-    },
-    {
-      "rank": 2,
-      "name": "VERTIV HOLDINGS CL A ORD",
-      "ticker": "VRT US",
-      "weight": 8.85,
-      "value": 44775098,
-      "qty": 92
-    },
-    {
-      "rank": 3,
-      "name": "TAIWAN SEMICONDUCTOR-SP ADR",
-      "ticker": "TSM US",
-      "weight": 8.6,
-      "value": 43496805,
-      "qty": 63
-    },
-    {
-      "rank": 4,
       "name": "Meta Platforms Inc-CL A",
       "ticker": "META US",
-      "weight": 8.53,
-      "value": 43116069,
+      "weight": 9,
+      "value": 43354991,
       "qty": 47
     },
     {
-      "rank": 4,
+      "rank": 2,
       "name": "Palantir Technologies Inc",
       "ticker": "PLTR US",
-      "weight": 8.53,
-      "value": 43142644,
+      "weight": 8.91,
+      "value": 42888283,
       "qty": 213
     },
     {
-      "rank": 6,
+      "rank": 3,
+      "name": "TESLA MOTORS",
+      "ticker": "TSLA US",
+      "weight": 8.78,
+      "value": 42262195,
+      "qty": 70
+    },
+    {
+      "rank": 4,
+      "name": "VERTIV HOLDINGS CL A ORD",
+      "ticker": "VRT US",
+      "weight": 8.75,
+      "value": 42127869,
+      "qty": 92
+    },
+    {
+      "rank": 5,
       "name": "NVIDIA Corp",
       "ticker": "NVDA US",
-      "weight": 8.33,
-      "value": 42136370,
+      "weight": 8.64,
+      "value": 41609044,
       "qty": 141
+    },
+    {
+      "rank": 6,
+      "name": "TAIWAN SEMICONDUCTOR-SP ADR",
+      "ticker": "TSM US",
+      "weight": 8.48,
+      "value": 40836987,
+      "qty": 63
     },
     {
       "rank": 7,
       "name": "Oklo Inc",
       "ticker": "OKLO US",
-      "weight": 8.22,
-      "value": 41591491,
+      "weight": 7.83,
+      "value": 37683528,
       "qty": 525
     },
     {
       "rank": 8,
       "name": "AeroVironment Inc",
       "ticker": "AVAV US",
-      "weight": 7.7,
-      "value": 38915551,
+      "weight": 7.29,
+      "value": 35071373,
       "qty": 144
     },
     {
       "rank": 9,
-      "name": "AppLovin Corp",
-      "ticker": "APP US",
-      "weight": 5.09,
-      "value": 25761616,
-      "qty": 31
+      "name": "BROADCOM LTD",
+      "ticker": "AVGO US",
+      "weight": 5.19,
+      "value": 25002622,
+      "qty": 45
     },
     {
       "rank": 10,
-      "name": "BROADCOM LTD",
-      "ticker": "AVGO US",
-      "weight": 5.08,
-      "value": 25712729,
-      "qty": 45
+      "name": "AppLovin Corp",
+      "ticker": "APP US",
+      "weight": 5.09,
+      "value": 24526518,
+      "qty": 31
     },
     {
       "rank": 11,
       "name": "Intuitive Surgical Inc",
       "ticker": "ISRG US",
-      "weight": 4.97,
-      "value": 25135130,
+      "weight": 5.05,
+      "value": 24331743,
       "qty": 38
     },
     {
@@ -96,72 +96,72 @@
       "name": "Cameco Corp",
       "ticker": "CA13321L1085",
       "weight": 4.95,
-      "value": 25031916,
+      "value": 23832983,
       "qty": 168
     },
     {
       "rank": 13,
-      "name": "GE Vernova Inc",
-      "ticker": "GEV US",
-      "weight": 3.13,
-      "value": 15844927,
-      "qty": 9
-    },
-    {
-      "rank": 14,
       "name": "CoreWeave Inc",
       "ticker": "CRWV US",
-      "weight": 3.1,
-      "value": 15723252,
+      "weight": 3.09,
+      "value": 14895194,
       "qty": 119
     },
     {
+      "rank": 14,
+      "name": "GE Vernova Inc",
+      "ticker": "GEV US",
+      "weight": 3.01,
+      "value": 14526039,
+      "qty": 9
+    },
+    {
       "rank": 15,
-      "name": "SYMBOTIC",
-      "ticker": "SYM US",
-      "weight": 3.05,
-      "value": 15423236,
-      "qty": 227
+      "name": "UiPath Inc",
+      "ticker": "PATH US",
+      "weight": 3,
+      "value": 14472288,
+      "qty": 829
     },
     {
       "rank": 16,
-      "name": "UiPath Inc",
-      "ticker": "PATH US",
-      "weight": 2.96,
-      "value": 14987164,
-      "qty": 829
+      "name": "SYMBOTIC",
+      "ticker": "SYM US",
+      "weight": 2.92,
+      "value": 14055390,
+      "qty": 227
     }
   ],
   "sectors": [
     {
       "rank": 1,
       "name": "IT",
-      "weight": 41.72
+      "weight": 42.42
     },
     {
       "rank": 2,
       "name": "산업재",
-      "weight": 22.73
+      "weight": 21.97
     },
     {
       "rank": 3,
-      "name": "경기소비재",
-      "weight": 8.88
+      "name": "커뮤니케이션서비스",
+      "weight": 9
     },
     {
       "rank": 4,
-      "name": "커뮤니케이션서비스",
-      "weight": 8.53
+      "name": "경기소비재",
+      "weight": 8.78
     },
     {
       "rank": 5,
       "name": "유틸리티",
-      "weight": 8.22
+      "weight": 7.83
     },
     {
       "rank": 6,
       "name": "헬스케어",
-      "weight": 4.97
+      "weight": 5.05
     },
     {
       "rank": 7,
