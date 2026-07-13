@@ -1,172 +1,172 @@
 {
   "fundCd": "K55101EO4453",
   "fundNm": "ACE 미국AI테크핵심산업액티브",
-  "stdDt": "2026-07-10",
+  "stdDt": "2026-07-13",
   "holdings": [
     {
       "rank": 1,
-      "name": "VERTIV HOLDINGS CL A ORD",
-      "ticker": "VRT US",
-      "weight": 9.03,
-      "value": 44036134,
-      "qty": 92
-    },
-    {
-      "rank": 2,
-      "name": "NVIDIA Corp",
-      "ticker": "NVDA US",
-      "weight": 8.95,
-      "value": 43654368,
-      "qty": 142
-    },
-    {
-      "rank": 3,
       "name": "Meta Platforms Inc-CL A",
       "ticker": "META US",
-      "weight": 8.94,
-      "value": 43601233,
+      "weight": 9.28,
+      "value": 45508995,
       "qty": 48
     },
     {
+      "rank": 2,
+      "name": "VERTIV HOLDINGS CL A ORD",
+      "ticker": "VRT US",
+      "weight": 9.13,
+      "value": 44742680,
+      "qty": 92
+    },
+    {
+      "rank": 3,
+      "name": "NVIDIA Corp",
+      "ticker": "NVDA US",
+      "weight": 8.82,
+      "value": 43232452,
+      "qty": 142
+    },
+    {
       "rank": 4,
-      "name": "Palantir Technologies Inc",
-      "ticker": "PLTR US",
-      "weight": 8.74,
-      "value": 42615219,
-      "qty": 214
+      "name": "TESLA MOTORS",
+      "ticker": "TSLA US",
+      "weight": 8.72,
+      "value": 42727591,
+      "qty": 70
     },
     {
       "rank": 5,
       "name": "TAIWAN SEMICONDUCTOR-SP ADR",
       "ticker": "TSM US",
-      "weight": 8.64,
-      "value": 42120676,
+      "weight": 8.56,
+      "value": 41987311,
       "qty": 64
     },
     {
       "rank": 6,
-      "name": "TESLA MOTORS",
-      "ticker": "TSLA US",
-      "weight": 8.52,
-      "value": 41544563,
-      "qty": 70
+      "name": "Palantir Technologies Inc",
+      "ticker": "PLTR US",
+      "weight": 8.46,
+      "value": 41460500,
+      "qty": 214
     },
     {
       "rank": 7,
       "name": "Oklo Inc",
       "ticker": "OKLO US",
-      "weight": 7.72,
-      "value": 37669247,
+      "weight": 7.98,
+      "value": 39132234,
       "qty": 529
     },
     {
       "rank": 8,
       "name": "AeroVironment Inc",
       "ticker": "AVAV US",
-      "weight": 7.06,
-      "value": 34456706,
+      "weight": 6.58,
+      "value": 32307125,
       "qty": 145
     },
     {
       "rank": 9,
       "name": "BROADCOM LTD",
       "ticker": "AVGO US",
-      "weight": 5.4,
-      "value": 26343270,
+      "weight": 5.53,
+      "value": 27100194,
       "qty": 45
     },
     {
       "rank": 10,
-      "name": "AppLovin Corp",
-      "ticker": "APP US",
-      "weight": 5,
-      "value": 24380114,
-      "qty": 31
+      "name": "Cameco Corp",
+      "ticker": "CA13321L1085",
+      "weight": 4.95,
+      "value": 24292742,
+      "qty": 169
     },
     {
       "rank": 11,
-      "name": "Cameco Corp",
-      "ticker": "CA13321L1085",
+      "name": "AppLovin Corp",
+      "ticker": "APP US",
       "weight": 4.94,
-      "value": 24111712,
-      "qty": 169
+      "value": 24222581,
+      "qty": 31
     },
     {
       "rank": 12,
       "name": "Intuitive Surgical Inc",
       "ticker": "ISRG US",
-      "weight": 4.87,
-      "value": 23756920,
+      "weight": 4.79,
+      "value": 23480244,
       "qty": 38
     },
     {
       "rank": 13,
       "name": "CoreWeave Inc",
       "ticker": "CRWV US",
-      "weight": 3.33,
-      "value": 16265880,
+      "weight": 3.29,
+      "value": 16161069,
       "qty": 120
     },
     {
       "rank": 14,
-      "name": "GE Vernova Inc",
-      "ticker": "GEV US",
-      "weight": 2.97,
-      "value": 14517162,
-      "qty": 9
-    },
-    {
-      "rank": 15,
       "name": "SYMBOTIC",
       "ticker": "SYM US",
-      "weight": 2.94,
-      "value": 14378751,
+      "weight": 3.02,
+      "value": 14835858,
       "qty": 229
     },
     {
       "rank": 15,
       "name": "UiPath Inc",
       "ticker": "PATH US",
-      "weight": 2.94,
-      "value": 14361717,
+      "weight": 3.01,
+      "value": 14793294,
       "qty": 835
+    },
+    {
+      "rank": 16,
+      "name": "GE Vernova Inc",
+      "ticker": "GEV US",
+      "weight": 2.96,
+      "value": 14529558,
+      "qty": 9
     }
   ],
   "sectors": [
     {
       "rank": 1,
       "name": "IT",
-      "weight": 43
+      "weight": 42.6
     },
     {
       "rank": 2,
       "name": "산업재",
-      "weight": 22.01
+      "weight": 21.69
     },
     {
       "rank": 3,
       "name": "커뮤니케이션서비스",
-      "weight": 8.94
+      "weight": 9.28
     },
     {
       "rank": 4,
       "name": "경기소비재",
-      "weight": 8.52
+      "weight": 8.71
     },
     {
       "rank": 5,
       "name": "유틸리티",
-      "weight": 7.72
+      "weight": 7.98
     },
     {
       "rank": 6,
       "name": "에너지",
-      "weight": 4.94
+      "weight": 4.95
     },
     {
       "rank": 7,
       "name": "헬스케어",
-      "weight": 4.87
+      "weight": 4.79
     }
   ]
 }
