@@ -1,23 +1,23 @@
 {
   "fundCd": "K55101E52495",
   "fundNm": "ACE 미국빅테크TOP7 Plus인버스(합성)",
-  "stdDt": "2026-07-15",
+  "stdDt": "2026-07-16",
   "holdings": [
     {
       "rank": 1,
-      "name": "스왑(한국투자증권)",
-      "ticker": "SWAP00000007",
-      "weight": -23.08,
-      "value": 118316,
-      "qty": 118316
+      "name": "스왑(키움증권)",
+      "ticker": "SWAP00000011",
+      "weight": 0,
+      "value": 23489,
+      "qty": 23489
     },
     {
       "rank": 2,
-      "name": "스왑(키움증권)",
-      "ticker": "SWAP00000011",
-      "weight": -76.92,
-      "value": 325423,
-      "qty": 325423
+      "name": "스왑(한국투자증권)",
+      "ticker": "SWAP00000007",
+      "weight": -100,
+      "value": -738227,
+      "qty": -738227
     }
   ],
   "sectors": []
