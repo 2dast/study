@@ -1,31 +1,31 @@
 {
   "fundCd": "K55101DZ9039",
   "fundNm": "ACE 미국30년국채선물레버리지(합성 H)",
-  "stdDt": "2026-07-23",
+  "stdDt": "2026-07-24",
   "holdings": [
     {
       "rank": 1,
       "name": "스왑(KB증권)",
       "ticker": "SWAP00000002",
-      "weight": 78.26,
-      "value": -5962979,
-      "qty": -5962979
+      "weight": 79.16,
+      "value": -6443350,
+      "qty": -6443350
     },
     {
-      "rank": 1,
+      "rank": 2,
       "name": "스왑(키움증권)",
       "ticker": "SWAP00000011",
-      "weight": 78.26,
-      "value": -5953434,
-      "qty": -5953434
+      "weight": 77.66,
+      "value": -6340050,
+      "qty": -6340050
     },
     {
       "rank": 3,
       "name": "스왑(미래에셋증권)",
       "ticker": "SWAP00000005",
-      "weight": 43.48,
-      "value": -3317588,
-      "qty": -3317588
+      "weight": 43.18,
+      "value": -3533032,
+      "qty": -3533032
     }
   ],
   "sectors": []
