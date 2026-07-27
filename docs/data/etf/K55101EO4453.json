@@ -1,102 +1,102 @@
 {
   "fundCd": "K55101EO4453",
   "fundNm": "ACE 미국AI테크핵심산업액티브",
-  "stdDt": "2026-07-24",
+  "stdDt": "2026-07-27",
   "holdings": [
     {
       "rank": 1,
       "name": "NVIDIA Corp",
       "ticker": "NVDA US",
-      "weight": 9.49,
-      "value": 43235895,
+      "weight": 9.54,
+      "value": 42557270,
       "qty": 139
     },
     {
       "rank": 2,
       "name": "VERTIV HOLDINGS CL A ORD",
       "ticker": "VRT US",
-      "weight": 9.22,
-      "value": 41965441,
+      "weight": 9.49,
+      "value": 42360981,
       "qty": 95
     },
     {
       "rank": 3,
-      "name": "Meta Platforms Inc-CL A",
-      "ticker": "META US",
-      "weight": 8.89,
-      "value": 40477050,
-      "qty": 44
-    },
-    {
-      "rank": 4,
       "name": "TAIWAN SEMICONDUCTOR-SP ADR",
       "ticker": "TSM US",
-      "weight": 8.82,
-      "value": 40159003,
+      "weight": 8.88,
+      "value": 39616825,
       "qty": 65
     },
     {
-      "rank": 5,
-      "name": "TESLA MOTORS",
-      "ticker": "TSLA US",
-      "weight": 8.67,
-      "value": 39499046,
-      "qty": 72
+      "rank": 4,
+      "name": "Meta Platforms Inc-CL A",
+      "ticker": "META US",
+      "weight": 8.77,
+      "value": 39111875,
+      "qty": 44
     },
     {
-      "rank": 6,
+      "rank": 5,
       "name": "Palantir Technologies Inc",
       "ticker": "PLTR US",
-      "weight": 8.58,
-      "value": 39101925,
+      "weight": 8.68,
+      "value": 38719970,
       "qty": 214
     },
     {
-      "rank": 7,
+      "rank": 6,
       "name": "Oklo Inc",
       "ticker": "OKLO US",
-      "weight": 7.71,
-      "value": 35116658,
+      "weight": 7.79,
+      "value": 34717355,
       "qty": 538
     },
     {
-      "rank": 8,
+      "rank": 7,
       "name": "AeroVironment Inc",
       "ticker": "AVAV US",
-      "weight": 7.16,
-      "value": 32638940,
+      "weight": 7.73,
+      "value": 34453425,
       "qty": 148
+    },
+    {
+      "rank": 8,
+      "name": "TESLA MOTORS",
+      "ticker": "TSLA US",
+      "weight": 7.57,
+      "value": 33757729,
+      "qty": 72
     },
     {
       "rank": 9,
       "name": "BROADCOM LTD",
       "ticker": "AVGO US",
-      "weight": 5.88,
-      "value": 26773881,
+      "weight": 5.94,
+      "value": 26477439,
       "qty": 46
     },
     {
       "rank": 10,
       "name": "Cameco Corp",
       "ticker": "CA13321L1085",
-      "weight": 5,
-      "value": 22799411,
+      "weight": 5.05,
+      "value": 22533957,
       "qty": 172
     },
     {
       "rank": 11,
       "name": "Intuitive Surgical Inc",
       "ticker": "ISRG US",
-      "weight": 4.28,
-      "value": 19489239,
+      "weight": 4.26,
+      "value": 18990680,
       "qty": 39
     },
     {
       "rank": 12,
       "name": "AppLovin Corp",
       "ticker": "APP US",
-      "weight": 4.11,
-      "value": 18755795,
+      "weight": 4.06,
+      "value": 18134010,
       "qty": 31
     },
     {
@@ -104,69 +104,69 @@
       "name": "CoreWeave Inc",
       "ticker": "CRWV US",
       "weight": 3.25,
-      "value": 14788394,
+      "value": 14510833,
       "qty": 122
     },
     {
       "rank": 14,
       "name": "SYMBOTIC",
       "ticker": "SYM US",
-      "weight": 3.18,
-      "value": 14511316,
+      "weight": 3.11,
+      "value": 13863491,
       "qty": 233
     },
     {
       "rank": 15,
-      "name": "UiPath Inc",
-      "ticker": "PATH US",
-      "weight": 2.92,
-      "value": 13324851,
-      "qty": 849
+      "name": "GE Vernova Inc",
+      "ticker": "GEV US",
+      "weight": 3.05,
+      "value": 13611089,
+      "qty": 9
     },
     {
       "rank": 16,
-      "name": "GE Vernova Inc",
-      "ticker": "GEV US",
-      "weight": 2.85,
-      "value": 13003578,
-      "qty": 9
+      "name": "UiPath Inc",
+      "ticker": "PATH US",
+      "weight": 2.84,
+      "value": 12700462,
+      "qty": 849
     }
   ],
   "sectors": [
     {
       "rank": 1,
       "name": "IT",
-      "weight": 43.05
+      "weight": 43.2
     },
     {
       "rank": 2,
       "name": "산업재",
-      "weight": 22.41
+      "weight": 23.38
     },
     {
       "rank": 3,
       "name": "커뮤니케이션서비스",
-      "weight": 8.88
+      "weight": 8.77
     },
     {
       "rank": 4,
-      "name": "경기소비재",
-      "weight": 8.67
+      "name": "유틸리티",
+      "weight": 7.78
     },
     {
       "rank": 5,
-      "name": "유틸리티",
-      "weight": 7.71
+      "name": "경기소비재",
+      "weight": 7.57
     },
     {
       "rank": 6,
       "name": "에너지",
-      "weight": 5
+      "weight": 5.05
     },
     {
       "rank": 7,
       "name": "헬스케어",
-      "weight": 4.28
+      "weight": 4.26
     }
   ]
 }
