@@ -1,14 +1,14 @@
 {
   "fundCd": "K55101E03860",
   "fundNm": "ACE 미국30년국채액티브(H)",
-  "stdDt": "2026-08-13",
+  "stdDt": "2026-08-14",
   "holdings": [
     {
       "rank": 3,
       "name": "VANGUARD EXTENDED DUR TREAS",
       "ticker": "US9219107094",
-      "weight": 11.63,
-      "value": 123246175,
+      "weight": 11.62,
+      "value": 123319782,
       "qty": 1458.9694
     },
     {
@@ -16,47 +16,55 @@
       "name": "ISHARES 20+ YEAR TREASURY BD",
       "ticker": "US4642874329",
       "weight": 11.1,
-      "value": 117649847,
+      "value": 117842516,
       "qty": 1011.1164
     },
     {
       "rank": 6,
       "name": "T 4 5/8 11/15/55",
       "ticker": "US912810UP11",
-      "weight": 6.59,
-      "value": 69863322,
-      "qty": 54332.0807
+      "weight": 6.58,
+      "value": 69909608,
+      "qty": 54313.7194
     },
     {
       "rank": 8,
       "name": "SP 0 05/15/55",
       "ticker": "US912803HL03",
-      "weight": 2.98,
-      "value": 31701062,
+      "weight": 2.97,
+      "value": 31621542,
       "qty": 101145.0381
     },
     {
       "rank": 9,
       "name": "SP 0 08/15/55",
       "ticker": "US912803HN68",
-      "weight": 2.88,
-      "value": 30623295,
+      "weight": 2.87,
+      "value": 30561469,
       "qty": 98759.5419
+    },
+    {
+      "rank": 31,
+      "name": "[USD] 예금",
+      "ticker": "USDZZ0000001",
+      "weight": 0,
+      "value": 27755652,
+      "qty": 19554.4967
     },
     {
       "rank": 10,
       "name": "PIMCO 25+ YR ZERO CPN US TIF",
       "ticker": "US72201R8824",
       "weight": 2.43,
-      "value": 25796708,
+      "value": 25797595,
       "qty": 312.5
     },
     {
       "rank": 11,
       "name": "SP 0 02/15/55",
       "ticker": "US912803HH90",
-      "weight": 2.42,
-      "value": 25690726,
+      "weight": 2.41,
+      "value": 25644474,
       "qty": 81106.8702
     },
     {
@@ -64,23 +72,15 @@
       "name": "T 4 1/4 02/15/54",
       "ticker": "US912810TX63",
       "weight": 2.36,
-      "value": 25051068,
+      "value": 25076271,
       "qty": 20753.8167
-    },
-    {
-      "rank": 31,
-      "name": "[USD] 예금",
-      "ticker": "USDZZ0000001",
-      "weight": 0,
-      "value": 24248489,
-      "qty": 17128.2683
     },
     {
       "rank": 13,
       "name": "T 4 3/4 02/15/56",
       "ticker": "US912810UR76",
       "weight": 1.12,
-      "value": 11904910,
+      "value": 11916080,
       "qty": 9064.8854
     },
     {
@@ -88,7 +88,7 @@
       "name": "ISHARES 25+ YR TREAS STRIPS",
       "ticker": "US46438T2006",
       "weight": 0.86,
-      "value": 9172090,
+      "value": 9157665,
       "qty": 193.2251
     },
     {
@@ -96,7 +96,7 @@
       "name": "T 1 7/8 02/15/51",
       "ticker": "US912810SU34",
       "weight": 0.84,
-      "value": 8932351,
+      "value": 8939545,
       "qty": 11927.4809
     },
     {
@@ -104,15 +104,15 @@
       "name": "T 3 5/8 02/15/53",
       "ticker": "US912810TN81",
       "weight": 0.7,
-      "value": 7431533,
+      "value": 7438669,
       "qty": 6870.229
     },
     {
       "rank": 17,
       "name": "T 4 1/2 11/15/54",
       "ticker": "US912810UE63",
-      "weight": 0.68,
-      "value": 7208090,
+      "weight": 0.67,
+      "value": 7215072,
       "qty": 5725.1908
     },
     {
@@ -120,7 +120,7 @@
       "name": "T 4 3/4 08/15/55",
       "ticker": "US912810UM89",
       "weight": 0.65,
-      "value": 6886447,
+      "value": 6892690,
       "qty": 5248.0916
     },
     {
@@ -128,7 +128,7 @@
       "name": "T 4 1/4 08/15/54",
       "ticker": "US912810UC08",
       "weight": 0.59,
-      "value": 6335094,
+      "value": 6340582,
       "qty": 5248.0916
     },
     {
@@ -136,7 +136,7 @@
       "name": "T 4 5/8 02/15/55",
       "ticker": "US912810UG12",
       "weight": 0.57,
-      "value": 6132304,
+      "value": 6138193,
       "qty": 4770.9923
     },
     {
@@ -144,7 +144,7 @@
       "name": "T 4 1/8 08/15/53",
       "ticker": "US912810TT51",
       "weight": 0.55,
-      "value": 5921671,
+      "value": 5927512,
       "qty": 5009.5419
     },
     {
@@ -152,7 +152,7 @@
       "name": "T 3 5/8 05/15/53",
       "ticker": "US912810TR95",
       "weight": 0.53,
-      "value": 5669911,
+      "value": 5675657,
       "qty": 5248.0916
     },
     {
@@ -160,7 +160,7 @@
       "name": "T 4 3/4 11/15/53",
       "ticker": "US912810TV08",
       "weight": 0.41,
-      "value": 4375764,
+      "value": 4379981,
       "qty": 3339.6946
     },
     {
@@ -168,7 +168,7 @@
       "name": "T 4 5/8 05/15/54",
       "ticker": "US912810UA42",
       "weight": 0.4,
-      "value": 4292939,
+      "value": 4297290,
       "qty": 3339.6946
     },
     {
@@ -176,7 +176,7 @@
       "name": "T 4 3/4 05/15/55",
       "ticker": "US912810UK24",
       "weight": 0.29,
-      "value": 3129037,
+      "value": 3131920,
       "qty": 2385.4961
     },
     {
@@ -184,7 +184,7 @@
       "name": "SP 0 11/15/55",
       "ticker": "US912803HQ99",
       "weight": 0.28,
-      "value": 3070556,
+      "value": 3062752,
       "qty": 10019.0839
     },
     {
@@ -192,7 +192,7 @@
       "name": "SP 0 02/15/56",
       "ticker": "US912803HS55",
       "weight": 0.2,
-      "value": 2174075,
+      "value": 2169335,
       "qty": 7156.4885
     },
     {
@@ -200,7 +200,7 @@
       "name": "T 3 08/15/52",
       "ticker": "US912810TJ79",
       "weight": 0.13,
-      "value": 1416430,
+      "value": 1417558,
       "qty": 1479.0076
     },
     {
@@ -208,7 +208,7 @@
       "name": "T 2.875 05/15/52",
       "ticker": "US912810TG31",
       "weight": 0.12,
-      "value": 1292671,
+      "value": 1293742,
       "qty": 1383.5877
     },
     {
@@ -216,40 +216,40 @@
       "name": "PROSHARES ULTRA 20+ YEAR TSY",
       "ticker": "US74347R1721",
       "weight": 0.09,
-      "value": 944736,
+      "value": 944022,
       "qty": 44.8473
     },
     {
       "rank": 7,
       "name": "FX스왑 USD 260812-05",
       "ticker": "ZFXSG8",
-      "weight": 6.32,
-      "value": -67027403,
-      "qty": -67027403
+      "weight": 6.31,
+      "value": -67042270,
+      "qty": -67042270
     },
     {
       "rank": 5,
       "name": "FX스왑 USD 260727-49",
       "ticker": "ZFXSG7",
-      "weight": 7.13,
-      "value": -75625868,
-      "qty": -75625868
+      "weight": 7.12,
+      "value": -75642643,
+      "qty": -75642643
     },
     {
       "rank": 2,
       "name": "FX스왑 USD 260811-38",
       "ticker": "ZFXSG8",
-      "weight": 17.17,
-      "value": -181989555,
-      "qty": -181989555
+      "weight": 16.51,
+      "value": -175257977,
+      "qty": -175257977
     },
     {
       "rank": 1,
-      "name": "FX스왑 USD 260806-71",
+      "name": "FX스왑 USD 260813-30",
       "ticker": "ZFXSG8",
-      "weight": 17.96,
-      "value": -190384906,
-      "qty": -190384906
+      "weight": 18.7,
+      "value": -198553473,
+      "qty": -198553473
     }
   ],
   "sectors": []
