@@ -1,86 +1,86 @@
 {
   "fundCd": "K55101DU3912",
   "fundNm": "ACE 글로벌브랜드TOP10",
-  "stdDt": "2026-08-20",
+  "stdDt": "2026-08-21",
   "holdings": [
     {
       "rank": 1,
-      "name": "JPMORGAN CHASE & CO",
-      "ticker": "JPM US",
-      "weight": 11.8,
-      "value": 110681766,
-      "qty": 218
-    },
-    {
-      "rank": 2,
       "name": "ELI LILLY & CO",
       "ticker": "LLY US",
-      "weight": 11.7,
-      "value": 109644980,
+      "weight": 12.02,
+      "value": 114112094,
       "qty": 64
     },
     {
+      "rank": 2,
+      "name": "JPMORGAN CHASE & CO",
+      "ticker": "JPM US",
+      "weight": 11.43,
+      "value": 108459420,
+      "qty": 218
+    },
+    {
       "rank": 3,
-      "name": "MICROSOFT",
-      "ticker": "MSFT US",
-      "weight": 10.92,
-      "value": 102322486,
-      "qty": 152
+      "name": "COCA-COLA CO/THE",
+      "ticker": "KO US",
+      "weight": 10.87,
+      "value": 103173556,
+      "qty": 820
     },
     {
       "rank": 4,
-      "name": "COCA-COLA CO/THE",
-      "ticker": "KO US",
-      "weight": 10.85,
-      "value": 101797845,
-      "qty": 820
+      "name": "MICROSOFT",
+      "ticker": "MSFT US",
+      "weight": 10.8,
+      "value": 102516416,
+      "qty": 152
     },
     {
       "rank": 5,
       "name": "PROCTER & GAMBLE CO/THE",
       "ticker": "PG US",
-      "weight": 10.04,
-      "value": 94235030,
+      "weight": 9.96,
+      "value": 94499886,
       "qty": 470
     },
     {
       "rank": 6,
       "name": "APPLE Inc",
       "ticker": "AAPL US",
-      "weight": 9.66,
-      "value": 90565746,
+      "weight": 9.72,
+      "value": 92214448,
       "qty": 209
     },
     {
       "rank": 7,
-      "name": "NVIDIA Corp",
-      "ticker": "NVDA US",
-      "weight": 9.57,
-      "value": 89682134,
-      "qty": 292
+      "name": "LVMH Moet Hennessy Louis Vuitton SE",
+      "ticker": "MC FP",
+      "weight": 9.46,
+      "value": 89792870,
+      "qty": 121
     },
     {
       "rank": 8,
-      "name": "LVMH Moet Hennessy Louis Vuitton SE",
-      "ticker": "MC FP",
-      "weight": 9.36,
-      "value": 87805879,
-      "qty": 121
+      "name": "NVIDIA Corp",
+      "ticker": "NVDA US",
+      "weight": 9.32,
+      "value": 88468424,
+      "qty": 292
     },
     {
       "rank": 9,
       "name": "NETFLIX",
       "ticker": "NFLX US",
-      "weight": 8.48,
-      "value": 79459063,
+      "weight": 8.61,
+      "value": 81663205,
       "qty": 731
     },
     {
       "rank": 10,
       "name": "TESLA MOTORS",
       "ticker": "TSLA US",
-      "weight": 7.63,
-      "value": 71568166,
+      "weight": 7.83,
+      "value": 74323396,
       "qty": 152
     }
   ],
@@ -88,32 +88,32 @@
     {
       "rank": 1,
       "name": "IT",
-      "weight": 30.13
+      "weight": 29.83
     },
     {
       "rank": 2,
       "name": "필수소비재",
-      "weight": 20.9
+      "weight": 20.82
     },
     {
       "rank": 3,
       "name": "경기소비재",
-      "weight": 17
+      "weight": 17.29
     },
     {
       "rank": 4,
-      "name": "금융",
-      "weight": 11.8
+      "name": "헬스케어",
+      "weight": 12.02
     },
     {
       "rank": 5,
-      "name": "헬스케어",
-      "weight": 11.69
+      "name": "금융",
+      "weight": 11.43
     },
     {
       "rank": 6,
       "name": "커뮤니케이션서비스",
-      "weight": 8.47
+      "weight": 8.6
     }
   ]
 }

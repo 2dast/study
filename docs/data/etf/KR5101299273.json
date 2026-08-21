@@ -1,167 +1,167 @@
 {
   "fundCd": "KR5101299273",
   "fundNm": "ACE 삼성그룹동일가중",
-  "stdDt": "2026-08-20",
+  "stdDt": "2026-08-21",
   "holdings": [
     {
       "rank": 1,
       "name": "삼성전기",
       "ticker": "009150",
-      "weight": 8.93,
-      "value": 350911000,
+      "weight": 8.75,
+      "value": 353188000,
       "qty": 253
     },
     {
       "rank": 2,
       "name": "삼성SDI",
       "ticker": "006400",
-      "weight": 7.69,
-      "value": 301940000,
+      "weight": 7.67,
+      "value": 309690000,
       "qty": 620
     },
     {
       "rank": 3,
       "name": "삼성전자",
       "ticker": "005930",
-      "weight": 6.76,
-      "value": 265567500,
+      "weight": 7.21,
+      "value": 290783000,
       "qty": 1073
     },
     {
       "rank": 4,
-      "name": "삼성E&A",
-      "ticker": "028050",
-      "weight": 6.69,
-      "value": 262724500,
-      "qty": 5417
-    },
-    {
-      "rank": 5,
       "name": "삼성물산",
       "ticker": "028260",
-      "weight": 6.67,
-      "value": 261985000,
+      "weight": 6.99,
+      "value": 282370000,
       "qty": 755
     },
     {
-      "rank": 6,
+      "rank": 5,
       "name": "삼성에스디에스",
       "ticker": "018260",
-      "weight": 6.44,
-      "value": 252668000,
+      "weight": 6.45,
+      "value": 260494000,
       "qty": 1118
     },
     {
-      "rank": 7,
-      "name": "에스원",
-      "ticker": "012750",
-      "weight": 6.06,
-      "value": 238161000,
-      "qty": 3093
+      "rank": 6,
+      "name": "삼성E&A",
+      "ticker": "028050",
+      "weight": 6.44,
+      "value": 260286850,
+      "qty": 5417
     },
     {
-      "rank": 8,
+      "rank": 7,
       "name": "삼성생명",
       "ticker": "032830",
-      "weight": 5.9,
-      "value": 232116000,
+      "weight": 6.18,
+      "value": 249777000,
       "qty": 841
     },
     {
-      "rank": 9,
+      "rank": 8,
       "name": "삼성에피스홀딩스",
       "ticker": "0126Z0",
-      "weight": 5.88,
-      "value": 231186000,
+      "weight": 5.97,
+      "value": 241044000,
       "qty": 636
+    },
+    {
+      "rank": 9,
+      "name": "에스원",
+      "ticker": "012750",
+      "weight": 5.75,
+      "value": 232284300,
+      "qty": 3093
     },
     {
       "rank": 10,
       "name": "삼성바이오로직스",
       "ticker": "207940",
-      "weight": 5.69,
-      "value": 223880000,
+      "weight": 5.65,
+      "value": 228230000,
       "qty": 145
     },
     {
       "rank": 11,
-      "name": "삼성중공업",
-      "ticker": "010140",
-      "weight": 5.66,
-      "value": 222644800,
-      "qty": 10808
+      "name": "삼성증권",
+      "ticker": "016360",
+      "weight": 5.63,
+      "value": 227304000,
+      "qty": 2460
     },
     {
       "rank": 12,
+      "name": "삼성중공업",
+      "ticker": "010140",
+      "weight": 5.56,
+      "value": 224806400,
+      "qty": 10808
+    },
+    {
+      "rank": 13,
       "name": "삼성화재",
       "ticker": "000810",
-      "weight": 5.6,
-      "value": 220067000,
+      "weight": 5.53,
+      "value": 223298000,
       "qty": 359
     },
     {
-      "rank": 13,
+      "rank": 14,
       "name": "호텔신라",
       "ticker": "008770",
-      "weight": 5.58,
-      "value": 219500050,
+      "weight": 5.46,
+      "value": 220536650,
       "qty": 5183
-    },
-    {
-      "rank": 13,
-      "name": "삼성카드",
-      "ticker": "029780",
-      "weight": 5.58,
-      "value": 219304250,
-      "qty": 4691
     },
     {
       "rank": 15,
       "name": "제일기획",
       "ticker": "030000",
-      "weight": 5.53,
-      "value": 217237500,
+      "weight": 5.39,
+      "value": 217816800,
       "qty": 11586
     },
     {
       "rank": 16,
-      "name": "삼성증권",
-      "ticker": "016360",
-      "weight": 5.32,
-      "value": 209100000,
-      "qty": 2460
+      "name": "삼성카드",
+      "ticker": "029780",
+      "weight": 5.35,
+      "value": 216020550,
+      "qty": 4691
     }
   ],
   "sectors": [
     {
       "rank": 1,
       "name": "IT",
-      "weight": 29.81
+      "weight": 30.07
     },
     {
       "rank": 2,
       "name": "산업재",
-      "weight": 25.08
+      "weight": 24.76
     },
     {
       "rank": 3,
       "name": "금융",
-      "weight": 22.41
+      "weight": 22.69
     },
     {
       "rank": 4,
       "name": "헬스케어",
-      "weight": 11.58
+      "weight": 11.62
     },
     {
       "rank": 5,
       "name": "경기소비재",
-      "weight": 5.59
+      "weight": 5.46
     },
     {
       "rank": 6,
       "name": "커뮤니케이션서비스",
-      "weight": 5.53
+      "weight": 5.39
     }
   ]
 }
