@@ -1,78 +1,86 @@
 {
   "fundCd": "K55101E79688",
   "fundNm": "ACE KPOP포커스",
-  "stdDt": "2026-08-24",
+  "stdDt": "2026-08-25",
   "holdings": [
     {
       "rank": 1,
       "name": "에스엠",
       "ticker": "041510",
-      "weight": 25.74,
-      "value": 83135800,
+      "weight": 25.27,
+      "value": 83835400,
       "qty": 1166
     },
     {
       "rank": 2,
       "name": "하이브",
       "ticker": "352820",
-      "weight": 24.69,
-      "value": 79752500,
+      "weight": 25,
+      "value": 82935000,
       "qty": 475
     },
     {
       "rank": 3,
       "name": "JYP Ent.",
       "ticker": "035900",
-      "weight": 22.66,
-      "value": 73176800,
+      "weight": 22.43,
+      "value": 74402700,
       "qty": 1886
     },
     {
       "rank": 4,
       "name": "와이지엔터테인먼트",
       "ticker": "122870",
-      "weight": 22.53,
-      "value": 72765100,
+      "weight": 22.11,
+      "value": 73323400,
       "qty": 1861
+    },
+    {
+      "rank": 5,
+      "name": "CJ ENM",
+      "ticker": "035760",
+      "weight": 0.89,
+      "value": 2975700,
+      "qty": 91
+    },
+    {
+      "rank": 5,
+      "name": "YG PLUS",
+      "ticker": "037270",
+      "weight": 0.89,
+      "value": 2963200,
+      "qty": 926
+    },
+    {
+      "rank": 5,
+      "name": "드림어스컴퍼니",
+      "ticker": "060570",
+      "weight": 0.89,
+      "value": 2981160,
+      "qty": 819
     },
     {
       "rank": 5,
       "name": "큐브엔터",
       "ticker": "182360",
-      "weight": 0.92,
-      "value": 2981120,
+      "weight": 0.89,
+      "value": 2964800,
       "qty": 544
     },
     {
-      "rank": 6,
-      "name": "YG PLUS",
-      "ticker": "037270",
-      "weight": 0.91,
-      "value": 2953940,
-      "qty": 926
-    },
-    {
-      "rank": 7,
-      "name": "CJ ENM",
-      "ticker": "035760",
-      "weight": 0.89,
-      "value": 2893800,
-      "qty": 91
-    },
-    {
-      "rank": 8,
+      "rank": 9,
       "name": "노머스",
       "ticker": "473980",
-      "weight": 0.85,
-      "value": 2753280,
+      "weight": 0.82,
+      "value": 2741330,
       "qty": 239
     },
     {
-      "rank": 9,
+      "rank": 10,
       "name": "디어유",
       "ticker": "376300",
-      "weight": 0.82,
-      "value": 2652820,
+      "weight": 0.8,
+      "value": 2673260,
       "qty": 146
     }
   ],
@@ -80,7 +88,12 @@
     {
       "rank": 1,
       "name": "커뮤니케이션서비스",
-      "weight": 100
+      "weight": 99.1
+    },
+    {
+      "rank": 2,
+      "name": "경기소비재",
+      "weight": 0.9
     }
   ]
 }
