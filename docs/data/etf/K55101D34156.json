@@ -1,30 +1,38 @@
 {
   "fundCd": "K55101D34156",
   "fundNm": "ACE 종합채권(AA-이상)액티브",
-  "stdDt": "2026-08-28",
+  "stdDt": "2026-08-31",
   "holdings": [
     {
       "rank": 1,
       "name": "국고02625-5509(25-7)",
       "ticker": "03502G",
-      "weight": 4.34,
-      "value": 3892320,
+      "weight": 4.36,
+      "value": 3814384,
       "qty": 0
     },
     {
       "rank": 2,
       "name": "국고03250-5403(24-2)",
       "ticker": "03502G",
-      "weight": 3.12,
-      "value": 2798488,
+      "weight": 3.14,
+      "value": 2743309,
       "qty": 0
     },
     {
       "rank": 3,
       "name": "국고02500-5203(22-2)",
       "ticker": "03502G",
-      "weight": 2.77,
-      "value": 2488434,
+      "weight": 2.79,
+      "value": 2439590,
+      "qty": 0
+    },
+    {
+      "rank": 4,
+      "name": "국고02000-3106(21-5)",
+      "ticker": "03502G",
+      "weight": 2.57,
+      "value": 2250477,
       "qty": 0
     },
     {
@@ -32,63 +40,55 @@
       "name": "국고02625-5503(25-2)",
       "ticker": "03502G",
       "weight": 2.57,
-      "value": 2298926,
-      "qty": 0
-    },
-    {
-      "rank": 5,
-      "name": "국고02000-3106(21-5)",
-      "ticker": "03502G",
-      "weight": 2.56,
-      "value": 2291364,
+      "value": 2252751,
       "qty": 0
     },
     {
       "rank": 6,
       "name": "기업은행(신)2606이2A-25",
       "ticker": "10519G",
-      "weight": 2.2,
-      "value": 1976560,
+      "weight": 2.22,
+      "value": 1944513,
       "qty": 0
     },
     {
       "rank": 7,
       "name": "한국전력1565",
       "ticker": "50107G",
-      "weight": 2.19,
-      "value": 1970821,
+      "weight": 2.21,
+      "value": 1939319,
       "qty": 0
     },
     {
       "rank": 8,
       "name": "국고03250-3306(23-5)",
       "ticker": "03502G",
-      "weight": 2.09,
-      "value": 1873756,
+      "weight": 2.1,
+      "value": 1838247,
       "qty": 0
     },
     {
       "rank": 9,
       "name": "국고채권01500-3012(20-9)",
       "ticker": "03502G",
-      "weight": 2.07,
-      "value": 1856411,
+      "weight": 2.08,
+      "value": 1823839,
       "qty": 0
     },
     {
       "rank": 10,
       "name": "농금채(중앙회)2024-8이3Y-A",
       "ticker": "81101G",
-      "weight": 1.95,
-      "value": 1755708,
+      "weight": 1.97,
+      "value": 1728351,
       "qty": 0
     },
     {
       "rank": 11,
       "name": "국고01500-3609(국고16-6)",
       "ticker": "03502G",
-      "weight": 1.9,
-      "value": 1700553,
+      "weight": 1.89,
+      "value": 1665348,
       "qty": 0
     },
     {
@@ -96,15 +96,15 @@
       "name": "국고03125-5209(22-9)",
       "ticker": "03502G",
       "weight": 1.75,
-      "value": 1568063,
+      "value": 1537536,
       "qty": 0
     },
     {
       "rank": 13,
       "name": "국고03375-3206(22-5)",
       "ticker": "03502G",
-      "weight": 1.69,
-      "value": 1523857,
+      "weight": 1.71,
+      "value": 1495796,
       "qty": 0
     },
     {
@@ -112,7 +112,7 @@
       "name": "국고03000-3412(24-13)",
       "ticker": "03502G",
       "weight": 1.51,
-      "value": 1357155,
+      "value": 1329651,
       "qty": 0
     },
     {
@@ -120,39 +120,39 @@
       "name": "국고02375-3809(18-7)",
       "ticker": "03502G",
       "weight": 1.48,
-      "value": 1326235,
+      "value": 1299028,
       "qty": 0
     },
     {
       "rank": 16,
       "name": "국고채권01375-2912(19-8)",
       "ticker": "03502G",
-      "weight": 1.42,
-      "value": 1272300,
+      "weight": 1.43,
+      "value": 1250715,
       "qty": 0
     },
     {
       "rank": 17,
       "name": "국고02500-3009(25-8)",
       "ticker": "03503G",
-      "weight": 1.36,
-      "value": 1220259,
+      "weight": 1.37,
+      "value": 1199103,
       "qty": 0
     },
     {
       "rank": 18,
       "name": "국고02750-4509(25-9)",
       "ticker": "03504G",
-      "weight": 1.29,
-      "value": 1166493,
+      "weight": 1.3,
+      "value": 1144567,
       "qty": 0
     },
     {
       "rank": 19,
       "name": "BNK캐피탈303-2",
       "ticker": "145768",
-      "weight": 1.12,
-      "value": 1009124,
+      "weight": 1.13,
+      "value": 993275,
       "qty": 0
     },
     {
@@ -160,7 +160,23 @@
       "name": "국고03250-2803(23-1)",
       "ticker": "03501G",
       "weight": 1.1,
-      "value": 988598,
+      "value": 972631,
+      "qty": 0
+    },
+    {
+      "rank": 20,
+      "name": "케이비국민카드444-1",
+      "ticker": "140171",
+      "weight": 1.1,
+      "value": 967175,
+      "qty": 0
+    },
+    {
+      "rank": 20,
+      "name": "국가철도공단채권402",
+      "ticker": "52701G",
+      "weight": 1.1,
+      "value": 967981,
       "qty": 0
     },
     {
@@ -168,95 +184,79 @@
       "name": "경기도2026-2",
       "ticker": "044011",
       "weight": 1.1,
-      "value": 992095,
+      "value": 974853,
       "qty": 0
     },
     {
-      "rank": 22,
+      "rank": 20,
       "name": "국고04125-3312(23-11)",
       "ticker": "03502G",
-      "weight": 1.09,
-      "value": 986294,
+      "weight": 1.1,
+      "value": 967336,
       "qty": 0
     },
     {
-      "rank": 22,
-      "name": "케이비국민카드444-1",
-      "ticker": "140171",
+      "rank": 25,
+      "name": "인천도시공사241",
+      "ticker": "54301G",
       "weight": 1.09,
-      "value": 982851,
+      "value": 957979,
       "qty": 0
     },
     {
-      "rank": 22,
+      "rank": 25,
       "name": "현대카드901-4",
       "ticker": "06590A",
       "weight": 1.09,
-      "value": 979630,
+      "value": 963632,
       "qty": 0
     },
     {
-      "rank": 22,
+      "rank": 25,
       "name": "한국남부발전84-1",
       "ticker": "064311",
       "weight": 1.09,
-      "value": 977308,
+      "value": 961758,
       "qty": 0
     },
     {
-      "rank": 22,
+      "rank": 25,
       "name": "롯데카드584-2",
       "ticker": "030622",
       "weight": 1.09,
-      "value": 979297,
+      "value": 963729,
       "qty": 0
     },
     {
-      "rank": 22,
+      "rank": 25,
       "name": "삼성카드2847",
       "ticker": "029782",
       "weight": 1.09,
-      "value": 977876,
+      "value": 962211,
       "qty": 0
     },
     {
-      "rank": 22,
+      "rank": 25,
       "name": "메리츠증권2411-2",
       "ticker": "008562",
       "weight": 1.09,
-      "value": 976311,
+      "value": 961078,
       "qty": 0
     },
     {
-      "rank": 22,
-      "name": "국가철도공단채권402",
-      "ticker": "52701G",
-      "weight": 1.09,
-      "value": 983278,
-      "qty": 0
-    },
-    {
-      "rank": 30,
-      "name": "인천도시공사241",
-      "ticker": "54301G",
-      "weight": 1.08,
-      "value": 973236,
-      "qty": 0
-    },
-    {
-      "rank": 30,
+      "rank": 25,
       "name": "부산은행2025-08이1.5A-27",
       "ticker": "005283",
-      "weight": 1.08,
-      "value": 974885,
+      "weight": 1.09,
+      "value": 959703,
       "qty": 0
     },
     {
       "rank": 32,
-      "name": "국민은행4510이표일(03)3-30",
-      "ticker": "060005",
+      "name": "롯데카드567-4",
+      "ticker": "030624",
       "weight": 1.07,
-      "value": 958725,
+      "value": 939373,
       "qty": 0
     },
     {
@@ -264,63 +264,63 @@
       "name": "우리카드267-2",
       "ticker": "174149",
       "weight": 1.07,
-      "value": 956029,
+      "value": 940485,
       "qty": 0
     },
     {
-      "rank": 34,
+      "rank": 32,
+      "name": "국민은행4510이표일(03)3-30",
+      "ticker": "060005",
+      "weight": 1.07,
+      "value": 942921,
+      "qty": 0
+    },
+    {
+      "rank": 35,
+      "name": "국고채권03500-3406(24-5)",
+      "ticker": "03502G",
+      "weight": 1.06,
+      "value": 924558,
+      "qty": 0
+    },
+    {
+      "rank": 35,
+      "name": "SK브로드밴드58-1",
+      "ticker": "033631",
+      "weight": 1.06,
+      "value": 924756,
+      "qty": 0
+    },
+    {
+      "rank": 35,
       "name": "토지주택채권582",
       "ticker": "56102G",
       "weight": 1.06,
-      "value": 947464,
+      "value": 928215,
       "qty": 0
     },
     {
-      "rank": 34,
-      "name": "롯데카드567-4",
-      "ticker": "030624",
-      "weight": 1.06,
-      "value": 954806,
-      "qty": 0
-    },
-    {
-      "rank": 36,
-      "name": "국고채권03500-3406(24-5)",
-      "ticker": "03502G",
-      "weight": 1.04,
-      "value": 943070,
-      "qty": 0
-    },
-    {
-      "rank": 36,
-      "name": "SK브로드밴드58-1",
-      "ticker": "033631",
-      "weight": 1.04,
-      "value": 940912,
-      "qty": 0
-    },
-    {
-      "rank": 36,
+      "rank": 38,
       "name": "부산항만공사50-2",
       "ticker": "52302G",
-      "weight": 1.04,
-      "value": 939125,
+      "weight": 1.05,
+      "value": 922990,
       "qty": 0
     },
     {
-      "rank": 39,
+      "rank": 38,
       "name": "메리츠증권2510-3",
       "ticker": "008563",
-      "weight": 1.03,
-      "value": 933261,
+      "weight": 1.05,
+      "value": 917070,
       "qty": 0
     },
     {
-      "rank": 39,
+      "rank": 40,
       "name": "SK316-2",
       "ticker": "034732",
       "weight": 1.03,
-      "value": 934470,
+      "value": 911293,
       "qty": 0
     },
     {
@@ -328,23 +328,23 @@
       "name": "국고01875-2906(19-4)",
       "ticker": "03502G",
       "weight": 1.02,
-      "value": 915944,
+      "value": 900665,
       "qty": 0
     },
     {
-      "rank": 42,
-      "name": "한국전력1095",
-      "ticker": "50113G",
-      "weight": 1.01,
-      "value": 912718,
-      "qty": 0
-    },
-    {
-      "rank": 42,
+      "rank": 41,
       "name": "토지주택채권557",
       "ticker": "56113G",
-      "weight": 1.01,
-      "value": 914526,
+      "weight": 1.02,
+      "value": 895954,
+      "qty": 0
+    },
+    {
+      "rank": 41,
+      "name": "한국전력1095",
+      "ticker": "50113G",
+      "weight": 1.02,
+      "value": 896364,
       "qty": 0
     },
     {
@@ -352,15 +352,15 @@
       "name": "서울특별시채권2020-11",
       "ticker": "001051",
       "weight": 1,
-      "value": 897691,
+      "value": 881982,
       "qty": 0
     },
     {
-      "rank": 45,
+      "rank": 44,
       "name": "부산항만공사51",
       "ticker": "52301G",
-      "weight": 0.99,
-      "value": 891511,
+      "weight": 1,
+      "value": 873454,
       "qty": 0
     },
     {
@@ -368,7 +368,7 @@
       "name": "국고02625-3509(국고15-6)",
       "ticker": "03502G",
       "weight": 0.98,
-      "value": 875167,
+      "value": 857173,
       "qty": 0
     },
     {
@@ -376,47 +376,47 @@
       "name": "국고03625-5309(23-7)",
       "ticker": "03502G",
       "weight": 0.95,
-      "value": 858979,
+      "value": 842139,
       "qty": 0
     },
     {
-      "rank": 48,
+      "rank": 47,
       "name": "물가01750-2806(18-5)",
       "ticker": "03503G",
-      "weight": 0.94,
-      "value": 854053,
+      "weight": 0.95,
+      "value": 839653,
       "qty": 0
     },
     {
       "rank": 49,
       "name": "현대캐피탈1979-4",
       "ticker": "029886",
-      "weight": 0.9,
-      "value": 808797,
-      "qty": 0
-    },
-    {
-      "rank": 50,
-      "name": "국고01875-4109(21-9)",
-      "ticker": "03503G",
-      "weight": 0.87,
-      "value": 783344,
-      "qty": 0
-    },
-    {
-      "rank": 50,
-      "name": "토지주택채권565",
-      "ticker": "56102G",
-      "weight": 0.87,
-      "value": 787274,
+      "weight": 0.91,
+      "value": 795851,
       "qty": 0
     },
     {
       "rank": 50,
       "name": "경기주택도시공사23-06-59",
       "ticker": "53601G",
+      "weight": 0.88,
+      "value": 780165,
+      "qty": 0
+    },
+    {
+      "rank": 51,
+      "name": "국고01875-4109(21-9)",
+      "ticker": "03503G",
       "weight": 0.87,
-      "value": 792982,
+      "value": 767410,
+      "qty": 0
+    },
+    {
+      "rank": 51,
+      "name": "토지주택채권565",
+      "ticker": "56102G",
+      "weight": 0.87,
+      "value": 771654,
       "qty": 0
     },
     {
@@ -424,7 +424,15 @@
       "name": "토지주택채권525",
       "ticker": "56101G",
       "weight": 0.86,
-      "value": 776299,
+      "value": 761424,
+      "qty": 0
+    },
+    {
+      "rank": 53,
+      "name": "현대커머셜562-4",
+      "ticker": "095928",
+      "weight": 0.86,
+      "value": 756027,
       "qty": 0
     },
     {
@@ -432,87 +440,79 @@
       "name": "아이비케이캐피탈341-3",
       "ticker": "019457",
       "weight": 0.86,
-      "value": 774161,
-      "qty": 0
-    },
-    {
-      "rank": 55,
-      "name": "현대커머셜562-4",
-      "ticker": "095928",
-      "weight": 0.85,
-      "value": 768681,
-      "qty": 0
-    },
-    {
-      "rank": 56,
-      "name": "국고채권01375-3006(20-4)",
-      "ticker": "03502G",
-      "weight": 0.84,
-      "value": 752735,
+      "value": 755036,
       "qty": 0
     },
     {
       "rank": 56,
       "name": "BNK캐피탈379-5",
       "ticker": "145765",
-      "weight": 0.84,
-      "value": 762476,
+      "weight": 0.85,
+      "value": 749996,
       "qty": 0
     },
     {
-      "rank": 58,
+      "rank": 57,
+      "name": "국고채권01375-3006(20-4)",
+      "ticker": "03502G",
+      "weight": 0.84,
+      "value": 739726,
+      "qty": 0
+    },
+    {
+      "rank": 57,
       "name": "BNK캐피탈339-3",
       "ticker": "145767",
-      "weight": 0.83,
-      "value": 743672,
+      "weight": 0.84,
+      "value": 732100,
       "qty": 0
     },
     {
       "rank": 59,
       "name": "국고02250-2806(25-4)",
       "ticker": "03501G",
-      "weight": 0.76,
-      "value": 682563,
+      "weight": 0.77,
+      "value": 671177,
       "qty": 0
     },
     {
       "rank": 59,
       "name": "현대커머셜568-4",
       "ticker": "095924",
-      "weight": 0.76,
-      "value": 684684,
+      "weight": 0.77,
+      "value": 673364,
       "qty": 0
     },
     {
       "rank": 59,
       "name": "농업금융채권(은행)2024-04이3Y-E",
       "ticker": "81005G",
-      "weight": 0.76,
-      "value": 688383,
+      "weight": 0.77,
+      "value": 677688,
       "qty": 0
     },
     {
       "rank": 59,
       "name": "서울교통공사2025-3",
       "ticker": "50202G",
-      "weight": 0.76,
-      "value": 683795,
+      "weight": 0.77,
+      "value": 671276,
       "qty": 0
     },
     {
       "rank": 63,
       "name": "메리츠증권2512-1",
       "ticker": "008561",
-      "weight": 0.75,
-      "value": 678871,
+      "weight": 0.76,
+      "value": 667716,
       "qty": 0
     },
     {
       "rank": 63,
       "name": "하나캐피탈470-4",
       "ticker": "01980A",
-      "weight": 0.75,
-      "value": 677884,
+      "weight": 0.76,
+      "value": 666731,
       "qty": 0
     },
     {
@@ -520,7 +520,7 @@
       "name": "현대카드905-3",
       "ticker": "065903",
       "weight": 0.74,
-      "value": 670063,
+      "value": 658889,
       "qty": 0
     },
     {
@@ -528,7 +528,7 @@
       "name": "DGB캐피탈116-4",
       "ticker": "176944",
       "weight": 0.66,
-      "value": 594667,
+      "value": 585441,
       "qty": 0
     },
     {
@@ -536,7 +536,7 @@
       "name": "한국전력1567",
       "ticker": "50109G",
       "weight": 0.65,
-      "value": 584161,
+      "value": 573934,
       "qty": 0
     },
     {
@@ -544,7 +544,7 @@
       "name": "LG화학57-3",
       "ticker": "051913",
       "weight": 0.65,
-      "value": 586769,
+      "value": 577088,
       "qty": 0
     },
     {
@@ -552,23 +552,23 @@
       "name": "부산은행2025-10이3A-20(녹)",
       "ticker": "005282",
       "weight": 0.64,
-      "value": 575083,
+      "value": 565607,
       "qty": 0
     },
     {
       "rank": 70,
       "name": "현대트랜시스48-1",
       "ticker": "039091",
-      "weight": 0.59,
-      "value": 537093,
+      "weight": 0.6,
+      "value": 528756,
       "qty": 0
     },
     {
       "rank": 70,
       "name": "롯데웰푸드66-2",
       "ticker": "280362",
-      "weight": 0.59,
-      "value": 537401,
+      "weight": 0.6,
+      "value": 529056,
       "qty": 0
     },
     {
@@ -576,15 +576,15 @@
       "name": "국고03250-2903(24-1)",
       "ticker": "03501G",
       "weight": 0.55,
-      "value": 491490,
+      "value": 483354,
       "qty": 0
     },
     {
       "rank": 72,
-      "name": "메리츠캐피탈262-3",
-      "ticker": "169379",
+      "name": "키움증권20-2",
+      "ticker": "039492",
       "weight": 0.55,
-      "value": 493869,
+      "value": 479460,
       "qty": 0
     },
     {
@@ -592,7 +592,15 @@
       "name": "KT183-3",
       "ticker": "030201",
       "weight": 0.55,
-      "value": 493951,
+      "value": 485082,
+      "qty": 0
+    },
+    {
+      "rank": 72,
+      "name": "케이비캐피탈574-2",
+      "ticker": "021966",
+      "weight": 0.55,
+      "value": 478827,
       "qty": 0
     },
     {
@@ -600,119 +608,111 @@
       "name": "국고03000-2803(26-1)",
       "ticker": "03502G",
       "weight": 0.55,
-      "value": 491833,
+      "value": 483939,
       "qty": 0
     },
     {
-      "rank": 76,
+      "rank": 77,
       "name": "국고03250-5303(23-2)",
       "ticker": "03502G",
       "weight": 0.53,
-      "value": 481271,
+      "value": 471897,
       "qty": 0
     },
     {
-      "rank": 76,
-      "name": "키움증권20-2",
-      "ticker": "039492",
-      "weight": 0.53,
-      "value": 487534,
-      "qty": 0
-    },
-    {
-      "rank": 76,
+      "rank": 77,
       "name": "현대캐피탈2020-5",
       "ticker": "029885",
       "weight": 0.53,
-      "value": 482911,
+      "value": 474878,
       "qty": 0
     },
     {
-      "rank": 76,
-      "name": "케이비캐피탈574-2",
-      "ticker": "021966",
-      "weight": 0.53,
-      "value": 486400,
-      "qty": 0
-    },
-    {
-      "rank": 76,
+      "rank": 77,
       "name": "엔에이치투자74-1",
       "ticker": "005941",
       "weight": 0.53,
-      "value": 478471,
+      "value": 470624,
+      "qty": 0
+    },
+    {
+      "rank": 80,
+      "name": "한국농어촌공사28",
+      "ticker": "51001G",
+      "weight": 0.52,
+      "value": 465557,
       "qty": 0
     },
     {
       "rank": 81,
-      "name": "한국농어촌공사28",
-      "ticker": "51001G",
-      "weight": 0.52,
-      "value": 473789,
+      "name": "국고02375-2812(18-10)",
+      "ticker": "03502G",
+      "weight": 0.5,
+      "value": 442117,
       "qty": 0
     },
     {
       "rank": 82,
-      "name": "국고02375-2812(18-10)",
-      "ticker": "03502G",
-      "weight": 0.5,
-      "value": 449543,
+      "name": "케이비국민카드411-2",
+      "ticker": "140172",
+      "weight": 0.43,
+      "value": 384113,
       "qty": 0
     },
     {
       "rank": 83,
-      "name": "케이비국민카드411-2",
-      "ticker": "140172",
-      "weight": 0.43,
-      "value": 390175,
-      "qty": 0
-    },
-    {
-      "rank": 84,
       "name": "도로공사974",
       "ticker": "50704G",
       "weight": 0.42,
-      "value": 376800,
+      "value": 370270,
       "qty": 0
     },
     {
-      "rank": 84,
+      "rank": 83,
       "name": "코웨이7-2",
       "ticker": "021242",
       "weight": 0.42,
-      "value": 377271,
+      "value": 370893,
+      "qty": 0
+    },
+    {
+      "rank": 85,
+      "name": "국고채이자03520-28",
+      "ticker": "0350C2",
+      "weight": 0.41,
+      "value": 364900,
       "qty": 0
     },
     {
       "rank": 86,
-      "name": "국고채이자03520-28",
-      "ticker": "0350C2",
-      "weight": 0.41,
-      "value": 370831,
+      "name": "예스코28",
+      "ticker": "293981",
+      "weight": 0.38,
+      "value": 340266,
       "qty": 0
     },
     {
       "rank": 87,
-      "name": "예스코28",
-      "ticker": "293981",
+      "name": "국고03500-5603(26-2)",
+      "ticker": "03501G",
       "weight": 0.37,
-      "value": 345632,
+      "value": 327709,
       "qty": 0
     },
     {
       "rank": 88,
-      "name": "국고03500-5603(26-2)",
-      "ticker": "03501G",
-      "weight": 0.36,
-      "value": 334363,
+      "name": "국고03250-4209(22-11)",
+      "ticker": "03504G",
+      "weight": 0.34,
+      "value": 295366,
       "qty": 0
     },
     {
       "rank": 89,
-      "name": "국고03250-4209(22-11)",
-      "ticker": "03504G",
+      "name": "부산항만공사26-1",
+      "ticker": "52301G",
       "weight": 0.33,
-      "value": 301294,
+      "value": 285673,
       "qty": 0
     },
     {
@@ -720,71 +720,71 @@
       "name": "현대커머셜478-4",
       "ticker": "095924",
       "weight": 0.33,
-      "value": 298482,
+      "value": 293652,
       "qty": 0
     },
     {
-      "rank": 91,
-      "name": "부산항만공사26-1",
-      "ticker": "52301G",
-      "weight": 0.32,
-      "value": 290258,
-      "qty": 0
-    },
-    {
-      "rank": 91,
+      "rank": 89,
       "name": "한국지역난방공사39-2",
       "ticker": "54202G",
-      "weight": 0.32,
-      "value": 289814,
+      "weight": 0.33,
+      "value": 285192,
+      "qty": 0
+    },
+    {
+      "rank": 92,
+      "name": "국고채이자01880-28",
+      "ticker": "0350C2",
+      "weight": 0.3,
+      "value": 268342,
       "qty": 0
     },
     {
       "rank": 93,
-      "name": "국고채이자01880-28",
-      "ticker": "0350C2",
-      "weight": 0.3,
-      "value": 272801,
+      "name": "지에스리테일36-1",
+      "ticker": "007071",
+      "weight": 0.27,
+      "value": 242659,
       "qty": 0
     },
     {
       "rank": 94,
-      "name": "지에스리테일36-1",
-      "ticker": "007071",
-      "weight": 0.27,
-      "value": 246492,
-      "qty": 0
-    },
-    {
-      "rank": 95,
       "name": "경기지역개발22-10",
       "ticker": "044022",
       "weight": 0.22,
-      "value": 197995,
+      "value": 194879,
       "qty": 0
     },
     {
-      "rank": 95,
+      "rank": 94,
       "name": "케이비국민카드378-1",
       "ticker": "140173",
       "weight": 0.22,
-      "value": 196890,
+      "value": 193827,
       "qty": 0
     },
     {
-      "rank": 95,
+      "rank": 94,
       "name": "코웨이6-1",
       "ticker": "021241",
       "weight": 0.22,
-      "value": 196197,
+      "value": 193151,
+      "qty": 0
+    },
+    {
+      "rank": 97,
+      "name": "국고02750-2812(25-10)",
+      "ticker": "03501G",
+      "weight": 0.21,
+      "value": 189896,
       "qty": 0
     },
     {
       "rank": 98,
-      "name": "국고02750-2812(25-10)",
-      "ticker": "03501G",
+      "name": "현대제철128-4",
+      "ticker": "004024",
       "weight": 0.2,
-      "value": 193085,
+      "value": 179748,
       "qty": 0
     },
     {
@@ -792,15 +792,7 @@
       "name": "국고01500-4009(20-7)",
       "ticker": "03502G",
       "weight": 0.19,
-      "value": 173439,
-      "qty": 0
-    },
-    {
-      "rank": 99,
-      "name": "현대제철128-4",
-      "ticker": "004024",
-      "weight": 0.19,
-      "value": 182846,
+      "value": 169885,
       "qty": 0
     },
     {
@@ -808,71 +800,71 @@
       "name": "국고채권02625-3506(25-5)",
       "ticker": "03502G",
       "weight": 0.19,
-      "value": 174659,
+      "value": 171074,
+      "qty": 0
+    },
+    {
+      "rank": 101,
+      "name": "POSCO313-3",
+      "ticker": "421093",
+      "weight": 0.16,
+      "value": 145573,
       "qty": 0
     },
     {
       "rank": 102,
-      "name": "POSCO313-3",
-      "ticker": "421093",
-      "weight": 0.16,
-      "value": 147899,
+      "name": "SK가스42-2",
+      "ticker": "018672",
+      "weight": 0.15,
+      "value": 139258,
       "qty": 0
     },
     {
       "rank": 103,
-      "name": "SK가스42-2",
-      "ticker": "018672",
-      "weight": 0.15,
-      "value": 141656,
+      "name": "서울주택도시공사보상(개포)24-05",
+      "ticker": "54801D",
+      "weight": 0.12,
+      "value": 102543,
       "qty": 0
     },
     {
       "rank": 104,
-      "name": "서울주택도시공사보상(개포)24-05",
-      "ticker": "54801D",
-      "weight": 0.11,
-      "value": 104161,
-      "qty": 0
-    },
-    {
-      "rank": 105,
       "name": "서울교통공사2021-4",
       "ticker": "50202G",
       "weight": 0.1,
-      "value": 97807,
+      "value": 96285,
       "qty": 0
     },
     {
-      "rank": 105,
+      "rank": 104,
       "name": "도로공사835",
       "ticker": "50701G",
       "weight": 0.1,
-      "value": 100221,
+      "value": 98633,
       "qty": 0
     },
     {
-      "rank": 105,
+      "rank": 104,
       "name": "SK브로드밴드57-1",
       "ticker": "033631",
       "weight": 0.1,
-      "value": 95934,
+      "value": 94404,
       "qty": 0
     },
     {
-      "rank": 105,
+      "rank": 104,
       "name": "네이버5-1",
       "ticker": "035421",
       "weight": 0.1,
-      "value": 98354,
+      "value": 96827,
       "qty": 0
     },
     {
-      "rank": 105,
+      "rank": 104,
       "name": "케이비국민카드391-6",
       "ticker": "140176",
       "weight": 0.1,
-      "value": 100044,
+      "value": 98402,
       "qty": 0
     }
   ],
