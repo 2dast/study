@@ -1,86 +1,86 @@
 {
   "fundCd": "K55101E52479",
   "fundNm": "ACE 미국빅테크TOP7 Plus",
-  "stdDt": "2026-09-15",
+  "stdDt": "2026-09-16",
   "holdings": [
     {
       "rank": 1,
       "name": "MICROSOFT",
       "ticker": "MSFT US",
-      "weight": 18.34,
-      "value": 216354984,
+      "weight": 18.81,
+      "value": 222605610,
       "qty": 324
     },
     {
       "rank": 2,
-      "name": "NVIDIA Corp",
-      "ticker": "NVDA US",
-      "weight": 15.18,
-      "value": 179108189,
-      "qty": 609
-    },
-    {
-      "rank": 3,
       "name": "APPLE Inc",
       "ticker": "AAPL US",
-      "weight": 15.06,
-      "value": 177723946,
+      "weight": 15.18,
+      "value": 179757213,
       "qty": 397
     },
     {
-      "rank": 4,
+      "rank": 3,
       "name": "Amazon.com Inc",
       "ticker": "AMZN US",
-      "weight": 14.96,
-      "value": 176439443,
+      "weight": 14.85,
+      "value": 175777760,
       "qty": 510
+    },
+    {
+      "rank": 4,
+      "name": "NVIDIA Corp",
+      "ticker": "NVDA US",
+      "weight": 14.76,
+      "value": 174648425,
+      "qty": 609
     },
     {
       "rank": 5,
       "name": "ALPHABET INC-CL A",
       "ticker": "GOOGL US",
-      "weight": 13.26,
-      "value": 156428940,
+      "weight": 13.76,
+      "value": 162911542,
       "qty": 343
     },
     {
       "rank": 6,
       "name": "Space Exploration Technologies Corp",
       "ticker": "SPCX US",
-      "weight": 9.65,
-      "value": 113882405,
+      "weight": 9.51,
+      "value": 112579866,
       "qty": 559
     },
     {
       "rank": 7,
       "name": "BROADCOM LTD",
       "ticker": "AVGO US",
-      "weight": 8.84,
-      "value": 104369753,
+      "weight": 8.47,
+      "value": 100283046,
       "qty": 214
     },
     {
       "rank": 8,
       "name": "Meta Platforms Inc-CL A",
       "ticker": "META US",
-      "weight": 1.7,
-      "value": 20081088,
+      "weight": 1.75,
+      "value": 20810782,
       "qty": 23
     },
     {
       "rank": 9,
       "name": "MICRON TECH",
       "ticker": "MU US",
-      "weight": 1.55,
-      "value": 18395549,
+      "weight": 1.48,
+      "value": 17585769,
       "qty": 14
     },
     {
       "rank": 10,
       "name": "TESLA MOTORS",
       "ticker": "TSLA US",
-      "weight": 1.46,
-      "value": 17232505,
+      "weight": 1.44,
+      "value": 17079433,
       "qty": 35
     }
   ],
@@ -88,17 +88,17 @@
     {
       "rank": 1,
       "name": "IT",
-      "weight": 58.98
+      "weight": 58.69
     },
     {
       "rank": 2,
       "name": "커뮤니케이션서비스",
-      "weight": 24.61
+      "weight": 25.02
     },
     {
       "rank": 3,
       "name": "경기소비재",
-      "weight": 16.41
+      "weight": 16.29
     }
   ]
 }
