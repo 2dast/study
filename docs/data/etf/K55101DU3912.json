@@ -1,86 +1,86 @@
 {
   "fundCd": "K55101DU3912",
   "fundNm": "ACE 글로벌브랜드TOP10",
-  "stdDt": "2026-10-01",
+  "stdDt": "2026-10-02",
   "holdings": [
     {
       "rank": 1,
       "name": "MICROSOFT",
       "ticker": "MSFT US",
-      "weight": 10.74,
-      "value": 99835557,
+      "weight": 10.87,
+      "value": 101024887,
       "qty": 145
     },
     {
       "rank": 2,
-      "name": "NVIDIA Corp",
-      "ticker": "NVDA US",
-      "weight": 10.68,
-      "value": 99280409,
-      "qty": 323
-    },
-    {
-      "rank": 3,
       "name": "APPLE Inc",
       "ticker": "AAPL US",
-      "weight": 10.64,
-      "value": 98925935,
+      "weight": 10.8,
+      "value": 100427109,
       "qty": 222
     },
     {
+      "rank": 3,
+      "name": "NVIDIA Corp",
+      "ticker": "NVDA US",
+      "weight": 10.78,
+      "value": 100204739,
+      "qty": 323
+    },
+    {
       "rank": 4,
-      "name": "PROCTER & GAMBLE CO/THE",
-      "ticker": "PG US",
-      "weight": 10.49,
-      "value": 97514585,
-      "qty": 486
+      "name": "TESLA MOTORS",
+      "ticker": "TSLA US",
+      "weight": 10.36,
+      "value": 96394780,
+      "qty": 200
     },
     {
       "rank": 5,
-      "name": "TESLA MOTORS",
-      "ticker": "TSLA US",
-      "weight": 10.27,
-      "value": 95464390,
-      "qty": 200
+      "name": "PROCTER & GAMBLE CO/THE",
+      "ticker": "PG US",
+      "weight": 10.31,
+      "value": 95911299,
+      "qty": 486
     },
     {
       "rank": 6,
       "name": "COCA-COLA CO/THE",
       "ticker": "KO US",
-      "weight": 9.82,
-      "value": 91279747,
+      "weight": 9.77,
+      "value": 90855442,
       "qty": 777
     },
     {
       "rank": 7,
       "name": "JPMORGAN CHASE & CO",
       "ticker": "JPM US",
-      "weight": 9.56,
-      "value": 88819545,
+      "weight": 9.47,
+      "value": 88082296,
       "qty": 196
     },
     {
       "rank": 8,
-      "name": "ELI LILLY & CO",
-      "ticker": "LLY US",
-      "weight": 9.48,
-      "value": 88141210,
-      "qty": 55
+      "name": "Cie Financiere Richemont SA",
+      "ticker": "CFR SW",
+      "weight": 9.46,
+      "value": 88025359,
+      "qty": 303
     },
     {
       "rank": 9,
-      "name": "Cie Financiere Richemont SA",
-      "ticker": "CFR SW",
-      "weight": 9.34,
-      "value": 86813257,
-      "qty": 303
+      "name": "ELI LILLY & CO",
+      "ticker": "LLY US",
+      "weight": 9.29,
+      "value": 86447760,
+      "qty": 55
     },
     {
       "rank": 10,
       "name": "NETFLIX",
       "ticker": "NFLX US",
-      "weight": 8.96,
-      "value": 83214110,
+      "weight": 8.89,
+      "value": 82702788,
       "qty": 875
     }
   ],
@@ -88,32 +88,32 @@
     {
       "rank": 1,
       "name": "IT",
-      "weight": 32.07
+      "weight": 32.43
     },
     {
       "rank": 2,
       "name": "필수소비재",
-      "weight": 20.32
+      "weight": 20.08
     },
     {
       "rank": 3,
       "name": "경기소비재",
-      "weight": 19.61
+      "weight": 19.83
     },
     {
       "rank": 4,
       "name": "금융",
-      "weight": 9.56
+      "weight": 9.47
     },
     {
       "rank": 5,
       "name": "헬스케어",
-      "weight": 9.48
+      "weight": 9.29
     },
     {
       "rank": 6,
       "name": "커뮤니케이션서비스",
-      "weight": 8.95
+      "weight": 8.89
     }
   ]
 }
