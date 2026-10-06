@@ -1,54 +1,54 @@
 {
   "fundCd": "K55101EB6081",
   "fundNm": "ACE 마이크로소프트밸류체인액티브",
-  "stdDt": "2026-10-02",
+  "stdDt": "2026-10-06",
   "holdings": [
     {
       "rank": 1,
       "name": "MICROSOFT",
       "ticker": "MSFT US",
-      "weight": 21.92,
-      "value": 166516883,
+      "weight": 21.75,
+      "value": 165528455,
       "qty": 239
     },
     {
       "rank": 2,
       "name": "Amazon.com Inc",
       "ticker": "AMZN US",
-      "weight": 9.98,
-      "value": 75811760,
+      "weight": 9.86,
+      "value": 75098114,
       "qty": 224
     },
     {
       "rank": 3,
       "name": "Meta Platforms Inc-CL A",
       "ticker": "META US",
-      "weight": 9.85,
-      "value": 74866422,
+      "weight": 9.79,
+      "value": 74513520,
       "qty": 76
     },
     {
       "rank": 4,
       "name": "Palantir Technologies Inc",
       "ticker": "PLTR US",
-      "weight": 4.61,
-      "value": 35064243,
+      "weight": 4.65,
+      "value": 35420187,
       "qty": 138
     },
     {
       "rank": 5,
       "name": "PALO ALTO NETWORKS INC",
       "ticker": "PANW US",
-      "weight": 4.26,
-      "value": 32382354,
+      "weight": 4.21,
+      "value": 32110515,
       "qty": 60
     },
     {
       "rank": 6,
       "name": "CROWDSTRIKE HOLDINGS INC - A",
       "ticker": "CRWD US",
-      "weight": 3.93,
-      "value": 29849821,
+      "weight": 3.91,
+      "value": 29828635,
       "qty": 83
     },
     {
@@ -56,39 +56,39 @@
       "name": "ORACLE",
       "ticker": "ORCL US",
       "weight": 3.43,
-      "value": 26111164,
+      "value": 26106827,
       "qty": 140
     },
     {
       "rank": 8,
       "name": "SAP SE",
       "ticker": "SAP US",
-      "weight": 3.39,
-      "value": 25771130,
+      "weight": 3.4,
+      "value": 25907060,
       "qty": 91
     },
     {
       "rank": 9,
       "name": "SALESFORCE INC",
       "ticker": "CRM US",
-      "weight": 3.03,
-      "value": 23076743,
+      "weight": 3.1,
+      "value": 23655840,
       "qty": 74
     },
     {
       "rank": 10,
       "name": "Shopify Inc",
       "ticker": "SHOP US",
-      "weight": 2.81,
-      "value": 21353776,
+      "weight": 2.8,
+      "value": 21344261,
       "qty": 106
     },
     {
       "rank": 11,
       "name": "SERVICENOW INC",
       "ticker": "NOW US",
-      "weight": 2.49,
-      "value": 18932075,
+      "weight": 2.54,
+      "value": 19350100,
       "qty": 104
     },
     {
@@ -96,95 +96,95 @@
       "name": "NVIDIA Corp",
       "ticker": "NVDA US",
       "weight": 2.41,
-      "value": 18303652,
+      "value": 18396171,
       "qty": 59
-    },
-    {
-      "rank": 13,
-      "name": "Nebius Group NV",
-      "ticker": "NBIS US",
-      "weight": 2.36,
-      "value": 17943485,
-      "qty": 56
-    },
-    {
-      "rank": 13,
-      "name": "Snowflake Inc   - CL A",
-      "ticker": "SNOW US",
-      "weight": 2.36,
-      "value": 17989073,
-      "qty": 39
     },
     {
       "rank": 13,
       "name": "Cloudflare Inc",
       "ticker": "NET US",
       "weight": 2.36,
-      "value": 17926315,
+      "value": 18014302,
       "qty": 38
     },
     {
+      "rank": 13,
+      "name": "Snowflake Inc   - CL A",
+      "ticker": "SNOW US",
+      "weight": 2.36,
+      "value": 18013776,
+      "qty": 39
+    },
+    {
+      "rank": 15,
+      "name": "Nebius Group NV",
+      "ticker": "NBIS US",
+      "weight": 2.3,
+      "value": 17568172,
+      "qty": 56
+    },
+    {
       "rank": 16,
-      "name": "Adobe Inc",
-      "ticker": "ADBE US",
-      "weight": 1.93,
-      "value": 14667052,
-      "qty": 45
-    },
-    {
-      "rank": 17,
-      "name": "DATADOG INC - CLASS A",
-      "ticker": "DDOG US",
-      "weight": 1.81,
-      "value": 13763920,
-      "qty": 37
-    },
-    {
-      "rank": 18,
       "name": "SYNOPSYS INC",
       "ticker": "SNPS US",
-      "weight": 1.78,
-      "value": 13588917,
+      "weight": 2,
+      "value": 15238036,
       "qty": 23
     },
     {
-      "rank": 19,
+      "rank": 17,
+      "name": "Adobe Inc",
+      "ticker": "ADBE US",
+      "weight": 1.92,
+      "value": 14664274,
+      "qty": 45
+    },
+    {
+      "rank": 18,
       "name": "Cadence Design Systems Inc",
       "ticker": "CDNS US",
-      "weight": 1.77,
-      "value": 13455699,
+      "weight": 1.86,
+      "value": 14210878,
       "qty": 30
+    },
+    {
+      "rank": 19,
+      "name": "DATADOG INC - CLASS A",
+      "ticker": "DDOG US",
+      "weight": 1.81,
+      "value": 13815314,
+      "qty": 37
     },
     {
       "rank": 20,
       "name": "INTUIT INC",
       "ticker": "INTU US",
-      "weight": 1.62,
-      "value": 12359307,
+      "weight": 1.65,
+      "value": 12603448,
       "qty": 33
     },
     {
       "rank": 21,
       "name": "WORKDAY INC-CLASS A",
       "ticker": "WDAY US",
-      "weight": 1.6,
-      "value": 12159880,
+      "weight": 1.55,
+      "value": 11854553,
       "qty": 47
     },
     {
       "rank": 22,
       "name": "ADVANCED MICRO DEVICES",
       "ticker": "AMD US",
-      "weight": 1.53,
-      "value": 11634206,
+      "weight": 1.52,
+      "value": 11642469,
       "qty": 14
     },
     {
       "rank": 23,
       "name": "CoreWeave Inc",
       "ticker": "CRWV US",
-      "weight": 1.23,
-      "value": 9349160,
+      "weight": 1.24,
+      "value": 9450188,
       "qty": 79
     },
     {
@@ -192,31 +192,31 @@
       "name": "MongoDB Inc",
       "ticker": "MDB US",
       "weight": 1.18,
-      "value": 8997484,
+      "value": 9025884,
       "qty": 19
     },
     {
       "rank": 25,
-      "name": "AppLovin Corp",
-      "ticker": "APP US",
-      "weight": 1.14,
-      "value": 8679442,
-      "qty": 22
+      "name": "DigitalOcean Holdings Inc",
+      "ticker": "DOCN US",
+      "weight": 1.11,
+      "value": 8496624,
+      "qty": 45
     },
     {
       "rank": 26,
-      "name": "DigitalOcean Holdings Inc",
-      "ticker": "DOCN US",
-      "weight": 1.07,
-      "value": 8153863,
-      "qty": 45
+      "name": "AppLovin Corp",
+      "ticker": "APP US",
+      "weight": 1.09,
+      "value": 8358620,
+      "qty": 22
     },
     {
       "rank": 27,
       "name": "ARM Holdings PLC",
       "ticker": "ARM US",
       "weight": 1.03,
-      "value": 7869482,
+      "value": 7896688,
       "qty": 20
     },
     {
@@ -224,7 +224,7 @@
       "name": "Roblox Coperation",
       "ticker": "RBLX US",
       "weight": 0.97,
-      "value": 7367092,
+      "value": 7433702,
       "qty": 128
     },
     {
@@ -232,49 +232,49 @@
       "name": "Hut 8 Corp",
       "ticker": "HUT US",
       "weight": 0.9,
-      "value": 6900536,
+      "value": 6881631,
       "qty": 59
     },
     {
       "rank": 30,
       "name": "SOFTBANK GROUP",
       "ticker": "9984 JP",
-      "weight": 0.82,
-      "value": 6295542,
+      "weight": 0.85,
+      "value": 6539333,
       "qty": 114
     },
     {
       "rank": 31,
       "name": "IREN Ltd",
       "ticker": "IREN US",
-      "weight": 0.76,
-      "value": 5775264,
+      "weight": 0.75,
+      "value": 5709796,
       "qty": 104
     },
     {
       "rank": 32,
       "name": "원화현금",
       "ticker": "010010",
-      "weight": -0.47,
-      "value": -3581659,
-      "qty": -3581659
+      "weight": -0.48,
+      "value": -3680508,
+      "qty": -3680508
     }
   ],
   "sectors": [
     {
       "rank": 1,
       "name": "IT",
-      "weight": 77.32
+      "weight": 77.51
     },
     {
       "rank": 2,
       "name": "커뮤니케이션서비스",
-      "weight": 12.74
+      "weight": 12.66
     },
     {
       "rank": 3,
       "name": "경기소비재",
-      "weight": 9.94
+      "weight": 9.82
     }
   ]
 }
