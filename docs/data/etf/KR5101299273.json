@@ -1,167 +1,167 @@
 {
   "fundCd": "KR5101299273",
   "fundNm": "ACE 삼성그룹동일가중",
-  "stdDt": "2026-10-07",
+  "stdDt": "2026-10-08",
   "holdings": [
     {
       "rank": 1,
       "name": "삼성SDI",
       "ticker": "006400",
-      "weight": 6.89,
-      "value": 276000000,
+      "weight": 6.82,
+      "value": 269760000,
       "qty": 480
     },
     {
       "rank": 2,
-      "name": "삼성전기",
-      "ticker": "009150",
-      "weight": 6.73,
-      "value": 269675000,
-      "qty": 161
-    },
-    {
-      "rank": 3,
       "name": "삼성에피스홀딩스",
       "ticker": "0126Z0",
-      "weight": 6.71,
-      "value": 268594500,
+      "weight": 6.74,
+      "value": 266787000,
       "qty": 723
     },
     {
-      "rank": 4,
+      "rank": 3,
       "name": "제일기획",
       "ticker": "030000",
-      "weight": 6.4,
-      "value": 256101800,
+      "weight": 6.58,
+      "value": 260358720,
       "qty": 13732
     },
     {
-      "rank": 5,
-      "name": "삼성중공업",
-      "ticker": "010140",
-      "weight": 6.25,
-      "value": 250229400,
-      "qty": 12702
+      "rank": 4,
+      "name": "삼성전기",
+      "ticker": "009150",
+      "weight": 6.52,
+      "value": 258244000,
+      "qty": 161
     },
     {
       "rank": 5,
       "name": "삼성E&A",
       "ticker": "028050",
-      "weight": 6.25,
-      "value": 250244400,
+      "weight": 6.39,
+      "value": 253108800,
       "qty": 5208
     },
     {
-      "rank": 7,
-      "name": "에스원",
-      "ticker": "012750",
-      "weight": 6.22,
-      "value": 249102700,
-      "qty": 2941
+      "rank": 6,
+      "name": "삼성중공업",
+      "ticker": "010140",
+      "weight": 6.27,
+      "value": 248197080,
+      "qty": 12702
     },
     {
-      "rank": 7,
-      "name": "삼성에스디에스",
-      "ticker": "018260",
-      "weight": 6.22,
-      "value": 248913000,
-      "qty": 1134
-    },
-    {
-      "rank": 9,
+      "rank": 6,
       "name": "삼성증권",
       "ticker": "016360",
-      "weight": 6.17,
-      "value": 247163400,
+      "weight": 6.27,
+      "value": 247995600,
       "qty": 2774
     },
     {
-      "rank": 10,
+      "rank": 8,
+      "name": "에스원",
+      "ticker": "012750",
+      "weight": 6.23,
+      "value": 246455800,
+      "qty": 2941
+    },
+    {
+      "rank": 9,
       "name": "삼성전자",
       "ticker": "005930",
-      "weight": 6.12,
-      "value": 245072000,
+      "weight": 6.11,
+      "value": 241918500,
       "qty": 901
     },
     {
-      "rank": 11,
-      "name": "삼성물산",
-      "ticker": "028260",
-      "weight": 6.08,
-      "value": 243504000,
-      "qty": 712
-    },
-    {
-      "rank": 12,
-      "name": "삼성생명",
-      "ticker": "032830",
-      "weight": 6.02,
-      "value": 240825000,
-      "qty": 845
-    },
-    {
-      "rank": 13,
+      "rank": 10,
       "name": "삼성카드",
       "ticker": "029780",
-      "weight": 6.01,
-      "value": 240612050,
+      "weight": 6.09,
+      "value": 241189750,
       "qty": 5777
     },
     {
-      "rank": 14,
-      "name": "삼성바이오로직스",
-      "ticker": "207940",
-      "weight": 5.99,
-      "value": 239730000,
-      "qty": 183
+      "rank": 11,
+      "name": "호텔신라",
+      "ticker": "008770",
+      "weight": 6.08,
+      "value": 240655200,
+      "qty": 6108
     },
     {
-      "rank": 15,
+      "rank": 12,
+      "name": "삼성물산",
+      "ticker": "028260",
+      "weight": 6.04,
+      "value": 239232000,
+      "qty": 712
+    },
+    {
+      "rank": 13,
+      "name": "삼성생명",
+      "ticker": "032830",
+      "weight": 6,
+      "value": 237445000,
+      "qty": 845
+    },
+    {
+      "rank": 14,
       "name": "삼성화재",
       "ticker": "000810",
-      "weight": 5.96,
-      "value": 238760000,
+      "weight": 5.98,
+      "value": 236504000,
       "qty": 376
     },
     {
+      "rank": 15,
+      "name": "삼성에스디에스",
+      "ticker": "018260",
+      "weight": 5.93,
+      "value": 234738000,
+      "qty": 1134
+    },
+    {
       "rank": 16,
-      "name": "호텔신라",
-      "ticker": "008770",
-      "weight": 5.94,
-      "value": 237906600,
-      "qty": 6108
+      "name": "삼성바이오로직스",
+      "ticker": "207940",
+      "weight": 5.91,
+      "value": 233691000,
+      "qty": 183
     }
   ],
   "sectors": [
     {
       "rank": 1,
       "name": "IT",
-      "weight": 25.98
+      "weight": 25.39
     },
     {
       "rank": 2,
       "name": "산업재",
-      "weight": 24.81
+      "weight": 24.95
     },
     {
       "rank": 3,
       "name": "금융",
-      "weight": 24.17
+      "weight": 24.34
     },
     {
       "rank": 4,
       "name": "헬스케어",
-      "weight": 12.7
+      "weight": 12.65
     },
     {
       "rank": 5,
       "name": "커뮤니케이션서비스",
-      "weight": 6.4
+      "weight": 6.58
     },
     {
       "rank": 6,
       "name": "경기소비재",
-      "weight": 5.94
+      "weight": 6.08
     }
   ]
 }
