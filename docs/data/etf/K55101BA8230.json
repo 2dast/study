@@ -1,70 +1,70 @@
 {
   "fundCd": "K55101BA8230",
   "fundNm": "ACE 일본Nikkei225(H)",
-  "stdDt": "2026-10-08",
+  "stdDt": "2026-10-12",
   "holdings": [
     {
       "rank": 1,
-      "name": "NEXT FUNDS Nikkei 225 Exchange Traded Fu",
-      "ticker": "JP3027650005",
-      "weight": 12.96,
-      "value": 662470179,
-      "qty": 106400
+      "name": "mini NIKKEI225(OSE) F2612",
+      "ticker": "NOZ6",
+      "weight": 13.02,
+      "value": 661403848,
+      "qty": 11.11
     },
     {
       "rank": 2,
-      "name": "mini NIKKEI225(OSE) F2612",
-      "ticker": "NOZ6",
-      "weight": 12.79,
-      "value": 653961825,
-      "qty": 10.89
+      "name": "NEXT FUNDS Nikkei 225 Exchange Traded Fu",
+      "ticker": "JP3027650005",
+      "weight": 12.94,
+      "value": 656920480,
+      "qty": 106400
     },
     {
       "rank": 3,
       "name": "ADVANTEST CORP",
       "ticker": "6857 JP",
-      "weight": 8.62,
-      "value": 440954851,
+      "weight": 8.55,
+      "value": 434602370,
       "qty": 1244
     },
     {
       "rank": 4,
       "name": "NIKKEI225(OSE) Dec26",
       "ticker": "NKZ6",
-      "weight": 7.87,
-      "value": 402345659,
+      "weight": 7.86,
+      "value": 398866407,
       "qty": 0.67
     },
     {
       "rank": 5,
       "name": "Tokyo Electron Ltd",
       "ticker": "8035 JP",
-      "weight": 6.18,
-      "value": 316369271,
+      "weight": 6.07,
+      "value": 308512858,
       "qty": 2917
     },
     {
       "rank": 6,
       "name": "FAST RETAILING",
       "ticker": "9983 JP",
-      "weight": 5.85,
-      "value": 298991959,
+      "weight": 5.82,
+      "value": 295480734,
       "qty": 467
     },
     {
       "rank": 7,
       "name": "SOFTBANK GROUP",
       "ticker": "9984 JP",
-      "weight": 4.86,
-      "value": 248835201,
+      "weight": 4.9,
+      "value": 249168987,
       "qty": 4667
     },
     {
       "rank": 8,
       "name": "TDK Corp",
       "ticker": "6762 JP",
-      "weight": 1.75,
-      "value": 89635901,
+      "weight": 1.71,
+      "value": 87124031,
       "qty": 2917
     },
     {
@@ -72,47 +72,47 @@
       "name": "RECRUIT HOLDINGS CO LTD",
       "ticker": "6098 JP",
       "weight": 1.64,
-      "value": 83821730,
+      "value": 83857962,
       "qty": 583
     },
     {
       "rank": 10,
       "name": "Ibiden Co Ltd",
       "ticker": "4062 JP",
-      "weight": 1.6,
-      "value": 81710819,
+      "weight": 1.58,
+      "value": 80770168,
       "qty": 778
     },
     {
       "rank": 11,
       "name": "Kioxia Holdings Corp",
       "ticker": "285A JP",
-      "weight": 1.26,
-      "value": 64742899,
+      "weight": 1.21,
+      "value": 61793105,
       "qty": 408
     },
     {
       "rank": 12,
-      "name": "FUJIKURA LTD",
-      "ticker": "5803 JP",
-      "weight": 1.13,
-      "value": 57873005,
-      "qty": 1167
-    },
-    {
-      "rank": 13,
       "name": "KDDI",
       "ticker": "9433 JP",
       "weight": 1.11,
-      "value": 56968877,
+      "value": 56791250,
       "qty": 2333
+    },
+    {
+      "rank": 13,
+      "name": "FUJIKURA LTD",
+      "ticker": "5803 JP",
+      "weight": 1.1,
+      "value": 56282391,
+      "qty": 1167
     },
     {
       "rank": 14,
       "name": "Shin-Etsu Chemical Co Ltd",
       "ticker": "4063 JP",
       "weight": 1.01,
-      "value": 52039167,
+      "value": 51269595,
       "qty": 972
     },
     {
@@ -120,7 +120,7 @@
       "name": "FANUC",
       "ticker": "6954 JP",
       "weight": 1,
-      "value": 51207660,
+      "value": 50693902,
       "qty": 972
     },
     {
@@ -128,23 +128,31 @@
       "name": "KYOCERA",
       "ticker": "6971 JP",
       "weight": 0.99,
-      "value": 50924291,
+      "value": 50384259,
       "qty": 1556
+    },
+    {
+      "rank": 17,
+      "name": "Konami Group Corp",
+      "ticker": "9766 JP",
+      "weight": 0.72,
+      "value": 36391021,
+      "qty": 194
     },
     {
       "rank": 17,
       "name": "TOYOTA TSUSHO CORP",
       "ticker": "8015 JP",
       "weight": 0.72,
-      "value": 36896375,
+      "value": 36542340,
       "qty": 583
     },
     {
-      "rank": 18,
-      "name": "Konami Group Corp",
-      "ticker": "9766 JP",
-      "weight": 0.71,
-      "value": 36379575,
+      "rank": 19,
+      "name": "DAIKIN INDUSTRIES",
+      "ticker": "6367 JP",
+      "weight": 0.68,
+      "value": 34585423,
       "qty": 194
     },
     {
@@ -152,63 +160,55 @@
       "name": "MURATA MFG CO",
       "ticker": "6981 JP",
       "weight": 0.68,
-      "value": 34922608,
+      "value": 34309430,
       "qty": 467
-    },
-    {
-      "rank": 20,
-      "name": "DAIKIN INDUSTRIES",
-      "ticker": "6367 JP",
-      "weight": 0.67,
-      "value": 34317409,
-      "qty": 194
     },
     {
       "rank": 21,
       "name": "Sony Group Corp",
       "ticker": "6758 JP",
       "weight": 0.61,
-      "value": 31020974,
+      "value": 30783140,
       "qty": 972
     },
     {
-      "rank": 22,
+      "rank": 21,
+      "name": "Lasertec Corp",
+      "ticker": "6920 JP",
+      "weight": 0.61,
+      "value": 30820402,
+      "qty": 78
+    },
+    {
+      "rank": 23,
       "name": "TERUMO",
       "ticker": "4543 JP",
       "weight": 0.6,
-      "value": 30753580,
+      "value": 30603138,
       "qty": 1556
-    },
-    {
-      "rank": 22,
-      "name": "Lasertec Corp",
-      "ticker": "6920 JP",
-      "weight": 0.6,
-      "value": 30753359,
-      "qty": 78
     },
     {
       "rank": 24,
       "name": "CHUGAI PHARMACEUTICAL CO LTD",
       "ticker": "4519 JP",
       "weight": 0.59,
-      "value": 30220264,
+      "value": 30095142,
       "qty": 583
     },
     {
       "rank": 25,
       "name": "NITTO DENKO",
       "ticker": "6988 JP",
-      "weight": 0.58,
-      "value": 29728434,
+      "weight": 0.56,
+      "value": 29179423,
       "qty": 972
     },
     {
       "rank": 26,
       "name": "Bandai Namco Holdings Inc",
       "ticker": "7832 JP",
-      "weight": 0.55,
-      "value": 28215456,
+      "weight": 0.54,
+      "value": 27816179,
       "qty": 583
     },
     {
@@ -216,7 +216,7 @@
       "name": "TOYOTA MOTOR",
       "ticker": "7203 JP",
       "weight": 0.46,
-      "value": 24126052,
+      "value": 23854260,
       "qty": 972
     },
     {
@@ -224,7 +224,7 @@
       "name": "MITSUBISHI",
       "ticker": "8058 JP",
       "weight": 0.45,
-      "value": 23272566,
+      "value": 23065872,
       "qty": 583
     },
     {
@@ -232,39 +232,39 @@
       "name": "SCREEN Holdings Co Ltd",
       "ticker": "7735 JP",
       "weight": 0.41,
-      "value": 21444770,
+      "value": 21006711,
       "qty": 156
     },
     {
-      "rank": 29,
-      "name": "Disco Corp",
-      "ticker": "6146 JP",
-      "weight": 0.41,
-      "value": 21636359,
-      "qty": 39
-    },
-    {
-      "rank": 31,
+      "rank": 30,
       "name": "SECOM",
       "ticker": "9735 JP",
       "weight": 0.4,
-      "value": 20664929,
+      "value": 20594088,
       "qty": 389
     },
     {
-      "rank": 31,
+      "rank": 30,
       "name": "Hoya Corp",
       "ticker": "7741 JP",
       "weight": 0.4,
-      "value": 20785981,
+      "value": 20628965,
       "qty": 97
+    },
+    {
+      "rank": 32,
+      "name": "Disco Corp",
+      "ticker": "6146 JP",
+      "weight": 0.39,
+      "value": 20254350,
+      "qty": 39
     },
     {
       "rank": 33,
       "name": "TOKIO MARINE HOLDINGS",
       "ticker": "8766 JP",
       "weight": 0.37,
-      "value": 19354250,
+      "value": 19100933,
       "qty": 4375
     },
     {
@@ -272,31 +272,31 @@
       "name": "OTSUKA HOLDINGS",
       "ticker": "4578 JP",
       "weight": 0.36,
-      "value": 18822404,
+      "value": 18835677,
       "qty": 194
     },
     {
-      "rank": 35,
-      "name": "TAIYO YUDEN CO LTD",
-      "ticker": "6976 JP",
-      "weight": 0.35,
-      "value": 18296593,
-      "qty": 194
-    },
-    {
-      "rank": 35,
+      "rank": 34,
       "name": "ASTELLAS PHARMA INC",
       "ticker": "4503 JP",
-      "weight": 0.35,
-      "value": 18470158,
+      "weight": 0.36,
+      "value": 18549658,
       "qty": 972
+    },
+    {
+      "rank": 34,
+      "name": "TAIYO YUDEN CO LTD",
+      "ticker": "6976 JP",
+      "weight": 0.36,
+      "value": 18811055,
+      "qty": 194
     },
     {
       "rank": 37,
       "name": "AJINOMOTO CO INC",
       "ticker": "2802 JP",
       "weight": 0.34,
-      "value": 17699617,
+      "value": 17595652,
       "qty": 389
     },
     {
@@ -304,79 +304,79 @@
       "name": "ITOCHU",
       "ticker": "8001 JP",
       "weight": 0.34,
-      "value": 17972077,
+      "value": 17776584,
       "qty": 972
-    },
-    {
-      "rank": 39,
-      "name": "Kokusai Electric Corp",
-      "ticker": "6525 JP",
-      "weight": 0.32,
-      "value": 16973848,
-      "qty": 194
-    },
-    {
-      "rank": 39,
-      "name": "HONDA MOTOR",
-      "ticker": "7267 JP",
-      "weight": 0.32,
-      "value": 16679879,
-      "qty": 1167
     },
     {
       "rank": 39,
       "name": "FUJI PHOTO Ltd",
       "ticker": "4901 JP",
-      "weight": 0.32,
-      "value": 16907546,
+      "weight": 0.33,
+      "value": 16914644,
       "qty": 583
     },
     {
-      "rank": 39,
-      "name": "SUMITOMO ELECTRIC INDUSTRIES",
-      "ticker": "5802 JP",
+      "rank": 40,
+      "name": "HONDA MOTOR",
+      "ticker": "7267 JP",
       "weight": 0.32,
-      "value": 16707885,
-      "qty": 778
+      "value": 16623053,
+      "qty": 1167
     },
     {
-      "rank": 43,
+      "rank": 41,
+      "name": "Kokusai Electric Corp",
+      "ticker": "6525 JP",
+      "weight": 0.31,
+      "value": 16135486,
+      "qty": 194
+    },
+    {
+      "rank": 41,
       "name": "MITSUI",
       "ticker": "8031 JP",
       "weight": 0.31,
-      "value": 16348753,
+      "value": 16150742,
       "qty": 389
+    },
+    {
+      "rank": 41,
+      "name": "SUMITOMO ELECTRIC INDUSTRIES",
+      "ticker": "5802 JP",
+      "weight": 0.31,
+      "value": 16338350,
+      "qty": 778
     },
     {
       "rank": 44,
       "name": "NISSAN CHEMICAL INDUSTRIES",
       "ticker": "4021 JP",
-      "weight": 0.28,
-      "value": 14589622,
+      "weight": 0.29,
+      "value": 14846946,
       "qty": 194
-    },
-    {
-      "rank": 45,
-      "name": "KIKKOMAN CORP",
-      "ticker": "2801 JP",
-      "weight": 0.27,
-      "value": 14012128,
-      "qty": 972
     },
     {
       "rank": 45,
       "name": "Ryohin Keikaku Co Ltd",
       "ticker": "7453 JP",
-      "weight": 0.27,
-      "value": 14365289,
+      "weight": 0.28,
+      "value": 14412900,
       "qty": 389
+    },
+    {
+      "rank": 46,
+      "name": "KIKKOMAN CORP",
+      "ticker": "2801 JP",
+      "weight": 0.27,
+      "value": 14326537,
+      "qty": 972
     },
     {
       "rank": 47,
       "name": "SHIONOGI & CO LTD",
       "ticker": "4507 JP",
       "weight": 0.26,
-      "value": 13643560,
+      "value": 13626918,
       "qty": 583
     },
     {
@@ -384,7 +384,7 @@
       "name": "BayCurrent Inc",
       "ticker": "6532 JP",
       "weight": 0.26,
-      "value": 13441053,
+      "value": 13476332,
       "qty": 194
     },
     {
@@ -392,71 +392,71 @@
       "name": "DAIICHI SANKYO",
       "ticker": "4568 JP",
       "weight": 0.26,
-      "value": 13589243,
+      "value": 13330949,
       "qty": 583
     },
     {
-      "rank": 50,
+      "rank": 47,
+      "name": "SUZUKI MOTOR",
+      "ticker": "7269 JP",
+      "weight": 0.26,
+      "value": 13425489,
+      "qty": 778
+    },
+    {
+      "rank": 51,
       "name": "OLYMPUS",
       "ticker": "7733 JP",
       "weight": 0.25,
-      "value": 13245060,
+      "value": 13165471,
       "qty": 778
     },
     {
-      "rank": 50,
-      "name": "SUZUKI MOTOR",
-      "ticker": "7269 JP",
+      "rank": 51,
+      "name": "Nitori Holdings Co Ltd",
+      "ticker": "9843 JP",
       "weight": 0.25,
-      "value": 13057257,
-      "qty": 778
+      "value": 12850295,
+      "qty": 486
     },
     {
-      "rank": 50,
+      "rank": 51,
+      "name": "KOMATSU",
+      "ticker": "6301 JP",
+      "weight": 0.25,
+      "value": 12850938,
+      "qty": 194
+    },
+    {
+      "rank": 51,
       "name": "KEYENCE CORP",
       "ticker": "6861 JP",
       "weight": 0.25,
-      "value": 13114030,
+      "value": 13111659,
       "qty": 19
     },
     {
-      "rank": 53,
-      "name": "KOMATSU",
-      "ticker": "6301 JP",
-      "weight": 0.24,
-      "value": 12778859,
-      "qty": 194
-    },
-    {
-      "rank": 53,
-      "name": "BRIDGESTONE",
-      "ticker": "5108 JP",
-      "weight": 0.24,
-      "value": 12586102,
-      "qty": 389
-    },
-    {
-      "rank": 53,
+      "rank": 55,
       "name": "NINTENDO CO LTD",
       "ticker": "7974 JP",
       "weight": 0.24,
-      "value": 12841300,
+      "value": 12762300,
       "qty": 194
     },
     {
-      "rank": 53,
-      "name": "Nitori Holdings Co Ltd",
-      "ticker": "9843 JP",
+      "rank": 55,
+      "name": "BRIDGESTONE",
+      "ticker": "5108 JP",
       "weight": 0.24,
-      "value": 12884242,
-      "qty": 486
+      "value": 12609230,
+      "qty": 389
     },
     {
       "rank": 57,
       "name": "SMC",
       "ticker": "6273 JP",
       "weight": 0.23,
-      "value": 12230535,
+      "value": 11873800,
       "qty": 19
     },
     {
@@ -464,7 +464,7 @@
       "name": "DENSO",
       "ticker": "6902 JP",
       "weight": 0.23,
-      "value": 12210495,
+      "value": 12115525,
       "qty": 778
     },
     {
@@ -472,7 +472,7 @@
       "name": "KAO",
       "ticker": "4452 JP",
       "weight": 0.22,
-      "value": 11479052,
+      "value": 11555992,
       "qty": 389
     },
     {
@@ -480,7 +480,7 @@
       "name": "JAPAN TOBACCO",
       "ticker": "2914 JP",
       "weight": 0.22,
-      "value": 11396961,
+      "value": 11473759,
       "qty": 194
     },
     {
@@ -488,7 +488,7 @@
       "name": "TREND MICRO INC",
       "ticker": "4704 JP",
       "weight": 0.22,
-      "value": 11383816,
+      "value": 11426157,
       "qty": 194
     },
     {
@@ -496,7 +496,7 @@
       "name": "SUMITOMO",
       "ticker": "8053 JP",
       "weight": 0.22,
-      "value": 11472462,
+      "value": 11302557,
       "qty": 778
     },
     {
@@ -504,7 +504,7 @@
       "name": "CANON INC",
       "ticker": "7751 JP",
       "weight": 0.22,
-      "value": 11483117,
+      "value": 11411891,
       "qty": 292
     },
     {
@@ -512,7 +512,7 @@
       "name": "SEIKO EPSON CORP",
       "ticker": "6724 JP",
       "weight": 0.21,
-      "value": 11093561,
+      "value": 11078744,
       "qty": 389
     },
     {
@@ -520,7 +520,7 @@
       "name": "OMRON CORP",
       "ticker": "6645 JP",
       "weight": 0.2,
-      "value": 10660825,
+      "value": 10646466,
       "qty": 194
     },
     {
@@ -528,7 +528,7 @@
       "name": "SUMITOMO REALTY&DEV",
       "ticker": "8830 JP",
       "weight": 0.19,
-      "value": 10091945,
+      "value": 10157161,
       "qty": 389
     },
     {
@@ -536,7 +536,7 @@
       "name": "ORIX",
       "ticker": "8591 JP",
       "weight": 0.18,
-      "value": 9645352,
+      "value": 9646821,
       "qty": 194
     },
     {
@@ -544,7 +544,7 @@
       "name": "HITACHI",
       "ticker": "6501 JP",
       "weight": 0.18,
-      "value": 9300288,
+      "value": 9272570,
       "qty": 194
     },
     {
@@ -552,7 +552,7 @@
       "name": "HITACHI CONSTRUCTION MACHINE",
       "ticker": "6305 JP",
       "weight": 0.18,
-      "value": 9425169,
+      "value": 9508939,
       "qty": 194
     },
     {
@@ -560,7 +560,7 @@
       "name": "NGK INSULATORS LTD",
       "ticker": "5333 JP",
       "weight": 0.18,
-      "value": 9725867,
+      "value": 9686216,
       "qty": 194
     },
     {
@@ -568,7 +568,7 @@
       "name": "TAKEDA PHARMACEUTICAL",
       "ticker": "4502 JP",
       "weight": 0.18,
-      "value": 9397235,
+      "value": 9464620,
       "qty": 194
     },
     {
@@ -576,39 +576,39 @@
       "name": "SEVEN & I HOLDINGS",
       "ticker": "3382 JP",
       "weight": 0.18,
-      "value": 9749985,
+      "value": 9705325,
       "qty": 583
     },
     {
-      "rank": 73,
+      "rank": 67,
       "name": "COMSYS HOLDINGS CORP",
       "ticker": "1721 JP",
-      "weight": 0.17,
-      "value": 9177051,
+      "weight": 0.18,
+      "value": 9252872,
       "qty": 194
     },
     {
-      "rank": 73,
-      "name": "Rohm Co Ltd",
-      "ticker": "6963 JP",
-      "weight": 0.17,
-      "value": 8785979,
-      "qty": 194
-    },
-    {
-      "rank": 73,
+      "rank": 74,
       "name": "YAMAHA MOTOR CO LTD",
       "ticker": "7272 JP",
       "weight": 0.17,
-      "value": 8838933,
+      "value": 9039395,
       "qty": 583
+    },
+    {
+      "rank": 74,
+      "name": "Rohm Co Ltd",
+      "ticker": "6963 JP",
+      "weight": 0.17,
+      "value": 8822812,
+      "qty": 194
     },
     {
       "rank": 76,
       "name": "NEXON CO LTD",
       "ticker": "3659 JP",
       "weight": 0.16,
-      "value": 8596109,
+      "value": 8611864,
       "qty": 389
     },
     {
@@ -616,7 +616,7 @@
       "name": "MITSUBISHI ELECTRIC",
       "ticker": "6503 JP",
       "weight": 0.16,
-      "value": 8753116,
+      "value": 8675081,
       "qty": 194
     },
     {
@@ -624,7 +624,7 @@
       "name": "Nomura Research Institute Ltd",
       "ticker": "4307 JP",
       "weight": 0.16,
-      "value": 8363687,
+      "value": 8517501,
       "qty": 194
     },
     {
@@ -632,23 +632,15 @@
       "name": "ASAHI GROUP HOLDINGS",
       "ticker": "2502 JP",
       "weight": 0.15,
-      "value": 7863688,
+      "value": 7779059,
       "qty": 583
-    },
-    {
-      "rank": 79,
-      "name": "YOKOGAWA ELECTRIC CORP",
-      "ticker": "6841 JP",
-      "weight": 0.15,
-      "value": 7793510,
-      "qty": 194
     },
     {
       "rank": 79,
       "name": "YASKAWA ELECTRIC CORP",
       "ticker": "6506 JP",
       "weight": 0.15,
-      "value": 8110640,
+      "value": 8118628,
       "qty": 194
     },
     {
@@ -656,15 +648,7 @@
       "name": "MARUBENI",
       "ticker": "8002 JP",
       "weight": 0.15,
-      "value": 7916747,
-      "qty": 194
-    },
-    {
-      "rank": 79,
-      "name": "PANASONIC HOLDINGS",
-      "ticker": "6752 JP",
-      "weight": 0.15,
-      "value": 7836232,
+      "value": 7857637,
       "qty": 194
     },
     {
@@ -672,7 +656,7 @@
       "name": "SUMITOMO METAL MINING",
       "ticker": "5713 JP",
       "weight": 0.15,
-      "value": 8063810,
+      "value": 7914267,
       "qty": 97
     },
     {
@@ -680,127 +664,143 @@
       "name": "EBARA CORP",
       "ticker": "6361 JP",
       "weight": 0.15,
-      "value": 7985760,
+      "value": 7934785,
       "qty": 194
     },
     {
-      "rank": 86,
+      "rank": 84,
       "name": "EISAI",
       "ticker": "4523 JP",
       "weight": 0.14,
-      "value": 7683418,
+      "value": 7616343,
       "qty": 194
     },
     {
-      "rank": 86,
+      "rank": 84,
+      "name": "YOKOGAWA ELECTRIC CORP",
+      "ticker": "6841 JP",
+      "weight": 0.14,
+      "value": 7660663,
+      "qty": 194
+    },
+    {
+      "rank": 84,
       "name": "MS&AD  INS GR HLDGS",
       "ticker": "8725 JP",
       "weight": 0.14,
-      "value": 7237741,
+      "value": 7190242,
       "qty": 175
     },
     {
-      "rank": 86,
+      "rank": 84,
+      "name": "PANASONIC HOLDINGS",
+      "ticker": "6752 JP",
+      "weight": 0.14,
+      "value": 7662304,
+      "qty": 194
+    },
+    {
+      "rank": 84,
       "name": "FURUKAWA ELECTRIC CO LTD",
       "ticker": "5801 JP",
       "weight": 0.14,
-      "value": 7377791,
+      "value": 7294618,
       "qty": 194
     },
     {
-      "rank": 86,
-      "name": "Capcom Co Ltd",
-      "ticker": "9697 JP",
-      "weight": 0.14,
-      "value": 7287417,
-      "qty": 194
-    },
-    {
-      "rank": 86,
-      "name": "JAPAN EXCHANGE GROUP INC",
-      "ticker": "8697 JP",
-      "weight": 0.14,
-      "value": 7607672,
-      "qty": 389
-    },
-    {
-      "rank": 91,
-      "name": "CREDIT SAISON CO LTD",
-      "ticker": "8253 JP",
-      "weight": 0.13,
-      "value": 7195400,
-      "qty": 194
-    },
-    {
-      "rank": 91,
-      "name": "MITSUI FUDOSAN",
-      "ticker": "8801 JP",
-      "weight": 0.13,
-      "value": 7014360,
-      "qty": 583
-    },
-    {
-      "rank": 91,
-      "name": "DAIWA HOUSE INDUSTRY",
-      "ticker": "1925 JP",
-      "weight": 0.13,
-      "value": 7092037,
-      "qty": 389
-    },
-    {
-      "rank": 91,
+      "rank": 84,
       "name": "M3 INC",
       "ticker": "2413 JP",
-      "weight": 0.13,
-      "value": 7224617,
+      "weight": 0.14,
+      "value": 7292186,
       "qty": 467
     },
     {
-      "rank": 95,
+      "rank": 84,
+      "name": "Capcom Co Ltd",
+      "ticker": "9697 JP",
+      "weight": 0.14,
+      "value": 7256865,
+      "qty": 194
+    },
+    {
+      "rank": 84,
+      "name": "JAPAN EXCHANGE GROUP INC",
+      "ticker": "8697 JP",
+      "weight": 0.14,
+      "value": 7507610,
+      "qty": 389
+    },
+    {
+      "rank": 92,
+      "name": "CREDIT SAISON CO LTD",
+      "ticker": "8253 JP",
+      "weight": 0.13,
+      "value": 7076305,
+      "qty": 194
+    },
+    {
+      "rank": 92,
+      "name": "MITSUI FUDOSAN",
+      "ticker": "8801 JP",
+      "weight": 0.13,
+      "value": 6979942,
+      "qty": 583
+    },
+    {
+      "rank": 92,
+      "name": "FUJITSU",
+      "ticker": "6702 JP",
+      "weight": 0.13,
+      "value": 6774278,
+      "qty": 194
+    },
+    {
+      "rank": 92,
+      "name": "DAIWA HOUSE INDUSTRY",
+      "ticker": "1925 JP",
+      "weight": 0.13,
+      "value": 7086315,
+      "qty": 389
+    },
+    {
+      "rank": 96,
       "name": "Renesas Electronics Corp",
       "ticker": "6723 JP",
       "weight": 0.12,
-      "value": 6564426,
+      "value": 6441063,
       "qty": 194
     },
     {
-      "rank": 95,
+      "rank": 96,
       "name": "MINEBEA MITSUMI",
       "ticker": "6479 JP",
       "weight": 0.12,
-      "value": 6432973,
+      "value": 6314671,
       "qty": 194
     },
     {
-      "rank": 95,
+      "rank": 96,
       "name": "MITSUBISHI HEAVY INDUSTRIES",
       "ticker": "7011 JP",
       "weight": 0.12,
-      "value": 6222649,
+      "value": 6255578,
       "qty": 194
     },
     {
-      "rank": 95,
-      "name": "FUJITSU",
-      "ticker": "6702 JP",
-      "weight": 0.12,
-      "value": 6659729,
-      "qty": 194
-    },
-    {
-      "rank": 95,
+      "rank": 96,
       "name": "JX Advanced Metals Corp",
       "ticker": "5016 JP",
       "weight": 0.12,
-      "value": 6286732,
+      "value": 6232598,
       "qty": 194
     },
     {
-      "rank": 95,
+      "rank": 96,
       "name": "SOMPO HOLDINGS",
       "ticker": "8630 JP",
       "weight": 0.12,
-      "value": 6591987,
+      "value": 6495053,
       "qty": 117
     },
     {
@@ -808,7 +808,7 @@
       "name": "SHIZUOKA FINANCIAL GROUP",
       "ticker": "5831 JP",
       "weight": 0.11,
-      "value": 5989320,
+      "value": 5810745,
       "qty": 194
     },
     {
@@ -816,7 +816,7 @@
       "name": "YOKOHAMA RUBBER CO LTD",
       "ticker": "5101 JP",
       "weight": 0.11,
-      "value": 5972888,
+      "value": 6030699,
       "qty": 97
     },
     {
@@ -824,7 +824,7 @@
       "name": "YAMAHA CORP",
       "ticker": "7951 JP",
       "weight": 0.11,
-      "value": 5972452,
+      "value": 5879922,
       "qty": 583
     },
     {
@@ -832,7 +832,7 @@
       "name": "Mercari Inc",
       "ticker": "4385 JP",
       "weight": 0.11,
-      "value": 5834863,
+      "value": 5909232,
       "qty": 194
     },
     {
@@ -840,7 +840,7 @@
       "name": "MITSUBISHI UFJ FINANCIAL GRO",
       "ticker": "8306 JP",
       "weight": 0.11,
-      "value": 6032042,
+      "value": 5945344,
       "qty": 194
     },
     {
@@ -848,15 +848,23 @@
       "name": "MITSUBISHI ESTATE",
       "ticker": "8802 JP",
       "weight": 0.11,
-      "value": 5711626,
+      "value": 5710616,
       "qty": 194
+    },
+    {
+      "rank": 101,
+      "name": "ISETAN MITSUKOSHI HOLDINGS L",
+      "ticker": "3099 JP",
+      "weight": 0.11,
+      "value": 5750019,
+      "qty": 389
     },
     {
       "rank": 101,
       "name": "DENTSU INC",
       "ticker": "4324 JP",
       "weight": 0.11,
-      "value": 5769136,
+      "value": 5787764,
       "qty": 194
     },
     {
@@ -864,367 +872,359 @@
       "name": "AEON",
       "ticker": "8267 JP",
       "weight": 0.11,
-      "value": 6053928,
+      "value": 6005709,
       "qty": 583
     },
     {
-      "rank": 109,
+      "rank": 110,
       "name": "SHISEIDO",
       "ticker": "4911 JP",
       "weight": 0.1,
-      "value": 5289333,
+      "value": 5356062,
       "qty": 194
     },
     {
-      "rank": 109,
-      "name": "ISETAN MITSUKOSHI HOLDINGS L",
-      "ticker": "3099 JP",
+      "rank": 110,
+      "name": "TOTO LTD",
+      "ticker": "5332 JP",
       "weight": 0.1,
-      "value": 5670335,
-      "qty": 389
+      "value": 5130362,
+      "qty": 97
     },
     {
-      "rank": 109,
+      "rank": 110,
       "name": "SEKISUI HOUSE",
       "ticker": "1928 JP",
       "weight": 0.1,
-      "value": 5455293,
+      "value": 5447983,
       "qty": 194
     },
     {
-      "rank": 109,
+      "rank": 110,
       "name": "ZOZO Inc",
       "ticker": "3092 JP",
       "weight": 0.1,
-      "value": 5478657,
+      "value": 5524759,
       "qty": 583
     },
     {
-      "rank": 113,
+      "rank": 114,
       "name": "IDEMITSU KOSAN CO LTD",
       "ticker": "5019 JP",
       "weight": 0.09,
-      "value": 5045972,
+      "value": 5062123,
       "qty": 389
     },
     {
-      "rank": 113,
+      "rank": 114,
       "name": "FUJI ELECTRIC CO LTD",
       "ticker": "6504 JP",
       "weight": 0.09,
-      "value": 5085370,
+      "value": 5009140,
       "qty": 39
     },
     {
-      "rank": 113,
+      "rank": 114,
       "name": "NH FOODS LTD",
       "ticker": "2282 JP",
       "weight": 0.09,
-      "value": 4916743,
+      "value": 4962282,
       "qty": 292
     },
     {
-      "rank": 113,
+      "rank": 114,
       "name": "Japan Airlines Co Ltd",
       "ticker": "9201 JP",
       "weight": 0.09,
-      "value": 4940983,
+      "value": 4939133,
       "qty": 194
     },
     {
-      "rank": 113,
-      "name": "TOTO LTD",
-      "ticker": "5332 JP",
-      "weight": 0.09,
-      "value": 5127482,
-      "qty": 97
-    },
-    {
-      "rank": 113,
-      "name": "CHIBA BANK LTD/THE",
-      "ticker": "8331 JP",
-      "weight": 0.09,
-      "value": 4748734,
-      "qty": 194
-    },
-    {
-      "rank": 113,
+      "rank": 114,
       "name": "Dai Nippon Printing Co Ltd",
       "ticker": "7912 JP",
       "weight": 0.09,
-      "value": 5003424,
+      "value": 4877578,
       "qty": 194
     },
     {
-      "rank": 113,
+      "rank": 114,
       "name": "KAWASAKI KISEN KAISHA LTD",
       "ticker": "9107 JP",
       "weight": 0.09,
-      "value": 4836524,
+      "value": 4794482,
       "qty": 175
     },
     {
-      "rank": 113,
+      "rank": 114,
       "name": "Oriental Land Co Ltd/Japan",
       "ticker": "4661 JP",
       "weight": 0.09,
-      "value": 4666576,
+      "value": 4741338,
       "qty": 194
     },
     {
-      "rank": 113,
+      "rank": 114,
       "name": "OBAYASHI CORP",
       "ticker": "1802 JP",
       "weight": 0.09,
-      "value": 4822676,
+      "value": 4807817,
       "qty": 194
     },
     {
-      "rank": 123,
+      "rank": 122,
       "name": "AMADA CO",
       "ticker": "6113 JP",
       "weight": 0.08,
-      "value": 4396276,
+      "value": 4347389,
       "qty": 194
     },
     {
-      "rank": 123,
+      "rank": 122,
       "name": "Mitsui Kinzoku Co Ltd",
       "ticker": "5706 JP",
       "weight": 0.08,
-      "value": 4519513,
+      "value": 4559136,
       "qty": 194
     },
     {
-      "rank": 123,
+      "rank": 122,
       "name": "MARUI GROUP CO LTD",
       "ticker": "8252 JP",
       "weight": 0.08,
-      "value": 4531836,
+      "value": 4530411,
       "qty": 194
     },
     {
-      "rank": 123,
+      "rank": 122,
       "name": "SUBARU CORP",
       "ticker": "7270 JP",
       "weight": 0.08,
-      "value": 4161304,
+      "value": 4168470,
       "qty": 194
     },
     {
-      "rank": 123,
+      "rank": 122,
+      "name": "NEC Corp",
+      "ticker": "6701 JP",
+      "weight": 0.08,
+      "value": 4144669,
+      "qty": 97
+    },
+    {
+      "rank": 122,
+      "name": "CHIBA BANK LTD/THE",
+      "ticker": "8331 JP",
+      "weight": 0.08,
+      "value": 4593607,
+      "qty": 194
+    },
+    {
+      "rank": 122,
       "name": "KUBOTA",
       "ticker": "6326 JP",
       "weight": 0.08,
-      "value": 4471039,
+      "value": 4555033,
       "qty": 194
     },
     {
-      "rank": 123,
+      "rank": 122,
       "name": "KIRIN HOLDIGNS",
       "ticker": "2503 JP",
       "weight": 0.08,
-      "value": 4620567,
+      "value": 4549288,
       "qty": 194
     },
     {
-      "rank": 129,
+      "rank": 130,
       "name": "ALPS ELECTRIC CO LTD",
       "ticker": "6770 JP",
       "weight": 0.07,
-      "value": 3704505,
+      "value": 3657158,
       "qty": 194
     },
     {
-      "rank": 129,
+      "rank": 130,
       "name": "JAPAN POST HOLDINGS CO LTD",
       "ticker": "6178 JP",
       "weight": 0.07,
-      "value": 4113652,
+      "value": 3987911,
       "qty": 194
     },
     {
-      "rank": 129,
-      "name": "NEC Corp",
-      "ticker": "6701 JP",
-      "weight": 0.07,
-      "value": 4047926,
-      "qty": 97
-    },
-    {
-      "rank": 129,
+      "rank": 130,
       "name": "SOFTBANK Co",
       "ticker": "9434 JP",
       "weight": 0.07,
-      "value": 3945130,
+      "value": 3959124,
       "qty": 1944
     },
     {
-      "rank": 129,
+      "rank": 130,
       "name": "JGC Holdings",
       "ticker": "1963 JP",
       "weight": 0.07,
-      "value": 3683144,
+      "value": 3674393,
       "qty": 194
     },
     {
-      "rank": 129,
+      "rank": 130,
       "name": "TOPPAN PRINTING",
       "ticker": "7911 JP",
       "weight": 0.07,
-      "value": 4006025,
+      "value": 4025664,
       "qty": 194
     },
     {
-      "rank": 129,
+      "rank": 130,
       "name": "TOKAI CARBON CO LTD",
       "ticker": "5301 JP",
       "weight": 0.07,
-      "value": 3910722,
+      "value": 3900093,
       "qty": 194
     },
     {
-      "rank": 129,
+      "rank": 130,
       "name": "TAISEI CORP",
       "ticker": "1801 JP",
       "weight": 0.07,
-      "value": 3940790,
+      "value": 3996092,
       "qty": 39
     },
     {
-      "rank": 129,
+      "rank": 130,
       "name": "Socionext Inc",
       "ticker": "6526 JP",
       "weight": 0.07,
-      "value": 3713542,
+      "value": 3676855,
       "qty": 194
     },
     {
-      "rank": 129,
+      "rank": 130,
+      "name": "JTEKT CORP",
+      "ticker": "6473 JP",
+      "weight": 0.07,
+      "value": 3621046,
+      "qty": 194
+    },
+    {
+      "rank": 130,
       "name": "KYOWA KIRIN CO",
       "ticker": "4151 JP",
       "weight": 0.07,
-      "value": 3644530,
+      "value": 3625970,
       "qty": 194
     },
     {
-      "rank": 129,
+      "rank": 130,
       "name": "KAJIMA CORP",
       "ticker": "1812 JP",
       "weight": 0.07,
-      "value": 3937834,
+      "value": 3957544,
       "qty": 97
     },
     {
-      "rank": 140,
+      "rank": 141,
       "name": "IHI CORP",
       "ticker": "7013 JP",
       "weight": 0.06,
-      "value": 3127425,
+      "value": 3096559,
       "qty": 136
     },
     {
-      "rank": 140,
+      "rank": 141,
       "name": "YAMATO HOLDINGS",
       "ticker": "9064 JP",
       "weight": 0.06,
-      "value": 3231275,
+      "value": 3254181,
       "qty": 194
     },
     {
-      "rank": 140,
+      "rank": 141,
       "name": "SUMITOMO MITSUI FINANCIAL GR",
       "ticker": "8316 JP",
       "weight": 0.06,
-      "value": 3398064,
+      "value": 3338107,
       "qty": 117
     },
     {
-      "rank": 140,
+      "rank": 141,
       "name": "NIPPON YUSEN",
       "ticker": "9101 JP",
       "weight": 0.06,
-      "value": 3505098,
+      "value": 3480355,
       "qty": 58
     },
     {
-      "rank": 140,
+      "rank": 141,
       "name": "NISSHIN SEIFUN GROUP INC",
       "ticker": "2002 JP",
       "weight": 0.06,
-      "value": 3214022,
+      "value": 3235304,
       "qty": 194
     },
     {
-      "rank": 140,
+      "rank": 141,
       "name": "NICHIREI CORP",
       "ticker": "2871 JP",
       "weight": 0.06,
-      "value": 3445707,
+      "value": 3448693,
       "qty": 194
     },
     {
-      "rank": 140,
+      "rank": 141,
       "name": "Nikon Corp",
       "ticker": "7731 JP",
       "weight": 0.06,
-      "value": 3187731,
+      "value": 3135996,
       "qty": 194
     },
     {
-      "rank": 140,
+      "rank": 141,
       "name": "TAKASHIMAYA CO LTD",
       "ticker": "8233 JP",
       "weight": 0.06,
-      "value": 3524579,
+      "value": 3568519,
       "qty": 194
     },
     {
-      "rank": 140,
+      "rank": 141,
       "name": "MITSUI OSK LINES",
       "ticker": "9104 JP",
       "weight": 0.06,
-      "value": 3510502,
+      "value": 3463669,
       "qty": 58
     },
     {
-      "rank": 140,
+      "rank": 141,
       "name": "SHIMIZU CORP",
       "ticker": "1803 JP",
       "weight": 0.06,
-      "value": 3426811,
+      "value": 3426533,
       "qty": 194
     },
     {
-      "rank": 140,
+      "rank": 141,
       "name": "Yokohama Financial Group Inc",
       "ticker": "7186 JP",
       "weight": 0.06,
-      "value": 3187731,
+      "value": 3089215,
       "qty": 194
     },
     {
-      "rank": 140,
-      "name": "JTEKT CORP",
-      "ticker": "6473 JP",
-      "weight": 0.06,
-      "value": 3612488,
-      "qty": 194
-    },
-    {
-      "rank": 140,
+      "rank": 141,
       "name": "KEISEI ELECTRIC RAILWAY CO",
       "ticker": "9009 JP",
       "weight": 0.06,
-      "value": 3196624,
+      "value": 3199480,
       "qty": 292
     },
     {
-      "rank": 140,
+      "rank": 141,
       "name": "OKUMA CORP",
       "ticker": "6103 JP",
       "weight": 0.06,
-      "value": 3260318,
+      "value": 3250331,
       "qty": 78
     },
     {
@@ -1232,7 +1232,7 @@
       "name": "ASAHI KASEI",
       "ticker": "3407 JP",
       "weight": 0.05,
-      "value": 2750650,
+      "value": 2731378,
       "qty": 194
     },
     {
@@ -1240,7 +1240,7 @@
       "name": "RICOH",
       "ticker": "7752 JP",
       "weight": 0.05,
-      "value": 2762152,
+      "value": 2742047,
       "qty": 194
     },
     {
@@ -1248,23 +1248,15 @@
       "name": "MEIJI HOLDINGS CO LTD",
       "ticker": "2269 JP",
       "weight": 0.05,
-      "value": 2727832,
+      "value": 2749417,
       "qty": 78
-    },
-    {
-      "rank": 154,
-      "name": "FUKUOKA FINANCIAL GROUP INC",
-      "ticker": "8354 JP",
-      "weight": 0.05,
-      "value": 2653509,
-      "qty": 39
     },
     {
       "rank": 154,
       "name": "NTT Inc",
       "ticker": "9432 JP",
       "weight": 0.05,
-      "value": 2800779,
+      "value": 2830765,
       "qty": 1944
     },
     {
@@ -1272,7 +1264,7 @@
       "name": "NIPPON ELECTRIC GLASS CO LTD",
       "ticker": "5214 JP",
       "weight": 0.05,
-      "value": 2587435,
+      "value": 2614682,
       "qty": 58
     },
     {
@@ -1280,7 +1272,7 @@
       "name": "NIPPON EXPRESS HOLDINGS",
       "ticker": "9147 JP",
       "weight": 0.05,
-      "value": 2814886,
+      "value": 2743257,
       "qty": 58
     },
     {
@@ -1288,7 +1280,7 @@
       "name": "DOWA HOLDINGS CO LTD",
       "ticker": "5714 JP",
       "weight": 0.05,
-      "value": 2895638,
+      "value": 2861941,
       "qty": 39
     },
     {
@@ -1296,7 +1288,7 @@
       "name": "TOKYO TATEMONO CO LTD",
       "ticker": "8804 JP",
       "weight": 0.05,
-      "value": 2620841,
+      "value": 2620580,
       "qty": 97
     },
     {
@@ -1304,7 +1296,7 @@
       "name": "CENTRAL JAPAN RAILWAY",
       "ticker": "9022 JP",
       "weight": 0.05,
-      "value": 2945365,
+      "value": 2954616,
       "qty": 97
     },
     {
@@ -1312,7 +1304,7 @@
       "name": "DAIWA SECURITIES GROUP INC",
       "ticker": "8601 JP",
       "weight": 0.05,
-      "value": 2912502,
+      "value": 2891420,
       "qty": 194
     },
     {
@@ -1320,7 +1312,7 @@
       "name": "Sumitomo Pharma Co Ltd",
       "ticker": "4506 JP",
       "weight": 0.05,
-      "value": 2663563,
+      "value": 2642739,
       "qty": 194
     },
     {
@@ -1328,7 +1320,7 @@
       "name": "Resonac Holdings Corp",
       "ticker": "4004 JP",
       "weight": 0.05,
-      "value": 2887050,
+      "value": 2905753,
       "qty": 19
     },
     {
@@ -1336,7 +1328,7 @@
       "name": "Sapporo Breweries Ltd",
       "ticker": "2501 JP",
       "weight": 0.05,
-      "value": 3080104,
+      "value": 3021915,
       "qty": 194
     },
     {
@@ -1344,167 +1336,175 @@
       "name": "KURARAY CO LTD",
       "ticker": "3405 JP",
       "weight": 0.05,
-      "value": 2987265,
+      "value": 2991548,
       "qty": 194
     },
     {
-      "rank": 169,
+      "rank": 168,
       "name": "INPEX HOLDINGS",
       "ticker": "1605 JP",
       "weight": 0.04,
-      "value": 2443091,
+      "value": 2407555,
       "qty": 78
     },
     {
-      "rank": 169,
+      "rank": 168,
       "name": "SUMITOMO MITSUI TRUST HLDG",
       "ticker": "8309 JP",
       "weight": 0.04,
-      "value": 2373723,
+      "value": 2315819,
       "qty": 156
     },
     {
-      "rank": 169,
+      "rank": 168,
+      "name": "FUKUOKA FINANCIAL GROUP INC",
+      "ticker": "8354 JP",
+      "weight": 0.04,
+      "value": 2559347,
+      "qty": 39
+    },
+    {
+      "rank": 168,
       "name": "NOMURA HOLDINGS INC",
       "ticker": "8604 JP",
       "weight": 0.04,
-      "value": 2525537,
+      "value": 2494188,
       "qty": 194
     },
     {
-      "rank": 169,
+      "rank": 168,
       "name": "JAPAN STEEL WORKS LTD",
       "ticker": "5631 JP",
       "weight": 0.04,
-      "value": 2409398,
+      "value": 2400295,
       "qty": 39
     },
     {
-      "rank": 169,
+      "rank": 168,
+      "name": "TORAY INDUSTRIES INC",
+      "ticker": "3402 JP",
+      "weight": 0.04,
+      "value": 2055099,
+      "qty": 194
+    },
+    {
+      "rank": 168,
       "name": "TOSOH CORP",
       "ticker": "4042 JP",
       "weight": 0.04,
-      "value": 2172669,
+      "value": 2161794,
       "qty": 97
     },
     {
-      "rank": 169,
+      "rank": 168,
       "name": "SUMITOMO HEAVY INDUSTRIES",
       "ticker": "6302 JP",
       "weight": 0.04,
-      "value": 2069493,
+      "value": 2053813,
       "qty": 39
     },
     {
-      "rank": 169,
+      "rank": 168,
       "name": "ENEOS HOLDINGS",
       "ticker": "5020 JP",
       "weight": 0.04,
-      "value": 2267561,
+      "value": 2251253,
       "qty": 194
     },
     {
-      "rank": 169,
+      "rank": 168,
       "name": "J FRONT RETAILING CO LTD",
       "ticker": "3086 JP",
       "weight": 0.04,
-      "value": 2184171,
+      "value": 2238942,
       "qty": 97
     },
     {
-      "rank": 177,
+      "rank": 178,
       "name": "AGC Inc",
       "ticker": "5201 JP",
       "weight": 0.03,
-      "value": 1952887,
+      "value": 1962078,
       "qty": 39
     },
     {
-      "rank": 177,
+      "rank": 178,
       "name": "EAST JAPAN RAILWAY CO",
       "ticker": "9020 JP",
       "weight": 0.03,
-      "value": 1618682,
+      "value": 1633195,
       "qty": 58
     },
     {
-      "rank": 177,
+      "rank": 178,
       "name": "NSK LTD",
       "ticker": "6471 JP",
       "weight": 0.03,
-      "value": 1836231,
+      "value": 1833503,
       "qty": 194
     },
     {
-      "rank": 177,
+      "rank": 178,
       "name": "Nissui Corp",
       "ticker": "1332 JP",
       "weight": 0.03,
-      "value": 1814049,
+      "value": 1816268,
       "qty": 194
     },
     {
-      "rank": 177,
-      "name": "TORAY INDUSTRIES INC",
-      "ticker": "3402 JP",
-      "weight": 0.03,
-      "value": 2060523,
-      "qty": 194
-    },
-    {
-      "rank": 177,
+      "rank": 178,
       "name": "TOKYO GAS",
       "ticker": "9531 JP",
       "weight": 0.03,
-      "value": 2014328,
+      "value": 1993096,
       "qty": 39
     },
     {
-      "rank": 177,
+      "rank": 178,
       "name": "TOKYU FUDOSAN HOLDINGS CORP",
       "ticker": "3289 JP",
       "weight": 0.03,
-      "value": 1950431,
+      "value": 1951688,
       "qty": 194
     },
     {
-      "rank": 177,
+      "rank": 178,
       "name": "T&D HOLDINGS",
       "ticker": "8795 JP",
       "weight": 0.03,
-      "value": 1615955,
+      "value": 1603716,
       "qty": 39
     },
     {
-      "rank": 177,
+      "rank": 178,
       "name": "CYBER AGENT",
       "ticker": "4751 JP",
       "weight": 0.03,
-      "value": 1632471,
+      "value": 1636055,
       "qty": 156
     },
     {
-      "rank": 177,
+      "rank": 178,
       "name": "KAWASAKI HEAVY INDUSTRIES",
       "ticker": "7012 JP",
       "weight": 0.03,
-      "value": 1946323,
+      "value": 1947174,
       "qty": 97
     },
     {
-      "rank": 177,
+      "rank": 178,
       "name": "OSAKA GAS",
       "ticker": "9532 JP",
       "weight": 0.03,
-      "value": 1870636,
+      "value": 1868693,
       "qty": 39
     },
     {
-      "rank": 177,
+      "rank": 178,
       "name": "ISUZU MOTORS",
       "ticker": "7202 JP",
       "weight": 0.03,
-      "value": 1700260,
+      "value": 1728040,
       "qty": 97
     },
     {
@@ -1512,7 +1512,7 @@
       "name": "OJI HOLDINGS CORP",
       "ticker": "3861 JP",
       "weight": 0.02,
-      "value": 1362015,
+      "value": 1361585,
       "qty": 194
     },
     {
@@ -1520,7 +1520,7 @@
       "name": "RAKUTEN GROUP",
       "ticker": "4755 JP",
       "weight": 0.02,
-      "value": 1096481,
+      "value": 1049873,
       "qty": 194
     },
     {
@@ -1528,7 +1528,7 @@
       "name": "MITSUI CHEMICALS INC",
       "ticker": "4183 JP",
       "weight": 0.02,
-      "value": 1435266,
+      "value": 1427836,
       "qty": 78
     },
     {
@@ -1536,7 +1536,7 @@
       "name": "MIZUHO FINANCIAL GROUP INC",
       "ticker": "8411 JP",
       "weight": 0.02,
-      "value": 1425340,
+      "value": 1389617,
       "qty": 19
     },
     {
@@ -1544,7 +1544,7 @@
       "name": "Pan Pacific International Holdings Corp",
       "ticker": "7532 JP",
       "weight": 0.02,
-      "value": 1129508,
+      "value": 1116024,
       "qty": 194
     },
     {
@@ -1552,7 +1552,7 @@
       "name": "TOKUYAMA CORP",
       "ticker": "4043 JP",
       "weight": 0.02,
-      "value": 1385387,
+      "value": 1380648,
       "qty": 39
     },
     {
@@ -1560,7 +1560,7 @@
       "name": "TOHO CO LTD",
       "ticker": "9602 JP",
       "weight": 0.02,
-      "value": 1286594,
+      "value": 1247914,
       "qty": 97
     },
     {
@@ -1568,7 +1568,7 @@
       "name": "TOKYU CORP",
       "ticker": "9005 JP",
       "weight": 0.02,
-      "value": 1301793,
+      "value": 1300851,
       "qty": 97
     },
     {
@@ -1576,7 +1576,7 @@
       "name": "DENKA CO LTD",
       "ticker": "4061 JP",
       "weight": 0.02,
-      "value": 1100316,
+      "value": 1101152,
       "qty": 39
     },
     {
@@ -1584,7 +1584,7 @@
       "name": "DENA CO LTD",
       "ticker": "2432 JP",
       "weight": 0.02,
-      "value": 1223222,
+      "value": 1224405,
       "qty": 58
     },
     {
@@ -1592,7 +1592,7 @@
       "name": "Daiichi Life Group Inc",
       "ticker": "8750 JP",
       "weight": 0.02,
-      "value": 1217582,
+      "value": 1212687,
       "qty": 78
     },
     {
@@ -1600,7 +1600,7 @@
       "name": "SHARP",
       "ticker": "6753 JP",
       "weight": 0.02,
-      "value": 1045871,
+      "value": 1034279,
       "qty": 194
     },
     {
@@ -1608,7 +1608,7 @@
       "name": "SHIFT Inc",
       "ticker": "3697 JP",
       "weight": 0.02,
-      "value": 1443845,
+      "value": 1441031,
       "qty": 194
     },
     {
@@ -1616,7 +1616,7 @@
       "name": "KEIO CORP",
       "ticker": "9008 JP",
       "weight": 0.02,
-      "value": 1226948,
+      "value": 1227150,
       "qty": 194
     },
     {
@@ -1624,7 +1624,7 @@
       "name": "ODAKYU ELECTRIC RAILWAY CO",
       "ticker": "9007 JP",
       "weight": 0.02,
-      "value": 1404080,
+      "value": 1403032,
       "qty": 97
     },
     {
@@ -1632,7 +1632,7 @@
       "name": "UBE Corp",
       "ticker": "4208 JP",
       "weight": 0.01,
-      "value": 546994,
+      "value": 548033,
       "qty": 19
     },
     {
@@ -1640,7 +1640,7 @@
       "name": "MITSUBISHI MATERIALS CORP",
       "ticker": "5711 JP",
       "weight": 0.01,
-      "value": 820733,
+      "value": 808305,
       "qty": 19
     },
     {
@@ -1648,7 +1648,7 @@
       "name": "Mitsubishi Chemical Group Corp",
       "ticker": "4188 JP",
       "weight": 0.01,
-      "value": 969464,
+      "value": 967636,
       "qty": 97
     },
     {
@@ -1656,7 +1656,7 @@
       "name": "HASEKO CORP",
       "ticker": "1808 JP",
       "weight": 0.01,
-      "value": 849433,
+      "value": 849046,
       "qty": 39
     },
     {
@@ -1664,7 +1664,7 @@
       "name": "AOZORA BANK LTD",
       "ticker": "8304 JP",
       "weight": 0.01,
-      "value": 554719,
+      "value": 544497,
       "qty": 19
     },
     {
@@ -1672,7 +1672,7 @@
       "name": "SOJITZ CORP",
       "ticker": "2768 JP",
       "weight": 0.01,
-      "value": 888805,
+      "value": 876468,
       "qty": 19
     },
     {
@@ -1680,7 +1680,7 @@
       "name": "WEST JAPAN RAILWAY",
       "ticker": "9021 JP",
       "weight": 0.01,
-      "value": 941264,
+      "value": 938966,
       "qty": 39
     },
     {
@@ -1688,7 +1688,7 @@
       "name": "TOBU RAILWAY CO LTD",
       "ticker": "9001 JP",
       "weight": 0.01,
-      "value": 914838,
+      "value": 912237,
       "qty": 39
     },
     {
@@ -1696,7 +1696,7 @@
       "name": "TEIJIN LTD",
       "ticker": "3401 JP",
       "weight": 0.01,
-      "value": 548176,
+      "value": 543316,
       "qty": 39
     },
     {
@@ -1704,7 +1704,7 @@
       "name": "TAIHEIYO CEMENT CORP",
       "ticker": "5233 JP",
       "weight": 0.01,
-      "value": 674771,
+      "value": 675999,
       "qty": 19
     },
     {
@@ -1712,7 +1712,7 @@
       "name": "SUMITOMO CHEMICAL",
       "ticker": "4005 JP",
       "weight": 0.01,
-      "value": 984088,
+      "value": 968129,
       "qty": 194
     },
     {
@@ -1720,7 +1720,7 @@
       "name": "NIPPON STEEL",
       "ticker": "5401 JP",
       "weight": 0.01,
-      "value": 534437,
+      "value": 526249,
       "qty": 97
     },
     {
@@ -1728,7 +1728,7 @@
       "name": "SUMCO CORP",
       "ticker": "3436 JP",
       "weight": 0.01,
-      "value": 599296,
+      "value": 592243,
       "qty": 19
     },
     {
@@ -1736,7 +1736,7 @@
       "name": "NTN CORP",
       "ticker": "6472 JP",
       "weight": 0.01,
-      "value": 638860,
+      "value": 639838,
       "qty": 194
     },
     {
@@ -1744,15 +1744,15 @@
       "name": "외국환포워드JPY",
       "ticker": "FXFWD0000JPY",
       "weight": 0,
-      "value": -4801918686,
-      "qty": -4801918686
+      "value": -4769000059,
+      "qty": -4769000059
     },
     {
       "rank": 218,
       "name": "KANSAI ELECTRIC POWER",
       "ticker": "9503 JP",
       "weight": 0,
-      "value": 418734,
+      "value": 426900,
       "qty": 19
     },
     {
@@ -1760,7 +1760,7 @@
       "name": "KOBE STEEL",
       "ticker": "5406 JP",
       "weight": 0,
-      "value": 325718,
+      "value": 322647,
       "qty": 19
     },
     {
@@ -1768,7 +1768,7 @@
       "name": "JFE HOLDINGS INC",
       "ticker": "5411 JP",
       "weight": 0,
-      "value": 277198,
+      "value": 274097,
       "qty": 19
     },
     {
@@ -1776,7 +1776,7 @@
       "name": "ALL NIPPON AIRWAYS",
       "ticker": "9202 JP",
       "weight": 0,
-      "value": 469749,
+      "value": 467814,
       "qty": 19
     },
     {
@@ -1784,7 +1784,7 @@
       "name": "RESONA HOLDINGS INC",
       "ticker": "8308 JP",
       "weight": 0,
-      "value": 420022,
+      "value": 403911,
       "qty": 19
     },
     {
@@ -1792,7 +1792,7 @@
       "name": "CHUBU ELECTRIC POWER",
       "ticker": "9502 JP",
       "weight": 0,
-      "value": 422919,
+      "value": 430196,
       "qty": 19
     },
     {
@@ -1800,7 +1800,7 @@
       "name": "TOKYO ELECTRIC POWER HOLDINGS",
       "ticker": "9501 JP",
       "weight": 0,
-      "value": 83489,
+      "value": 83097,
       "qty": 19
     },
     {
@@ -1808,7 +1808,7 @@
       "name": "NISSAN MOTOR",
       "ticker": "7201 JP",
       "weight": 0,
-      "value": 471422,
+      "value": 467978,
       "qty": 194
     },
     {
@@ -1816,7 +1816,7 @@
       "name": "MAZDA MOTOR CORP",
       "ticker": "7261 JP",
       "weight": 0,
-      "value": 358073,
+      "value": 355391,
       "qty": 39
     },
     {
@@ -1824,7 +1824,7 @@
       "name": "MITSUBISHI MOTORS",
       "ticker": "7211 JP",
       "weight": 0,
-      "value": 56147,
+      "value": 54980,
       "qty": 19
     },
     {
@@ -1832,7 +1832,7 @@
       "name": "Z Holdings",
       "ticker": "4689 JP",
       "weight": 0,
-      "value": 324446,
+      "value": 328662,
       "qty": 78
     }
   ],
@@ -1840,27 +1840,27 @@
     {
       "rank": 1,
       "name": "IT",
-      "weight": 38.25
+      "weight": 37.94
     },
     {
       "rank": 2,
       "name": "산업재",
-      "weight": 16.97
+      "weight": 17.03
     },
     {
       "rank": 3,
       "name": "경기소비재",
-      "weight": 16.22
+      "weight": 16.27
     },
     {
       "rank": 4,
       "name": "커뮤니케이션서비스",
-      "weight": 11.24
+      "weight": 11.36
     },
     {
       "rank": 5,
       "name": "헬스케어",
-      "weight": 5.51
+      "weight": 5.55
     },
     {
       "rank": 6,
@@ -1870,17 +1870,17 @@
     {
       "rank": 7,
       "name": "필수소비재",
-      "weight": 3.11
+      "weight": 3.15
     },
     {
       "rank": 8,
       "name": "금융",
-      "weight": 3.05
+      "weight": 3.04
     },
     {
       "rank": 9,
       "name": "부동산",
-      "weight": 1
+      "weight": 1.01
     },
     {
       "rank": 10,

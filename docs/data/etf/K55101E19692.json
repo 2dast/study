@@ -1,31 +1,39 @@
 {
   "fundCd": "K55101E19692",
   "fundNm": "ACE 미국달러SOFR금리(합성)",
-  "stdDt": "2026-10-08",
+  "stdDt": "2026-10-12",
   "holdings": [
     {
       "rank": 1,
       "name": "스왑(하나금융투자)",
       "ticker": "SWAP00000014",
-      "weight": 70.77,
-      "value": 72767567,
-      "qty": 72767567
+      "weight": 63.93,
+      "value": 72672483,
+      "qty": 72672483
     },
     {
       "rank": 2,
       "name": "스왑(키움증권)",
       "ticker": "SWAP00000011",
-      "weight": 19.21,
-      "value": 19757180,
-      "qty": 19757180
+      "weight": 17.35,
+      "value": 19731363,
+      "qty": 19731363
     },
     {
       "rank": 3,
+      "name": "스왑(삼성증권)",
+      "ticker": "SWAP00000009",
+      "weight": 9.67,
+      "value": 11006844,
+      "qty": 11006844
+    },
+    {
+      "rank": 4,
       "name": "스왑(한국투자증권)",
       "ticker": "SWAP00000007",
-      "weight": 10.02,
-      "value": 10303828,
-      "qty": 10303828
+      "weight": 9.05,
+      "value": 10290364,
+      "qty": 10290364
     }
   ],
   "sectors": []
