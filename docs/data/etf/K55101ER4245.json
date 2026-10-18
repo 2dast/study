@@ -1,7 +1,104 @@
 {
   "fundCd": "K55101ER4245",
   "fundNm": "ACE 미국SMR원자력TOP10",
-  "stdDt": "",
-  "holdings": [],
-  "sectors": []
+  "stdDt": "2026-10-16",
+  "holdings": [
+    {
+      "rank": 1,
+      "name": "NUSCALE POWER CORP",
+      "ticker": "SMR US",
+      "weight": 17.94,
+      "value": 46955717,
+      "qty": 5990
+    },
+    {
+      "rank": 2,
+      "name": "Cameco Corp",
+      "ticker": "CA13321L1085",
+      "weight": 16.96,
+      "value": 44365547,
+      "qty": 405
+    },
+    {
+      "rank": 3,
+      "name": "Oklo Inc",
+      "ticker": "OKLO US",
+      "weight": 16.79,
+      "value": 43928082,
+      "qty": 1125
+    },
+    {
+      "rank": 4,
+      "name": "Centrus Energy Corp",
+      "ticker": "LEU US",
+      "weight": 13.68,
+      "value": 35805218,
+      "qty": 222
+    },
+    {
+      "rank": 5,
+      "name": "CONSTELLATION ENERGY",
+      "ticker": "CEG US",
+      "weight": 13.21,
+      "value": 34579992,
+      "qty": 92
+    },
+    {
+      "rank": 6,
+      "name": "GE Vernova Inc",
+      "ticker": "GEV US",
+      "weight": 10.64,
+      "value": 27858982,
+      "qty": 22
+    },
+    {
+      "rank": 7,
+      "name": "VISTRA ENERGY CORP",
+      "ticker": "VST US",
+      "weight": 7.02,
+      "value": 18368715,
+      "qty": 90
+    },
+    {
+      "rank": 8,
+      "name": "BWX Technologies Inc",
+      "ticker": "BWXT US",
+      "weight": 1.79,
+      "value": 4699968,
+      "qty": 26
+    },
+    {
+      "rank": 9,
+      "name": "X-Energy Inc",
+      "ticker": "XE US",
+      "weight": 0.99,
+      "value": 2582438,
+      "qty": 165
+    },
+    {
+      "rank": 10,
+      "name": "Uranium Energy Corp",
+      "ticker": "UEC US",
+      "weight": 0.98,
+      "value": 2578001,
+      "qty": 249
+    }
+  ],
+  "sectors": [
+    {
+      "rank": 1,
+      "name": "유틸리티",
+      "weight": 37.02
+    },
+    {
+      "rank": 2,
+      "name": "에너지",
+      "weight": 31.62
+    },
+    {
+      "rank": 3,
+      "name": "산업재",
+      "weight": 31.37
+    }
+  ]
 }
