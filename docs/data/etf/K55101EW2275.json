@@ -1,7 +1,99 @@
 {
   "fundCd": "K55101EW2275",
   "fundNm": "ACE K반도체TOP2+",
-  "stdDt": "",
-  "holdings": [],
-  "sectors": []
+  "stdDt": "2026-10-20",
+  "holdings": [
+    {
+      "rank": 1,
+      "name": "삼성전자",
+      "ticker": "005930",
+      "weight": 26.58,
+      "value": 78262000,
+      "qty": 359
+    },
+    {
+      "rank": 2,
+      "name": "SK하이닉스",
+      "ticker": "000660",
+      "weight": 23.42,
+      "value": 68958000,
+      "qty": 54
+    },
+    {
+      "rank": 3,
+      "name": "삼성전기",
+      "ticker": "009150",
+      "weight": 18.27,
+      "value": 53820000,
+      "qty": 46
+    },
+    {
+      "rank": 4,
+      "name": "SK스퀘어",
+      "ticker": "402340",
+      "weight": 17.48,
+      "value": 51480000,
+      "qty": 66
+    },
+    {
+      "rank": 5,
+      "name": "기가비스",
+      "ticker": "420770",
+      "weight": 5.39,
+      "value": 15890700,
+      "qty": 141
+    },
+    {
+      "rank": 6,
+      "name": "심텍",
+      "ticker": "222800",
+      "weight": 4.77,
+      "value": 14063700,
+      "qty": 111
+    },
+    {
+      "rank": 7,
+      "name": "태성",
+      "ticker": "323280",
+      "weight": 1.23,
+      "value": 3651800,
+      "qty": 62
+    },
+    {
+      "rank": 8,
+      "name": "코리아써키트",
+      "ticker": "007810",
+      "weight": 0.98,
+      "value": 2902500,
+      "qty": 45
+    },
+    {
+      "rank": 9,
+      "name": "티엘비",
+      "ticker": "356860",
+      "weight": 0.97,
+      "value": 2883500,
+      "qty": 73
+    },
+    {
+      "rank": 10,
+      "name": "해성디에스",
+      "ticker": "195870",
+      "weight": 0.89,
+      "value": 2639400,
+      "qty": 53
+    }
+  ],
+  "sectors": [
+    {
+      "rank": 1,
+      "name": "IT",
+      "weight": 82.52
+    },
+    {
+      "rank": 2,
+      "name": "산업재",
+      "weight": 17.48
+    }
+  ]
 }
