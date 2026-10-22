@@ -1,7 +1,94 @@
 {
   "fundCd": "K55101DY2753",
   "fundNm": "ACE 글로벌반도체TOP4 Plus",
-  "stdDt": "",
-  "holdings": [],
-  "sectors": []
+  "stdDt": "2026-10-22",
+  "holdings": [
+    {
+      "rank": 1,
+      "name": "NVIDIA Corp",
+      "ticker": "NVDA US",
+      "weight": 23.33,
+      "value": 807527913,
+      "qty": 2815
+    },
+    {
+      "rank": 2,
+      "name": "TAIWAN SEMICONDUCTOR-SP ADR",
+      "ticker": "TSM US",
+      "weight": 21.4,
+      "value": 740760561,
+      "qty": 1315
+    },
+    {
+      "rank": 3,
+      "name": "ASML HOLDING",
+      "ticker": "ASML US",
+      "weight": 20.29,
+      "value": 702386479,
+      "qty": 325
+    },
+    {
+      "rank": 4,
+      "name": "SK하이닉스",
+      "ticker": "000660",
+      "weight": 15.59,
+      "value": 539598000,
+      "qty": 417
+    },
+    {
+      "rank": 5,
+      "name": "ADVANCED MICRO DEVICES",
+      "ticker": "AMD US",
+      "weight": 3.78,
+      "value": 131097927,
+      "qty": 185
+    },
+    {
+      "rank": 6,
+      "name": "MICRON TECH",
+      "ticker": "MU US",
+      "weight": 3.46,
+      "value": 119934668,
+      "qty": 101
+    },
+    {
+      "rank": 7,
+      "name": "삼성전자",
+      "ticker": "005930",
+      "weight": 3.35,
+      "value": 115996500,
+      "qty": 519
+    },
+    {
+      "rank": 8,
+      "name": "BROADCOM LTD",
+      "ticker": "AVGO US",
+      "weight": 3.14,
+      "value": 109004352,
+      "qty": 246
+    },
+    {
+      "rank": 9,
+      "name": "INTEL Corp",
+      "ticker": "INTC US",
+      "weight": 3.05,
+      "value": 105590093,
+      "qty": 869
+    },
+    {
+      "rank": 10,
+      "name": "APPLIED MATERIALS INC",
+      "ticker": "AMAT US",
+      "weight": 2.6,
+      "value": 90162155,
+      "qty": 168
+    }
+  ],
+  "sectors": [
+    {
+      "rank": 1,
+      "name": "IT",
+      "weight": 100
+    }
+  ]
 }
