@@ -1,7 +1,94 @@
 {
   "fundCd": "K55101EZ3056",
   "fundNm": "ACE 미국CPU반도체TOP3+",
-  "stdDt": "",
-  "holdings": [],
-  "sectors": []
+  "stdDt": "2026-10-23",
+  "holdings": [
+    {
+      "rank": 1,
+      "name": "ADVANCED MICRO DEVICES",
+      "ticker": "AMD US",
+      "weight": 25.12,
+      "value": 127352657,
+      "qty": 174
+    },
+    {
+      "rank": 2,
+      "name": "ARM Holdings PLC",
+      "ticker": "ARM US",
+      "weight": 24.68,
+      "value": 125121049,
+      "qty": 417
+    },
+    {
+      "rank": 3,
+      "name": "INTEL Corp",
+      "ticker": "INTC US",
+      "weight": 24.52,
+      "value": 124328608,
+      "qty": 1010
+    },
+    {
+      "rank": 4,
+      "name": "NVIDIA Corp",
+      "ticker": "NVDA US",
+      "weight": 6.49,
+      "value": 32920459,
+      "qty": 112
+    },
+    {
+      "rank": 5,
+      "name": "QUALCOMM Inc",
+      "ticker": "QCOM US",
+      "weight": 5.15,
+      "value": 26157664,
+      "qty": 111
+    },
+    {
+      "rank": 6,
+      "name": "TAIWAN SEMICONDUCTOR-SP ADR",
+      "ticker": "TSM US",
+      "weight": 4.4,
+      "value": 22304440,
+      "qty": 39
+    },
+    {
+      "rank": 7,
+      "name": "MICRON TECH",
+      "ticker": "MU US",
+      "weight": 2.85,
+      "value": 14518581,
+      "qty": 12
+    },
+    {
+      "rank": 8,
+      "name": "Dell Technologies Inc",
+      "ticker": "DELL US",
+      "weight": 2.41,
+      "value": 12224643,
+      "qty": 19
+    },
+    {
+      "rank": 9,
+      "name": "HEWLETT PACKARD ENTERPRIS",
+      "ticker": "HPE US",
+      "weight": 2.26,
+      "value": 11477278,
+      "qty": 149
+    },
+    {
+      "rank": 10,
+      "name": "MARVELL TECHNOLOGY INC",
+      "ticker": "MRVL US",
+      "weight": 2.11,
+      "value": 10695669,
+      "qty": 33
+    }
+  ],
+  "sectors": [
+    {
+      "rank": 1,
+      "name": "IT",
+      "weight": 100
+    }
+  ]
 }
