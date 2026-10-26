@@ -1,7 +1,24 @@
 {
   "fundCd": "K55101E97755",
   "fundNm": "ACE 미국500데일리타겟커버드콜(합성)",
-  "stdDt": "",
-  "holdings": [],
+  "stdDt": "2026-10-26",
+  "holdings": [
+    {
+      "rank": 1,
+      "name": "스왑(한국투자증권)",
+      "ticker": "SWAP00000007",
+      "weight": 61.63,
+      "value": -18697584,
+      "qty": -18697584
+    },
+    {
+      "rank": 2,
+      "name": "스왑(키움증권)",
+      "ticker": "SWAP00000011",
+      "weight": 38.37,
+      "value": -11652073,
+      "qty": -11652073
+    }
+  ],
   "sectors": []
 }
