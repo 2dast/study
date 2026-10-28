@@ -1,7 +1,32 @@
 {
   "fundCd": "K55101B26297",
   "fundNm": "ACE 중국본토CSI300레버리지(합성)",
-  "stdDt": "",
-  "holdings": [],
+  "stdDt": "2026-10-28",
+  "holdings": [
+    {
+      "rank": 1,
+      "name": "CHINAAMC CSI 300 IDX ETF-HKD",
+      "ticker": "HK0000123577",
+      "weight": 134.98,
+      "value": 67639008,
+      "qty": 8000
+    },
+    {
+      "rank": 2,
+      "name": "스왑(NH투자증권)",
+      "ticker": "SWAP00000004",
+      "weight": 44.48,
+      "value": -22290772,
+      "qty": -22290772
+    },
+    {
+      "rank": 3,
+      "name": "스왑(키움증권)",
+      "ticker": "SWAP00000011",
+      "weight": 20.54,
+      "value": -10293778,
+      "qty": -10293778
+    }
+  ],
   "sectors": []
 }
