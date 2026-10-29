@@ -1,7 +1,32 @@
 {
   "fundCd": "K55101E52487",
   "fundNm": "ACE 미국빅테크TOP7 Plus레버리지(합성)",
-  "stdDt": "",
-  "holdings": [],
+  "stdDt": "2026-10-29",
+  "holdings": [
+    {
+      "rank": 1,
+      "name": "스왑(한국투자증권)",
+      "ticker": "SWAP00000007",
+      "weight": 179.59,
+      "value": -18092298,
+      "qty": -18092298
+    },
+    {
+      "rank": 2,
+      "name": "스왑(KB증권)",
+      "ticker": "SWAP00000002",
+      "weight": 12.24,
+      "value": -1610798,
+      "qty": -1610798
+    },
+    {
+      "rank": 3,
+      "name": "스왑(키움증권)",
+      "ticker": "SWAP00000011",
+      "weight": 8.16,
+      "value": -850434,
+      "qty": -850434
+    }
+  ],
   "sectors": []
 }
