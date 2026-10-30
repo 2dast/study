@@ -1,104 +1,104 @@
 {
   "fundCd": "K55101E52479",
   "fundNm": "ACE 미국빅테크TOP7 Plus",
-  "stdDt": "2026-10-29",
+  "stdDt": "2026-10-30",
   "holdings": [
     {
       "rank": 1,
       "name": "MICROSOFT",
       "ticker": "MSFT US",
-      "weight": 19.58,
-      "value": 233129326,
+      "weight": 19.57,
+      "value": 232832167,
       "qty": 328
     },
     {
       "rank": 2,
       "name": "APPLE Inc",
       "ticker": "AAPL US",
-      "weight": 15.63,
-      "value": 186190583,
+      "weight": 15.5,
+      "value": 184312409,
       "qty": 401
     },
     {
       "rank": 3,
       "name": "NVIDIA Corp",
       "ticker": "NVDA US",
-      "weight": 15.08,
-      "value": 179587616,
+      "weight": 14.91,
+      "value": 177358710,
       "qty": 616
     },
     {
       "rank": 4,
       "name": "Amazon.com Inc",
       "ticker": "AMZN US",
-      "weight": 14.67,
-      "value": 174703084,
+      "weight": 14.77,
+      "value": 175620228,
       "qty": 516
     },
     {
       "rank": 5,
       "name": "ALPHABET INC-CL A",
       "ticker": "GOOGL US",
-      "weight": 12.53,
-      "value": 149236273,
+      "weight": 12.71,
+      "value": 151140907,
       "qty": 348
     },
     {
       "rank": 6,
       "name": "Space Exploration Technologies Corp",
       "ticker": "SPCX US",
-      "weight": 9.43,
-      "value": 112296838,
+      "weight": 9.21,
+      "value": 109691057,
       "qty": 565
     },
     {
       "rank": 7,
       "name": "BROADCOM LTD",
       "ticker": "AVGO US",
-      "weight": 8.3,
-      "value": 98913925,
+      "weight": 8.53,
+      "value": 101584715,
       "qty": 216
     },
     {
       "rank": 8,
+      "name": "MICRON TECH",
+      "ticker": "MU US",
+      "weight": 1.65,
+      "value": 19715727,
+      "qty": 15
+    },
+    {
+      "rank": 9,
       "name": "Meta Platforms Inc-CL A",
       "ticker": "META US",
-      "weight": 1.6,
-      "value": 19081447,
+      "weight": 1.58,
+      "value": 18831862,
       "qty": 23
     },
     {
-      "rank": 8,
+      "rank": 9,
       "name": "TESLA MOTORS",
       "ticker": "TSLA US",
-      "weight": 1.6,
-      "value": 19077073,
+      "weight": 1.58,
+      "value": 18912645,
       "qty": 35
-    },
-    {
-      "rank": 10,
-      "name": "MICRON TECH",
-      "ticker": "MU US",
-      "weight": 1.56,
-      "value": 18636033,
-      "qty": 15
     }
   ],
   "sectors": [
     {
       "rank": 1,
       "name": "IT",
-      "weight": 60.16
+      "weight": 60.15
     },
     {
       "rank": 2,
       "name": "커뮤니케이션서비스",
-      "weight": 23.56
+      "weight": 23.5
     },
     {
       "rank": 3,
       "name": "경기소비재",
-      "weight": 16.27
+      "weight": 16.35
     }
   ]
 }
