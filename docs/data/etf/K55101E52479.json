@@ -1,7 +1,104 @@
 {
   "fundCd": "K55101E52479",
   "fundNm": "ACE 미국빅테크TOP7 Plus",
-  "stdDt": "",
-  "holdings": [],
-  "sectors": []
+  "stdDt": "2026-11-02",
+  "holdings": [
+    {
+      "rank": 1,
+      "name": "MICROSOFT",
+      "ticker": "MSFT US",
+      "weight": 20.03,
+      "value": 232015983,
+      "qty": 328
+    },
+    {
+      "rank": 2,
+      "name": "APPLE Inc",
+      "ticker": "AAPL US",
+      "weight": 16.12,
+      "value": 186685795,
+      "qty": 401
+    },
+    {
+      "rank": 3,
+      "name": "NVIDIA Corp",
+      "ticker": "NVDA US",
+      "weight": 15.16,
+      "value": 175613307,
+      "qty": 616
+    },
+    {
+      "rank": 4,
+      "name": "Amazon.com Inc",
+      "ticker": "AMZN US",
+      "weight": 14.49,
+      "value": 167849122,
+      "qty": 516
+    },
+    {
+      "rank": 5,
+      "name": "ALPHABET INC-CL A",
+      "ticker": "GOOGL US",
+      "weight": 11.38,
+      "value": 131787957,
+      "qty": 348
+    },
+    {
+      "rank": 6,
+      "name": "Space Exploration Technologies Corp",
+      "ticker": "SPCX US",
+      "weight": 9.36,
+      "value": 108475721,
+      "qty": 565
+    },
+    {
+      "rank": 7,
+      "name": "BROADCOM LTD",
+      "ticker": "AVGO US",
+      "weight": 8.58,
+      "value": 99432036,
+      "qty": 216
+    },
+    {
+      "rank": 8,
+      "name": "Meta Platforms Inc-CL A",
+      "ticker": "META US",
+      "weight": 1.65,
+      "value": 19165831,
+      "qty": 23
+    },
+    {
+      "rank": 9,
+      "name": "TESLA MOTORS",
+      "ticker": "TSLA US",
+      "weight": 1.62,
+      "value": 18834311,
+      "qty": 35
+    },
+    {
+      "rank": 10,
+      "name": "MICRON TECH",
+      "ticker": "MU US",
+      "weight": 1.61,
+      "value": 18698946,
+      "qty": 15
+    }
+  ],
+  "sectors": [
+    {
+      "rank": 1,
+      "name": "IT",
+      "weight": 61.49
+    },
+    {
+      "rank": 2,
+      "name": "커뮤니케이션서비스",
+      "weight": 22.39
+    },
+    {
+      "rank": 3,
+      "name": "경기소비재",
+      "weight": 16.11
+    }
+  ]
 }
