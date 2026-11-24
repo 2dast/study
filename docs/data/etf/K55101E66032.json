@@ -1,7 +1,234 @@
 {
   "fundCd": "K55101E66032",
   "fundNm": "ACE 일본반도체",
-  "stdDt": "",
-  "holdings": [],
-  "sectors": []
+  "stdDt": "2026-11-24",
+  "holdings": [
+    {
+      "rank": 1,
+      "name": "Sony Group Corp",
+      "ticker": "6758 JP",
+      "weight": 6.52,
+      "value": 56180130,
+      "qty": 1538.5
+    },
+    {
+      "rank": 2,
+      "name": "CANON INC",
+      "ticker": "7751 JP",
+      "weight": 5.97,
+      "value": 51510286,
+      "qty": 1268.26
+    },
+    {
+      "rank": 3,
+      "name": "FUJITSU",
+      "ticker": "6702 JP",
+      "weight": 5.15,
+      "value": 44398669,
+      "qty": 1573.47
+    },
+    {
+      "rank": 4,
+      "name": "Hoya Corp",
+      "ticker": "7741 JP",
+      "weight": 5.02,
+      "value": 43281716,
+      "qty": 223.33
+    },
+    {
+      "rank": 5,
+      "name": "Shin-Etsu Chemical Co Ltd",
+      "ticker": "4063 JP",
+      "weight": 4.79,
+      "value": 41331105,
+      "qty": 931.94
+    },
+    {
+      "rank": 6,
+      "name": "Lasertec Corp",
+      "ticker": "6920 JP",
+      "weight": 4.78,
+      "value": 41297508,
+      "qty": 161.21
+    },
+    {
+      "rank": 7,
+      "name": "Socionext Inc",
+      "ticker": "6526 JP",
+      "weight": 4.62,
+      "value": 39832173,
+      "qty": 2994.95
+    },
+    {
+      "rank": 8,
+      "name": "MITSUBISHI ELECTRIC",
+      "ticker": "6503 JP",
+      "weight": 4.31,
+      "value": 37183077,
+      "qty": 1006.13
+    },
+    {
+      "rank": 9,
+      "name": "Tokyo Electron Ltd",
+      "ticker": "8035 JP",
+      "weight": 4.23,
+      "value": 36528461,
+      "qty": 519.13
+    },
+    {
+      "rank": 10,
+      "name": "Horiba Ltd",
+      "ticker": "6856 JP",
+      "weight": 4.15,
+      "value": 35768267,
+      "qty": 243.44
+    },
+    {
+      "rank": 11,
+      "name": "Tokyo Ohka Kogyo Co Ltd",
+      "ticker": "4186 JP",
+      "weight": 4.08,
+      "value": 35155660,
+      "qty": 647.03
+    },
+    {
+      "rank": 12,
+      "name": "TDK Corp",
+      "ticker": "6762 JP",
+      "weight": 3.93,
+      "value": 33841153,
+      "qty": 1888.08
+    },
+    {
+      "rank": 13,
+      "name": "Rorze Corp",
+      "ticker": "6323 JP",
+      "weight": 3.92,
+      "value": 33792539,
+      "qty": 1448.94
+    },
+    {
+      "rank": 14,
+      "name": "Renesas Electronics Corp",
+      "ticker": "6723 JP",
+      "weight": 3.9,
+      "value": 33666286,
+      "qty": 1639.37
+    },
+    {
+      "rank": 15,
+      "name": "ADVANTEST CORP",
+      "ticker": "6857 JP",
+      "weight": 3.86,
+      "value": 33283577,
+      "qty": 162.04
+    },
+    {
+      "rank": 15,
+      "name": "Disco Corp",
+      "ticker": "6146 JP",
+      "weight": 3.86,
+      "value": 33248876,
+      "qty": 94.95
+    },
+    {
+      "rank": 17,
+      "name": "Tokyo Seimitsu Co Ltd",
+      "ticker": "7729 JP",
+      "weight": 3.54,
+      "value": 30495159,
+      "qty": 321.95
+    },
+    {
+      "rank": 17,
+      "name": "Micronics Japan Co Ltd",
+      "ticker": "6871 JP",
+      "weight": 3.54,
+      "value": 30480043,
+      "qty": 408.91
+    },
+    {
+      "rank": 19,
+      "name": "Kokusai Electric Corp",
+      "ticker": "6525 JP",
+      "weight": 3.36,
+      "value": 29040368,
+      "qty": 700.27
+    },
+    {
+      "rank": 20,
+      "name": "SCREEN Holdings Co Ltd",
+      "ticker": "7735 JP",
+      "weight": 3.01,
+      "value": 25968189,
+      "qty": 430.62
+    },
+    {
+      "rank": 20,
+      "name": "Rohm Co Ltd",
+      "ticker": "6963 JP",
+      "weight": 3.01,
+      "value": 26006236,
+      "qty": 1171.89
+    },
+    {
+      "rank": 22,
+      "name": "SUMCO CORP",
+      "ticker": "3436 JP",
+      "weight": 2.9,
+      "value": 24995345,
+      "qty": 1613.76
+    },
+    {
+      "rank": 23,
+      "name": "JX Advanced Metals Corp",
+      "ticker": "5016 JP",
+      "weight": 2.85,
+      "value": 24571770,
+      "qty": 1593.82
+    },
+    {
+      "rank": 24,
+      "name": "Kioxia Holdings Corp",
+      "ticker": "285A JP",
+      "weight": 2.45,
+      "value": 21097138,
+      "qty": 340.94
+    },
+    {
+      "rank": 25,
+      "name": "Mitsui Kinzoku Co Ltd",
+      "ticker": "5706 JP",
+      "weight": 2.27,
+      "value": 19571624,
+      "qty": 2063.49
+    }
+  ],
+  "sectors": [
+    {
+      "rank": 1,
+      "name": "IT",
+      "weight": 70.17
+    },
+    {
+      "rank": 2,
+      "name": "소재",
+      "weight": 13.99
+    },
+    {
+      "rank": 3,
+      "name": "경기소비재",
+      "weight": 6.51
+    },
+    {
+      "rank": 4,
+      "name": "헬스케어",
+      "weight": 5.02
+    },
+    {
+      "rank": 5,
+      "name": "산업재",
+      "weight": 4.31
+    }
+  ]
 }

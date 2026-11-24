@@ -1,7 +1,118 @@
 {
   "fundCd": "K55101EG1343",
   "fundNm": "ACE 일라이릴리밸류체인",
-  "stdDt": "",
-  "holdings": [],
-  "sectors": []
+  "stdDt": "2026-11-24",
+  "holdings": [
+    {
+      "rank": 1,
+      "name": "ELI LILLY & CO",
+      "ticker": "LLY US",
+      "weight": 28.65,
+      "value": 195812137,
+      "qty": 108
+    },
+    {
+      "rank": 2,
+      "name": "Lonza Group AG",
+      "ticker": "LONN SW",
+      "weight": 10.24,
+      "value": 70028100,
+      "qty": 67
+    },
+    {
+      "rank": 3,
+      "name": "CHUGAI PHARMACEUTICAL CO LTD",
+      "ticker": "4519 JP",
+      "weight": 8.69,
+      "value": 59419933,
+      "qty": 987
+    },
+    {
+      "rank": 4,
+      "name": "셀트리온",
+      "ticker": "068270",
+      "weight": 7.92,
+      "value": 54136000,
+      "qty": 268
+    },
+    {
+      "rank": 5,
+      "name": "THERMO FISHER SCIENTIFIC INC",
+      "ticker": "TMO US",
+      "weight": 7.91,
+      "value": 54068033,
+      "qty": 60
+    },
+    {
+      "rank": 6,
+      "name": "SHIONOGI & CO LTD",
+      "ticker": "4507 JP",
+      "weight": 7.56,
+      "value": 51671018,
+      "qty": 1955
+    },
+    {
+      "rank": 7,
+      "name": "United Therapeutics Corp",
+      "ticker": "UTHR US",
+      "weight": 7.43,
+      "value": 50769555,
+      "qty": 68
+    },
+    {
+      "rank": 8,
+      "name": "INCYTE CORP",
+      "ticker": "INCY US",
+      "weight": 7.21,
+      "value": 49367612,
+      "qty": 320
+    },
+    {
+      "rank": 9,
+      "name": "삼성바이오로직스",
+      "ticker": "207940",
+      "weight": 6.59,
+      "value": 45080000,
+      "qty": 35
+    },
+    {
+      "rank": 10,
+      "name": "Amphastar Pharmaceuticals Inc",
+      "ticker": "AMPH US",
+      "weight": 6.48,
+      "value": 44295251,
+      "qty": 1165
+    },
+    {
+      "rank": 11,
+      "name": "VEEVA SYSTEM-A",
+      "ticker": "VEEV US",
+      "weight": 1.25,
+      "value": 8599331,
+      "qty": 24
+    },
+    {
+      "rank": 12,
+      "name": "SCHRODINGER INC",
+      "ticker": "SDGR US",
+      "weight": 0.04,
+      "value": 308614,
+      "qty": 10
+    },
+    {
+      "rank": 13,
+      "name": "SKAN Group AG",
+      "ticker": "SKAN SW",
+      "weight": 0.03,
+      "value": 216358,
+      "qty": 2
+    }
+  ],
+  "sectors": [
+    {
+      "rank": 1,
+      "name": "헬스케어",
+      "weight": 100
+    }
+  ]
 }

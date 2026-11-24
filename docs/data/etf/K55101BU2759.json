@@ -1,7 +1,478 @@
 {
   "fundCd": "K55101BU2759",
   "fundNm": "ACE 아시아TOP50",
-  "stdDt": "",
-  "holdings": [],
-  "sectors": []
+  "stdDt": "2026-11-24",
+  "holdings": [
+    {
+      "rank": 1,
+      "name": "Taiwan Semiconductor Manufacturing Co Lt",
+      "ticker": "2330 TT",
+      "weight": 29.14,
+      "value": 349453220,
+      "qty": 4271
+    },
+    {
+      "rank": 2,
+      "name": "삼성전자",
+      "ticker": "005930",
+      "weight": 11.96,
+      "value": 143420000,
+      "qty": 808
+    },
+    {
+      "rank": 3,
+      "name": "SK하이닉스",
+      "ticker": "000660",
+      "weight": 9.32,
+      "value": 111755000,
+      "qty": 103
+    },
+    {
+      "rank": 4,
+      "name": "TENCENT HOLD",
+      "ticker": "700 HK",
+      "weight": 5.39,
+      "value": 64735020,
+      "qty": 1096
+    },
+    {
+      "rank": 5,
+      "name": "Alibaba group holding ltd",
+      "ticker": "9988 HK",
+      "weight": 4.2,
+      "value": 50404028,
+      "qty": 3522
+    },
+    {
+      "rank": 6,
+      "name": "MediaTek Inc",
+      "ticker": "2454 TT",
+      "weight": 3.24,
+      "value": 38921774,
+      "qty": 284
+    },
+    {
+      "rank": 7,
+      "name": "China Construction Bank Corp",
+      "ticker": "939 HK",
+      "weight": 2.61,
+      "value": 31414204,
+      "qty": 17458
+    },
+    {
+      "rank": 8,
+      "name": "DBS Group Holdings Ltd",
+      "ticker": "DBS SP",
+      "weight": 2.08,
+      "value": 25050479,
+      "qty": 363
+    },
+    {
+      "rank": 9,
+      "name": "AIA Group Ltd",
+      "ticker": "1299 HK",
+      "weight": 1.94,
+      "value": 23352676,
+      "qty": 1833
+    },
+    {
+      "rank": 10,
+      "name": "삼성전자우",
+      "ticker": "005931",
+      "weight": 1.66,
+      "value": 20007800,
+      "qty": 142
+    },
+    {
+      "rank": 11,
+      "name": "Industrial & Commercial Bank of China Lt",
+      "ticker": "1398 HK",
+      "weight": 1.59,
+      "value": 19146210,
+      "qty": 14142
+    },
+    {
+      "rank": 12,
+      "name": "Oversea-Chinese Banking Corp Ltd",
+      "ticker": "OCBC SP",
+      "weight": 1.56,
+      "value": 18783342,
+      "qty": 678
+    },
+    {
+      "rank": 13,
+      "name": "Hon Hai Precision Industry Co Ltd",
+      "ticker": "2317 TT",
+      "weight": 1.55,
+      "value": 18573958,
+      "qty": 2162
+    },
+    {
+      "rank": 14,
+      "name": "Bank of China Ltd",
+      "ticker": "3988 HK",
+      "weight": 1.3,
+      "value": 15625979,
+      "qty": 14810
+    },
+    {
+      "rank": 15,
+      "name": "XIAOMI CORP-CLASS B",
+      "ticker": "1810 HK",
+      "weight": 1.2,
+      "value": 14522111,
+      "qty": 3060
+    },
+    {
+      "rank": 16,
+      "name": "Hong Kong Exchanges & Clearing Ltd",
+      "ticker": "388 HK",
+      "weight": 1.07,
+      "value": 12933645,
+      "qty": 211
+    },
+    {
+      "rank": 17,
+      "name": "Delta Electronics Inc",
+      "ticker": "2308 TT",
+      "weight": 1.04,
+      "value": 12518460,
+      "qty": 340
+    },
+    {
+      "rank": 18,
+      "name": "MEITUAN DIANPING",
+      "ticker": "3690 HK",
+      "weight": 0.94,
+      "value": 11315287,
+      "qty": 991
+    },
+    {
+      "rank": 18,
+      "name": "ASE Technology Holding Co Ltd",
+      "ticker": "3711 TT",
+      "weight": 0.94,
+      "value": 11404480,
+      "qty": 610
+    },
+    {
+      "rank": 20,
+      "name": "SK스퀘어",
+      "ticker": "402340",
+      "weight": 0.9,
+      "value": 10880000,
+      "qty": 16
+    },
+    {
+      "rank": 21,
+      "name": "Ping An Insurance Group Co of China Ltd",
+      "ticker": "2318 HK",
+      "weight": 0.82,
+      "value": 9907381,
+      "qty": 1161
+    },
+    {
+      "rank": 22,
+      "name": "CTBC Financial Holding Co Ltd",
+      "ticker": "2891 TT",
+      "weight": 0.8,
+      "value": 9694851,
+      "qty": 3485
+    },
+    {
+      "rank": 23,
+      "name": "United Overseas Bank Ltd",
+      "ticker": "UOB SP",
+      "weight": 0.78,
+      "value": 9354300,
+      "qty": 253
+    },
+    {
+      "rank": 24,
+      "name": "Fubon Financial Holding Co Ltd",
+      "ticker": "2881 TT",
+      "weight": 0.74,
+      "value": 8867733,
+      "qty": 1588
+    },
+    {
+      "rank": 25,
+      "name": "Nan Ya Plastics Corp",
+      "ticker": "1303 TT",
+      "weight": 0.72,
+      "value": 8638146,
+      "qty": 1025
+    },
+    {
+      "rank": 26,
+      "name": "KB금융",
+      "ticker": "105560",
+      "weight": 0.69,
+      "value": 8334600,
+      "qty": 58
+    },
+    {
+      "rank": 27,
+      "name": "NETEASE",
+      "ticker": "9999 HK",
+      "weight": 0.68,
+      "value": 8249841,
+      "qty": 312
+    },
+    {
+      "rank": 28,
+      "name": "JD.COM",
+      "ticker": "9618 HK",
+      "weight": 0.62,
+      "value": 7433562,
+      "qty": 442
+    },
+    {
+      "rank": 29,
+      "name": "BYD",
+      "ticker": "1211 HK",
+      "weight": 0.58,
+      "value": 6979982,
+      "qty": 652
+    },
+    {
+      "rank": 30,
+      "name": "BeOne Medicines Ltd",
+      "ticker": "6160 HK",
+      "weight": 0.57,
+      "value": 6816077,
+      "qty": 172
+    },
+    {
+      "rank": 30,
+      "name": "Cathay Financial Holding Co Ltd",
+      "ticker": "2882 TT",
+      "weight": 0.57,
+      "value": 6901635,
+      "qty": 1741
+    },
+    {
+      "rank": 30,
+      "name": "United Microelectronics Corp",
+      "ticker": "2303 TT",
+      "weight": 0.57,
+      "value": 6875657,
+      "qty": 2093
+    },
+    {
+      "rank": 33,
+      "name": "Elite Material Co Ltd",
+      "ticker": "2383 TT",
+      "weight": 0.55,
+      "value": 6667511,
+      "qty": 58
+    },
+    {
+      "rank": 34,
+      "name": "PetroChina Co Ltd",
+      "ticker": "857 HK",
+      "weight": 0.54,
+      "value": 6461344,
+      "qty": 3737
+    },
+    {
+      "rank": 35,
+      "name": "신한지주",
+      "ticker": "055550",
+      "weight": 0.53,
+      "value": 6419400,
+      "qty": 78
+    },
+    {
+      "rank": 36,
+      "name": "Singapore Telecommunications Ltd",
+      "ticker": "ST SP",
+      "weight": 0.51,
+      "value": 6153262,
+      "qty": 1417
+    },
+    {
+      "rank": 36,
+      "name": "TS Financial Holding Co Ltd",
+      "ticker": "2887 TT",
+      "weight": 0.51,
+      "value": 6177802,
+      "qty": 4448
+    },
+    {
+      "rank": 38,
+      "name": "TRIP COM GROUP",
+      "ticker": "9961 HK",
+      "weight": 0.5,
+      "value": 6034087,
+      "qty": 108
+    },
+    {
+      "rank": 38,
+      "name": "Yuanta Financial Holding Co Ltd",
+      "ticker": "2885 TT",
+      "weight": 0.5,
+      "value": 5958165,
+      "qty": 2456
+    },
+    {
+      "rank": 40,
+      "name": "현대차",
+      "ticker": "005380",
+      "weight": 0.49,
+      "value": 5940000,
+      "qty": 24
+    },
+    {
+      "rank": 41,
+      "name": "Techtronic Industries Co Ltd",
+      "ticker": "669 HK",
+      "weight": 0.47,
+      "value": 5672487,
+      "qty": 252
+    },
+    {
+      "rank": 42,
+      "name": "China Merchants Bank Co Ltd",
+      "ticker": "3968 HK",
+      "weight": 0.45,
+      "value": 5398891,
+      "qty": 585
+    },
+    {
+      "rank": 42,
+      "name": "CK Hutchison Holdings Ltd",
+      "ticker": "1 HK",
+      "weight": 0.45,
+      "value": 5391774,
+      "qty": 482
+    },
+    {
+      "rank": 44,
+      "name": "China Life Insurance Co Ltd",
+      "ticker": "2628 HK",
+      "weight": 0.4,
+      "value": 4869988,
+      "qty": 1318
+    },
+    {
+      "rank": 44,
+      "name": "Sun Hung Kai Properties Ltd",
+      "ticker": "16 HK",
+      "weight": 0.4,
+      "value": 4905297,
+      "qty": 267
+    },
+    {
+      "rank": 46,
+      "name": "BIDU",
+      "ticker": "9888 HK",
+      "weight": 0.35,
+      "value": 4277982,
+      "qty": 389
+    },
+    {
+      "rank": 47,
+      "name": "Zijin Mining Group Co Ltd",
+      "ticker": "2899 HK",
+      "weight": 0.34,
+      "value": 4200925,
+      "qty": 1061
+    },
+    {
+      "rank": 47,
+      "name": "NAVER",
+      "ticker": "035420",
+      "weight": 0.34,
+      "value": 4200000,
+      "qty": 28
+    },
+    {
+      "rank": 49,
+      "name": "기아",
+      "ticker": "000270",
+      "weight": 0.29,
+      "value": 3542400,
+      "qty": 41
+    },
+    {
+      "rank": 50,
+      "name": "한화에어로스페이스",
+      "ticker": "012450",
+      "weight": 0.28,
+      "value": 3450000,
+      "qty": 6
+    },
+    {
+      "rank": 51,
+      "name": "두산에너빌리티",
+      "ticker": "034020",
+      "weight": 0.25,
+      "value": 3096600,
+      "qty": 78
+    },
+    {
+      "rank": 52,
+      "name": "현대차2우B",
+      "ticker": "005382",
+      "weight": 0.06,
+      "value": 806400,
+      "qty": 6
+    },
+    {
+      "rank": 53,
+      "name": "현대차우",
+      "ticker": "005381",
+      "weight": 0.04,
+      "value": 526400,
+      "qty": 4
+    }
+  ],
+  "sectors": [
+    {
+      "rank": 1,
+      "name": "IT",
+      "weight": 61.05
+    },
+    {
+      "rank": 2,
+      "name": "금융",
+      "weight": 18.98
+    },
+    {
+      "rank": 3,
+      "name": "경기소비재",
+      "weight": 7.73
+    },
+    {
+      "rank": 4,
+      "name": "커뮤니케이션서비스",
+      "weight": 7.29
+    },
+    {
+      "rank": 5,
+      "name": "산업재",
+      "weight": 2.37
+    },
+    {
+      "rank": 6,
+      "name": "소재",
+      "weight": 1.07
+    },
+    {
+      "rank": 7,
+      "name": "헬스케어",
+      "weight": 0.57
+    },
+    {
+      "rank": 8,
+      "name": "에너지",
+      "weight": 0.54
+    },
+    {
+      "rank": 9,
+      "name": "부동산",
+      "weight": 0.41
+    }
+  ]
 }

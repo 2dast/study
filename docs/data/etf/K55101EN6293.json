@@ -1,7 +1,99 @@
 {
   "fundCd": "K55101EN6293",
   "fundNm": "ACE 유럽방산TOP10",
-  "stdDt": "",
-  "holdings": [],
-  "sectors": []
+  "stdDt": "2026-11-24",
+  "holdings": [
+    {
+      "rank": 1,
+      "name": "Kongsberg Gruppen ASA",
+      "ticker": "KOG NO",
+      "weight": 23.64,
+      "value": 89073915,
+      "qty": 1969
+    },
+    {
+      "rank": 2,
+      "name": "Rolls-Royce Holdings PLC",
+      "ticker": "RR/ LN",
+      "weight": 19.47,
+      "value": 73367438,
+      "qty": 3262
+    },
+    {
+      "rank": 3,
+      "name": "BAE Systems PLC",
+      "ticker": "BA/ LN",
+      "weight": 14.19,
+      "value": 53508293,
+      "qty": 1669
+    },
+    {
+      "rank": 4,
+      "name": "Rheinmetall AG",
+      "ticker": "DE0007030009",
+      "weight": 12.8,
+      "value": 48257672,
+      "qty": 47
+    },
+    {
+      "rank": 5,
+      "name": "Thales SA",
+      "ticker": "HO FP",
+      "weight": 8.24,
+      "value": 31095367,
+      "qty": 94
+    },
+    {
+      "rank": 6,
+      "name": "Saab AB",
+      "ticker": "SAABB SS",
+      "weight": 6.77,
+      "value": 25545045,
+      "qty": 327
+    },
+    {
+      "rank": 7,
+      "name": "Leonardo SpA",
+      "ticker": "LDO IM",
+      "weight": 5.18,
+      "value": 19547631,
+      "qty": 276
+    },
+    {
+      "rank": 8,
+      "name": "Dassault Aviation SA",
+      "ticker": "AM FP",
+      "weight": 4.06,
+      "value": 15299212,
+      "qty": 35
+    },
+    {
+      "rank": 9,
+      "name": "Indra Sistemas SA",
+      "ticker": "IDR SM",
+      "weight": 3.15,
+      "value": 11914994,
+      "qty": 162
+    },
+    {
+      "rank": 10,
+      "name": "CSG NV",
+      "ticker": "CSG NA",
+      "weight": 2.5,
+      "value": 9452431,
+      "qty": 751
+    }
+  ],
+  "sectors": [
+    {
+      "rank": 1,
+      "name": "산업재",
+      "weight": 96.84
+    },
+    {
+      "rank": 2,
+      "name": "IT",
+      "weight": 3.16
+    }
+  ]
 }

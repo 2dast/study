@@ -1,287 +1,255 @@
 {
   "fundCd": "K55101E03860",
   "fundNm": "ACE 미국30년국채액티브(H)",
-  "stdDt": "2026-11-23",
+  "stdDt": "2026-11-24",
   "holdings": [
     {
-      "rank": 3,
-      "name": "ISHARES 20+ YEAR TREASURY BD",
+      "rank": 1,
+      "name": "iShares 20+ Year Treasury Bond ETF",
       "ticker": "US4642874329",
-      "weight": 11.64,
-      "value": 120950488,
-      "qty": 1126.5495
-    },
-    {
-      "rank": 4,
-      "name": "VANGUARD EXTENDED DUR TREAS",
-      "ticker": "US9219107094",
-      "weight": 11.06,
-      "value": 114960654,
-      "qty": 1484.1386
-    },
-    {
-      "rank": 7,
-      "name": "T 4 5/8 11/15/55",
-      "ticker": "US912810UP11",
-      "weight": 6.61,
-      "value": 68683263,
-      "qty": 57926.6132
-    },
-    {
-      "rank": 8,
-      "name": "SP 0 05/15/55",
-      "ticker": "US912803HL03",
-      "weight": 2.78,
-      "value": 28877201,
-      "qty": 98584.6754
-    },
-    {
-      "rank": 9,
-      "name": "SP 0 08/15/55",
-      "ticker": "US912803HN68",
-      "weight": 2.74,
-      "value": 28533916,
-      "qty": 98584.6754
-    },
-    {
-      "rank": 10,
-      "name": "PIMCO 25+ YR ZERO CPN US TIF",
-      "ticker": "US72201R8824",
-      "weight": 2.66,
-      "value": 27646486,
-      "qty": 361.1517
-    },
-    {
-      "rank": 11,
-      "name": "SP 0 02/15/55",
-      "ticker": "US912803HH90",
-      "weight": 2.36,
-      "value": 24568440,
-      "qty": 82967.3011
-    },
-    {
-      "rank": 12,
-      "name": "T 4 1/4 02/15/54",
-      "ticker": "US912810TX63",
-      "weight": 2.27,
-      "value": 23653292,
-      "qty": 21229.8682
-    },
-    {
-      "rank": 35,
-      "name": "[USD] 예금",
-      "ticker": "USDZZ0000001",
-      "weight": 0,
-      "value": 23125026,
-      "qty": 17306.5609
-    },
-    {
-      "rank": 13,
-      "name": "ISHARES 25+ YR TREAS STRIPS",
-      "ticker": "US46438T2006",
-      "weight": 0.83,
-      "value": 8639027,
-      "qty": 197.6573
-    },
-    {
-      "rank": 14,
-      "name": "T 1 7/8 02/15/51",
-      "ticker": "US912810SU34",
-      "weight": 0.81,
-      "value": 8461214,
-      "qty": 12201.0736
-    },
-    {
-      "rank": 15,
-      "name": "T 4 3/4 02/15/56",
-      "ticker": "US912810UR76",
-      "weight": 0.74,
-      "value": 7683095,
-      "qty": 6344.5583
-    },
-    {
-      "rank": 16,
-      "name": "T 3 5/8 02/15/53",
-      "ticker": "US912810TN81",
-      "weight": 0.68,
-      "value": 7024428,
-      "qty": 7027.8184
-    },
-    {
-      "rank": 17,
-      "name": "T 4 1/2 11/15/54",
-      "ticker": "US912810UE63",
-      "weight": 0.65,
-      "value": 6802224,
-      "qty": 5856.5153
-    },
-    {
-      "rank": 18,
-      "name": "T 5 1/8 08/15/56",
-      "ticker": "US912810UW61",
-      "weight": 0.63,
-      "value": 6587669,
-      "qty": 5124.4509
-    },
-    {
-      "rank": 19,
-      "name": "T 4 3/4 08/15/55",
-      "ticker": "US912810UM89",
-      "weight": 0.62,
-      "value": 6494904,
-      "qty": 5368.4724
-    },
-    {
-      "rank": 20,
-      "name": "T 4 5/8 02/15/55",
-      "ticker": "US912810UG12",
-      "weight": 0.55,
-      "value": 5786548,
-      "qty": 4880.4294
-    },
-    {
-      "rank": 21,
-      "name": "T 4 1/8 08/15/53",
-      "ticker": "US912810TT51",
-      "weight": 0.53,
-      "value": 5594866,
-      "qty": 5124.4509
-    },
-    {
-      "rank": 21,
-      "name": "T 5 05/15/56",
-      "ticker": "US912810UU06",
-      "weight": 0.53,
-      "value": 5536651,
-      "qty": 4392.3865
-    },
-    {
-      "rank": 23,
-      "name": "T 3 5/8 05/15/53",
-      "ticker": "US912810TR95",
-      "weight": 0.51,
-      "value": 5362511,
-      "qty": 5368.4724
-    },
-    {
-      "rank": 24,
-      "name": "T 4 3/4 11/15/53",
-      "ticker": "US912810TV08",
-      "weight": 0.39,
-      "value": 4133805,
-      "qty": 3416.3006
-    },
-    {
-      "rank": 24,
-      "name": "T 4 5/8 05/15/54",
-      "ticker": "US912810UA42",
-      "weight": 0.39,
-      "value": 4051811,
-      "qty": 3416.3006
-    },
-    {
-      "rank": 26,
-      "name": "SP 0 05/15/56",
-      "ticker": "US912803HV84",
-      "weight": 0.28,
-      "value": 3015118,
-      "qty": 10736.9448
-    },
-    {
-      "rank": 26,
-      "name": "T 4 3/4 05/15/55",
-      "ticker": "US912810UK24",
-      "weight": 0.28,
-      "value": 2952897,
-      "qty": 2440.2147
-    },
-    {
-      "rank": 26,
-      "name": "SP 0 11/15/55",
-      "ticker": "US912803HQ99",
-      "weight": 0.28,
-      "value": 2933365,
-      "qty": 10248.9019
-    },
-    {
-      "rank": 29,
-      "name": "SP 0 02/15/56",
-      "ticker": "US912803HS55",
-      "weight": 0.26,
-      "value": 2770661,
-      "qty": 9760.8589
-    },
-    {
-      "rank": 30,
-      "name": "T 4 1/4 08/15/54",
-      "ticker": "US912810UC08",
-      "weight": 0.2,
-      "value": 2174650,
-      "qty": 1952.1717
-    },
-    {
-      "rank": 31,
-      "name": "T 3 08/15/52",
-      "ticker": "US912810TJ79",
-      "weight": 0.13,
-      "value": 1340381,
-      "qty": 1512.9331
-    },
-    {
-      "rank": 32,
-      "name": "T 5 3/8 11/15/56",
-      "ticker": "US912810UY28",
-      "weight": 0.12,
-      "value": 1303447,
-      "qty": 976.0858
-    },
-    {
-      "rank": 33,
-      "name": "T 2.875 05/15/52",
-      "ticker": "US912810TG31",
-      "weight": 0.11,
-      "value": 1223672,
-      "qty": 1415.3245
-    },
-    {
-      "rank": 34,
-      "name": "PROSHARES ULTRA 20+ YEAR TSY",
-      "ticker": "US74350X6031",
-      "weight": 0.08,
-      "value": 874437,
-      "qty": 22.938
-    },
-    {
-      "rank": 6,
-      "name": "FX스왑 USD 261027-79",
-      "ticker": "ZFXSGA",
-      "weight": 7.27,
-      "value": -75609365,
-      "qty": -75609365
-    },
-    {
-      "rank": 5,
-      "name": "FX스왑 USD 261119-87",
-      "ticker": "ZFXSGB",
-      "weight": 10.73,
-      "value": -111458634,
-      "qty": -111458634
+      "weight": 22.38,
+      "value": 122337694,
+      "qty": 1115.98
     },
     {
       "rank": 2,
-      "name": "FX스왑 USD 261028-10",
-      "ticker": "ZFXSGA",
-      "weight": 13.92,
-      "value": -144700682,
-      "qty": -144700682
+      "name": "Vanguard Extended Duration Treasury ETF",
+      "ticker": "US9219107094",
+      "weight": 21.57,
+      "value": 117905027,
+      "qty": 1486.31
     },
     {
-      "rank": 1,
-      "name": "FX스왑 USD 261118-71",
-      "ticker": "ZFXSGB",
-      "weight": 16.34,
-      "value": -169729990,
-      "qty": -169729990
+      "rank": 3,
+      "name": "T 4 5/8 11/15/55",
+      "ticker": "US912810UP11",
+      "weight": 12.86,
+      "value": 70265683,
+      "qty": 58374.48
+    },
+    {
+      "rank": 4,
+      "name": "SP 0 05/15/55",
+      "ticker": "US912803HL03",
+      "weight": 5.4,
+      "value": 29534496,
+      "qty": 98729.23
+    },
+    {
+      "rank": 5,
+      "name": "SP 0 08/15/55",
+      "ticker": "US912803HN68",
+      "weight": 5.34,
+      "value": 29176514,
+      "qty": 98729.23
+    },
+    {
+      "rank": 6,
+      "name": "PIMCO 25+ Year Zero Coupon U.S. Treasury",
+      "ticker": "US72201R8824",
+      "weight": 5.2,
+      "value": 28433118,
+      "qty": 361.68
+    },
+    {
+      "rank": 7,
+      "name": "SP 0 02/15/55",
+      "ticker": "US912803HH90",
+      "weight": 4.59,
+      "value": 25105247,
+      "qty": 83088.95
+    },
+    {
+      "rank": 8,
+      "name": "T 4 1/4 02/15/54",
+      "ticker": "US912810TX63",
+      "weight": 4.39,
+      "value": 24044665,
+      "qty": 21261
+    },
+    {
+      "rank": 9,
+      "name": "Ishares 25+ Year Treasury STRIPS Bond ET",
+      "ticker": "US46438T2006",
+      "weight": 1.62,
+      "value": 8917107,
+      "qty": 197.95
+    },
+    {
+      "rank": 10,
+      "name": "T 1 7/8 02/15/51",
+      "ticker": "US912810SU34",
+      "weight": 1.57,
+      "value": 8605644,
+      "qty": 12218.96
+    },
+    {
+      "rank": 11,
+      "name": "T 3 5/8 02/15/53",
+      "ticker": "US912810TN81",
+      "weight": 1.3,
+      "value": 7140901,
+      "qty": 7038.12
+    },
+    {
+      "rank": 12,
+      "name": "T 4 1/2 11/15/54",
+      "ticker": "US912810UE63",
+      "weight": 1.26,
+      "value": 6914965,
+      "qty": 5865.1
+    },
+    {
+      "rank": 13,
+      "name": "T 5 1/8 08/15/56",
+      "ticker": "US912810UW61",
+      "weight": 1.22,
+      "value": 6697494,
+      "qty": 5131.96
+    },
+    {
+      "rank": 14,
+      "name": "T 4 3/4 08/15/55",
+      "ticker": "US912810UM89",
+      "weight": 1.21,
+      "value": 6602635,
+      "qty": 5376.34
+    },
+    {
+      "rank": 15,
+      "name": "T 4 5/8 02/15/55",
+      "ticker": "US912810UG12",
+      "weight": 1.07,
+      "value": 5882107,
+      "qty": 4887.59
+    },
+    {
+      "rank": 16,
+      "name": "T 4 3/4 02/15/56",
+      "ticker": "US912810UR76",
+      "weight": 1.04,
+      "value": 5708944,
+      "qty": 4643.21
+    },
+    {
+      "rank": 16,
+      "name": "T 4 1/8 08/15/53",
+      "ticker": "US912810TT51",
+      "weight": 1.04,
+      "value": 5686481,
+      "qty": 5131.96
+    },
+    {
+      "rank": 18,
+      "name": "T 5 05/15/56",
+      "ticker": "US912810UU06",
+      "weight": 1.03,
+      "value": 5628674,
+      "qty": 4398.83
+    },
+    {
+      "rank": 19,
+      "name": "T 3 5/8 05/15/53",
+      "ticker": "US912810TR95",
+      "weight": 0.99,
+      "value": 5450518,
+      "qty": 5376.34
+    },
+    {
+      "rank": 20,
+      "name": "T 4 3/4 11/15/53",
+      "ticker": "US912810TV08",
+      "weight": 0.77,
+      "value": 4200661,
+      "qty": 3421.31
+    },
+    {
+      "rank": 21,
+      "name": "T 4 5/8 05/15/54",
+      "ticker": "US912810UA42",
+      "weight": 0.75,
+      "value": 4118184,
+      "qty": 3421.31
+    },
+    {
+      "rank": 22,
+      "name": "SP 0 05/15/56",
+      "ticker": "US912803HV84",
+      "weight": 0.56,
+      "value": 3083093,
+      "qty": 10752.69
+    },
+    {
+      "rank": 23,
+      "name": "T 4 3/4 05/15/55",
+      "ticker": "US912810UK24",
+      "weight": 0.55,
+      "value": 3001626,
+      "qty": 2443.79
+    },
+    {
+      "rank": 23,
+      "name": "SP 0 11/15/55",
+      "ticker": "US912803HQ99",
+      "weight": 0.55,
+      "value": 2999284,
+      "qty": 10263.93
+    },
+    {
+      "rank": 25,
+      "name": "SP 0 02/15/56",
+      "ticker": "US912803HS55",
+      "weight": 0.51,
+      "value": 2834599,
+      "qty": 9775.17
+    },
+    {
+      "rank": 26,
+      "name": "T 4 1/4 08/15/54",
+      "ticker": "US912810UC08",
+      "weight": 0.4,
+      "value": 2210438,
+      "qty": 1955.03
+    },
+    {
+      "rank": 27,
+      "name": "T 3 08/15/52",
+      "ticker": "US912810TJ79",
+      "weight": 0.25,
+      "value": 1362575,
+      "qty": 1515.15
+    },
+    {
+      "rank": 28,
+      "name": "T 5 3/8 11/15/56",
+      "ticker": "US912810UY28",
+      "weight": 0.23,
+      "value": 1325065,
+      "qty": 977.52
+    },
+    {
+      "rank": 29,
+      "name": "T 2.875 05/15/52",
+      "ticker": "US912810TG31",
+      "weight": 0.22,
+      "value": 1243934,
+      "qty": 1417.4
+    },
+    {
+      "rank": 30,
+      "name": "PROSHARES ULTRA 20+ YEAR TSY",
+      "ticker": "US74350X6031",
+      "weight": 0.16,
+      "value": 906128,
+      "qty": 22.97
+    },
+    {
+      "rank": 31,
+      "name": "외국환포워드USD",
+      "ticker": "FXFWD0000USD",
+      "weight": 0,
+      "value": -504549970,
+      "qty": -504549970
     }
   ],
   "sectors": []

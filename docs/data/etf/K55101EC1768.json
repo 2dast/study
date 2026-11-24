@@ -1,7 +1,225 @@
 {
   "fundCd": "K55101EC1768",
   "fundNm": "ACE 인도시장대표BIG5그룹액티브",
-  "stdDt": "",
-  "holdings": [],
-  "sectors": []
+  "stdDt": "2026-11-24",
+  "holdings": [
+    {
+      "rank": 1,
+      "name": "Adani Ports & Special Economic Zone Ltd",
+      "ticker": "ADSEZ IN",
+      "weight": 6.31,
+      "value": 25367891,
+      "qty": 912
+    },
+    {
+      "rank": 2,
+      "name": "Reliance Industries Ltd",
+      "ticker": "RIL IN",
+      "weight": 6.02,
+      "value": 24224880,
+      "qty": 1212
+    },
+    {
+      "rank": 3,
+      "name": "Indian Hotels Co Ltd/The",
+      "ticker": "IH IN",
+      "weight": 5.53,
+      "value": 22218408,
+      "qty": 1679
+    },
+    {
+      "rank": 4,
+      "name": "Tata Power Co Ltd/The",
+      "ticker": "TPWR IN",
+      "weight": 5.36,
+      "value": 21554722,
+      "qty": 4373
+    },
+    {
+      "rank": 5,
+      "name": "Voltas Ltd",
+      "ticker": "VOLT IN",
+      "weight": 5.25,
+      "value": 21127503,
+      "qty": 1179
+    },
+    {
+      "rank": 5,
+      "name": "Bajaj Finance Ltd",
+      "ticker": "BAF IN",
+      "weight": 5.25,
+      "value": 21115445,
+      "qty": 1297
+    },
+    {
+      "rank": 7,
+      "name": "Tata Consultancy Services Ltd",
+      "ticker": "TCS IN",
+      "weight": 5.23,
+      "value": 21066462,
+      "qty": 611
+    },
+    {
+      "rank": 8,
+      "name": "UltraTech Cement Ltd",
+      "ticker": "UTCEM IN",
+      "weight": 5.18,
+      "value": 20839682,
+      "qty": 111
+    },
+    {
+      "rank": 9,
+      "name": "Tata Consumer Products Ltd",
+      "ticker": "TATACONS IN",
+      "weight": 5.05,
+      "value": 20327796,
+      "qty": 1212
+    },
+    {
+      "rank": 10,
+      "name": "Trent Ltd",
+      "ticker": "INE849A01020",
+      "weight": 4.5,
+      "value": 18095222,
+      "qty": 383
+    },
+    {
+      "rank": 11,
+      "name": "Bajaj Finserv Ltd",
+      "ticker": "BJFIN IN",
+      "weight": 4.3,
+      "value": 17295339,
+      "qty": 630
+    },
+    {
+      "rank": 12,
+      "name": "Tata Steel Ltd",
+      "ticker": "TATA IN",
+      "weight": 4.13,
+      "value": 16604692,
+      "qty": 6429
+    },
+    {
+      "rank": 13,
+      "name": "Titan Co Ltd",
+      "ticker": "TTAN IN",
+      "weight": 4.04,
+      "value": 16222760,
+      "qty": 242
+    },
+    {
+      "rank": 14,
+      "name": "Bajaj Auto Ltd",
+      "ticker": "BJAUT IN",
+      "weight": 4,
+      "value": 16088615,
+      "qty": 103
+    },
+    {
+      "rank": 15,
+      "name": "Hindalco Industries Ltd",
+      "ticker": "HNDL IN",
+      "weight": 3.97,
+      "value": 15941687,
+      "qty": 1182
+    },
+    {
+      "rank": 16,
+      "name": "Ambuja Cements Ltd",
+      "ticker": "ACEM IN",
+      "weight": 3.92,
+      "value": 15769468,
+      "qty": 2717
+    },
+    {
+      "rank": 17,
+      "name": "Mahindra & Mahindra Ltd",
+      "ticker": "MM IN",
+      "weight": 3.84,
+      "value": 15431385,
+      "qty": 300
+    },
+    {
+      "rank": 18,
+      "name": "Jio Financial Services Ltd",
+      "ticker": "JIOFIN IN",
+      "weight": 3.78,
+      "value": 15244349,
+      "qty": 4670
+    },
+    {
+      "rank": 19,
+      "name": "Grasim Industries Ltd",
+      "ticker": "GRASIM IN",
+      "weight": 3.66,
+      "value": 14726342,
+      "qty": 327
+    },
+    {
+      "rank": 20,
+      "name": "Larsen & Toubro Ltd",
+      "ticker": "LT IN",
+      "weight": 3.65,
+      "value": 14718843,
+      "qty": 241
+    },
+    {
+      "rank": 21,
+      "name": "Adani Enterprises Ltd",
+      "ticker": "ADE IN",
+      "weight": 3.6,
+      "value": 14504500,
+      "qty": 369
+    },
+    {
+      "rank": 22,
+      "name": "Tata Motors Passenger Vehicles Limited",
+      "ticker": "TMPV IN",
+      "weight": 3.42,
+      "value": 13758469,
+      "qty": 3560
+    }
+  ],
+  "sectors": [
+    {
+      "rank": 1,
+      "name": "경기소비재",
+      "weight": 30.56
+    },
+    {
+      "rank": 2,
+      "name": "소재",
+      "weight": 20.85
+    },
+    {
+      "rank": 3,
+      "name": "산업재",
+      "weight": 13.57
+    },
+    {
+      "rank": 4,
+      "name": "금융",
+      "weight": 13.34
+    },
+    {
+      "rank": 5,
+      "name": "에너지",
+      "weight": 6.02
+    },
+    {
+      "rank": 6,
+      "name": "유틸리티",
+      "weight": 5.36
+    },
+    {
+      "rank": 7,
+      "name": "IT",
+      "weight": 5.24
+    },
+    {
+      "rank": 8,
+      "name": "필수소비재",
+      "weight": 5.05
+    }
+  ]
 }
